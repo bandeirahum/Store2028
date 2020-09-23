@@ -1,0 +1,342 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {margin: 0; padding: 0;}
+a {text-decoration: none;}
+img {border: none;}
+
+#tudoNiver {
+	width: 746px;
+	position: absolute;
+}
+
+#niverTopo {
+	width: 100%;
+	height: 625px;
+}
+
+	#flashBolo {
+		position: absolute;
+		top: 123px;
+		left: 0;
+		width: 310px;
+		height: 438px;
+		z-index: 100;
+	}
+
+	#tituloNiver {
+		width: 100%;
+		height: 211px;
+		background: url(../../prod/niver/bgTit.png) repeat-x;
+	}
+	
+	#niverTopo01 {
+		width: 100%;
+		height: 414px;
+		background: url(../../prod/niver/niverTopo01.png);
+	}
+	
+		#produtoDestaqBG {
+			position: relative;
+			float: right;
+			width: 436px;
+			height: 414px;
+			background: url(../../prod/niver/produtoDestaqBG.png);
+		}
+			
+			#nav {
+				position: absolute;
+				bottom: 5px;
+				right: 5px;
+				z-index: 100;
+			}
+			
+			#nav a {
+				font-family: Tahoma, Geneva, sans-serif;
+				font-size: 14px;
+				color: #666;
+				background: #eee;
+				border: 1px solid #999;
+				padding: 2px 5px;
+				margin: 0 2px;
+			}
+			
+			#nav a:hover {color: #000; border-color: #000;}
+			#nav a.activeSlide {color: #fff; background: #666; border-color: #000;}
+			#nav a:focus {outline: none;}
+		
+			#produtoDestaq {
+				width: 436px;
+				height: 625px;
+			}
+			
+			#produtoDestaq img {
+				position: absolute;
+			}
+
+#niverCamis {
+	width: 100%;
+	height: 477px;
+	background: url(../../prod/niver/bgCamis.png) repeat-x;
+}
+
+	#subtitCart {
+		width: 100%;
+		height: 63px;
+	}
+	
+	#subtitCamis {
+		width: 100%;
+		height: 131px;
+	}
+	
+		#subtitCamis01 {
+			position: relative;
+			float: left;
+			width: 545px;
+			height: 131px;
+		}
+		
+		#subtitCamis02 {
+			position: relative;
+			float: left;
+			width: 201px;
+			height: 131px;
+		}
+	
+	#camisSlider {
+		width: 100%;
+		height: 283px;
+	}
+	
+		#boxEsq {
+			position: relative;
+			float: left;
+			width: 56px;
+			height: 283px;
+		}
+		
+			#setaEsq, #setaDir {
+				margin-top: 105px;
+				cursor: pointer;
+			}
+		
+		#wrapCamis {
+			position: relative;
+			float: left;
+			width: 633px;
+			height: 283px;
+			overflow: hidden;
+		}
+		
+			.boxCami {
+				position: absolute;
+				top: 0;
+				width: 211px;
+				height: 283px;
+			}
+			#cami01 {left: 0;}
+			#cami02 {left: 211px;}
+			#cami03 {left: 422px;}
+			#cami04 {left: 633px;}
+			#cami05 {left: 844px;}
+			#cami06 {left: 1055px;}
+			#cami07 {left: 1266px;}
+			#cami08 {left: 1477px;}
+			#cami09 {left: 1688px;}
+			#cami10 {left: 1899px;}
+			#cami11 {left: 2110px;}
+			#cami12 {left: 2321px;}
+			#cami13 {left: 2532px;}
+			#cami14 {left: 2743px;}
+			#cami15 {left: 2954px;}
+		
+		#boxDir {
+			position: relative;
+			float: left;
+			width: 57px;
+			height: 283px;
+		}
+
+#niverBone {
+	width: 100%;
+	height: 318px;
+	background: url(../../prod/niver/bgBone.png) repeat-x;
+}
+
+	#glaucia02 {
+		position: relative;
+		float: left;
+		width: 251px;
+		height: 318px;
+		background: url(../../prod/niver/glaucia02.png);
+	}
+	
+	#niverBone01 {
+		position: relative;
+		float: left;
+		width: 495px;
+		height: 318px;
+	}
+	
+		#subtitBones {
+			width: 495px;
+			height: 146px;
+		}
+		
+		#bonesSlider {
+			width: 495px;
+			height: 172px;
+		}
+		
+			#boxEsq02 {
+				position: relative;
+				float: left;
+				width: 65px;
+				height: 172px;
+			}
+			
+				#setaEsq02, #setaDir02 {
+					margin-top: 72px;
+					cursor: pointer;
+				}
+			
+			#wrapBones {
+				position: relative;
+				float: left;
+				width: 366px;
+				height: 172px;
+				overflow: hidden;
+			}
+			
+				.boxBones {
+					position: absolute;
+					top: 0;
+					width: 122px;
+					height: 172px;
+				}
+				#bone01 {left: 0;}
+				#bone02 {left: 122px;}
+				#bone03 {left: 244px;}
+				#bone04 {left: 366px;}
+				#bone05 {left: 488px;}
+				#bone06 {left: 610px;}
+			
+			#boxDir02 {
+				position: relative;
+				float: left;
+				width: 64px;
+				height: 172px;
+			}
+
+#niverKits {
+	position: absolute;
+	width: 746px;
+	height: 474px;
+}
+
+	#subtitKits {
+		position: absolute;
+		top: 63px;
+		left: 11px;
+		width: 463px;
+		height: 70px;
+		z-index: 100;
+	}
+	
+	#fachada70 {
+		position: absolute;
+		top: 90px;
+		right: 196px;
+		width: 112px;
+		height: 216px;
+		z-index: 100;
+	}
+	
+	#fachada140 {
+		position: absolute;
+		top: 21px;
+		right: 45px;
+		width: 96px;
+		height: 281px;
+		z-index: 100;
+	}
+	
+	#preco70 {
+		position: absolute;
+		bottom: 12px;
+		right: 186px;
+		width: 129px;
+		height: 57px;
+		z-index: 100;
+	}
+	
+	#preco140 {
+		position: absolute;
+		bottom: 12px;
+		right: 30px;
+		width: 129px;
+		height: 57px;
+		z-index: 100;
+	}
+
+	#niverKits1 {
+		position: relative;
+		float: left;
+		width: 420px;
+		height: 474px;
+	}
+	
+		#niverKits11 {
+			width: 420px;
+			height: 225px;
+			background: url(../../prod/niver/niverKits11.png);
+		}
+		
+		#niverKits12 {
+			width: 420px;
+			height: 222px;
+			background: url(http://www.mundodasbandeiras.com.br/imgsbd1/niverKits12.png);
+		}
+	
+	#niverKits2 {
+		position: relative;
+		float: left;
+		width: 326px;
+		height: 474px;
+	}
+	
+		#niverKits21 {
+			width: 326px;
+			height: 225px;
+			background: url(../../prod/niver/niverKits21.png);
+		}
+		
+		#niverKits22 {
+			width: 326px;
+			height: 222px;
+			background: url(../../prod/niver/niverKits22.png);
+		}
+		
+			#niverKits22 div {
+				position: relative;
+				float: left;
+				width: 163px;
+				height: 100%;
+			}
+			
+				#niverKits22 div p {
+					position: relative;
+					float: left;
+					font-family: Tahoma, Geneva, sans-serif;
+					font-size: 13px;
+					color: #575757;
+					line-height: 100%;
+				}				
+				#txt701 {margin: 86px 0 0 10px;}
+				#txt702 {margin: 7px 0 0 10px;}
+				#txt703 {margin: 7px 0 0 10px;}
+				#txt141 {margin: 86px 0 0 4px;}
+				#txt142 {margin: 7px 0 0 4px;}
+				#txt143 {margin: 7px 0 0 4px;}
+		
