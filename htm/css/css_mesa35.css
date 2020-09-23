@@ -1,0 +1,250 @@
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	img {
+		border: none;
+	}
+
+
+	#tudoproduto {
+		width: 770px;
+		padding: 0 0 0 24px;
+		font-family: Tahoma, Geneva, sans-serif;
+	}
+	
+	#titulo {
+		position: relative;
+		float: left;
+		width: 746px;
+		height: 63px;
+		background-image: url(../../images/band_mesa/bg_titulo.gif);
+	}
+	
+	div.modelo {
+		position: relative;
+		float: left;
+		background-color: #163d1b;
+		width: 736px;
+		height: 37px;
+		padding: 0 0 0 10px;
+		margin: 23px 0 0 0;
+	}
+	
+	h1.modeloproduto {
+		position: relative;
+		float: left;
+		color: #8a9e8d;
+		font-size: 230%;
+		letter-spacing: -1.7px;
+		font-weight: normal;
+		line-height: 100%;
+	}
+	
+	div.tipo {
+		width: 746px;
+		height: 55px;
+		position: relative;
+		float: left;		
+	}
+	
+	img.square {
+		position: relative;
+		float: left;
+		clear: both;
+		margin: 26px 0 0 1px;
+	}
+	
+	p.subtituloproduto {
+		position: relative;
+		float: left;
+		font-size: 16px;
+		color: #777;
+		margin: 20px 0 0 5px;
+	}
+	
+	div.fotosbra1 {
+		position: relative;
+		float: left;
+		width: 34px;
+		height: 246px;
+		margin: 0 0 8px 0;
+		background-image: url(../../images/band_mesa/bg_fotosbra1.png);
+	}
+	
+	div.fotosbra2 {
+		position: relative;
+		float: left;
+		width: 712px;
+		height: 246px;
+		background-image: url(../../images/band_mesa/bg_fotosbra2.png);
+		background-repeat: repeat-x;
+		margin: 0 0 8px 0;
+	}
+	
+	div.bra01 {
+		display: inline;
+		width: 81px;
+		height: 246px;
+		position: relative;
+		float: left;
+		margin: 0 0 0 69px;
+	}	
+	
+	div.bra02 {
+		width: 77px;
+		height: 246px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 0 0 222px;
+	}
+	
+	div.fotospai1 {
+		position: relative;
+		float: left;
+		width: 34px;
+		height: 248px;
+		margin: 0 0 8px 0;
+		background-image: url(../../images/band_mesa/bg_fotospai1.png);
+	}
+	
+	div.fotospai2 {
+		position: relative;
+		float: left;
+		width: 712px;
+		height: 248px;
+		background-image: url(../../images/band_mesa/bg_fotospai2.png);
+		background-repeat: repeat-x;
+		margin: 0 0 8px 0;
+	}
+	
+	div.pai01 {
+		display: inline;
+		width: 81px;
+		height: 248px;
+		position: relative;
+		float: left;
+		margin: 0 0 0 69px;
+	}	
+	
+	div.pai02 {
+		width: 77px;
+		height: 248px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 0 0 222px;
+	}
+	
+	div.fotosest1 {
+		position: relative;
+		float: left;
+		width: 34px;
+		height: 248px;
+		margin: 0 0 8px 0;
+		background-image: url(../../images/band_mesa/bg_fotosest1.png);
+	}
+	
+	div.fotosest2 {
+		position: relative;
+		float: left;
+		width: 712px;
+		height: 248px;
+		background-image: url(../../images/band_mesa/bg_fotosest2.png);
+		background-repeat: repeat-x;
+		margin: 0 0 8px 0;
+	}
+	
+	div.est01 {
+		display: inline;
+		width: 81px;
+		height: 248px;
+		position: relative;
+		float: left;
+		margin: 0 0 0 69px;
+	}	
+	
+	div.est02 {
+		width: 77px;
+		height: 248px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 0 0 222px;
+	}
+	
+	div.fotoscap1 {
+		position: relative;
+		float: left;
+		width: 34px;
+		height: 247px;
+		margin: 0 0 8px 0;
+		background-image: url(../../images/band_mesa/bg_fotoscap1.png);
+	}
+	
+	div.fotoscap2 {
+		position: relative;
+		float: left;
+		width: 712px;
+		height: 247px;
+		background-image: url(../../images/band_mesa/bg_fotoscap2.png);
+		background-repeat: repeat-x;
+		margin: 0 0 8px 0;
+	}
+	
+	div.cap01 {
+		display: inline;
+		width: 81px;
+		height: 247px;
+		position: relative;
+		float: left;
+		margin: 0 0 0 69px;
+	}	
+	
+	div.cap02 {
+		width: 77px;
+		height: 247px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 0 0 222px;
+	}
+	
+	div.fotoshis1 {
+		position: relative;
+		float: left;
+		width: 34px;
+		height: 247px;
+		margin: 0 0 8px 0;
+		background-image: url(../../images/band_mesa/bg_fotoshis1.png);
+	}
+	
+	div.fotoshis2 {
+		position: relative;
+		float: left;
+		width: 712px;
+		height: 247px;
+		background-image: url(../../images/band_mesa/bg_fotoshis2.png);
+		background-repeat: repeat-x;
+		margin: 0 0 8px 0;
+	}
+
+	div.his01 {
+		display: inline;
+		width: 81px;
+		height: 247px;
+		position: relative;
+		float: left;
+		margin: 0 0 0 69px;
+	}	
+	
+	div.his02 {
+		width: 77px;
+		height: 247px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 0 0 222px;
+	}
