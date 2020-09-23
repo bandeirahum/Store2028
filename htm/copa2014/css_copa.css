@@ -1,0 +1,1504 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+img{ 
+	border:none;
+}
+
+#tudo {
+	width:763px;
+	height:1560px;
+	z-index:0;
+	margin:0px;
+	background-color:#f5f5f5;
+	
+}
+#conteudo {
+	position:absolute;
+	width:763px;
+	height:1560px;
+	margin-left:-10px
+	
+}
+	
+#jquery {
+	position:absolute;
+	width:763px;
+	height:304px;
+	z-index:50;
+	left: 212px;
+}
+#faixa_bandeirinhas {
+	position:absolute;
+	width:499px;
+	height:26px;
+	z-index:70;
+	left: 10px;
+	top: 332px;
+}
+#bg_bandeirinhas {
+	position:absolute;
+	width:499px;
+	height:281px;
+	z-index:2;
+	left: 10px;
+	top: 366px;
+}
+#bandBR {
+	position:absolute;
+	width:45px;
+	height:31px;
+	z-index:3;
+	left: 17px;
+	top: 376px;
+}
+#brasil {
+	position:absolute;
+	width:48px;
+	height:16px;
+	z-index:4;
+	left: 17px;
+	top: 410px;
+	text-align: center;
+}
+#bandCR {
+	position:absolute;
+	width:48px;
+	height:31px;
+	z-index:5;
+	left: 17px;
+	top: 446px;
+}
+#croacia {
+	position:absolute;
+	width:48px;
+	height:19px;
+	z-index:6;
+	left: 17px;
+	top: 482px;
+	text-align: center;
+}
+#bandCA {
+	position:absolute;
+	width:48px;
+	height:30px;
+	z-index:7;
+	left: 17px;
+	top: 516px;
+}
+#camaroes {
+	position:absolute;
+	width:48px;
+	height:23px;
+	z-index:8;
+	left: 16px;
+	top: 551px;
+	text-align: center;
+}
+#bandME {
+	position:absolute;
+	width:48px;
+	height:31px;
+	z-index:9;
+	left: 17px;
+	top: 585px;
+}
+#mexico {
+	position:absolute;
+	width:48px;
+	height:25px;
+	z-index:10;
+	left: 17px;
+	top: 620px;
+	text-align: center;
+}
+#bandAU {
+	position:absolute;
+	width:45px;
+	height:33px;
+	z-index:12;
+	left: 80px;
+	top: 376px;
+}
+#australia {
+	position:absolute;
+	width:45px;
+	height:20px;
+	z-index:13;
+	left: 82px;
+	top: 410px;
+	text-align: center;
+}
+#bandCH {
+	position:absolute;
+	width:45px;
+	height:34px;
+	z-index:14;
+	left: 80px;
+	top: 446px;
+}
+#chile {
+	position:absolute;
+	width:45px;
+	height:21px;
+	z-index:15;
+	left: 81px;
+	top: 482px;
+	text-align: center;
+}
+#bandES {
+	position:absolute;
+	width:45px;
+	height:32px;
+	z-index:16;
+	left: 80px;
+	top: 516px;
+}
+#espanha {
+	position:absolute;
+	width:45px;
+	height:25px;
+	z-index:17;
+	left: 82px;
+	top: 551px;
+	text-align: center;
+}
+#bandHO {
+	position:absolute;
+	width:45px;
+	height:34px;
+	z-index:18;
+	left: 80px;
+	top: 585px;
+}
+#holanda {
+	position:absolute;
+	width:45px;
+	height:25px;
+	z-index:19;
+	left: 81px;
+	top: 620px;
+	text-align: center;
+}
+#bandCL {
+	position:absolute;
+	width:45px;
+	height:34px;
+	z-index:20;
+	left: 141px;
+	top: 376px;
+}
+#colombia {
+	position:absolute;
+	width:45px;
+	height:20px;
+	z-index:21;
+	left: 141px;
+	top: 410px;
+	text-align: center;
+}
+#bandCM {
+	position:absolute;
+	width:45px;
+	height:31px;
+	z-index:22;
+	left: 141px;
+	top: 446px;
+}
+#costaM {
+	position:absolute;
+	width:59px;
+	height:21px;
+	z-index:23;
+	left: 135px;
+	top: 482px;
+	text-align: center;
+}
+#bandGR {
+	position:absolute;
+	width:45px;
+	height:28px;
+	z-index:24;
+	left: 141px;
+	top: 516px;
+}
+#grecia {
+	position:absolute;
+	width:45px;
+	height:24px;
+	z-index:25;
+	left: 141px;
+	top: 551px;
+	text-align: center;
+}
+#bandJP {
+	position:absolute;
+	width:45px;
+	height:29px;
+	z-index:26;
+	left: 141px;
+	top: 585px;
+}
+#japao {
+	position:absolute;
+	width:45px;
+	height:24px;
+	z-index:27;
+	left: 141px;
+	top: 620px;
+	text-align: center;
+}
+#bandCOR {
+	position:absolute;
+	width:51px;
+	height:37px;
+	z-index:28;
+	left: 202px;
+	top: 376px;
+}
+#costaRica {
+	position:absolute;
+	width:51px;
+	height:22px;
+	z-index:29;
+	left: 202px;
+	top: 410px;
+	text-align: center;
+}
+#bandIN {
+	position:absolute;
+	width:51px;
+	height:32px;
+	z-index:30;
+	left: 202px;
+	top: 446px;
+}
+#inglaterra {
+	position:absolute;
+	width:51px;
+	height:27px;
+	z-index:31;
+	left: 201px;
+	top: 482px;
+	text-align: center;
+}
+#bandIT {
+	position:absolute;
+	width:51px;
+	height:33px;
+	z-index:32;
+	left: 202px;
+	top: 516px;
+}
+#italia {
+	position:absolute;
+	width:51px;
+	height:22px;
+	z-index:33;
+	left: 202px;
+	top: 551px;
+	text-align: center;
+}
+#bandUR {
+	position:absolute;
+	width:51px;
+	height:32px;
+	z-index:34;
+	left: 202px;
+	top: 585px;
+}
+#uruguai {
+	position:absolute;
+	width:51px;
+	height:22px;
+	z-index:35;
+	left: 200px;
+	top: 620px;
+	text-align: center;
+}
+#BandEQ {
+	position:absolute;
+	width:50px;
+	height:35px;
+	z-index:36;
+	left: 265px;
+	top: 376px;
+}
+#equador {
+	position:absolute;
+	width:50px;
+	height:27px;
+	z-index:37;
+	left: 265px;
+	top: 410px;
+	text-align: center;
+}
+#BandFR {
+	position:absolute;
+	width:50px;
+	height:32px;
+	z-index:38;
+	left: 265px;
+	top: 446px;
+}
+#franca {
+	position:absolute;
+	width:50px;
+	height:25px;
+	z-index:39;
+	left: 265px;
+	top: 482px;
+	text-align: center;
+}
+#bandHD {
+	position:absolute;
+	width:50px;
+	height:33px;
+	z-index:40;
+	left: 265px;
+	top: 516px;
+}
+#honduras {
+	position:absolute;
+	width:50px;
+	height:21px;
+	z-index:41;
+	left: 264px;
+	top: 551px;
+	text-align: center;
+}
+#bandSU {
+	position:absolute;
+	width:50px;
+	height:33px;
+	z-index:42;
+	left: 265px;
+	top: 585px;
+}
+#suica {
+	position:absolute;
+	width:50px;
+	height:22px;
+	z-index:43;
+	left: 265px;
+	top: 620px;
+	text-align: center;
+}
+#bandAR {
+	position:absolute;
+	width:50px;
+	height:36px;
+	z-index:44;
+	left: 328px;
+	top: 376px;
+}
+#argentina {
+	position:absolute;
+	width:50px;
+	height:25px;
+	z-index:45;
+	left: 327px;
+	top: 410px;
+	text-align: center;
+}
+#bandBO {
+	position:absolute;
+	width:50px;
+	height:33px;
+	z-index:46;
+	left: 328px;
+	top: 446px;
+}
+#bosnia {
+	position:absolute;
+	width:50px;
+	height:26px;
+	z-index:47;
+	left: 328px;
+	top: 482px;
+	text-align: center;
+}
+#bandIRA {
+	position:absolute;
+	width:50px;
+	height:32px;
+	z-index:48;
+	left: 328px;
+	top: 516px;
+}
+#ira {
+	position:absolute;
+	width:50px;
+	height:23px;
+	z-index:49;
+	left: 327px;
+	top: 551px;
+	text-align: center;
+}
+#bandNI {
+	position:absolute;
+	width:50px;
+	height:34px;
+	z-index:50;
+	left: 328px;
+	top: 585px;
+}
+#nigeria {
+	position:absolute;
+	width:50px;
+	height:22px;
+	z-index:51;
+	left: 327px;
+	top: 620px;
+	text-align: center;
+}
+#bandAL {
+	position:absolute;
+	width:47px;
+	height:36px;
+	z-index:52;
+	left: 391px;
+	top: 376px;
+}
+#alemanha {
+	position:absolute;
+	width:47px;
+	height:23px;
+	z-index:53;
+	left: 391px;
+	top: 410px;
+	text-align: center;
+}
+#bandEUA {
+	position:absolute;
+	width:47px;
+	height:35px;
+	z-index:54;
+	left: 391px;
+	top: 446px;
+}
+#eua {
+	position:absolute;
+	width:47px;
+	height:27px;
+	z-index:55;
+	left: 391px;
+	top: 482px;
+	text-align: center;
+}
+#bandGA {
+	position:absolute;
+	width:47px;
+	height:32px;
+	z-index:56;
+	left: 391px;
+	top: 516px;
+}
+#gana {
+	position:absolute;
+	width:47px;
+	height:21px;
+	z-index:57;
+	left: 391px;
+	top: 551px;
+	text-align: center;
+}
+#bandPO {
+	position:absolute;
+	width:47px;
+	height:32px;
+	z-index:58;
+	left: 391px;
+	top: 585px;
+}
+#portugal {
+	position:absolute;
+	width:47px;
+	height:23px;
+	z-index:59;
+	left: 391px;
+	top: 620px;
+	text-align: center;
+}
+#bandARG {
+	position:absolute;
+	width:50px;
+	height:36px;
+	z-index:60;
+	left: 454px;
+	top: 376px;
+}
+#argelia {
+	position:absolute;
+	width:50px;
+	height:21px;
+	z-index:61;
+	left: 452px;
+	top: 410px;
+	text-align: center;
+}
+#bandBE {
+	position:absolute;
+	width:50px;
+	height:33px;
+	z-index:62;
+	left: 454px;
+	top: 446px;
+}
+#belgica {
+	position:absolute;
+	width:50px;
+	height:25px;
+	z-index:63;
+	left: 456px;
+	top: 482px;
+	text-align: center;
+}
+#bandCS {
+	position:absolute;
+	width:50px;
+	height:33px;
+	z-index:64;
+	left: 454px;
+	top: 516px;
+}
+#coreiaS {
+	position:absolute;
+	width:57px;
+	height:22px;
+	z-index:65;
+	left: 450px;
+	top: 551px;
+	text-align: center;
+}
+#bandRU {
+	position:absolute;
+	width:50px;
+	height:35px;
+	z-index:66;
+	left: 454px;
+	top: 585px;
+}
+#russia {
+	position:absolute;
+	width:50px;
+	height:23px;
+	z-index:67;
+	left: 454px;
+	top: 620px;
+	text-align: center;
+}
+#bg_kitband {
+	position:absolute;
+	width:239px;
+	height:354px;
+	z-index:11;
+	left: 522px;
+	top: 366px;
+}
+#desc_kitpaises1 {
+	position:absolute;
+	width:128px;
+	height:29px;
+	z-index:68;
+	left: 638px;
+	top: 435px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #0c417f;
+	text-align: right;
+}
+#desc_kitpaises2 {
+	position:absolute;
+	width:240px;
+	height:33px;
+	z-index:69;
+	left: 527px;
+	top: 471px;
+	font-family: Helvetica, sans-serif;
+	color: #033a81;
+	font-size: 11px;
+	text-align: right;
+}
+
+#faixa_kitpaises {
+	position:absolute;
+	width:251px;
+	height:28px;
+	z-index:71;
+	left: 522px;
+	top: 332px;
+}
+#band_kit {
+	position:absolute;
+	width:186px;
+	height:102px;
+	z-index:72;
+	left: 527px;
+	top: 535px;
+}
+#band22 {
+	position:absolute;
+	width:69px;
+	height:24px;
+	z-index:73;
+	left: 530px;
+	top: 700px;
+}
+#detalhe_band22 {
+	position:absolute;
+	width:65px;
+	height:18px;
+	z-index:74;
+	left: 612px;
+	top: 715px;
+}
+#valor_kit22 {
+	position:absolute;
+	width:76px;
+	height:24px;
+	z-index:75;
+	left: 701px;
+	top: 700px;
+}
+#band33 {
+	position:absolute;
+	width:69px;
+	height:24px;
+	z-index:76;
+	left: 530px;
+	top: 725px;
+}
+#detalhe_band33 {
+	position:absolute;
+	width:65px;
+	height:18px;
+	z-index:77;
+	left: 612px;
+	top: 740px;
+}
+#valor_band33 {
+	position:absolute;
+	width:76px;
+	height:24px;
+	z-index:78;
+	left: 701px;
+	top: 725px;
+}
+#band45 {
+	position:absolute;
+	width:69px;
+	height:24px;
+	z-index:79;
+	left: 530px;
+	top: 750px;
+}
+#detalhe_band45 {
+	position:absolute;
+	width:65px;
+	height:18px;
+	z-index:80;
+	left: 612px;
+	top: 765px;
+}
+#valor_band45 {
+	position:absolute;
+	width:76px;
+	height:24px;
+	z-index:81;
+	left: 701px;
+	top: 750px;
+}
+#band70 {
+	position:absolute;
+	width:69px;
+	height:24px;
+	z-index:82;
+	left: 530px;
+	top: 775px;
+}
+#detalhe_band70 {
+	position:absolute;
+	width:65px;
+	height:18px;
+	z-index:83;
+	left: 612px;
+	top: 790px;
+}
+#valor_band70 {
+	position:absolute;
+	width:84px;
+	height:24px;
+	z-index:84;
+	left: 691px;
+	top: 775px;
+}
+#band90 {
+	position:absolute;
+	width:69px;
+	height:24px;
+	z-index:85;
+	left: 530px;
+	top: 800px;
+}
+#detalhe_band90 {
+	position:absolute;
+	width:65px;
+	height:18px;
+	z-index:86;
+	left: 612px;
+	top: 815px;
+}
+#valor_band90 {
+	position:absolute;
+	width:84px;
+	height:24px;
+	z-index:87;
+	left: 691px;
+	top: 800px;
+}
+#band112 {
+	position:absolute;
+	width:69px;
+	height:24px;
+	z-index:88;
+	left: 530px;
+	top: 825px;
+}
+#detalhe_band112 {
+	position:absolute;
+	width:65px;
+	height:18px;
+	z-index:89;
+	left: 612px;
+	top: 840px;
+}
+#valor_band112 {
+	position:absolute;
+	width:84px;
+	height:24px;
+	z-index:90;
+	left: 691px;
+	top: 825px;
+}
+#band135 {
+	position:absolute;
+	width:69px;
+	height:24px;
+	z-index:91;
+	left: 530px;
+	top: 850px;
+}
+#detalhe_band135 {
+	position:absolute;
+	width:65px;
+	height:18px;
+	z-index:92;
+	left: 612px;
+	top: 865px;
+}
+#valor_band135 {
+	position:absolute;
+	width:84px;
+	height:24px;
+	z-index:93;
+	left: 691px;
+	top: 850px;
+}
+#bg_lancamento {
+	position:absolute;
+	width:499px;
+	height:184px;
+	z-index:94;
+	left: 10px;
+	top: 698px;
+}
+#faixa_lancamento {
+	position:absolute;
+	width:498px;
+	height:36px;
+	z-index:85;
+	left: 11px;
+	top: 666px;
+}
+#detalhe_lancamento {
+	position:absolute;
+	width:78px;
+	height:78px;
+	z-index:90;
+	left: 427px;
+	top: 659px;
+}
+#bola_lancamento {
+	position:absolute;
+	width:45px;
+	height:44px;
+	z-index:95;
+	left: 443px;
+	top: 676px;
+}
+#detalhe_lancamento2 {
+	position:absolute;
+	width:445px;
+	height:12px;
+	z-index:92;
+	left: 64px;
+	top: 699px;
+}
+#bracadeira1 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:96;
+	left: -2px;
+	top: 674px;
+}
+#bracadeira2 {
+	position:absolute;
+	width:161px;
+	height:231px;
+	z-index:97;
+	left: -18px;
+	top: 703px;
+}
+#desc_bracadeira {
+	position:absolute;
+	width:166px;
+	height:64px;
+	z-index:98;
+	left: 77px;
+	top: 816px;
+}
+#bandana1 {
+	position:absolute;
+	width:120px;
+	height:115px;
+	z-index:99;
+	left: 311px;
+	top: 760px;
+}
+#bandana2 {
+	position:absolute;
+	width:149px;
+	height:115px;
+	z-index:100;
+	left: 370px;
+	top: 738px;
+}
+#desc_bandana {
+	position:absolute;
+	width:189px;
+	height:74px;
+	z-index:101;
+	left: 257px;
+	top: 708px;
+}
+#faixa_secaoBR {
+	position:absolute;
+	width:763px;
+	height:35px;
+	z-index:102;
+	left: 10px;
+	top: 906px;
+}
+#titulo_prod1 {
+	position:absolute;
+	width:134px;
+	height:24px;
+	z-index:103;
+	left: 22px;
+	top: 949px;
+	text-align: center;
+}
+#desc_prod1 {
+	position:absolute;
+	width:155px;
+	height:33px;
+	z-index:104;
+	left: 10px;
+	top: 968px;
+	text-align: center;
+}
+#prod1 {
+	position:absolute;
+	width:146px;
+	height:93px;
+	z-index:105;
+	left: 13px;
+	top: 1000px;
+}
+#botao_prod1 {
+	position:absolute;
+	width:119px;
+	height:31px;
+	z-index:106;
+	left: 25px;
+	top: 1101px;
+}
+#titulo_prod2 {
+	position:absolute;
+	width:128px;
+	height:21px;
+	z-index:107;
+	left: 183px;
+	top: 949px;
+	text-align: center;
+}
+#desc_prod2 {
+	position:absolute;
+	width:156px;
+	height:30px;
+	z-index:108;
+	left: 170px;
+	top: 968px;
+	text-align: center;
+}
+#prod2 {
+	position:absolute;
+	width:117px;
+	height:96px;
+	z-index:109;
+	left: 190px;
+	top: 998px;
+}
+#botao_prod2 {
+	position:absolute;
+	width:119px;
+	height:31px;
+	z-index:110;
+	left: 189px;
+	top: 1101px;
+}
+#titulo_prod3 {
+	position:absolute;
+	width:125px;
+	height:23px;
+	z-index:111;
+	left: 337px;
+	top: 949px;
+	text-align: center;
+}
+#desc_prod3 {
+	position:absolute;
+	width:146px;
+	height:26px;
+	z-index:112;
+	left: 327px;
+	top: 972px;
+	text-align: center;
+}
+#prod3 {
+	position:absolute;
+	width:127px;
+	height:86px;
+	z-index:113;
+	left: 340px;
+	top: 999px;
+}
+#botao_prod3 {
+	position:absolute;
+	width:119px;
+	height:31px;
+	z-index:114;
+	left: 344px;
+	top: 1101px;
+}
+#titulo_prod4 {
+	position:absolute;
+	width:119px;
+	height:25px;
+	z-index:115;
+	left: 488px;
+	top: 949px;
+	text-align: center;
+}
+#desc_prod4 {
+	position:absolute;
+	width:158px;
+	height:27px;
+	z-index:116;
+	left: 468px;
+	top: 972px;
+	text-align: center;
+}
+#prod4 {
+	position:absolute;
+	width:101px;
+	height:90px;
+	z-index:117;
+	left: 496px;
+	top: 998px;
+}
+#botao_prod4 {
+	position:absolute;
+	width:117px;
+	height:31px;
+	z-index:118;
+	left: 489px;
+	top: 1101px;
+}
+#titulo_prod5 {
+	position:absolute;
+	width:129px;
+	height:23px;
+	z-index:119;
+	left: 634px;
+	top: 949px;
+	text-align: center;
+}
+#desc_prod5 {
+	position:absolute;
+	width:155px;
+	height:27px;
+	z-index:120;
+	left: 622px;
+	top: 972px;
+	text-align: center;
+}
+#prod5 {
+	position:absolute;
+	width:133px;
+	height:66px;
+	z-index:121;
+	left: 632px;
+	top: 1016px;
+}
+#botao_prod5 {
+	position:absolute;
+	width:121px;
+	height:31px;
+	z-index:122;
+	left: 639px;
+	top: 1101px;
+}
+#faixa_gol {
+	position:absolute;
+	width:325px;
+	height:32px;
+	z-index:123;
+	left: 10px;
+	top: 1156px;
+}
+#bg_goldarodada {
+	position:absolute;
+	width:322px;
+	height:362px;
+	z-index:124;
+	left: 10px;
+	top: 1190px;
+}
+#txt_goldarodada {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:125;
+	left: 14px;
+	top: 1193px;
+}
+#preco_goldarodada {
+	position:absolute;
+	width:125px;
+	height:61px;
+	z-index:126;
+	left: 172px;
+	top: 1258px;
+}
+#faixa_prod_torcedor {
+	position:absolute;
+	width:426px;
+	height:29px;
+	z-index:127;
+	left: 347px;
+	top: 1156px;
+}
+#bg_prodTorcedor {
+	position:absolute;
+	width:426px;
+	height:148px;
+	z-index:128;
+	left: 347px;
+	top: 1189px;
+}
+#titulo_prod6 {
+	position:absolute;
+	width:99px;
+	height:24px;
+	z-index:129;
+	left: 369px;
+	top: 1193px;
+	text-align: center;
+}
+#desc_prod6 {
+	position:absolute;
+	width:134px;
+	height:29px;
+	z-index:130;
+	left: 352px;
+	top: 1212px;
+	text-align: center;
+}
+#prod6 {
+	position:absolute;
+	width:69px;
+	height:53px;
+	z-index:131;
+	left: 380px;
+	top: 1242px;
+}
+#botao_prod6 {
+	position:absolute;
+	width:91px;
+	height:31px;
+	z-index:132;
+	left: 368px;
+	top: 1298px;
+}
+#titulo_prod7 {
+	position:absolute;
+	width:107px;
+	height:23px;
+	z-index:133;
+	left: 506px;
+	top: 1193px;
+	text-align: center;
+}
+#desc_prod7 {
+	position:absolute;
+	width:130px;
+	height:29px;
+	z-index:134;
+	left: 495px;
+	top: 1212px;
+	text-align: center;
+}
+#prod7 {
+	position:absolute;
+	width:67px;
+	height:52px;
+	z-index:135;
+	left: 527px;
+	top: 1242px;
+}
+#botao_prod7 {
+	position:absolute;
+	width:93px;
+	height:28px;
+	z-index:136;
+	left: 513px;
+	top: 1298px;
+}
+#titulo_prod8 {
+	position:absolute;
+	width:128px;
+	height:24px;
+	z-index:137;
+	left: 635px;
+	top: 1193px;
+	text-align: center;
+}
+#desc_prod8 {
+	position:absolute;
+	width:132px;
+	height:29px;
+	z-index:138;
+	left: 635px;
+	top: 1213px;
+	text-align: center;
+}
+#prod8 {
+	position:absolute;
+	width:63px;
+	height:53px;
+	z-index:139;
+	left: 669px;
+	top: 1239px;
+}
+#botao_prod8 {
+	position:absolute;
+	width:93px;
+	height:29px;
+	z-index:140;
+	left: 654px;
+	top: 1298px;
+}
+#faixa_confira {
+	position:absolute;
+	width:426px;
+	height:32px;
+	z-index:141;
+	left: 347px;
+	top: 1343px;
+}
+#titulo_prod9 {
+	position:absolute;
+	width:123px;
+	height:21px;
+	z-index:142;
+	left: 347px;
+	top: 1386px;
+	text-align: center;
+}
+#desc_prod9 {
+	position:absolute;
+	width:124px;
+	height:37px;
+	z-index:143;
+	left: 347px;
+	top: 1404px;
+	text-align: center;
+}
+#prod9 {
+	position:absolute;
+	width:52px;
+	height:71px;
+	z-index:144;
+	left: 382px;
+	top: 1433px;
+}
+#botao_prod9 {
+	position:absolute;
+	width:91px;
+	height:25px;
+	z-index:145;
+	left: 355px;
+	top: 1507px;
+}
+#titulo_prod10 {
+	position:absolute;
+	width:116px;
+	height:22px;
+	z-index:146;
+	left: 496px;
+	top: 1386px;
+	text-align: center;
+}
+#desc_prod10 {
+	position:absolute;
+	width:118px;
+	height:39px;
+	z-index:147;
+	left: 495px;
+	top: 1404px;
+	text-align: center;
+}
+#prod10 {
+	position:absolute;
+	width:53px;
+	height:66px;
+	z-index:148;
+	left: 526px;
+	top: 1434px;
+}
+#botao_prod10 {
+	position:absolute;
+	width:96px;
+	height:28px;
+	z-index:149;
+	left: 502px;
+	top: 1507px;
+}
+#placar {
+	position:absolute;
+	width:132px;
+	height:160px;
+	z-index:150;
+	left: 634px;
+	top: 1372px;
+}
+#grama {
+	position:absolute;
+	width:763px;
+	height:40px;
+	z-index:151;
+	left: 10px;
+	top: 1528px;
+}
+
+/* Estilos */
+.nome_band {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	color: #535353;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+}
+.titulo_secaobr {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #67b329;
+	text-decoration: none;
+	font-weight: 900;
+	text-align: center;
+	white-space: normal;
+}
+.desc_secaobr {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 7pt;
+	color: #045b2a;
+	text-decoration: none;
+	font-weight: bold;
+	font-variant: normal;
+	text-align: center;
+}
+.tamanho_bands {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #003366;
+	text-decoration: none;
+}
+.valor_kit {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #003366;
+	text-decoration: none;
+}
+.cifrao_kit {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 8px;
+	font-weight: bold;
+	color: #6699cc;
+}
+.centavos_kit {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #003366;
+	font-weight: bold;
+}
+a {
+	text-decoration:none;	
+}
+a.linksecaobr:link {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #67b329;
+	text-decoration: none;
+}
+a.linksecaobr:visited {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #67b329;
+	text-decoration: none;
+}
+a.linksecaobr:hover {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #67b329;
+	text-decoration: none;
+}
+a.linksecaobr:active {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #67b329;
+	text-decoration: none;
+}
+a.linkbandeirinhas:link {
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #535353;
+	text-decoration: none;
+}
+a.linkbandeirinhas:visited {
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #535353;
+	text-decoration: none;
+}
+a.linkbandeirinhas:hover {
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #535353;
+	text-decoration: none;
+}
+a.linkbandeirinhas:active {
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #535353;
+	text-decoration: none;
+}
+a.link_kitbands:link {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #003366;
+	text-decoration: none;
+}
+
+a.link_kitbands:visited {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #003366;
+	text-decoration: none;
+}
+a.link_kitbands:hover {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #003366;
+	text-decoration: none;
+}
+a.link_kitbands:active {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #003366;
+	text-decoration: none;
+}
+a.linkconfira:link {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #6699cc;
+	text-decoration: none;
+}
+a.linkconfira:visited {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #6699cc;
+	text-decoration: none;
+}
+a.linkconfira:hover {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #6699cc;
+	text-decoration: none;
+}
+a.linkconfira:active {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #6699cc;
+	text-decoration: none;
+}
+a.linkprodtorcedor:link {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #003366;
+	text-decoration: none;
+}
+a.linkprodtorcedor:visited {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #003366;
+	text-decoration: none;
+}
+a.linkprodtorcedor:hover {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #003366;
+	text-decoration: none;
+}
+a.linkprodtorcedor:active {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #003366;
+	text-decoration: none;
+}
+.titulo_prod_torcedor {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #003366;
+	text-decoration: none;
+	font-weight: 900;
+}
+.sub_titulo_prod_torcedor {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #6699cc;
+	text-decoration: none;
+}
+.titulo_confira {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #6699cc;
+	text-decoration: none;
+}
+.desc_confira {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #003366;
+	text-decoration: none;
+}
