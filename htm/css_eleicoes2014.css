@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+#apDiv1 {
+	position:absolute;
+	left:250px;
+	top:250px;
+	width:750px;
+	height:969px;
+	z-index:1;
+}
+#apDiv2 {
+	position:absolute;
+	width:748px;
+	height:1170px;
+	z-index:1;
+        margin-top: 30px;
+}
+#apDiv3 {
+	position:absolute;
+	left:620px;
+	top:1660px;
+	width:229px;
+	height:32px;
+	z-index:2;
+}
+#apDiv3 {
+	text-align: right;
+}
+#apDiv3 {
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #666;
+}
+#apDiv4 {
+	position:absolute;
+	left:625px;
+	top:1717px;
+	width:220px;
+	height:29px;
+	z-index:3;
+	font-family: Tahoma, Geneva, sans-serif;
+	text-align: right;
+	color: #666;
+}
+</style>
