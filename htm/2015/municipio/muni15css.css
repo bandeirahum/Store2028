@@ -1,0 +1,146 @@
+#tudomuni15 {
+	position: relative;
+	width: 892px;
+	/* height: 976px; */
+	z-index: 1;
+	left: 9;
+}
+#fundomuni15 {
+	position: relative;
+	left: 0px;
+	top: 44px;
+	width: 892;
+	height: 1193px;
+	z-index: 2;
+}
+#titmuni15 {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 886px;
+	height: 42px;
+	z-index: 2;
+}
+#comocomprar {
+	position: absolute;
+	left: 68px;
+	top: 425px;
+	width: 157px;
+	height: 82px;
+	z-index: 2;
+	font-family: "Segoe UI";
+	font-size: 45px;
+	line-height: 38px;
+	color: #046dae;
+}
+#descomocomprar {
+	position: absolute;
+	left: 122px;
+	top: 528px;
+	width: 286px;
+	height: 58px;
+	z-index: 3;
+	font-family: "Segoe UI";
+	color: #333;
+	font-size: 16px;
+}
+#descomocomprar2 {
+	position: absolute;
+	left: 123px;
+	top: 588px;
+	width: 240px;
+	height: 58px;
+	z-index: 3;
+	font-family: "Segoe UI";
+	color: #333;
+	font-size: 16px;
+}
+#descomocomprar3 {
+	position: absolute;
+	left: 122px;
+	top: 664px;
+	width: 267px;
+	height: 58px;
+	z-index: 3;
+	font-family: "Segoe UI";
+	color: #333;
+	font-size: 16px;
+}
+#titestampo {
+	position: absolute;
+	left: 63px;
+	top: 24px;
+	width: 267px;
+	height: 110px;
+	z-index: 2;
+	font-family: "Segoe UI";
+	font-size: 25px;
+	text-align: right;
+	line-height: 25px;
+	color: #046dae;
+}
+.neg {
+	font-size: 31px;
+	font-weight: bold;
+	line-height: 40px;
+}
+#descestampo {
+	position: absolute;
+	left: 42px;
+	top: 111px;
+	width: 299px;
+	height: 60px;
+	z-index: 3;
+}
+#descestampo2 {
+	position: absolute;
+	left: 43px;
+	top: 177px;
+	width: 299px;
+	height: 60px;
+	z-index: 3;
+}
+#descestampo3 {
+	position: absolute;
+	left: 44px;
+	top: 259px;
+	width: 299px;
+	height: 60px;
+	z-index: 3;
+}
+#descestampo4 {
+	position: absolute;
+	left: 43px;
+	top: 346px;
+	width: 299px;
+	height: 60px;
+	z-index: 3;
+}
+.descstampo {
+	font-family: "Segoe UI";
+	font-size: 16px;
+	color: #666;
+	line-height: 25px;
+}
+.ponto {
+	font-family: "Segoe UI";
+	font-size: 30px;
+	color: #A6C2D8;
+}
+#divestampo {
+	position: absolute;
+	left: 541px;
+	top: 479px;
+	width: 344px;
+	height: 438px;
+	z-index: 4;
+}
+
+#linkcomprar {
+	position: absolute;
+	left: 623px;
+	top: 69px;
+	width: 273px;
+	height: 83px;
+	z-index: 2;
+}
