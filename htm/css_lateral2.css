@@ -1,0 +1,228 @@
+.rodape {
+   font-family:Myriad Pro ; 
+   font-size: 30pt ;
+   font-color: black
+}
+.subtit {
+   font-family:Segoe UI ; 
+   font-size: 20pt ;
+   font-color: #CCC
+}
+.titulo {
+	font-family: "Myriad Pro";
+	font-size: 30px;
+	color: #063;
+}
+
+#Bandeira {
+	position:absolute;
+	left:25px;
+	top:487px;
+	width:149px;
+	height:98px;
+	z-index:1;
+}
+#subbandeiras {
+	position:absolute;
+	left:28px;
+	top:533px;
+	width:182px;
+	height:199px;
+	z-index:2;
+	font-family: "Myriad Pro";
+	color: #999;
+	font-size: 11pt;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #003;
+}
+a:link {
+	color: #999;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #999;
+}
+a:active {
+	text-decoration: none;
+}
+#basesup {
+	position:absolute;
+	left:25px;
+	top:750px;
+	width:185px;
+	height:39px;
+	z-index:3;
+}
+#subbasesup {
+	position:absolute;
+	left:28px;
+	top:815px;
+	width:182px;
+	height:103px;
+	z-index:4;
+	font-size: 11pt;
+	color: #999;
+}
+#distintivos {
+	position:absolute;
+	left:16px;
+	top:510px;
+	width:184px;
+	height:54px;
+	z-index:3;
+}
+#subdistintivo {
+	position:absolute;
+	left:27px;
+	top:964px;
+	width:183px;
+	height:110px;
+	z-index:4;
+	font-size: 11pt;
+	color: #999;
+}
+#acessorios {
+	position:absolute;
+	left:17px;
+	top:658px;
+	width:185px;
+	height:54px;
+	z-index:3;
+}
+#subacess {
+	position:absolute;
+	left:28px;
+	top:1111px;
+	width:182px;
+	height:161px;
+	z-index:4;
+	font-size: 11pt;
+	color: #999;
+}
+#tb {
+	position:absolute;
+	left:27px;
+	top:1292px;
+	width:149px;
+	height:60px;
+	z-index:1;
+}
+#subtb {
+	position:absolute;
+	left:28px;
+	top:1364px;
+	width:166px;
+	height:161px;
+	z-index:4;
+	font-size: 11pt;
+	color: #999;
+	font-family: "Segoe UI";
+}
+#apDiv2 {
+	position:absolute;
+	left:20px;
+	top:1209px;
+	width:177px;
+	height:55px;
+	z-index:5;
+}
+#info {
+	position:absolute;
+	left:25px;
+	top:1544px;
+	width:150px;
+	height:81px;
+	z-index:5;
+	color: #FC3;
+}
+#subinfo {
+	position:absolute;
+	left:28px;
+	top:1623px;
+	width:182px;
+	height:161px;
+	z-index:4;
+	font-size: 11pt;
+	color: #999;
+	font-family: "Segoe UI";
+}
+#redes {
+	position:absolute;
+	left:25px;
+	top:1791px;
+	width:181px;
+	height:81px;
+	z-index:6;
+	color: #06C;
+}
+#subredes {
+	position:absolute;
+	left:28px;
+	top:1873px;
+	width:182px;
+	height:161px;
+	z-index:4;
+	font-size: 11pt;
+	color: #999;
+	font-family: "Segoe UI";
+}
+.subtit1 {   font-family:Segoe UI ; 
+   font-size: 20pt ;
+   font-color: #CCC
+}
+.subtit2 {   font-family:Segoe UI ; 
+   font-size: 20pt ;
+   font-color: #CCC
+}
+#linhatb {
+	position:absolute;
+	left:15px;
+	top:1263px;
+	width:195px;
+	height:39px;
+	z-index:7;
+}
+#linhainfo {
+	position:absolute;
+	left:18px;
+	top:1515px;
+	width:192px;
+	height:42px;
+	z-index:7;
+}
+#linharedes {
+	position:absolute;
+	left:16px;
+	top:1763px;
+	width:194px;
+	height:49px;
+	z-index:7;
+}
+#linhaacess {
+	position:absolute;
+	left:15px;
+	top:1054px;
+	width:198px;
+	height:49px;
+	z-index:7;
+}
+#linhabasesup {
+	position:absolute;
+	left:15px;
+	top:723px;
+	width:198px;
+	height:46px;
+	z-index:7;
+}
+#linhadistint {
+	position:absolute;
+	left:16px;
+	top:905px;
+	width:198px;
+	height:43px;
+	z-index:7;
+}
