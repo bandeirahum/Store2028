@@ -1,0 +1,33 @@
+/* Media queries */
+
+@media screen and (max-width: 980px) {
+body{
+    width:850px;
+    margin:0 auto;
+    }
+   
+}
+ 
+@media screen and (max-width: 750px) {
+    body{
+    width:600px;
+    margin:0 auto;
+    }
+    
+}
+ 
+@media screen and (max-width: 540px) {
+    body{
+    width:450px;
+    margin:0 auto;
+    }
+   
+}
+ 
+@media screen and (max-width: 380px) {
+    body{
+    width:360px;
+    margin:0 auto;
+    }
+   
+}
