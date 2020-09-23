@@ -1,0 +1,318 @@
+#tudotopo {
+}
+
+
+#logotopo {
+	position: absolute;
+	left: 30px;
+	top: -35px;
+	width: 185px;
+	height: 167px;
+	z-index: 1;
+}
+#buscatopo {
+	position: absolute;
+	left: 786px;
+	top: 39px;
+	width: 302px;
+	height: 50px;
+	z-index: 2;
+}
+
+#barraBusca {
+	position: fixed;
+	left: 11px;
+	top: 9px;
+	width: 568px;
+	height: 37px;
+	z-index: 3;
+	right: -1px;
+	bottom: -1px;
+}
+.gecko #inputBusca {
+							height: 35px;
+						}
+#linkstopo {
+	position: absolute;
+	left: 288px;
+	top: 60px;
+	width: 480px;
+	height: 41px;
+	z-index: 3;
+	font-size: 13px;
+}
+#linkstopo2 {
+	position: absolute;
+	left: 13px;
+	top: 132px;
+	width: 352px;
+	height: 28px;
+	z-index: 3;
+	font-size: 13px;
+}
+.linkstopo {
+	font-family: "Segoe UI";
+	font-size: 14px;
+	color: #666;
+}
+#cadastrese {
+	position: absolute;
+	left: 407px;
+	top: 102px;
+	width: 361px;
+	height: 37px;
+	z-index: 4;
+}
+#divcarrinho {
+	position: absolute;
+	left: 783px;
+	top: 90px;
+	width: 308px;
+	height: 100px;
+	z-index: 4;
+}
+#txtcadastro {
+	position: absolute;
+	left: 72px;
+	top: 82px;
+	width: 187px;
+	height: 68px;
+	z-index: 5;
+}
+#txtpedidos {
+	position: absolute;
+	left: -114px;
+	top: 53px;
+	width: 104px;
+	height: 25px;
+	z-index: 5;
+}
+#tudotopo {
+	position: relative;
+	width: 100%;
+	height: 280px;
+	z-index: 5;
+	background-color: #FFFFFF;
+	margin-top: 30px;
+}
+a:link {
+	text-decoration: none;
+	/* color: #FFFFFF; */
+}
+a:visited {
+	text-decoration: none;
+	/* color: #FFF; */
+}
+a:hover {
+	text-decoration: none;
+	color: #FFF;
+}
+a:active {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-family: "Myriad Pro";
+}
+#imgbolsa {
+	position: absolute;
+	left: 20px;
+	top: 51px;
+	width: 54px;
+	height: 74px;
+	z-index: 6;
+}
+#cestaprod {
+	position: absolute;
+	left: 80px;
+	top: 65px;
+	width: 160px;
+	height: 45px;
+	z-index: 6;
+}
+.txtcarrinho {
+	font-family: "Segoe UI";
+	/* font-size: 16px; */
+	/* color: #F00; */
+}
+#linkspaginas {
+	position: absolute;
+	top: 232px;
+	width: 691px;
+	height: 23px;
+	z-index: 6;
+	left: 0px;
+}
+#botBrasil {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 128px;
+	height: 25px;
+	z-index: 7;
+	background-color: #0d6e5f;
+	text-align: center;
+}
+#botCamTorc {
+	position: absolute;
+	left: 128px;
+	top: 0;
+	width: 178px;
+	height: 25px;
+	z-index: 7;
+	background-color: #0d6e5f;
+	text-align: center;
+	/* padding-top: 5; */
+}
+#botpatdis {
+	position: absolute;
+	left: 438px;
+	top: 0;
+	width: 109px;
+	height: 25px;
+	z-index: 7;
+	background-color: #0d6e5f;
+	text-align: center;
+	/* padding-top: 5; */
+}
+#botbone {
+	position: absolute;
+	left: 306px;
+	top: 0;
+	width: 135px;
+	height: 25px;
+	z-index: 7;
+	background-color: #0d6e5f;
+	text-align: center;
+	/* padding-top: 5; */
+}
+#botflamulas {
+	position: absolute;
+	left: 546px;
+	top: 0;
+	width: 142px;
+	height: 25px;
+	z-index: 7;
+	background-color: #0d6e5f;
+	text-align: center;
+}
+#botpins {
+	position: absolute;
+	left: 550px;
+	top: 0;
+	width: 109px;
+	height: 25px;
+	z-index: 7;
+	background-color: #36b5a2;
+	text-align: center;
+	/* padding-top: 5; */
+}
+#botfut{
+	position: absolute;
+	left: 660px;
+	top: 0;
+	width: 109px;
+	height: 25px;
+	z-index: 7;
+	background-color: #36b5a2;
+	text-align: center;
+	/* padding-top: 5; */
+}
+#botcamesp{
+	position: absolute;
+	left: 770px;
+	top: 0;
+	width: 109px;
+	height: 25px;
+	z-index: 7;
+	background-color: #009966;
+	text-align: center;
+	padding-top: 5;
+}
+#botcalcoes{
+	position: absolute;
+	left: 880px;
+	top: 0;
+	width: 109px;
+	height: 25px;
+	z-index: 7;
+	background-color: #009966;
+	text-align: center;
+}
+#botmeioes{
+	position: absolute;
+	left: 990px;
+	top: 0;
+	width: 109px;
+	height: 25px;
+	z-index: 7;
+	background-color: #009966;
+	text-align: center;
+}
+#botBrasil:hover {
+background:#06937E;
+}
+#botCamTorc:hover {
+background:#06937E;
+}
+#botbone:hover {
+background:#06937E;
+}
+#botpatdis:hover {
+background:#06937E;
+}
+#botflamulas:hover {
+background:#06937E;
+}
+#botpins:hover {
+background:#06937E;
+}
+#botfut:hover {
+background:#06937E;
+}
+#botcamesp:hover {
+background:#088d1e;
+}
+#botcalcoes:hover {
+background:#088d1e;
+}
+#botmeioes:hover {
+background:#088d1e;
+}
+
+
+
+.txtbotmenu {
+	font-family: "Segoe UI Semibold";
+	font-size: 16px;
+	color: #FFF;
+	line-height: 27px;
+	/* [disabled]font-weight: 700; */
+}
+	
+	
+   a.txtbotmenu:link {
+				color: #FFF;
+	         }
+			
+	a.txtbotmenu2:hover {
+				color: #FFF;
+	            
+			}
+	
+	   
+
+.txtbotmenu2 {
+	font-family: "Segoe UI";
+	font-size: 15px;
+	color: #FFF;
+	line-height: 1.1;
+	padding-top: 5;
+}
+   a.txtbotmenu2:link {
+				color: #FFF;
+	         }
+			
+	a.txtbotmenu2:hover {
+				color: #FFF;
+	            
+			}
