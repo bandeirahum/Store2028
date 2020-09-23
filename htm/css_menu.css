@@ -1,0 +1,327 @@
+	* {
+		margin: 0;
+		padding: 0;
+                border:0;
+	}
+
+	#menulateral {
+		width: 230px;
+		font-family: Tahoma, Geneva, sans-serif;
+		position: relative;
+		float: left;
+
+
+	}
+	
+	img {
+		border: none;
+	}
+		
+	a {
+		text-decoration: none;
+		color: #848581;
+	}
+	
+	a:link, a:visited {
+		color: #848581;
+	}
+	
+	a:hover {
+		color: #000;
+	}
+	
+	span.color {
+		color: #990033;
+	}
+	
+	#barramenu {
+		position: relative;
+		float: left;
+		width: 46px;
+		height: 2238px;
+		margin-top: 7px;
+		background-color: #e7e7e7;
+	}
+	
+	div.barras {
+		position: relative;
+		float: left;
+		background-color: #e7e7e7;
+		width: 46px;
+	}
+	div.barralinhas {
+		position: relative;
+		float: left;
+		background-color: #e7e7e7;
+		width: 46px;
+		height: 27px;
+                margin-top: 7px;
+	}
+	
+	#barrabandeira {
+		height: 193px;
+	}
+	
+	#barrabase {
+		height:92px;
+	}
+	
+	#barradistintivo {
+		height: 92px;
+	}
+	
+	#barraacessorio {
+		height: 144px;
+	}
+	
+	#barratorcedor {
+		height: 162px;
+	}
+	
+	#barracontato {
+		height: 327px;
+		*height: 340px;
+		background-color: #5b725e;
+	}
+	
+	#barraficha {
+		height: 156px;
+		margin-top: 16px;
+	}
+	
+	#barrapesquisa {
+		height:140px;
+	}
+	
+	#barratwitter {
+		height: 184px;
+	}
+	
+	#barraseguro {
+		height: 300px;
+	}
+	
+	img.cores {
+		margin: 10px 0 0 16px;
+	}
+	
+	img.linha {
+		height: 2px;
+		width: 46px;
+		margin-top: 22px;
+	}
+	
+	.menu {
+		position: relative;
+		float: left;
+		list-style-type: none;
+		margin: 5px 0 0 5px;
+		width: 171px;
+	}
+
+        .menu_especial {
+	font-weight: bold;
+	color: #28552e;
+        z-index: 2;
+}
+	
+	.barralinhas2 {
+		height: 27px;
+		width: 184px;
+		background-color: none;
+		position: relative;
+		float: left;
+                z-index: 0;
+                margin-top: 7px;
+	}
+	
+	img.linha2 {
+		height: 2px;
+		width: 51px;
+		margin-top: 22px;
+	}
+	
+	#listamenu li.titulo {
+		color: #28552e;
+		font-size: 120%;
+		letter-spacing: -1px
+	}
+	
+	#listamenu li {
+		font-size: 80%;
+		*line-height: 120%;
+	}
+	
+	#bandeiras {
+		margin: 13px 0 0 5px;
+		width: 171px;
+		height: 187px;
+	}
+	
+	#bases {
+		height: 87px;
+	}
+	
+	#distintivos {
+		height: 87px;
+	}
+	
+	#acessorios {	
+		height: 139px;
+	}
+	
+	#torcedor {
+		margin-bottom: 17px;
+		height: 140px;
+	}
+	
+	div.contato {
+		background-color: #144c26;
+		width: 155px;
+		position: relative;
+		float: left;
+	}
+	
+	div.contato h3 {
+		color: #fff;
+		margin: 13px 0 15px 5px;
+		font-size: 140%;
+		font-weight: normal;
+		height: 27px;
+	}
+	
+	div.contatosubs {
+		background-color: #5b725e;
+		width: 161px;
+		position: relative;
+		float: left;
+		height: 16px;
+	}
+	
+	div.contatosubs p {
+		color: #144c26;
+		font-size: 80%;
+		margin-left: 5px;
+		font-weight: bold;
+	}
+	
+	#fichas {
+		height: 151px;
+		margin-top: 21px;
+	}
+	
+	#pesquisa {
+		height: 135px;
+	}
+	
+	#pesquisa li.titulo {
+		color: #491c23;
+	}
+	
+	#twitter {
+                  position: relative;
+		float: left;
+		width: 179px;
+		margin-top: 5px;
+		height: 179px;
+      
+		padding:0;
+	
+
+
+
+	}
+	
+	#twitter p.txtt {
+		color: #848581;
+		font-size: 80%;
+		margin: 4px 0 0 5px;
+		display: inline;
+		position: relative;
+		float: left;
+		line-height: 110%;
+	}
+	
+	#twitter p.titt {
+		color: #1794c8;
+		font-size: 110%;
+		margin: 0 0 0 5px;
+		width: 179px;
+		display: inline;
+	}
+	
+	#twitter img {
+		position: relative;
+		float: left;
+		margin: 0 0 0 0;
+	
+	}
+	
+	#seguro {
+		position: relative;
+		float: left;
+		width: 184px;
+		margin-top: 5px;
+	}
+	
+	#seguro p.tits {
+		color: #28552e;
+		font-size: 120%;
+		margin: 0 0 0 5px;
+		width: 179px;
+		display: inline;
+	}
+	
+	#seguro img.visa {
+		position: relative;
+		float: left;
+		margin: 5px 0 5px 55px;
+		display: inline;
+	}
+	
+	#seguro img.komerci {
+		position: relative;
+		float: left;
+		margin: 0 0 0 43px;
+		display: inline;
+	}
+	
+	#seguro div.blindado img {
+		margin: 10px 0 10px 0px;
+	}
+               
+                #thawte{
+                                margin-top:15px;
+                }
+	
+	#seguro div#buscape img {
+		position: relative;
+		float: left;
+		margin: 0;
+		*margin: 0 -3px 0 -3px;
+	}
+	
+	#seguro div#bondfaro img {
+		position: relative;
+		float: left;
+		margin: 0;
+		*margin: 0 -3px 0 -3px;
+	}
+	
+	#seguro div#uol img {
+		position: relative;
+		float: left;
+		margin: 0;
+		*margin: 0 -3px 0 -3px;
+	}
+	
+                #segurouol {
+                               margin-top:-10px
+                }
+
+	div.seloE {
+		position: relative;
+		float: left;
+		display: inline;
+		margin: 2px 0 0 50px;
+	}
