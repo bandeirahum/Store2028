@@ -1,0 +1,196 @@
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	img {
+		border: none;
+	}
+	
+	a {
+		text-decoration: none;
+	}
+
+	#tudobandeiras {
+		width: 770px;
+		font-family: Tahoma, Geneva, sans-serif;
+                margin: 23px 0 0 0;
+	}
+	
+	div.fundocor {
+		background-color: #dbd2d3;
+		position: relative;
+		float: left;
+		width: 746px;
+	}
+	
+	div.modelo {
+		position: relative;
+		float: left;
+		background-color: #491c23;
+		width: 736px;
+		*width: 746px;
+		height: 37px;
+		padding: 0 0 0 10px;
+	}
+	
+	h1.modelobandeiras {
+		position: relative;
+		float: left;
+		color: #92777b;
+		font-size: 230%;
+		letter-spacing: -1.7px;
+		font-weight: normal;
+		line-height: 100%;
+	}
+	
+	h2.titpesquisa {
+		position: relative;
+		float: right;
+		color: #92777b;
+		font-size: 170%;
+		letter-spacing: -1.7px;
+		font-weight: normal;
+		line-height: 100%;
+		font-style: italic;
+		margin: 9px 20px 0 0;
+		display: inline;
+	}
+	
+	#linha01 {
+		position: relative;
+		float: left;
+		width: 746px;
+		height: 380px;
+		margin: 17px 0 31px 0;
+	}
+	
+	#linha02 {
+		position: relative;
+		float: left;
+		width: 746px;
+		height: 363px;
+		margin: 0 0 31px 0;
+	}
+	
+	#linha03 {
+		position: relative;
+		float: left;
+		width: 746px;
+		height: 315px;
+		margin: 0 0 31px 0;
+	}
+	
+	#linha04 {
+		position: relative;
+		float: left;
+		width: 746px;
+		height: 327px;
+	}
+	
+	div.disp01 {
+		position: relative;
+		float: left;
+		width: 351px;
+		height: 380px;
+		margin: 0 0 0 9px;
+		display: inline;
+	}
+	
+	div.disp02 {
+		position: relative;
+		float: left;
+		width: 351px;
+		height: 380px;
+		margin: 0 0 0 27px;
+		*margin: 0 0 0 21px;
+		display: inline;
+	}
+	
+	div.disp03 {
+		position: relative;
+		float: left;
+		width: 351px;
+		height: 363px;
+		margin: 0 0 0 9px;
+		display: inline;
+	}
+	
+	div.disp04 {
+		position: relative;
+		float: left;
+		width: 351px;
+		height: 363px;
+		margin: 0 0 0 27px;
+		*margin: 0 0 0 21px;
+		display: inline;
+	}
+	
+	div.disp05 {
+		position: relative;
+		float: left;
+		width: 351px;
+		height: 315px;
+		margin: 0 0 0 9px;
+		display: inline;
+	}
+	
+	div.disp06 {
+		position: relative;
+		float: left;
+		width: 351px;
+		height: 315px;
+		margin: 0 0 0 27px;
+		*margin: 0 0 0 21px;
+		display: inline;
+	}
+	
+	div.disp07 {
+		position: relative;
+		float: left;
+		width: 351px;
+		height: 327px;
+		margin: 0 0 0 9px;
+		display: inline;
+	}
+	
+	div.disp08 {
+		position: relative;
+		float: left;
+		width: 351px;
+		height: 327px;
+		margin: 0 0 0 27px;
+		*margin: 0 0 0 21px;
+		display: inline;
+	}
+	
+	img.dispimg {
+		position: relative;
+		float: left;
+		width: 351px;
+		height: 201px;
+		*left: -3px;
+	}
+	
+	h3.disptit {
+		position: relative;
+		float: left;
+		width: 351px;
+		height: 24px;
+		color: #491c23;
+		background-color: #92777b;
+		text-align: center;
+		font-size: 105%;
+		font-weight: normal;
+		padding-top: 2px;		
+	}
+	
+	p.disptxt {
+		position: relative;
+		float: left;
+		width: 339px;
+		color: #444;
+		font-size: 75%;
+		padding: 8px 6px 0 6px;
+		text-align: justify;
+	}
