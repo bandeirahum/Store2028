@@ -1,0 +1,206 @@
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	
+	#tudotopo {
+		width: 1000px;
+		height: 192px;
+		font-family: Tahoma, Geneva, sans-serif;
+		position: relative;
+	}
+	
+	.destq {
+		font-weight: bold;
+		color: #144c25;
+	}
+	
+	.fixIE {
+		*margin: 0 -3px 0 -3px;
+	}
+	
+	img {
+		border: none;
+	}
+	
+	a {
+		text-decoration: none;
+	}
+	
+	a:link a:visited {
+		color: #434343;
+	}
+	
+	a:hover {
+		color: #000;
+	}
+	
+	#boxTopo {
+		position: relative;
+		float: left;
+		width: 1000px;
+		height: 166px;
+		background: url(../prod/topo/bgtopo.jpg) no-repeat;
+	}
+	
+	#logo {
+		position: relative;
+		float: left;
+		margin-left: 42px;
+		display: inline;
+	}
+	
+	#dirTopo {
+		position: relative;
+		float: left;
+		width: 728px;
+		height: 166px;
+	}
+	
+	#boxVazio {
+		position: relative;
+		float: left;
+		width: 324px;
+		height: 131px;
+	}
+	
+	#boxIcons {
+		position: relative;
+		float: left;
+		width: 404px;
+		height: 131px;
+		background: url(../prod/topo/boxicons.jpg);
+	}
+	
+	#icoCadastro {
+		position: relative;
+		float: left;
+		margin-left: 65px;
+		display: inline;
+	}
+	
+	#icoCarrinho {
+		position: relative;
+		float: left;
+	}
+	
+	#icoPedidos {
+		position: relative;
+		float: left;
+	}
+	
+	#menuTopo {
+		position: relative;
+		float: left;
+		width: 728px;
+		height: 35px;
+	}
+	
+	#menuTXT {
+		position: relative;
+		float: left;
+		margin-left: 190px;
+		display: inline;
+	}
+	
+	#menuTXT p {
+		font-size: 80%;
+		color: #434343;
+		margin: 8px 0 0 14px;
+	}
+	
+	#barratopo {
+		position: relative;
+		float: left;
+		width: 1000px;
+		height: 26px;
+	}
+	
+	#barratopo div.barrac {
+		background-image: url(../images/header/barra.gif);
+		background-repeat: repeat-x;
+		margin-bottom: 13px;
+		width: 649px;
+		height: 13px;
+		position: relative;
+		float: left;
+	}
+	
+	#barratopo div.busca1 {
+		background-image: url(../images/header/busca1.gif);
+		position: relative;
+		float: left;
+		width: 3px;
+		height: 26px;
+	}
+	
+	#barratopo div.busca2 {
+		background-image: url(../images/header/busca2.gif);
+		background-repeat: repeat-x;
+		position: relative;
+		float: left;
+		width: 295px;
+		height: 26px;
+	}
+	
+	#barratopo div.busca2 span {
+		display: inline;
+		color: #434343;
+		font-size: 80%;
+		position: relative;
+		float: left;
+		margin: 4px 5px 0 3px;
+	}
+	
+	input.campobusca {
+		width: 218px;
+		height: 20px;
+		position: relative;
+		float: left;
+		margin: 3px 0 0 0;
+	}
+	
+	input.ok {
+		display: inline;
+		width: 27px;
+		height: 19px;
+		position: relative;
+		float: left;
+		margin: 3px 0 0 2px;
+		display: inline;
+	}
+	
+	#barratopo div.busca3 {
+		background-image: url(../images/header/busca3.gif);
+		position: relative;
+		float: left;
+		width: 4px;
+		height: 26px;
+	}
+
+	#LayoutDadosCestaFC {
+		position: relative;
+		float: right
+	}
+	
+	#popup {display: none;}
+	
+	#tudoAviso {
+	position:fixed;
+	top:100px; left:100px;
+	width:230px;
+	padding:10px;
+	background-color:#eee;
+	z-index:99999999999999999;
+	border:1px solid #fff;
+	-webkit-box-shadow:  5px 5px 5px 0px rgba(0, 0, 0, 0.25);
+    box-shadow:  5px 5px 5px 0px rgba(0, 0, 0, 0.25);
+	}
+	#tudoAviso p {clear:both;}	
+	
+	#fechar {
+	margin-bottom:10px;
+	float:right;
+	cursor:pointer;
+	}
