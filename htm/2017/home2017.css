@@ -1,0 +1,1671 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*HOME*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	border: none;
+}
+
+img.fixIE {
+	*margin: 0 -3px 0 -3px;
+}
+
+a {
+	text-decoration: none;
+}
+
+div.popup{
+     position: fixed;
+     top: 50px;
+  bottom: 0;
+     left: 0;
+     margin: auto;
+     width: 150px;
+     height: 750px;
+     padding: 20px;
+     
+     
+     display: none;
+  }
+#tudohome {
+	font-family: Myriad Pro, Segoe UI, Tahoma;
+	width: 1100;
+	height: 1900px;
+	position: relative;
+	/* margin-left: -8px; */
+}
+
+#flashprodutos {
+	width: 746px;
+	height: 295px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+
+div.titulo h1 {
+	text-align: center;
+	letter-spacing: -1.2px;
+	color: #8a9e8d;
+	font-weight: normal;
+	font-size: 220%;
+	line-height: 100%;
+}
+
+#destaque div.titulo {
+	width: 340px;
+}
+
+#destaque div.orgdestaque1 {
+	position: relative;
+	float: left;
+	width: 124px;
+	height: 621px;
+}
+
+#destaque div.orgdestaque2 {
+	position: relative;
+	float: left;
+	width: 216px;
+	height: 621px;
+}
+
+#destaque img.bandeira {
+	position: relative;
+	float: left;
+	width: 118px;
+	height: 617px;
+}
+
+#slider {
+	/* position: relative; */
+	/* left: 15px; */
+	/* top: 258px; */
+	/* width: 234px; */
+	/* height: 229px; */
+}
+
+#cont_kit1 {
+	position: float;
+	left: 15px;
+	top: 258px;
+	width: 234px;
+	height: 229px;
+	z-index: 99;
+}
+#cont_kit2 {
+	position: absolute;
+	left: 301px;
+	top: 376px;
+	width: 270px;
+	height: 343px;
+	z-index: 555;
+}
+#txtkit2 {
+	position: absolute;
+	left: 312px;
+	top: 272px;
+	width: 251px;
+	height: 110px;
+	/* z-index: 2; */
+	font-family: "Segoe UI";
+	font-size: 14px;
+	color: 0f698d;
+	text-align: left;
+}
+#cont_kit3 {
+	position: absolute;
+	left: 4px;
+	top: 82px;
+	width: 267px;
+	height: 399px;
+	z-index: 555;
+}
+#txtkit3 {
+	position: absolute;
+	left: 8px;
+	top: 35px;
+	width: 260px;
+	height: 51px;
+	z-index: 4;
+	font-family: "Segoe UI";
+	font-size: 14px;
+	color: 0f698d;
+        text-align: center;
+}
+
+#txtkit1 {
+	position: absolute;
+	left: 99px;
+	top: 263px;
+	width: 174px;
+	height: 54px;
+	/* z-index: 999; */
+	font-family: "Segoe UI";
+	font-size: 14px;
+	color: 0f698d;
+	text-align: right;
+}
+
+#destaque img.base {
+	position: absolute;
+	top: 148px;
+	left: 0px;
+	width: 216px;
+	height: 168px;
+}
+
+#destaque img.rosca {
+	position: absolute;
+	top: 316px;
+	left: 0px;
+	width: 216px;
+	height: 143px;
+}
+
+#destaque img.lanca {
+	position: absolute;
+	top: 459px;
+	left: 0px;
+	width: 216px;
+	height: 159px;
+}
+
+#destaque div.txtdestaque {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 216px;
+	height: 148px;
+}
+
+#destaque h3 {
+	font-weight: normal;
+	font-size: 135%;
+	margin: 35px 35px 0 0;
+	text-align: right;
+	line-height: 100%;
+	letter-spacing: -1px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #163d1b;
+}
+
+#destaque h3 a {
+	color: #163d1b;
+}
+
+#destaque p {
+	font-size: 80%;
+	text-align: right;
+	margin-right: 35px;
+	color: #666;
+}
+
+#destaque p a {
+	color: #666;
+}
+
+#cubos {
+	width: 746px;
+	height: 150px;
+	position: absolute;
+	top: 323px;
+	left: 0px;
+}
+
+div.tituloCubos {
+	width: 746px;
+	background-color: #163d1b;
+	height: 37px;
+	position: relative;
+	float: left;
+}
+
+div.tituloCubos h1 {
+	width: 746px;
+	text-align: center;
+	letter-spacing: -1.2px;
+	color: #8a9e8d;
+	font-weight: normal;
+	font-size: 220%;
+	line-height: 100%;
+}
+
+div.imgsCubos {
+	width: 746px;
+	height: 113px;
+	position: relative;
+	float: left;
+}
+
+div.imgsCubos img {
+	position: relative;
+	float: left;
+}
+
+#vendidos {
+	width: 397px;
+	height: 658px;
+	position: absolute;
+	top: 485px;
+	left: 349px;
+}
+
+#vendidos div.titulo {
+	width: 397px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#img1 {
+	position: absolute;
+	top: 59px;
+	left: 0px;
+}
+
+#img2 {
+	position: absolute;
+	top: 179px;
+	left: 239px;
+}
+
+#img3 {
+	position: absolute;
+	top: 299px;
+	left: 0px;
+}
+
+#img4 {
+	position: absolute;
+	top: 419px;
+	left: 239px;
+}
+
+#img5 {
+	position: absolute;
+	top: 539px;
+	left: 0px;
+}
+
+#tit1 {
+	position: absolute;
+	top: 59px;
+	left: 158px;
+}
+
+#tit2 {
+	position: absolute;
+	top: 179px;
+	left: 0px;
+}
+
+#tit3 {
+	position: absolute;
+	top: 299px;
+	left: 158px;
+}
+
+#tit4 {
+	position: absolute;
+	top: 419px;
+	left: 0px;
+}
+
+#tit5 {
+	position: absolute;
+	top: 539px;
+	left: 158px;
+}
+
+#txt1 {
+	position: absolute;
+	top: 101px;
+	left: 158px;
+}
+
+#txt2 {
+	position: absolute;
+	top: 221px;
+	left: 0px;
+}
+
+#txt3 {
+	position: absolute;
+	top: 341px;
+	left: 158px;
+}
+
+#txt4 {
+	position: absolute;
+	top: 461px;
+	left: 0px;
+}
+
+#txt5 {
+	position: absolute;
+	top: 581px;
+	left: 158px;
+}
+
+#vendidos div.tit_esq, div.tit_dir {
+	width: 239px;
+	height: 35px;
+}
+
+#vendidos h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 155%;
+	font-weight: normal;
+	letter-spacing: -2px;
+	line-height: 100%;
+	color: #163d1b;
+}
+
+#vendidos h3 a {
+	color: #163d1b;
+}
+
+#vendidos div.tit_esq h3 {
+	margin: 10px 0 0 10px;
+}
+
+#vendidos div.tit_dir h3 {
+	margin: 10px 10px 0 0;
+	text-align: right;
+}
+
+#vendidos div.txt_esq, div.txt_dir {
+	width: 239px;
+	height: 64px;
+}
+
+#vendidos p {
+	font-size: 80%;
+	color: #404040;
+}
+
+#vendidos p a {
+	color: #404040;
+}
+
+#vendidos div.txt_esq p {
+	margin-left: 10px;
+}
+
+#vendidos div.txt_dir p {
+	margin-right: 10px;
+	text-align: right;
+}
+
+#torcedorflash {
+	width: 746px;
+	height: 307px;
+	position: absolute;
+	top: 1164px;
+	left: 0px;
+}
+
+#bandMuni {
+	width: 280px;
+	height: 399px;
+	position: absolute;
+	top: 1494px;
+	left: 0px;
+}
+
+#muni01 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 280px;
+	height: 21px;
+	background: url(../../../../Home%202011/HTML/home/NOVA/prod/home/muni01.jpg);
+}
+
+#muniTit {
+	position: absolute;
+	top: 21px;
+	left: 0px;
+	width: 280px;
+	height: 129px;
+}
+
+#muni021 {
+	position: absolute;
+	top: 150px;
+	left: 0px;
+	width: 60px;
+	height: 100px;
+	background: url(../../../../Home%202011/HTML/home/NOVA/prod/home/muni02.jpg);
+}
+
+#muni022 {
+	position: absolute;
+	top: 150px;
+	left: 60px;
+	width: 220px;
+	height: 100px;
+}
+
+#muniTxt {
+	position: absolute;
+	top: 250px;
+	left: 0px;
+	width: 133px;
+	height: 97px;
+}
+
+#muni032 {
+	position: absolute;
+	top: 250px;
+	left: 133px;
+	width: 147px;
+	height: 97px;
+}
+
+#muni041 {
+	position: absolute;
+	top: 347px;
+	left: 0px;
+	width: 133px;
+	height: 52px;
+	background: url(../../../../Home%202011/HTML/home/NOVA/prod/home/muni05.jpg);
+}
+
+#muni042 {
+	position: absolute;
+	top: 347px;
+	left: 133px;
+	width: 147px;
+	height: 52px;
+	background: url(../../../../Home%202011/HTML/home/NOVA/prod/home/muni06.jpg);
+}
+
+#pedPerson {
+	width: 457px;
+	height: 399px;
+	position: absolute;
+	top: 1494px;
+	left: 289px;
+}
+
+#personTit01 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 137px;
+	height: 94px;
+}
+
+#personTit02 {
+	position: absolute;
+	top: 0px;
+	left: 137px;
+	width: 180px;
+	height: 94px;
+}
+
+#person013 {
+	position: absolute;
+	top: 0px;
+	left: 317px;
+	width: 140px;
+	height: 94px;
+	background: url(../../../../Home%202011/HTML/home/NOVA/prod/home/person013.jpg);
+}
+
+#person021 {
+	position: absolute;
+	top: 94px;
+	left: 0px;
+	width: 15px;
+	height: 200px;
+	background: url(../../../../Home%202011/HTML/home/NOVA/prod/home/person021.jpg) repeat-y;
+}
+
+#pedFoto01 {
+	position: absolute;
+	top: 94px;
+	left: 15px;
+	width: 231px;
+	height: 200px;
+}
+
+#pedFoto02 {
+	position: absolute;
+	top: 94px;
+	left: 246px;
+	width: 71px;
+	height: 200px;
+}
+
+#pedFoto03 {
+	position: absolute;
+	top: 94px;
+	left: 317px;
+	width: 140px;
+	height: 200px;
+}
+
+#person031 {
+	position: absolute;
+	top: 294px;
+	left: 0px;
+	width: 15px;
+	height: 105px;
+	background: url(../../../../Home%202011/HTML/home/NOVA/prod/home/person031.jpg);
+}
+
+#personTxt01 {
+	position: absolute;
+	top: 294px;
+	left: 15px;
+	width: 231px;
+	height: 105px;
+	background: url(../../../../Home%202011/HTML/home/NOVA/prod/home/persontxt01.jpg);
+}
+
+#personTxt01 p.txtPerson {
+	position: absolute;
+	width: 190px;
+	font-size: 13px;
+	color: #575757;
+	line-height: 100%;
+	display: inline;
+}
+
+#txtPed1 {
+	top: 13px;
+	left: 19px;
+}
+
+#txtPed2 {
+	top: 45px;
+	left: 19px;
+}
+
+#txtPed3 {
+	top: 63px;
+	left: 19px;
+}
+
+#personTxt02 {
+	position: absolute;
+	top: 294px;
+	left: 246px;
+	width: 211px;
+	height: 105px;
+	background: url(../../../../Home%202011/HTML/home/NOVA/prod/home/persontxt02.jpg);
+}
+
+#personTxt02 p.txtPerson {
+	position: absolute;
+	top: 19px;
+	left: 26px;
+	float: left;
+	width: 180px;
+	font-size: 16px;
+	color: #fff;
+	line-height: 124%;
+	display: inline;
+	letter-spacing: -0.5px;
+	text-align: center;
+}
+
+#personTxt02 p.txtPerson span {
+	font-weight: bold;
+}
+
+#bandGig {
+	width: 746px;
+	height: 329px;
+	position: absolute;
+	top: 1909px;
+	left: 0px;
+	background: blue;
+}
+
+#gig01 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 552px;
+	height: 329px;
+}
+
+#gigTit {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 541px;
+	*width: 552px;
+	height: 39px;
+	padding-left: 11px;
+	background: url(../../../../Home%202011/HTML/home/NOVA/prod/home/gigtit.jpg) repeat-x;
+}
+
+#gigTit h1 {
+	letter-spacing: -1.2px;
+	color: #8a9e8d;
+	font-weight: normal;
+	font-size: 220%;
+	line-height: 100%;
+}
+
+#gigTxt {
+	position: absolute;
+	top: 39px;
+	left: 0px;
+	width: 552px;
+	height: 114px;
+	background: url(../../../../Home%202011/HTML/home/NOVA/prod/home/gigtxt.jpg) repeat-x;
+}
+
+#gigTxt p.txtGig {
+	position: absolute;
+	top: 14px;
+	left: 14px;
+	width: 376px;
+	font-size: 13px;
+	color: #454545;
+	line-height: 155%;
+}
+
+#gig013 {
+	position: absolute;
+	top: 153px;
+	left: 0px;
+	width: 552px;
+	height: 104px;
+	background: url(../../../../Home%202011/HTML/home/NOVA/prod/home/gig013.jpg) repeat-x;
+}
+
+#gigContato {
+	position: absolute;
+	top: 257px;
+	left: 0px;
+	width: 552px;
+	height: 72px;
+}
+
+#gigInfo {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 138px;
+	height: 72px;
+	background: url(../../../../Home%202011/HTML/home/NOVA/prod/home/giginfo.jpg);
+}
+
+#gigTel01 {
+	position: absolute;
+	top: 0px;
+	left: 138px;
+	width: 65px;
+	height: 72px;
+	background: url(../../../../Home%202011/HTML/home/NOVA/prod/home/gigtel01.jpg);
+}
+
+#gigTel02 {
+	position: absolute;
+	top: 0px;
+	left: 203px;
+	width: 97px;
+	height: 72px;
+	background: url(../../../../Home%202011/HTML/home/NOVA/prod/home/gigtel02.jpg);
+}
+
+#gigTel02 p.txtGig {
+	position: absolute;
+	top: 20px;
+	left: 5px;
+	font-size: 12px;
+	color: #797979;
+	line-height: 135%;
+}
+
+#gigTel02 p.txtGig span{
+	font-size: 11px;
+}
+
+#gigMail01 {
+	position: absolute;
+	top: 0px;
+	left: 300px;
+	width: 59px;
+	height: 72px;
+	background: url(../../../../Home%202011/HTML/home/NOVA/prod/home/gigmail01.jpg);
+}
+
+#gigMail02 {
+	position: absolute;
+	top: 0px;
+	left: 359px;
+	width: 193px;
+	height: 72px;
+	background: url(../../../../Home%202011/HTML/home/NOVA/prod/home/gigmail02.jpg);
+}
+
+#gigMail02 p.txtGig {
+	position: absolute;
+	top: 20px;
+	left: 5px;
+	font-size: 12px;
+	line-height: 135%;
+}
+
+#gigMail02 p.txtGig a {
+	color: #797979;
+}
+
+#gig02 {
+	position: absolute;
+	top: 0px;
+	left: 552px;
+	width: 194px;
+	height: 329px;
+	background: url(../../../../Home%202011/HTML/home/NOVA/prod/home/gig02.jpg);
+}
+
+.kits {
+	font-family: "Segoe UI";
+	font-size: 22px;
+	font-weight: bold;
+	color: #FFF;
+	/* z-index: 111; */
+}
+.destakband {
+	font-family: "Myriad Pro";
+	font-size: 38px;
+	color: #2975A3;
+	letter-spacing: -3em;
+}
+.EstLinhaBarraExt{
+display: none;
+}
+.EstLinhaBarra{
+display: none;
+}
+
+@charset "utf-8";
+/* CSS Document */
+
+
+#conteudo {
+	padding: 0px;
+	position: absolute;
+	/* top: 9px; */
+	width: 1100;
+	height: 1583px;
+	/* z-index: 10; */
+}	
+#bt1 {
+	position: absolute;
+	left: -6px;
+	top: -2px;
+	width: 121px;
+	height: 98px;
+	/* z-index: 1; */
+}
+#bannertopo {
+	position:absolute;
+	left:27px;
+	top:25px;
+	width:600px;
+	height:224px;
+	z-index:22;
+}
+#bt2 {
+	position: absolute;
+	left: 292px;
+	top: -2px;
+	width: 82px;
+	height: 103px;
+	/* z-index: 2; */
+}
+#bt3 {
+	position: absolute;
+	left: 585px;
+	top: 3px;
+	width: 79px;
+	height: 66px;
+	/* z-index: 3; */
+}
+#textobt2 {
+	position: absolute;
+	left: 415;
+	top: 12;
+	width: 170px;
+	height: 98px;
+	/* z-index: 4; */
+	line-height: 1.5;
+}
+.txtbot {
+   font-family: "Segoe UI"; 
+   font-size: 10pt ;
+   font-color: #CCC
+}
+
+#textobt1 {
+	position: absolute;
+	left: 120;
+	top: 12;
+	width: 170px;
+	height: 102px;
+	/* z-index: 4; */
+	line-height: 1.5;
+	font-size:;
+}
+.txtbot2 {   font-family: "Segoe UI"; 
+   font-size: 10pt ;
+   font-color: #CCC
+}
+#textobt3 {
+	position: absolute;
+	left: 707;
+	top: 12;
+	width: 170px;
+	height: 94px;
+	z-index: 4;
+	
+	line-height: 1.5;
+}
+.txtbot3 {   font-family: "Segoe UI";
+   font-size: 10pt ;
+   font-color: #CCC
+}
+.bandsbrasil {
+	position: absolute;
+	left: 8px;
+	top: 105px;
+	width: 241px;
+	height: 33px;
+	/* z-index: 5; */
+	font-family: "Segoe UI";
+	font-size: 35;
+	color: #E8C420;
+	font-weight: normal;
+	text-transform: none;
+	letter-spacing: -2px;
+}
+#bandspaises {
+	position:absolute;
+	left:306px;
+	top: 105px;
+	width:254px;
+	height:40px;
+	/* z-index:5; */
+	font-family: "Segoe UI";
+	font-size: 35;
+	color: #579F5B;
+	font-weight: normal;
+}
+#bandsestados {
+	position: absolute;
+	left: 599px;
+	top: 105px;
+	width: 282px;
+	height: 34px;
+	/* z-index: 5; */
+	font-family: "Segoe UI";
+	font-size: 35;
+	color: #E21939;
+	font-weight: normal;
+}
+#quadtxt1 {
+	position: absolute;
+	left: 11px;
+	top: 182px;
+	width: 231px;
+	height: 57px;
+	z-index: 6;
+	text-align: center;
+}
+#quadtxt2 {
+	position:absolute;
+	left:297px;
+	top:181px;
+	width:274px;
+	height:65;
+	z-index:7;
+}
+#quadtxt3 {
+	position: absolute;
+	left: 585px;
+	top: 181px;
+	width: 257px;
+	height: 62px;
+	z-index: 8;
+}
+#apDiv3 {
+	position:absolute;
+	left:248px;
+	top:14px;
+	width:231px;
+	height:127px;
+	z-index:9;
+}
+#quadimg1 {
+	position: absolute;
+	left: 0px;
+	top: 175px;
+	width: 268px;
+	height: 478px;
+	/* z-index: 14; */
+}
+#quadimg2 {
+	position: absolute;
+	left: 294px;
+	top: 175px;
+	width: 271px;
+	height: 475px;
+	/* z-index: 2; */
+}
+#quadimg3 {
+	position: absolute;
+	left: 586px;
+	top: 175px;
+	width: 268px;
+	height: 476px;
+	/* z-index: 12; */
+}
+
+#cont_kit1 {
+	position: absolute;
+	left: 15px;
+	top: 248px;
+	width: 248px;
+	height: 400px;
+	z-index: 99;
+}
+#cont_kit2 {
+	position: absolute;
+	left: 301px;
+	top: 376px;
+	width: 270px;
+	height: 343px;
+	z-index: 555;
+}
+#txtkit2 {
+	position: absolute;
+	left: 307px;
+	top: 234px;
+	width: 251px;
+	height: 84px;
+	/* z-index: 2; */
+	font-family: "Segoe UI";
+	text-align: center;
+	color: #136D95;
+	font-size: 13px;
+	line-height: 17px;
+}
+#cont_kit3 {
+	position: absolute;
+	left: 585px;
+	top: 312px;
+	width: 267px;
+	height: 399px;
+	z-index: 555;
+}
+#txtkit3 {
+    position: absolute;
+    left: 617px;
+    top: 544px;
+    width: 150px;
+    height: 51px;
+    /* z-index: 999; */
+    font-family: "Segoe UI";
+    font-size: 13px;
+    color: #136D95;
+    text-align: right;
+    line-height: 17px;
+}
+
+#txtkit1 {
+	position: absolute;
+	left: 10px;
+	top: 237px;
+	width: 246px;
+	height: 54px;
+	/* z-index: 999; */
+	font-family: "Segoe UI";
+	font-size: 13px;
+	color: #136D95;
+	text-align: right;
+	line-height: 17px;
+}
+
+#txtquad1 {
+	position: absolute;
+	left: 72px;
+	top: 175;
+	width: 200px;
+	height: 38px;
+	/* z-index: 111; */
+	font-family: "Segoe UI";
+	font-size: 25px;
+	color: #FFF;
+	text-align: center;
+	letter-spacing: -1px;
+}
+#txtquad2 {
+	position: absolute;
+	left: 403;
+	top: 176;
+	width: 180px;
+	height: 42px;
+	/* z-index: 13; */
+	font-family: "Segoe UI";
+	font-size: 25px;
+	color: #FFF;
+	text-align: center;
+}
+
+#txtquad3 {
+	position: absolute;
+	left: 713;
+	top: 175;
+	width: 143px;
+	height: 42px;
+	/* z-index: 13; */
+	font-family: "Segoe UI";
+	color: #FFF;
+	text-align: center;
+	font-size: 25px;
+}
+#kits {
+	position: absolute;
+	left: 37px;
+	top: 175;
+	width: 60px;
+	height: 26px;
+	/* z-index: 111; */
+	font-family: "Segoe UI";
+	font-size: 25px;
+	font-weight: bold;
+	color: #FFF;
+}
+#kits2 {
+	position: absolute;
+	left: 306px;
+	top: 176;
+	width: 60px;
+	height: 26px;
+	/* z-index: 14; */
+	font-family: "Segoe UI";
+	font-weight: bold;
+	color: #FFF;
+	font-size: 25px;
+}
+#kits3 {
+	position: absolute;
+	left: 626px;
+	top: 175;
+	width: 60px;
+	height: 26px;
+	/* z-index: 14; */
+	font-family: "Segoe UI";
+	font-size: 25px;
+	font-weight: bold;
+	color: #FFF;
+}
+#destpravc {
+	position:absolute;
+	left:12px;
+	top:707px;
+	width:98px;
+	height:62px;
+	z-index:15;
+}
+#destpravc {
+	font-family: "Segoe UI";
+	font-size: 22px;
+	color: #039;
+	font-weight: bold;
+	line-height: normal;
+	word-spacing: 2px;
+}
+#destpravc p {
+	font-size: 24px;
+}
+
+#destak1 {
+	position: absolute;
+	left: 0px;
+	top: 67px;
+	width: 313px;
+	height: 205px;
+	/* z-index: 17; */
+	background-color: #1886B2;
+}
+
+#destaktxt1 {
+
+}
+#destaktxt1 {
+	position: absolute;
+	left: 137px;
+	top: 12px;
+	width: 161px;
+	height: 106px;
+	/* z-index: 17; */
+	font-size: 13px;
+	line-height: 1.7;
+	color: #FFF;
+	font-family: "Segoe UI";
+}
+#destak2 {
+	position: absolute;
+	left: 321px;
+	top: 67px;
+	width: 187px;
+	height: 205px;
+	/* z-index: 17; */
+	background-color: #F0F0F0;
+	color: #F0F0F0;
+}
+
+#destaktxt2 {
+	font-family: "Segoe UI";
+	font-size: 10px;
+	color: #666;
+}
+#destaktxt2 {
+	position: absolute;
+	left: 68px;
+	top: 12px;
+	width: 113px;
+	height: 51px;
+	/* z-index: 17; */
+	font-size: 12px;
+	line-height: 1.5;
+	color: #387CC0;
+	font-weight: 500;
+	text-align: end;
+}
+#destak3 {
+	position: absolute;
+	left: 0px;
+	top: 280px;
+	width: 313px;
+	height: 205px;
+	/* z-index: 17; */
+	background-color: #1886B2;
+}
+
+#destaktxt3 {
+	font-family: "Segoe UI";
+	font-size: 10px;
+	color: #666;
+}
+#destaktxt3 {
+	position: absolute;
+	left: 15px;
+	top: 12px;
+	width: 145px;
+	height: 129px;
+	/* z-index: 17; */
+	font-size: 13px;
+	line-height: 1.7;
+	color: #FFF;
+	text-align: right;
+	bottom: -1px;
+	text-align: -webkit-auto;
+}
+#destak4 {
+	position: absolute;
+	left: 321px;
+	top: 280px;
+	width: 187px;
+	height: 205px;
+	/* z-index: 17; */
+	background-color: #F0F0F0;
+}
+
+#destaktxt4 {
+	font-family: "Segoe UI";
+	font-size: 10px;
+	color: #666;
+}
+#destaktxt4 {
+	position: absolute;
+	left: 31px;
+	top: 122px;
+	width: 142px;
+	height: 51px;
+	/* z-index: 17; */
+	font-size: 12px;
+	line-height: 1.5;
+	color: #1886B2;
+	text-align: center;
+	font-weight: 500;
+}
+
+
+#destakband1 {
+	position: absolute;
+	left: 22px;
+	top: 155px;
+	width: 275px;
+	height: 25px;
+	/* z-index: 18; */
+	font-family: "Segoe UI";
+	font-size: 33px;
+	color: #FFFFFF;
+	text-align: center;
+	letter-spacing: -1px;
+}
+
+.destakband {
+	font-family: "Segoe UI";
+	font-size: 16px;
+	color: #009;
+}
+#destakband2 {
+	position: absolute;
+	left: 315px;
+	top: 224px;
+	width: 203px;
+	height: 25px;
+	/* z-index: 18; */
+	font-family: "Segoe UI";
+	font-size: 33px;
+	color: #387CC0;
+	text-align: center;
+	letter-spacing: -1px;
+}
+#destakband3 {
+	position: absolute;
+	left: 44px;
+	top: 435px;
+	width: 224px;
+	height: 25px;
+	/* z-index: 18; */
+	font-family: "Segoe UI";
+	font-size: 33px;
+	color: #FFFFFF;
+	letter-spacing: -1px;
+}
+#destakband4 {
+	position: absolute;
+	left: 322px;
+	top: 435px;
+	width: 191px;
+	height: 25px;
+	/* z-index: 18; */
+	font-family: "Segoe UI";
+	font-size: 33px;
+	color: #387CC0;
+	text-align: center;
+	letter-spacing: -1px;
+}
+#destpravc2 {
+	position:absolute;
+	left:857px;
+	top:706px;
+	width:83px;
+	height:55px;
+	z-index:15;
+}
+#destpravc2 {
+	font-family: "Segoe UI";
+	font-size: 24px;
+	color: #8C830D;
+	font-weight: normal;
+	line-height: normal;
+	text-align: right;
+}
+#icoespeciais {
+	position: absolute;
+	left: 515px;
+	top: 273px;
+	width: 350px;
+	height: 224px;
+	/* z-index: 19; */
+	font-family: "Segoe UI";
+	font-size: x-large;
+}
+#bannerbaixo {
+	position: absolute;
+	left: 2px;
+	top: 701px;
+	width: 867px;
+	height: 10px;
+	z-index: 20;
+}
+#contatos {
+	position:absolute;
+	left:12px;
+	top:1258px;
+	width:746px;
+	height:373px;
+	z-index:21;
+}
+#atendimento {
+	position:absolute;
+	left:239px;
+	top:1506px;
+	width:233px;
+	height:47px;
+	z-index:22;
+	font-family: "Segoe UI";
+	font-size: 16px;
+}
+#atendimento p {
+	font-family: "Segoe UI";
+	font-size: 24px;
+	color: #000;
+}
+.atendimento2 {
+	font-size: 16px;
+	color: #000;
+}
+
+#ofertas {
+	position: absolute;
+	left: 20px;
+	top: 0px;
+	width: 57px;
+	height: 22px;
+	/* z-index: 21; */
+	font-family: "Segoe UI";
+	font-weight: bold;
+	font-size: 39px;
+	color: #1886b2;
+	letter-spacing: -1px;
+}
+#dpv {
+	position: absolute;
+	left: 173px;
+	top: 30px;
+	width: 141px;
+	height: 22px;
+	/* z-index: 22; */
+	font-family: "Segoe UI";
+	font-size: 28px;
+	color: #1886b2;
+	letter-spacing: -1px;
+}
+#secoes {
+	position: absolute;
+	left: 521px;
+	top: 214px;
+	width: 84px;
+	height: 26px;
+	/* z-index: 23; */
+	font-family: "Segoe UI";
+	font-size: 39px;
+	font-weight: bold;
+	color: #1886b2;
+	letter-spacing: -1px;
+}
+#especiais {
+	position: absolute;
+	left: 652px;
+	top: 224px;
+	width: 112px;
+	height: 31px;
+	/* z-index: 24; */
+	font-family: "Segoe UI";
+	font-size: 28px;
+	color: #1886b2;
+	letter-spacing: -1px;
+}
+
+#barracinza {
+	position: absolute;
+	left: 2px;
+	width: 25px;
+	height: 404px;
+	z-index: 11;
+	background-color: #CCCCCC;
+}
+#minidestak1 {
+    position: absolute;
+    left: 2px;
+    width: 186px;
+    height: 195px;
+    z-index: 12;
+    top: 1px;
+}
+#minidestak2 {
+    position: absolute;
+    left: 296px;
+    top: 1px;
+    width: 280px;
+    height: 231px;
+    z-index: 13;
+}
+#minidestak3 {
+    position: absolute;
+    left: 589px;
+    top: 1px;
+    width: 261px;
+    height: 228px;
+    z-index: 14;
+}
+#minitxt1 {
+	position: absolute;
+	left: 73px;
+	top: -2px;
+	width: 80px;
+	height: 24px;
+	z-index: 15;
+	font-weight: bold;
+	font-size: 24px;
+}
+#minitxt2 {
+	position: absolute;
+	left: 453px;
+	top: -2px;
+	width: 80px;
+	height: 24px;
+	z-index: 15;
+	font-weight: bold;
+	font-size: 24px;
+}
+#minitxt3 {
+	position: absolute;
+	left: 652px;
+	width: 80px;
+	height: 24px;
+	z-index: 15;
+	font-weight: bold;
+	font-size: 24px;
+        top: -2px;
+}
+.minitxt {
+	font-family: "Segoe UI";
+	font-size: 14px;
+	color: #FFF;
+}
+#bola {
+	position: absolute;
+	left: 353px;
+	top: -2px;
+	width: 58px;
+	height: 29px;
+	z-index: 16;
+	font-family: "Segoe UI";
+	color: #FFF;
+	font-size: 24px;
+}
+#br {
+	position: absolute;
+	left: 723px;
+	top: -2px;
+	width: 58px;
+	height: 29px;
+	z-index: 16;
+	font-family: "Segoe UI";
+	color: #FFF;
+	font-size: 24px;
+}
+#eua {
+	position: absolute;
+	left: 166px;
+	top: -2px;
+	width: 58px;
+	height: 29px;
+	z-index: 16;
+	font-family: "Segoe UI";
+	color: #FFF;
+	font-size: 24px;
+}
+#descmini1 {
+	position: absolute;
+	left: 151px;
+	top: 137px;
+	width: 124px;
+	height: 87px;
+	z-index: 17;
+	text-align: left;
+}
+#descmini2 {
+	position: absolute;
+	left: 301px;
+	top: 157px;
+	width: 165px;
+	height: 65px;
+	z-index: 17;
+	text-align: left;
+}
+#descmini3 {
+	position: absolute;
+	left: 598px;
+	top: 138px;
+	width: 165px;
+	height: 65px;
+	z-index: 17;
+	text-align: left;
+}
+.minidesc {
+	font-family: "Segoe UI";
+	font-size: 14px;
+	color: #666;
+}
+#bloco3 {
+	position: absolute;
+	left: 1px;
+	top: 1322px;
+	width: 865px;
+	height: 249px;
+	z-index: 11;
+}
+#bloco2 {
+	position: absolute;
+	left: 0px;
+	top: 1059px;
+	width: 866px;
+	height: 409px;
+	/* z-index: 11; */
+	font-family: "Segoe UI";
+	font-size: 39px;
+}
+#imgdestak1 {
+	position: absolute;
+	left: 6px;
+	top: 5px;
+	width: 101px;
+	height: 135px;
+	z-index: 1;
+}
+
+#slider2 {
+	position: absolute;
+	left: 0px;
+	top: 706px;
+	width: ;
+	height: ;
+	z-index: 1;
+}
+#imgdestak3 {
+	position: absolute;
+	left: 160px;
+	top: 14px;
+	width: 87px;
+	height: 83px;
+	/* z-index: 1; */
+	bottom: -1px;
+}
+#maisvend {
+	position: absolute;
+	left: 515px;
+	top: 67px;
+	width: 350px;
+	height: 130px;
+	/* z-index: 1; */
+	background-color: #F0F0F0;
+}
+#omaisv {
+	position: absolute;
+	left: 3px;
+	top: -66px;
+	width: 286px;
+	height: 60px;
+	z-index: 1;
+	font-family: "Segoe UI";
+	font-size: 39px;
+	color: #1886B2;
+	font-weight: bold;
+	letter-spacing: -1;
+}
+#emoferta {
+	position: absolute;
+	left: 220px;
+	top: -35px;
+	width: 126px;
+	height: 43px;
+	/* z-index: 2; */
+	font-family: "Segoe UI";
+	font-size: 28px;
+	color: #1886B2;
+	letter-spacing: -1;
+}
+#txtomaisv {
+	position: absolute;
+	left: 188px;
+	top: 12px;
+	width: 153px;
+	height: 58px;
+	/* z-index: 20; */
+	font-family: "Segoe UI";
+	font-size: 12px;
+	color: #387CC0;
+	line-height: 1.7;
+	font-weight: 500;
+	text-align: -webkit-right;
+	font-weight: 500;
+}
+#imgdestak2 {
+	position: absolute;
+	/* left: 32px; */
+	top: 3px;
+	width: 128px;
+	height: 73px;
+	/* z-index: 21; */
+}
+#imgdestak4 {
+	position: absolute;
+	left: 32px;
+	top: 0px;
+	width: 66px;
+	height: 62px;
+	z-index: 1;
+}
+#imgmaisv {
+	position: absolute;
+	left: 13px;
+	top: 24px;
+	width: 137px;
+	height: 71px;
+	z-index: 1;
+}
+
