@@ -1,0 +1,155 @@
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	img {
+		border: none;
+	}
+	
+	a {
+		text-decoration: none;
+	}
+
+	#tudobandeiras {
+		width: 870px;
+		font-family: Tahoma, Geneva, sans-serif;
+                
+		/* margin: 23px 0 0 0; */
+	}
+	
+	div.modelo {
+		position: relative;
+		float: left;
+		/* background-color: #491c23; */
+		width: 865px;
+		height: 37px;
+		padding: 0 0 10px 10px;
+		/* margin: 0px 0 0 0; */
+	
+		background-image: url("../../images/pesquisa/municipiopesquisa.gif");
+}
+	
+	h1.modelobandeiras {
+		position: relative;
+		float: left;
+		color: #92777b;
+		font-size: 230%;
+		letter-spacing: -1.7px;
+		font-weight: normal;
+		line-height: 100%;
+	}
+	
+	h2.titpesquisa {
+		position: relative;
+		float: right;
+		color: #92777b;
+		font-size: 170%;
+		letter-spacing: -1.7px;
+		font-weight: normal;
+		line-height: 100%;
+		font-style: italic;
+		margin: 9px 20px 0 0;
+		display: inline;
+	}
+	
+	div.tipo {
+		width: 746px;
+		height: 55px;
+		position: relative;
+		float: left;		
+	}
+	
+	img.square {
+		position: relative;
+		float: left;
+		clear: both;
+		margin: 26px 0 0 1px;
+	}
+	
+	p.subtitulonauticas {
+		position: relative;
+		float: left;
+		font-size: 16px;
+		color: #777;
+		margin: 20px 0 0 5px;
+	}
+	
+	#espaco {
+		height: 35px;
+	}
+	
+	img.square {
+		position: relative;
+		float: left;
+		clear: both;
+		margin: 26px 0 0 1px;
+	}
+	
+	p.subtitulobones {
+		position: relative;
+		float: left;
+		font-size: 16px;
+		color: #777;
+		margin: 20px 0 0 5px;
+	}
+	
+	div.bandeirasp {
+		width: 108px;
+		height: 93px;
+		position: relative;
+		float: left;
+		margin: 0 67px 26px 10px;
+		*margin: 0 38px 26px 10px;
+		display: inline;		
+	}
+	
+	img.imgnaut {
+		width: 108px;
+		height: 75px;
+		position: relative;
+		float: left;
+	}
+	
+	span.nomenaut {
+		width: 108px;
+		height: 18px;
+		position: relative;
+		float: left;
+		text-align: center;
+		font-size: 96%;
+		color: #848581;
+	}
+	
+	span.nomenautg {
+		width: 108px;
+		height: 18px;
+		position: relative;
+		float: left;
+		text-align: center;
+		font-size: 75%;
+		line-height: 100%;
+		color: #848581;
+	}
+	
+	div.bandeiras {
+		width: 108px;
+		height: 93px;
+		position: relative;
+		float: left;
+		margin: 0 67px 26px 0;
+		*margin: 0 38px 26px 0;
+		display: inline;
+	}
+	
+	div.bandeirasu {
+		width: 108px;
+		height: 93px;
+		position: relative;
+		float: left;
+		margin: 0 11px 26px 0;
+		display: inline;
+	}
+
+	
+	
