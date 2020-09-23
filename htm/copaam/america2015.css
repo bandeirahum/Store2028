@@ -1,0 +1,52 @@
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	img {
+		border: none;
+		position: relative;
+		
+	}
+	
+	a {
+		text-decoration: none;
+		color: #000;
+	}
+
+	#tudoproduto {
+	position: relative;
+	float: left;
+	width: 840px;
+	display: inline;
+	font-family: Tahoma, Geneva, sans-serif;
+	height: 960px;
+	}
+	
+	div.flash {
+	position: relative;
+	float: left;
+	width: 744px;
+	z-index: 2;
+	margin: 42px 0 0 42px;
+	border-radius: 5px;
+	height: 884px;
+	}
+    #fundoazul {
+	position: absolute;
+	left: 16px;
+	top: 89px;
+	width: 830px;
+	height: 940px;
+	z-index: 1;
+	/* color: #1362af; */
+	background-color: #1362af;
+}
+#tituloca {
+	position: absolute;
+	left: -8px;
+	top: 8px;
+	width: 795px;
+	height: 56px;
+	z-index: 1;
+}
