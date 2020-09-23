@@ -1,0 +1,1098 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<loja nome="Bandeira1 - Loja Virtual">
+
+  <produto>
+  <id_produto>486961</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=486961</link_produto> 
+  <descricao>Bandeira do Brasil - Oficial Bordada - Tamanho: 0.70x1.00 m - Bandeira1</descricao> 
+  <preco>R$ 45,00</preco> 
+  <preco_normal>R$ 45,00</preco_normal> 
+  <descritor nome="tamanhos">0.70x1.00m</descritor> 
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/brasilbordadap.jpg</imagem> 
+  <categoria>Especial Brasil</categoria> 
+  </produto>
+
+  <produto>
+  <id_produto>486965</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=486965</link_produto> 
+  <descricao>Bandeira do Brasil - Oficial em Stampo - Tamanho: 0,70x1,00 m - Bandeira1</descricao> 
+  <preco>R$ 35,00</preco> 
+  <preco_normal>R$ 35,00</preco_normal> 
+  <descritor nome="tamanhos">0.70x1.00m</descritor> 
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/brasilstampop.jpg</imagem> 
+  <categoria>Especial Brasil</categoria> 
+  </produto>
+ 
+  <produto>
+  <id_produto>387684</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=387684</link_produto> 
+  <descricao>Bandeira do Brasil em tecido p/ carro - Tamanho: 28x40cm - Suporte: 42cm de altura em plástico. - Bandeira1</descricao> 
+  <preco>R$ 7,00</preco> 
+  <preco_normal>R$ 7,00</preco_normal> 
+  <descritor nome="tamanhos">28x40cm</descritor> 
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/carp.jpg</imagem> 
+  <categoria>Especial Brasil</categoria> 
+  </produto>
+
+  <produto>
+  <id_produto>608510</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=608510</link_produto> 
+  <descricao>Mini bandeira de mesa - kit com 10 pçs - Tamanho: 5,5x8cm - Pedestal: 15cm de altura em ABS cromado - Bandeira1</descricao> 
+  <preco>R$ 49,90</preco> 
+  <preco_normal>R$ 49,90</preco_normal> 
+  <descritor>5x8cm</descritor> 
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/KitBrasilp.jpg</imagem> 
+  <categoria>Especial Brasil</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>346187</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=346187</link_produto> 
+  <descricao>Bandeira de mesa do Brasil - Tamanho: 10x14cm - Pedestal: 25cm de altura em ABS preto - Bandeira1</descricao> 
+  <preco>R$ 8,00</preco> 
+  <preco_normal>R$ 8,00</preco_normal> 
+  <descritor nome="Cor">Preto</descritor>  
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/brasilpedpretop.jpg</imagem> 
+  <categoria>Especial Brasil</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>346165</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=346165</link_produto> 
+  <descricao>Bandeira de mesa do Brasil - Tamanho: 10x14cm - Pedestal: 25cm de altura em ABS cromado - Bandeira1</descricao> 
+  <preco>R$ 11,00</preco> 
+  <preco_normal>R$ 11,00</preco_normal> 
+  <descritor nome="Cor">Cromado</descritor>  
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/brasilpedp.jpg</imagem> 
+  <categoria>Especial Brasil</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>286233</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=286233</link_produto> 
+  <descricao>Base de madeira para 01 mastro. Em madeira  envernizada com cores ao natural. - Bandeira1</descricao> 
+  <preco>R$ 54,00</preco> 
+  <preco_normal>R$ 54,00</preco_normal> 
+  <descritor nome="Cor">Madeira</descritor>  
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/basemap.jpg</imagem> 
+  <categoria>Bases</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>298675</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=298675</link_produto> 
+  <descricao>Base de madeira revestida em fórmica para 01 mastro. - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor>Jacarandá</descritor>  
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/basedeformp01.jpg</imagem> 
+  <categoria>Bases</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>934806</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=934806</link_produto> 
+  <descricao>Base de madeira revestida em fórmica para 01 mastro. - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor>Mogno</descritor>  
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/modmogno1p.jpg</imagem> 
+  <categoria>Bases</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>298677</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=298677</link_produto> 
+  <descricao>Base de madeira revestida em fórmica para 02 mastros. - Bandeira1</descricao> 
+  <preco>R$ 96,00</preco> 
+  <preco_normal>R$ 96,00</preco_normal> 
+  <descritor>Jacarandá</descritor>  
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/basedeformp02.jpg</imagem> 
+  <categoria>Bases</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>934808</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=934808</link_produto> 
+  <descricao>Base de madeira revestida em fórmica para 02 mastros. - Bandeira1</descricao> 
+  <preco>R$ 96,00</preco> 
+  <preco_normal>R$ 96,00</preco_normal> 
+  <descritor>Mogno</descritor>  
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/modmogno2p.jpg</imagem> 
+  <categoria>Bases</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>298679</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=298679</link_produto> 
+  <descricao>Base de madeira revestida em fórmica para 03 mastros. - Bandeira1</descricao> 
+  <preco>R$ 115,00</preco> 
+  <preco_normal>R$ 115,00</preco_normal> 
+  <descritor>Jacarandá</descritor>  
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/basedeformp03.jpg</imagem> 
+  <categoria>Bases</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>934810</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=934810</link_produto> 
+  <descricao>Base de madeira revestida em fórmica para 03 mastros. - Bandeira1</descricao> 
+  <preco>R$ 115,00</preco> 
+  <preco_normal>R$ 115,00</preco_normal> 
+  <descritor>Mogno</descritor>  
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/modmogno3p.jpg</imagem> 
+  <categoria>Bases</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>298683</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=298683</link_produto> 
+  <descricao>Base de madeira revestida em fórmica para 04 mastros. - Bandeira1</descricao> 
+  <preco>R$ 157,00</preco> 
+  <preco_normal>R$ 157,00</preco_normal> 
+  <descritor>Jacarandá</descritor>  
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/basedeformp04.jpg</imagem> 
+  <categoria>Bases</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>934812</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=934812</link_produto> 
+  <descricao>Base de madeira revestida em fórmica para 04 mastros. - Bandeira1</descricao> 
+
+
+  <preco>R$ 157,00</preco> 
+  <preco_normal>R$ 157,00</preco_normal> 
+  <descritor>Mogno</descritor>  
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/modmogno4p.jpg</imagem> 
+  <categoria>Bases</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>298686</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=298686</link_produto> 
+  <descricao>Base de madeira revestida em fórmica para 05 mastros. - Bandeira1</descricao> 
+  <preco>R$ 190,00</preco> 
+  <preco_normal>R$ 190,00</preco_normal> 
+  <descritor>Jacarandá</descritor>  
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/basedeformp05.jpg</imagem> 
+  <categoria>Bases</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>934813</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=934813</link_produto> 
+  <descricao>Base de madeira revestida em fórmica para 05 mastros. - Bandeira1</descricao> 
+  <preco>R$ 190,00</preco> 
+  <preco_normal>R$ 190,00</preco_normal> 
+  <descritor>Mogno</descritor>  
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/modmogno5p.jpg</imagem> 
+  <categoria>Bases</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>285649</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=285649</link_produto> 
+  <descricao>Base em latão niquelado para 01 mastro. - Bandeira1</descricao> 
+  <preco>R$ 143,00</preco> 
+  <preco_normal>R$ 143,00</preco_normal> 
+  <descritor nome="Cor">Cromado</descritor>  
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/base1p.jpg</imagem> 
+  <categoria>Bases</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>285652</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=285652</link_produto> 
+  <descricao>Base em latão niquelado para 02 mastros. - Bandeira1</descricao> 
+  <preco>R$ 167,50</preco> 
+  <preco_normal>R$ 167,50</preco_normal> 
+  <descritor nome="Cor">Cromado</descritor>  
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/base2p.jpg</imagem> 
+  <categoria>Bases</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>285653</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=285653</link_produto> 
+  <descricao>Base em latão niquelado para 03 mastros. - Bandeira1</descricao> 
+  <preco>R$ 192,50</preco> 
+  <preco_normal>R$ 192,50</preco_normal> 
+  <descritor nome="Cor">Cromado</descritor>  
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/base3p.jpg</imagem> 
+  <categoria>Bases</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>298692</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=298692</link_produto> 
+  <descricao>Base de madeira revestida em fórmica - modelo modular - para 03 mastros. - Bandeira1</descricao> 
+  <preco>R$ 175,00</preco> 
+  <preco_normal>R$ 175,00</preco_normal> 
+  <descritor>Jacarandá</descritor>   
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/basedeformpmodular.jpg</imagem> 
+  <categoria>Bases</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>934814</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=934814</link_produto> 
+  <descricao>Base de madeira revestida em fórmica - modelo modular - para 03 mastros. - Bandeira1</descricao> 
+  <preco>R$ 175,00</preco> 
+  <preco_normal>R$ 175,00</preco_normal> 
+  <descritor>Mogno</descritor>   
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/modmogno03p.jpg</imagem> 
+  <categoria>Bases</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>641665</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=641665</link_produto> 
+  <descricao>Mastro em alumínio com lança - Bandeira1</descricao> 
+  <preco>R$ 79,00</preco> 
+  <preco_normal>R$ 79,00</preco_normal> 
+  <descritor>Alumínio</descritor>   
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/mastpartep.jpg</imagem> 
+  <categoria>Mastros</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>683986</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=683986</link_produto> 
+  <descricao>Mastro em alumínio com ponteiro modelo bola - Bandeira1</descricao> 
+  <preco>R$ 59,00</preco> 
+  <preco_normal>R$ 59,00</preco_normal> 
+  <descritor>Alumínio</descritor>   
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/mastbolap.jpg</imagem> 
+  <categoria>Mastros</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>485256</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=485256</link_produto> 
+  <descricao>Bandeira do Acre - Tamanho: 0.90x1.28m</descricao> 
+  <preco>R$ 75,00 - Bandeira1</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/acrep.jpg</imagem> 
+  <categoria>Estados</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>485257</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=485257</link_produto> 
+  <descricao>Bandeira de Alagoas - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/alagoasp.jpg</imagem> 
+  <categoria>Estados</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>485258</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=485258</link_produto> 
+  <descricao>Bandeira do Amapá - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/amapap.jpg</imagem> 
+  <categoria>Estados</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>485259</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=485259</link_produto> 
+  <descricao>Bandeira do Amazonas - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/amazonasp.jpg</imagem> 
+  <categoria>Estados</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>485260</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=485260</link_produto> 
+  <descricao>Bandeira da Bahia - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/bahiap.jpg</imagem> 
+  <categoria>Estados</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>485261</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=485261</link_produto> 
+  <descricao>Bandeira do Ceará - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/cearap.jpg</imagem> 
+  <categoria>Estados</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>485262</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=485262</link_produto> 
+  <descricao>Bandeira do Distrito Federal - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/distritop.jpg</imagem> 
+  <categoria>Estados</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>485263</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=485263</link_produto> 
+  <descricao>Bandeira do Espírito Santo - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/espiritop.jpg</imagem> 
+  <categoria>Estados</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>485264</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=485264</link_produto> 
+  <descricao>Bandeira de Goiás - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/goiasp.jpg</imagem> 
+  <categoria>Estados</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>485265</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=485265</link_produto> 
+  <descricao>Bandeira do Maranhão - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/maranhaop.jpg</imagem> 
+  <categoria>Estados</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>485266</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=485266</link_produto> 
+  <descricao>Bandeira do Mato Grosso - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/matogrossop.jpg</imagem> 
+  <categoria>Estados</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>485267</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=485267</link_produto> 
+  <descricao>Bandeira do Mato Grosso do Sul - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/matogrossosulp.jpg</imagem> 
+  <categoria>Estados</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>485268</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=485268</link_produto> 
+  <descricao>Bandeira de Minas Gerais - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/minasp.jpg</imagem> 
+  <categoria>Estados</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>485269</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=485269</link_produto> 
+  <descricao>Bandeira do Pará - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/parap.jpg</imagem> 
+  <categoria>Estados</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>485270</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=485270</link_produto> 
+  <descricao>Bandeira de Paraíba - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/paraibap.jpg</imagem> 
+  <categoria>Estados</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>485271</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=485271</link_produto> 
+  <descricao>Bandeira do Paraná - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/paranap.jpg</imagem> 
+  <categoria>Estados</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>485272</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=485272</link_produto> 
+  <descricao>Bandeira do Pernambuco - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/pernambucop.jpg</imagem> 
+  <categoria>Estados</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>485273</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=485273</link_produto> 
+  <descricao>Bandeira de Piauí - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/piauip.jpg</imagem> 
+  <categoria>Estados</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>485274</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=485274</link_produto> 
+  <descricao>Bandeira do Rio de Janeiro - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/riodejaneirop.jpg</imagem> 
+  <categoria>Estados</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>485280</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=485280</link_produto> 
+  <descricao>Bandeira do Rio Grande do Sul - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/riograndesulp.jpg</imagem> 
+  <categoria>Estados</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>485275</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=485275</link_produto> 
+  <descricao>Bandeira do Rio Grande do Norte - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/riograndenortep.jpg</imagem> 
+  <categoria>Estados</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>485276</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=485276</link_produto> 
+  <descricao>Bandeira de Rondônia - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/rondoniap.jpg</imagem> 
+  <categoria>Estados</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>485277</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=485277</link_produto> 
+  <descricao>Bandeira de Roraima - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/roraimap.jpg</imagem> 
+  <categoria>Estados</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>485283</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=485283</link_produto> 
+  <descricao>Bandeira de Santa Catarina - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/santacatarinap.jpg</imagem> 
+  <categoria>Estados</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>485281</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=485281</link_produto> 
+  <descricao>Bandeira de São Paulo - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/paulistap.jpg</imagem> 
+  <categoria>Estados</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>485278</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=485278</link_produto> 
+  <descricao>Bandeira do Sergipe - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/sergipep.jpg</imagem> 
+  <categoria>Estados</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>485279</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=485279</link_produto> 
+  <descricao>Bandeira de Tocantins - Tamanho: 0.90x1.28m -Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/tocantinsp.jpg</imagem> 
+  <categoria>Estados</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>470582</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=470582</link_produto> 
+  <descricao>Bandeira da África do Sul - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/afsp.jpg</imagem> 
+  <categoria>Paises</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>470569</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=470569</link_produto> 
+  <descricao>Bandeira da Argentina - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/argep.jpg</imagem> 
+  <categoria>Paises</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>470583</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=470583</link_produto> 
+  <descricao>Bandeira da Alemanha - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/almp.jpg</imagem> 
+  <categoria>Paises</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>470581</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=470581</link_produto> 
+  <descricao>Bandeira da Austrália - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/austp.jpg</imagem> 
+  <categoria>Paises</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>470591</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=470591</link_produto> 
+  <descricao>Bandeira da Bolívia - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/bolisp.jpg</imagem> 
+  <categoria>Paises</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>470604</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=470604</link_produto> 
+  <descricao>Bandeira do Canadá - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/canap.jpg</imagem> 
+  <categoria>Paises</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>470607</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=470607</link_produto> 
+  <descricao>Bandeira do Chile - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/chilp.jpg</imagem> 
+  <categoria>Paises</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>470608</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=470608</link_produto> 
+  <descricao>Bandeira da China - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/chinp.jpg</imagem> 
+  <categoria>Paises</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>470611</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=470591</link_produto> 
+  <descricao>Bandeira da Colômbia - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/colomp.jpg</imagem> 
+  <categoria>Paises</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>470614</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=470614</link_produto> 
+  <descricao>Bandeira da Costa Rica - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/costrip.jpg</imagem> 
+  <categoria>Paises</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>470615</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=470615</link_produto> 
+  <descricao>Bandeira de Cuba - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/cubp.jpg</imagem> 
+  <categoria>Paises</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>470631</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=470631</link_produto> 
+  <descricao>Bandeira do Egito - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/egip.jpg</imagem> 
+  <categoria>Paises</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>470636</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=470636</link_produto> 
+  <descricao>Bandeira do Equador - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/equp.jpg</imagem> 
+  <categoria>Paises</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>470634</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=470634</link_produto> 
+  <descricao>Bandeira da Espanha - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/espap.jpg</imagem> 
+  <categoria>Paises</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>470635</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=470635</link_produto> 
+  <descricao>Bandeira do Estados Unidos - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/estaunp.jpg</imagem> 
+  <categoria>Paises</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>470639</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=470639</link_produto> 
+  <descricao>Bandeira da França - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/franp.jpg</imagem> 
+  <categoria>Paises</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>470646</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=470646</link_produto> 
+  <descricao>Bandeira da Grécia - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/grecp.jpg</imagem> 
+  <categoria>Paises</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>470660</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=470660</link_produto> 
+  <descricao>Bandeira da Holanda - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/holp.jpg</imagem> 
+  <categoria>Paises</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>470674</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=470674</link_produto> 
+  <descricao>Bandeira da Índia - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/indp.jpg</imagem> 
+  <categoria>Paises</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>470677</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=470677</link_produto> 
+  <descricao>Bandeira da Inglaterra - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/inglp.jpg</imagem> 
+  <categoria>Paises</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>470692</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=470692</link_produto> 
+  <descricao>Bandeira do Irã - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/irap.jpg</imagem> 
+  <categoria>Paises</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>470675</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=470675</link_produto> 
+  <descricao>Bandeira do Iraque - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/iraqp.jpg</imagem> 
+  <categoria>Paises</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>470668</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=470668</link_produto> 
+  <descricao>Bandeira do Israel - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/israp.jpg</imagem> 
+  <categoria>Paises</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>470671</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=470671</link_produto> 
+  <descricao>Bandeira do Itália - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/itap.jpg</imagem> 
+  <categoria>Paises</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>471299</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=471299</link_produto> 
+  <descricao>Bandeira do Jamaica - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/jamp.jpg</imagem> 
+  <categoria>Paises</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>471298</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=471298</link_produto> 
+  <descricao>Bandeira do Japão - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/japp.jpg</imagem> 
+  <categoria>Paises</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>471307</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=471307</link_produto> 
+  <descricao>Bandeira do Libano - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/libap.jpg</imagem> 
+  <categoria>Paises</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>471326</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=471326</link_produto> 
+  <descricao>Bandeira do México - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/mexp.jpg</imagem> 
+  <categoria>Paises</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>471332</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=471332</link_produto> 
+  <descricao>Bandeira de Moçambique - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/mocamp.jpg</imagem> 
+  <categoria>Paises</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>471354</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=471354</link_produto> 
+  <descricao>Bandeira do Paraguai - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/paragp.jpg</imagem> 
+  <categoria>Paises</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>471351</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=471351</link_produto> 
+  <descricao>Bandeira do Peru - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/perup.jpg</imagem> 
+  <categoria>Paises</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>471349</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=471349</link_produto> 
+  <descricao>Bandeira de Porto Rico - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/portop.jpg</imagem> 
+  <categoria>Paises</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>471350</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=471350</link_produto> 
+  <descricao>Bandeira de Portugal - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/portup.jpg</imagem> 
+  <categoria>Paises</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>471367</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=471367</link_produto> 
+  <descricao>Bandeira do Reino Unido - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/reinop.jpg</imagem> 
+  <categoria>Paises</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>471362</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=471362</link_produto> 
+  <descricao>Bandeira da Russia - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/russiap.jpg</imagem> 
+  <categoria>Paises</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>471372</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=471372</link_produto> 
+  <descricao>Bandeira da Suécia - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/sueciap.jpg</imagem> 
+  <categoria>Paises</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>471273</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=471273</link_produto> 
+  <descricao>Bandeira da Suiça - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/suicap.jpg</imagem> 
+  <categoria>Paises</categoria> 
+
+
+  </produto>
+  
+  <produto>
+  <id_produto>471409</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=471409</link_produto> 
+  <descricao>Bandeira da Venezuela - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/venezsp.jpg</imagem> 
+  <categoria>Paises</categoria> 
+  </produto>
+  
+   <produto>
+  <id_produto>471442</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=471442</link_produto> 
+  <descricao>Bandeira do Vaticano - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/vatip.jpg</imagem> 
+  <categoria>Paises</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>470606</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=470606</link_produto> 
+  <descricao>Bandeira da Coréia do Sul - Tamanho: 0.90x1.28m - Bandeira1</descricao> 
+  <preco>R$ 75,00</preco> 
+  <preco_normal>R$ 75,00</preco_normal> 
+  <descritor nome="tamanhos">0.90x1.28m</descritor>    
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/coresup.jpg</imagem> 
+  <categoria>Paises</categoria> 
+  </produto>
+  
+<produto>
+  <id_produto>1083246</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=1083246</link_produto> 
+  <descricao>Chapéu do Brasil- Azul Marinho - Bandeira1</descricao> 
+  <preco>R$ 29,90</preco> 
+  <preco_normal>R$ 29,90</preco_normal> 
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/chazumarinhop.jpg</imagem> 
+  <categoria>Bonés e Chapéus</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>1083249</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=1083249</link_produto> 
+  <descricao>Chapéu do Brasil- Verde Musgo - Bandeira1</descricao> 
+  <preco>R$ 29,90</preco> 
+  <preco_normal>R$ 29,90</preco_normal> 
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/chverdemusgop.jpg</imagem> 
+  <categoria>Bonés e Chapéus</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>1080469</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=1080469</link_produto> 
+  <descricao>Bonés do Brasil- Verde Oliva - Bandeira1</descricao> 
+  <preco>R$ 24,00</preco> 
+  <preco_normal>R$ 24,00</preco_normal> 
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/verdeolivabp.jpg</imagem> 
+  <categoria>Bonés e Chapéus</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>1080388</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=1080388</link_produto> 
+  <descricao>Bonés do Brasil- Branco - Bandeira1</descricao> 
+  <preco>R$ 24,00</preco> 
+  <preco_normal>R$ 24,00</preco_normal> 
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/brancosjp.jpg</imagem> 
+  <categoria>Bonés e Chapéus</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>1072736</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=1072736</link_produto> 
+  <descricao>Bonés do Brasil- Branco com Frizos Azul - Bandeira1</descricao> 
+  <preco>R$ 24,00</preco> 
+  <preco_normal>R$ 24,00</preco_normal> 
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/brancolistraazp.jpg</imagem> 
+  <categoria>Bonés e Chapéus</categoria> 
+  </produto>
+  
+   <produto>
+  <id_produto>1072735</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=1072735</link_produto> 
+  <descricao>Bonés do Brasil- Azul Royal - Bandeira1</descricao> 
+  <preco>R$ 24,00</preco> 
+  <preco_normal>R$ 24,00</preco_normal> 
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/royalp.jpg</imagem> 
+  <categoria>Bonés e Chapéus</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>1080427</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=1080427</link_produto> 
+  <descricao>Bonés do Brasil- Azul Marinho - Bandeira1</descricao> 
+  <preco>R$ 24,00</preco> 
+  <preco_normal>R$ 24,00</preco_normal> 
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/marinhomfp.jpg</imagem> 
+  <categoria>Bonés e Chapéus</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>1246937</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=1246937</link_produto> 
+  <descricao>CD - Hinos de Paises - Bandeira1</descricao> 
+  <preco>R$ 19,90</preco> 
+  <preco_normal>R$ 19,90</preco_normal> 
+  <imagem>https://www.bandeira1.com.br/lojas/00002028/prod/cdpai1.jpg</imagem> 
+  <categoria>Hinos</categoria> 
+  </produto>
+  
+  <produto>
+  <id_produto>1080456</id_produto> 
+  <link_produto>http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&IDProduto=1080456</link_produto> 
+  <descricao>Bonés do Brasil- Azul Marinho - Bandeira1</descricao>
+  <preco>R$ 24,00<preco>
+  <preco_normal>R$ 24,00<preco_normal>
+  <imagem>http://www.bandeira1.com.br/lojas/00002028/prod/marinhobp.jpg</imagem> 
+  <categoria>Bonés e Chapéus</categoria> 
+  </produto>
