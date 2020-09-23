@@ -1,0 +1,172 @@
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	img {
+		border: none;
+	}
+	
+	a {
+		text-decoration: none;
+	}
+
+	#tudoleis {
+		width: 770px;
+		font-family: Tahoma, Geneva, sans-serif;
+                
+		margin: 5px 0 0 0;
+	}
+	
+	div.leiss {
+		position: relative;
+		float: left;
+		width: 746px;
+	}
+	
+	div.modelo {
+		position: relative;
+		float: left;
+		/* background-color: #491c23; */
+		width: 850px;
+		height: 37px;
+		padding: 0 0 15px 26px;
+	
+		background-image: url('../../images/barras/leispesquisa.gif');
+}
+	
+	h1.modelobandeiras {
+		position: relative;
+		float: left;
+		color: #92777b;
+		font-size: 230%;
+		letter-spacing: -1.7px;
+		font-weight: normal;
+		line-height: 100%;
+	}
+	
+	h2.titpesquisa {
+		position: relative;
+		float: right;
+		color: #92777b;
+		font-size: 170%;
+		letter-spacing: -1.7px;
+		font-weight: normal;
+		line-height: 100%;
+		font-style: italic;
+		margin: 9px 20px 0 0;
+		display: inline;
+	}
+	
+	#tudoleis h3 {
+		position: relative;
+		float: left;
+		width: 746px;
+		font-size: 95%;
+		font-weight: bold;
+		line-height: 100%;
+		text-align: center;
+		display: inline;
+		margin-top: 15px;
+	}
+	
+	#tudoleis p {
+		position: relative;
+		float: left;
+		width: 746px;
+		display: inline;
+		color: #444;
+	
+		font-family: segoe ui;
+}
+	
+	p.center {
+		text-align: center;
+	}
+	
+	p.inicio1 {
+		text-align: right;
+		margin-top: 7px;
+		font-size: 70%;
+	}
+	
+	span.bold {
+		font-weight: bold;
+	}
+	
+	span.italico {
+		font-style: italic;
+	}
+	
+	p.capitulo {
+		text-align: center;
+		margin-top: 20px;
+	}
+	
+	p.secao {
+		text-align: center;
+		margin-top: 7px;
+	}
+	
+	p.artigo {
+		margin-top: 7px;
+		text-align: left;
+		font-size: 75%;
+		text-align: justify;
+	}
+	
+	img.brasil {
+		position: relative;
+		float: left;
+		left: 50%;
+		margin: 10px 0 10px -142px;
+	}
+	
+	img.estrela {
+		position: relative;
+		float: left;
+		left: 50%;
+		margin: 30px 0 0 -350px;
+	}
+	
+	p.ptab {
+		text-align: center;
+		font-weight: bold;
+		margin-top: 20px;
+	}
+	
+	table.tabelaleis {
+		position: relative;
+		float: left;
+		font-size: 75%;
+		border: 1px;
+		left: 50%;
+		margin: 10px 0 0 -200px;
+		color: #444;
+	}
+	
+	table.tabelaleis td {
+		width: 200px;
+		padding-left: 5px;
+	}
+	
+	img.brasao {
+		position: relative;
+		float: left;
+		left: 50%;
+		margin: 10px 0 10px -95px;
+	}
+	
+	img.selo {
+		position: relative;
+		float: left;
+		left: 50%;
+		margin: 10px 0 10px -57px;
+	}
+	
+	img.btvoltar {
+		position: relative;
+		float: left;
+		margin: 20px 0 0 15px;
+		display: left;
+	}
