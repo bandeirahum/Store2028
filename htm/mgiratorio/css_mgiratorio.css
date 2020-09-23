@@ -1,0 +1,360 @@
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	img {
+		border: none;
+		position: relative;
+		float: left;
+	}
+	
+	img {
+		*margin: 0 -3px 0 -3px;
+	}
+	
+	a {
+		text-decoration: none;
+		color: #000;
+	}
+
+	#tudoproduto {
+		position: relative;
+		float: left;
+		width: 746px;
+		display: inline;
+		font-family: Tahoma, Geneva, sans-serif;
+                top: 25;
+                padding-bottom: 30;
+	}
+	
+	div.modelo {
+		position: relative;
+		float: left;
+		background-color: #021a4c;
+		width: 736px;
+		*width: 746px;
+		height: 37px;
+		padding: 0 0 0 10px;
+	}
+	
+	h1.modeloproduto {
+		position: relative;
+		float: left;
+		color: #808da5;
+		font-size: 230%;
+		letter-spacing: -1.7px;
+		font-weight: normal;
+		line-height: 100%;
+	}
+	
+	#topoMastro {
+		position: relative;
+		float: left;
+		width: 746px;
+		height: 540px;
+	}
+	
+	#mastroCima {
+		position: relative;
+		float: left;
+		width: 746px;
+		height: 406px;
+		background: gray;
+	}
+	
+	#mastroMeio {
+		position: relative;
+		float: left;
+		width: 746px;
+		height: 520px;
+	}
+	
+		div.medidas01 {
+			position: relative;
+			float: left;
+			width: 350px;
+			height: 520px;
+			background: url(../../images/mgiratorio/bg_medidas01.jpg);
+		}
+		
+		div.flash {
+			position: relative;
+			float: left;
+			width: 396px;
+			height: 520px;
+		}
+	
+	#mastroBaixo {
+		position: relative;
+		float: left;
+		width: 746px;
+		height: 338px;
+		background: gray;
+	}
+
+	#bottomMastro {
+		position: relative;
+		float: left;
+		width: 746px;
+		height: 438px;
+	}
+	
+	div.Titulo2 {
+			position: relative;
+			float: left;
+			top: 47px;
+			left: 88px;
+			width: 135px;
+			height: 35px;
+			color:#021A4C;
+			font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+			font-size:27px;
+			text-align:right;
+		}
+		div.Titulo3 {
+			position: relative;
+			float: left;
+			top: 116px;
+			left: 35px;
+			width: 100px;
+			height: 35px;
+			color:#021A4C;
+			font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+			font-size:27px;
+		}
+		div.Titulo4 {
+			position: relative;
+			float: left;
+			top: 92px;
+			left: 275px;
+			width: 110px;
+			height: 35px;
+			color:#021A4C;
+			font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+			font-size:27px;
+		}
+		
+		div.Texto1 {
+			position: relative;
+			float: left;
+			top: 10px;
+			left: 35px;
+			width: 440px;
+			height: 90px;
+			color:#666;
+			font-family:Tahoma, Geneva, sans-serif;
+			font-size:12px;
+		}	
+		div.Texto2 {
+			position: relative;
+			float: left;
+			top: 55px;
+			left: 18px;
+			width: 205px;
+			height: 60px;
+			color:#666;
+			font-family:Tahoma, Geneva, sans-serif;
+			font-size:12px;
+			text-align:right;
+		}
+		div.Texto3 {
+			position: relative;
+			float: left;
+			top: 78px;
+			left: 93px;
+			width: 205px;
+			height: 45px;
+			color:#666;
+			font-family:Tahoma, Geneva, sans-serif;
+			font-size:12px;
+		}
+		div.Texto4 {
+			position: relative;
+			float: left;
+			top: 95px;
+			left: 85px;
+			width: 300px;
+			height: 45px;
+			color:#666;
+			font-family:Tahoma, Geneva, sans-serif;
+			font-size:12px;
+			text-align:right;
+		}
+
+		div.txtPreco {
+			position: relative;
+			float: left;
+			top: 60px;
+			width: 135px;
+			height: 15px;
+			color:#385575;
+			font-family:Tahoma, Geneva, sans-serif;
+			font-size:12px;
+			text-align:right;
+		}
+		
+		div.txtPreco2 {
+			position: relative;
+			float: left;
+			top: 75px;
+			width: 135px;
+			height: 60px;
+			color:#666;
+			font-family:Tahoma, Geneva, sans-serif;
+			font-size:12px;
+			text-align:right;
+		}
+		
+		div.mastroCima1 {
+			position: relative;
+			float: left;
+			width: 487px;
+			height: 157px;
+			background: url(../../images/mgiratorio/bg_detalhe01.jpg);
+		}
+		div.mastroCima2 {
+			position: relative;
+			float: left;
+			width: 87px;
+			height: 157px;
+			background: url(../../images/mgiratorio/bg_detalhe02.jpg);
+		}
+		div.mastroCima3 {
+			position: relative;
+			float: left;
+			width: 172px;
+			height: 157px;
+			background: url(../../images/mgiratorio/bg_detalhe03.jpg);
+		}
+		div.mastroCima4 {
+			position: relative;
+			float: left;
+			width: 233px;
+			height: 249px;
+			background: url(../../images/mgiratorio/bg_detalhe04.jpg);
+		}
+		div.mastroCima5 {
+			position: relative;
+			float: left;
+			width: 254px;
+			height: 249px;
+			background: url(../../images/mgiratorio/bg_detalhe05.jpg);
+		}
+		div.mastroCima6 {
+			position: relative;
+			float: left;
+			width: 87px;
+			height: 166px;
+			background: url(../../images/mgiratorio/bg_detalhe06.jpg);
+		}
+		div.mastroCima7 {
+			position: relative;
+			float: left;
+			width: 172px;
+			height: 166px;
+			background: url(../../images/mgiratorio/bg_detalhe07.jpg);
+		}
+		div.mastroCima8 {
+			position: relative;
+			float: left;
+			width: 259px;
+			height: 83px;
+			background: url(../../images/mgiratorio/bg_detalhe08.jpg);
+		}
+		
+
+		div.mastroBaixo1 {
+			position: relative;
+			float: left;
+			width: 350px;
+			height: 145px;
+			background: url(../../images/mgiratorio/bg_medidas02.jpg);
+		}
+		div.mastroBaixo2 {
+			position: relative;
+			float: left;
+			width: 396px;
+			height: 145px;
+			background: url(../../images/mgiratorio/bg_medidas05.jpg);
+		}
+		div.mastroBaixo3 {
+			position: relative;
+			float: left;
+			width: 396px;
+			height: 193px;
+			background: url(../../images/mgiratorio/bg_medidas03.jpg);
+		}
+		div.mastroBaixo4 {
+			position: relative;
+			float: left;
+			width: 350px;
+			height: 193px;
+			background: url(../../images/mgiratorio/bg_medidas06.jpg);
+		}
+		
+		div.person01 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 145px;
+		}
+		
+			div.medidas04 {
+				position: relative;
+				float: left;
+				width: 135px;
+				height: 145px;
+				background: url(../../images/mgiratorio/bg_medidas04.jpg);
+			}
+			
+			div.banperson {
+				position: relative;
+				float: left;
+				width: 315px;
+				height: 145px;
+				background: url(../../images/mgiratorio/bg_banperson.jpg);
+			}
+		
+		div.person02 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 293px;
+		}
+		
+			div.txtPerson {
+				position: relative;
+				float: left;
+				width: 315px;
+				height: 293px;
+			}
+			
+				div.itau03 {
+					position: relative;
+					float: left;
+					width: 315px;
+					height: 162px;
+					background: url(../../images/mgiratorio/bg_itau03.jpg);
+				}
+				
+				div.itau04 {
+					position: relative;
+					float: right;
+					width: 210px;
+					height: 130px;
+					margin-right:8px;
+					margin-top:8px;
+					font-family:Tahoma, Geneva, sans-serif;
+					font-size:13px;
+					text-align:right;
+					color:#FFF;
+				}
+				
+				div.precoPerson {
+					position: relative;
+					float: left;
+					width: 315px;
+					height: 131px;
+					background: url(../../images/mgiratorio/bg_precoPerson.jpg);
+				}
