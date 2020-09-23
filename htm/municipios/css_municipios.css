@@ -1,0 +1,405 @@
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	img {
+		border: none;
+	}
+	
+	a {
+		text-decoration: none;
+		color: #000;
+	}
+	
+	span.bold {
+		font-weight: bold;
+	}
+
+
+	#tudoproduto {
+		position: relative;
+		float: left;
+		width: 746px;
+		margin: 0 0 0 24px;
+		display: inline;
+		font-family: Tahoma, Geneva, sans-serif;
+	}
+	
+	#top {
+		position: relative;
+		float: left;
+		width: 746px;
+		height: 309px;
+	}
+	
+		div.top1 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 150px;
+		}
+		
+			div.barra1 {
+				position: relative;
+				float: left;
+				width: 18px;
+				height: 150px;
+				background: url(../../images/municipio/bg_barra1.png);
+			}
+			
+			div.tit1 {
+				position: relative;
+				float: left;
+				width: 287px;
+				height: 150px;
+				background: url(../../images/municipio/bg_tit1.png);
+			}
+			
+			div.tit2 {
+				position: relative;
+				float: left;
+				width: 189px;
+				height: 150px;
+				background: url(../../images/municipio/bg_tit2.png);
+			}
+			
+			div.novo {
+				position: relative;
+				float: left;
+				width: 69px;
+				height: 150px;
+				background: url(../../images/municipio/bg_novo.png);
+			}
+			
+			div.flash {
+				position: relative;
+				float: left;
+				width: 145px;
+				height: 145px;
+				margin-top: 5px;
+				background: url(../../images/municipio/bg_flash.png) repeat-x;
+			}
+		
+		div.top2 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 159px;
+		}
+		
+			div.barra2 {
+				position: relative;
+				float: left;
+				width: 18px;
+				height: 159px;
+				background: url(../../images/municipio/bg_barra2.png) repeat;
+			}
+			
+			div.tit3 {
+				position: relative;
+				float: left;
+				width: 287px;
+				height: 159px;
+				background: url(../../images/municipio/bg_tit3.png);
+			}
+			
+			div.tit4 {
+				position: relative;
+				float: left;
+				width: 189px;
+				height: 159px;
+				background: url(../../images/municipio/bg_tit4.png);
+			}
+			
+			div.band1 {
+				position: relative;
+				float: left;
+				width: 214px;
+				height: 159px;
+				background: url(../../images/municipio/bg_band1.png);
+			}
+	
+	#bottom {
+		position: relative;
+		float: left;
+		width: 746px;
+		height: 696px;
+	}
+	
+		div.bottom1 {
+			position: relative;
+			float: left;
+			width: 494px;
+			height: 666px;
+		}
+		
+			div.bottom11 {
+				position: relative;
+				float: left;
+				width: 494px;
+				height: 289px;
+			}
+			
+				div.bottom111 {
+					position: relative;
+					float: left;
+					width: 494px;
+					height: 80px;
+				}
+				
+					div.carrinho {
+						position: relative;
+						float: left;
+						width: 67px;
+						height: 80px;
+						background: url(../../images/municipio/carrinho.png);
+					}
+					
+					div.comoComprar {
+						position: relative;
+						float: left;
+						width: 238px;
+						height: 80px;
+						background: #fff;
+					}
+					
+						h2.titComprar {
+							margin-top: 15px;
+							line-height: 90%;
+							height: 60px;
+						}
+					
+					div.band2 {
+						position: relative;
+						float: left;
+						width: 189px;
+						height: 80px;
+						background: url(../../images/municipio/bg_band2.png);
+					}
+				
+				div.bottom112 {
+					position: relative;
+					float: left;
+					width: 494px;
+					height: 209px;
+				}
+				
+					div.barra3 {
+						position: relative;
+						float: left;
+						width: 18px;
+						height: 209px;
+						background: url(../../images/municipio/bg_barra2.png) repeat;
+					}
+				
+					div.numeros {
+						position: relative;
+						float: left;
+						width: 63px;
+						height: 209px;
+						background: url(../../images/municipio/numeros.png);
+					}
+					
+					div.passos {
+						position: relative;
+						float: left;
+						width: 266px;
+						height: 209px;
+						background: #fff;
+					}
+					
+						p.descPassos1 {
+								position: relative;
+								clear: both;
+								color: #888;
+								font-size: 95%;
+								margin: 18px 0 0 3px;
+								line-height: 100%;
+						}
+						
+						p.descPassos2 {
+								position: relative;
+								clear: both;
+								color: #888;
+								font-size: 95%;
+								margin: 24px 0 0 3px;
+								line-height: 100%;
+						}
+						
+						p.descPassos3 {
+								position: relative;
+								clear: both;
+								color: #888;
+								font-size: 95%;
+								margin: 12px 0 0 3px;
+								line-height: 100%;
+						}
+					
+					div.band3 {
+						position: relative;
+						float: left;
+						width: 147px;
+						height: 209px;
+						background: url(../../images/municipio/bg_band3.png);
+					}
+			
+			div.bottom12 {
+				position: relative;
+				float: left;
+				width: 494px;
+				height: 377px;
+			}
+			
+				div.bottom121 {
+					position: relative;
+					float: left;
+					width: 494px;
+					height: 220px;
+				}
+				
+					div.band4 {
+						position: relative;
+						float: left;
+						width: 347px;
+						height: 220px;
+						background: url(../../images/municipio/bg_band4.png);
+					}
+					
+					div.band5 {
+						position: relative;
+						float: left;
+						width: 147px;
+						height: 220px;
+						background: url(../../images/municipio/bg_band5.png);
+					}
+				
+				div.bottom122 {
+				position: relative;
+				float: left;
+				width: 494px;
+				height: 157px;
+				}
+				
+					div.barra4 {
+						position: relative;
+						float: left;
+						width: 18px;
+						height: 157px;
+						background: url(../../images/municipio/bg_barra2.png) repeat;
+					}
+					
+					div.detalhes {
+						position: relative;
+						float: left;
+						width: 329px;
+						height: 157px;
+						background: url(../../images/municipio/bg_detalhes.png);
+					}
+					
+						h2.titVerm {
+							position: relative;
+							float: left;
+							font-weight: bold;
+							color: #9c001a;
+							margin-left: 19px;
+							font-size: 160%;
+							display: inline;
+						}
+						
+						p.descDetalhes {
+							position: relative;
+							clear: both;
+							color: #555;
+							font-size: 70%;
+							margin: 6px 0 0 19px;
+							top: 5px;
+							line-height: 100%;
+						}
+					
+					div.band6 {
+						position: relative;
+						float: left;
+						width: 147px;
+						height: 157px;
+						background: url(../../images/municipio/bg_band6.png);
+					}
+		
+		div.bottom2 {
+			position: relative;
+			float: left;
+			width: 252px;
+			height: 666px;
+		}
+		
+			div.stampo {
+				position: relative;
+				float: left;
+				width: 252px;
+				height: 178px;
+				background: url(../../images/municipio/stampo.png);
+			}
+			
+			div.desc {
+				position: relative;
+				float: left;
+				width: 252px;
+				height: 232px;
+				background: url(../../images/municipio/bg_desc.png);
+			}
+			
+			p.descStampo {
+				position: relative;
+				float: left;
+				width: 185px;
+				margin-left: 25px;
+				font-size: 80%;
+				color: #333;
+				display: inline;
+			}
+			
+			p.descStampo2 {
+				position: relative;
+				float: left;
+				width: 185px;
+				margin: 20px 0 0 25px;
+				font-size: 80%;
+				color: #333;
+				display: inline;
+			}
+			
+			p.descStampo3 {
+				position: relative;
+				float: left;
+				width: 185px;
+				margin: 12px 0 0 25px;
+				font-size: 80%;
+				color: #333;
+				display: inline;
+			}
+			
+			p.descStampo4 {
+				position: relative;
+				float: left;
+				width: 185px;
+				margin: 14px 0 0 25px;
+				font-size: 80%;
+				color: #333;
+				display: inline;
+			}
+			
+			div.band7 {
+				position: relative;
+				float: left;
+				width: 252px;
+				height: 256px;
+				background: url(../../images/municipio/bg_band7.png);
+			}	
+		
+		div.sombra {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 30px;
+			background: url(../../images/municipio/sombra.png);
+		}
