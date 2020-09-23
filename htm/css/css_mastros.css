@@ -1,0 +1,154 @@
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	img {
+		border: none;
+	}
+	
+	a {
+		text-decoration: none;
+	}
+
+	#tudobandeiras {
+		width: 770px;
+		font-family: Tahoma, Geneva, sans-serif;
+                margin: 23px 0 0 0;
+	}
+	
+	div.modelo {
+		position: relative;
+		float: left;
+		background-color: #491c23;
+		width: 736px;
+		height: 37px;
+		padding: 0 0 0 10px;
+	}
+	
+	h1.modelobandeiras {
+		position: relative;
+		float: left;
+		color: #92777b;
+		font-size: 230%;
+		letter-spacing: -1.7px;
+		font-weight: normal;
+		line-height: 100%;
+	}
+	
+	h2.titpesquisa {
+		position: relative;
+		float: right;
+		color: #92777b;
+		font-size: 170%;
+		letter-spacing: -1.7px;
+		font-weight: normal;
+		line-height: 100%;
+		font-style: italic;
+		margin: 9px 20px 0 0;
+		display: inline;
+	}
+	
+	div.textoesq {
+		position: relative;
+		float: left;
+		width: 368px;
+		height: 712px;
+		background-image: url(../../images/mastros_pesq/bg_txtesq.gif);
+		display: inline;
+	}
+	
+	div.descmastros {
+		position: relative;
+		float: left;
+		width: 368px;
+		background-color: #dbd2d3;
+		margin-bottom: 10px;
+	}
+	
+	div.tipo {
+		width: 368px;
+		height: 55px;
+		position: relative;
+		float: left;		
+	}
+	
+	img.square {
+		position: relative;
+		float: left;
+		clear: both;
+		margin: 26px 0 0 15px;
+		display: inline;
+	}
+	
+	p.subtitulonauticas {
+		position: relative;
+		float: left;
+		font-size: 120%;
+		color: #491c23;
+		margin: 17px 0 0 5px;
+		display: inline;
+	}
+	
+	p.txtmastros {
+		position: relative;
+		float: left;
+		display: inline;
+		width: 339px;
+		margin: 0 15px 10px 15px;
+		text-align: justify;
+		font-size: 70%;
+		color: #444;
+	}
+	
+	p.txtmastros1 {
+		position: relative;
+		float: left;
+		display: inline;
+		width: 339px;
+		margin: 0 15px 10px 15px;
+		text-align: justify;
+		font-weight: bold;
+		font-size: 70%;
+		color: #444;
+	}
+	
+	div.tipo1 {
+		width: 368px;
+		height: 25px;
+		position: relative;
+		float: left;		
+	}
+	
+	p.subtitulonauticas1 {
+		position: relative;
+		float: left;
+		font-size: 120%;
+		color: #888;
+		margin: 0 0 0 5px;
+		display: inline;
+	}
+	
+	img.square1 {
+		position: relative;
+		float: left;
+		clear: both;
+		margin: 8px 0 0 15px;
+		display: inline;
+	}
+	
+	div.imgdir {
+		position: relative;
+		float: left;
+		width: 378px;
+		height: 712px;
+		display: inline;
+		*left: -4px;
+	}
+	
+	div.imgdir img {
+		position: relative;
+		float: left;
+		display: inline;
+	}
+	
