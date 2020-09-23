@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Exibindo pop-up na página HTML</title>
+
+  <style type="text/css">
+  .popup{
+     position: fixed;
+     top: 0; bottom: 0;
+     left: 0; right: 0;
+     margin: auto;
+     width: 150px;
+     height: 750px;
+     padding: 20px;
+     
+     
+     display: none;
+  }
+  </style>
+
+  <script type="text/javascript">
+
+   function fechar(){
+     document.getElementById('popup').style.display = 'none';
+   }
+
+   function abrir(){
+     document.getElementById('popup').style.display = 'block';
+     setTimeout ("fechar()", 3000000);
+   }
+
+  </script>
+
+</head>
+
+<body>
+
+<DIV id="popup" class="popup"> 
+    <p><small class="fechar"><a href="javascript: fechar();"><img src="../Banner Promoção/recesso.png" width="370" height="auto"></a></small></p>
+   </DIV>
+
+      
+<script>abrir();</script>
+
+</body>
+
+</html>
