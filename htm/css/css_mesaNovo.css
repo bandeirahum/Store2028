@@ -1,0 +1,93 @@
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	img {
+		border: none;
+		display: inline;
+	}
+
+
+	#tudoproduto {
+		width: 746px
+		font-family: Tahoma, Geneva, sans-serif;
+	}
+	
+	div.modelo {
+		position: relative;
+		float: left;
+		background-color: #163d1b;
+		width: 736px;
+		height: 37px;
+		padding: 0 0 0 10px;
+		margin: 23px 0 0 0;
+	}
+	
+	h1.modeloproduto {
+		position: relative;
+		float: left;
+		color: #8a9e8d;
+		font-size: 230%;
+		letter-spacing: -1.7px;
+		font-weight: normal;
+		line-height: 100%;
+	}
+	
+	div.tipo {
+		width: 746px;
+		height: 55px;
+		position: relative;
+		float: left;		
+	}
+	
+	img.square {
+		position: relative;
+		float: left;
+		clear: both;
+		margin: 26px 0 0 1px;
+	}
+	
+	p.subtituloproduto {
+		position: relative;
+		float: left;
+		font-size: 16px;
+		color: #777;
+		margin: 20px 0 0 5px;
+	}
+	
+	div.boxPeds {
+		position: relative;
+		float: left;
+		width: 880px;
+		height:247px;
+		margin-bottom: 30px;
+		background-image:url(../../images/band_mesa/bgbarra_ped.jpg);
+		background-repeat:repeat-x;
+		background-position:bottom;
+	}
+	
+	div.pontaPeds {
+	position:relative;
+	float:left;
+	width:40px;
+	height:247px;
+	background-image:url(../../images/band_mesa/pontabarra_ped.jpg);
+	background-repeat:no-repeat;
+	background-position:bottom;
+	}
+	
+	div.boximgPeds {
+	position:relative;
+	float:left;
+	width:194px;
+	height:247px;
+	margin-right:36px;
+	}
+	
+	div.boximgPeds img {position:relative; float:right;}	
+	.imgPed01 {margin-right:48px;}
+	.imgPed02 {margin-right:41px;}
+	.imgPed03 {margin-right:44px;}
+	
+.ie .iefix {margin:0 -3px 0 -3px;}
