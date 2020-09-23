@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+img {
+	border: none;
+}
+
+/*--Main Container--*/
+.main_view {
+	float: left;
+	position: relative;
+	z-index: 5;
+	left:18px;
+}
+/*--Window/Masking Styles--*/
+.window {
+	height: 304px;
+	width: 763px;
+	overflow: hidden; /*--Hides anything outside of the set width/height--*/
+	position: relative;
+}
+.image_reel {
+	position: absolute;
+	top: 0px;
+	left: -17px;
+	width: 763px;
+	z-index: 5;
+	
+}
+.image_reel img {float: left;}
+
+/*--Paging Styles--*/
+.paging {
+	position: absolute;
+	top: 262px;
+	right: 250px;
+	width: 100px;
+	height:35px;
+	z-index: 100; /*--Assures the paging stays on the top layer--*/
+	text-align: center;
+	line-height: 30px;
+	background:url("../../images/copa2014/pagingBg4.png") no-repeat;	
+	display: none; /*--Hidden by default, will be later shown with jQuery--*/
+	
+}
+.paging a {
+	padding: 1px 4px;
+	text-decoration: none;
+	color: #fcfcfd;
+	font-family: "Bebas Neue";
+	font-size: 21px;
+	text-align: center;
+}
+
+.paging a:hover {color: #2b5180;}
+
+.paging a.active {
+	font-weight: bold;
+	color: #fff;
+	background: #2b5180;
+	border: none;
+	-moz-border-radius: 1px;
+	-khtml-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	
+	
+}
+
+#barraDestaq_dir {
+					position: relative;
+					float: left;
+					width: 2px;
+					height: 282px;
+					background: url(img/barraDestaq_dir.png) repeat-y;
+}
+
+#faixaDestaq_bot {
+				width: 100%;
+				height: 2px;
+				
+}
+			
+#barraDestaq_bot {
+					position: relative;
+					float: left;
+					width: 928px;
+					height: 2px;
+					background: url(img/barraDestaq_bot.png) repeat-x;
+}
+
+#gapDestaq_dir {
+			position: relative;
+			float: left;
+			width: 50px;
+			height: 100%;
+}
+
+.pixelGap_destaq {
+					position: relative;
+					float: left;
+					width: 1px;
+					height: -5x;
+					background: url(img/pixelGap_destaq.png) repeat-y;
+}
+#jquery {
+	z-index:0;
