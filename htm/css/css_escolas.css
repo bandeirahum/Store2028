@@ -1,0 +1,736 @@
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	img {
+		border: none;
+	}
+	
+	#tudoproduto a {
+		text-decoration: none;
+		color: #000;
+	}
+	
+	.fixie {
+		*margin: 0 -3px 0 -3px;
+	}
+
+	#tudoproduto {
+		position: relative;
+		float: left;
+		width: 846px;
+		display: inline;
+		font-family: Tahoma, Geneva, sans-serif;
+	}
+	
+	div.modelo {
+		position: relative;
+		float: left;
+		background-color: #163d1b;
+		width: 736px;
+		height: 37px;
+		padding: 0 0 0 10px;
+		margin: 0 0 10px 0;
+	}
+	
+	h1.modeloproduto {
+		position: relative;
+		float: left;
+		color: #8a9e8d;
+		font-size: 230%;
+		letter-spacing: -1.7px;
+		font-weight: normal;
+		line-height: 100%;
+	}
+	
+	#flash {
+		position: relative;
+		float: left;
+		width: 746px;
+		height: 478px;
+		margin-bottom: 13px;
+		margin-left: 40px;
+		padding-top: 20px;
+	}
+	
+	img.lousa {
+		position: relative;
+		float: left;
+		margin: 0 6px 0 5px;
+		display: inline;
+	}
+	
+	#oprodutos {
+		position: relative;
+		float: left;
+		width: 348px;
+		margin-left: 36px;
+	}
+	
+	h3.titesq {
+		position: relative;
+		float: left;
+		margin: 2px 0 0 5px;
+		display: inline;
+		font-weight: bold;
+		font-size: 104%;
+		color: #163d1b;
+		line-height: 100%;
+		letter-spacing: -1px;
+		text-align: left;
+	}
+	
+	p.descesq {
+		position: relative;
+		float: left;
+		width: 155px;
+		margin: 5px 0 0 5px;
+		display: inline;
+		color: #555;
+		font-size: 80%;
+		line-height: 120%;
+		text-align: left;
+	}
+	
+	h3.titdir {
+		position: relative;
+		float: right;
+		margin: 2px 5px 0 0;
+		display: inline;
+		font-weight: bold;
+		font-size: 104%;
+		color: #163d1b;
+		line-height: 100%;
+		letter-spacing: -1px;
+		text-align: right;
+	}
+	
+	h3.titdir1 {
+		position: relative;
+		float: right;
+		margin: 2px 5px 0 50px;
+		display: inline;
+		font-weight: bold;
+		font-size: 104%;
+		color: #163d1b;
+		line-height: 100%;
+		letter-spacing: -1px;
+		text-align: right;
+	}
+	
+	p.descdir {
+		position: relative;
+		float: right;
+		width: 155px;
+		margin: 5px 5px 0 0;
+		display: inline;
+		color: #555;
+		font-size: 80%;
+		line-height: 120%;
+		text-align: right;
+	}
+	
+	img.oprodtit {
+		position: relative;
+		float: left;
+		margin: 0 3px 0 5px;
+		display: inline;
+	}
+	
+	div.prod01 {
+		position: relative;
+		float: left;
+		width: 348px;
+	}
+	
+	img.prodimg {
+		position: relative;
+		float: left;
+	}
+	
+	div.kitd {
+		position: relative;
+		float: left;
+		width: 174px;
+		background-image: url(../../images/escolas/bg01.png);
+	}
+	
+	div.kitp {
+		position: relative;
+		float: left;
+		width: 174px;
+		height: 147px;
+		margin: 25px 0 0 0;
+	}
+	
+	div.prod02 {
+		position: relative;
+		float: left;
+		width: 348px;
+	}
+	
+	div.mastrod {
+		position: relative;
+		float: left;
+		width: 174px;
+		background-image: url(../../images/escolas/bg02.png);
+	}
+	
+	div.mastrop {
+		position: relative;
+		float: left;
+		width: 174px;
+		height: 134px;
+		margin: 12px 0 0 0;
+	}
+	
+	div.prod03 {
+		position: relative;
+		float: left;
+		width: 348px;
+	}
+	
+	div.mastrofd {
+		position: relative;
+		float: left;
+		width: 174px;
+		background-image: url(../../images/escolas/bg03.png);
+	}
+	
+	div.mastrofp {
+		position: relative;
+		float: left;
+		width: 174px;
+		height: 134px;
+		margin: 21px 0 0 0;
+	}
+	
+	div.prod04 {
+		position: relative;
+		float: left;
+		width: 348px;
+	}
+	
+	div.estadosd {
+		position: relative;
+		float: left;
+		width: 174px;
+		background-image: url(../../images/escolas/bg04.png);
+	}
+	
+	div.estadosp {
+		position: relative;
+		float: left;
+		width: 174px;
+		height: 146px;
+		margin: 22px 0 0 0;
+	}
+	
+	#kitaula {
+		position: relative;
+		float: left;
+		width: 406px;
+		height: 647px;
+		margin-left: 32px;
+		display: inline;
+	}
+	
+	img.aulatit {
+		position: relative;
+		/* float: left; */
+		margin-left: 18px;
+	}
+	
+	img.imgs {
+		position: relative;
+		float: left;
+	}
+	
+	div.auladiv {
+		position: relative;
+		float: left;
+		width: 226px;
+		height: 610px;
+	}
+	
+	div.auladesc {
+		position: relative;
+		float: left;
+		width: 220px;
+		height: 85px;
+		margin: 12px 0 15px -20;
+		display: inline;
+	}
+	
+	h3.titaula {
+		position: relative;
+		float: right;
+		width: 203px;
+		margin: 0 17px 10px 0;
+		display: inline;
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: normal;
+		font-size: 155%;
+		line-height: 100%;
+		letter-spacing: -1px;
+		text-align: right;
+	}
+	
+	p.descaula {
+		position: relative;
+		float: right;
+		width: 203px;
+		margin: 0 17px 0 0;
+		display: inline;
+		font-size: 80%;
+		text-align: right;
+		color: #666;
+	}
+	
+	.gap01 {
+		position: relative;
+		float: left;
+		width: 398px;
+		height: 31px;
+		background-image: url(../../images/escolas/bggap01.png);
+	}
+	
+	#vcsabia {
+		position: relative;
+		float: left;
+		width: 746px;
+		height: 234px;
+		margin-left: 36;
+	}
+	
+	img.vcimg {
+		position: relative;
+		float: left;
+		margin-left: 5px;
+		display: inline;
+	}
+	
+	#kitdir {
+		position: relative;
+		float: left;
+		width: 386px;
+		height: 838px;
+		margin-left: 36;
+	}
+	
+	div.topdir {
+		position: relative;
+		float: left;
+		width: 381px;
+		height: 103px;
+		background-image: url(../../images/escolas/bgtopdir.png);
+		margin-left: 5px;
+		display: inline;
+	}
+	
+	img.saladodir {
+		position: relative;
+		float: left;
+		margin-left: 5px;
+		display: inline;
+	}
+	
+	div.saladodir1 {
+		position: relative;
+		float: left;
+		width: 381px;
+		height: 143px;
+		background-image: url(../../images/escolas/bgsaladodir1.png);
+		margin-left: 5px;
+		display: inline;
+	}
+	
+	div.kitdodir {
+		position: relative;
+		float: left;
+		width: 315px;
+		height: 103px;
+		margin: 14px 41px 26px 25px;
+		display: inline;
+	}
+	
+	h3.titsdir {
+		position: relative;
+		float: left;
+		width: 315px;
+		margin-bottom: 20px;
+		display: inline;
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: normal;
+		font-size: 145%;
+		line-height: 95%;
+		letter-spacing: -1px;
+		text-align: left;
+		color: #444;
+	}
+	
+	p.descsdir {
+		position: relative;
+		float: left;
+		width: 315px;
+		font-size: 80%;
+		text-align: left;
+		color: #666;
+		line-height: 155%;
+		display: inline;
+	}
+	
+	div.saladodir2 {
+		position: relative;
+		float: left;
+		width: 220px;
+		height: 319px;
+		background-image: url(../../images/escolas/bgsaladodir2.png);
+		margin-left: 5px;
+		display: inline;
+	}
+	
+	img.bandbrasil {
+		position: relative;
+		float: left;
+		margin: 0 7px 0 25px;
+		display: inline;
+	}
+	
+	img.mastros {
+		position: relative;
+		float: left;
+		margin-left: 25px;
+		display: inline;
+	}
+	
+	div.saladodir3 {
+		position: relative;
+		float: left;
+		width: 161px;
+		height: 319px;
+		background-image: url(../../images/escolas/bgsaladodir3.png);
+	}
+	
+	img.pedestal {
+		position: relative;
+		float: left;
+		margin: 24px 16px 95px 0;
+	}
+	
+	div.saladodir4 {
+		position: relative;
+		float: left;
+		width: 381px;
+		height: 192px;
+		background-image: url(../../images/escolas/bgsaladodir4.png);
+		margin-left: 5px;
+		display: inline;
+	}
+	
+	img.jogoestados {
+		position: relative;
+		float: left;
+		margin-bottom: 19px;
+		*margin-left: -3px;
+	}
+	
+	img.bases {
+		position: relative;
+		float: left;
+		margin: 0 16px 54px 0;
+		*margin: 0 16px 54px 3px;
+	}
+	
+	.gap02 {
+		position: relative;
+		float: left;
+		width: 44px;
+		height: 838px;
+		background-image: url(../../images/escolas/bggap02.png);
+	}
+	
+	#relac {
+		position: relative;
+		float: left;
+		width: 316px;
+		height: 838px;
+	}
+	
+	h3.titcds {
+		position: relative;
+		float: right;
+		width: 232px;
+		margin-bottom: 10px;
+		display: inline;
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: normal;
+		font-size: 155%;
+		line-height: 100%;
+		letter-spacing: -1px;
+		text-align: right;
+	}
+	
+	p.desccds {
+		position: relative;
+		float: right;
+		width: 232px;
+		font-size: 80%;
+		text-align: right;
+		color: #666;
+	}
+	
+	h3.titband {
+		position: relative;
+		float: right;
+		width: 210px;
+		margin-bottom: 10px;
+		display: inline;
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: normal;
+		font-size: 155%;
+		line-height: 100%;
+		letter-spacing: -1px;
+		text-align: right;
+	}
+	
+	p.descband {
+		position: relative;
+		float: right;
+		width: 210px;
+		font-size: 80%;
+		text-align: right;
+		color: #666;
+	}
+	
+	h3.titmastro {
+		position: relative;
+		float: right;
+		width: 210px;
+		margin: 0 21px 10px 0;
+		display: inline;
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: normal;
+		font-size: 155%;
+		line-height: 100%;
+		letter-spacing: -1px;
+		text-align: right;
+	}
+	
+	p.descmastro {
+		position: relative;
+		float: right;
+		margin-right: 21px;
+		display: inline;
+		width: 210px;
+		font-size: 80%;
+		text-align: right;
+		color: #666;
+	}
+	
+	div.relac1 {
+		position: relative;
+		float: left;
+		width: 316px;
+		height: 233px;
+	}
+	
+	div.relac11 {
+		position: relative;
+		float: left;
+		width: 316px;
+		height: 145px;
+		background-image: url(../../images/escolas/bgrelac11.png);
+	}
+	
+	div.relac12 {
+		position: relative;
+		float: left;
+		width: 316px;
+		height: 88px;
+		background-image: url(../../images/escolas/bgrelac12.png);
+	}
+	
+	img.cdshinos {
+		position: relative;
+		float: left;
+		margin: 0 43px 0 25px;
+		display: inline;
+	}
+	
+	div.cdshinosp {
+		position: relative;
+		float: left;
+		width: 232px;
+		height: 88px;
+		margin: 0 21px 0 63px;
+		display: inline;
+	}
+	
+	div.relac2 {
+		position: relative;
+		float: left;
+		width: 316px;
+		height: 227px;
+	}
+	
+	div.relac21 {
+		position: relative;
+		float: left;
+		width: 316px;
+		height: 143px;
+		background-image: url(../../images/escolas/bgrelac21.png);
+	}
+	
+	div.relac22 {
+		position: relative;
+		float: left;
+		width: 316px;
+		height: 84px;
+		background-image: url(../../images/escolas/bgrelac22.png);
+	}
+	
+	img.bandbord {
+		position: relative;
+		float: left;
+		margin: 0 38px 0 30px;
+		display: inline;
+	}
+	
+	div.bandbordp {
+		position: relative;
+		float: left;
+		width: 210px;
+		height: 84px;
+		margin: 0 21px 0 85px;
+		display: inline;
+	}
+	
+	div.relac3 {
+		position: relative;
+		float: left;
+		width: 316px;
+		height: 378px;
+	}
+	
+	div.relac31 {
+		position: relative;
+		float: left;
+		width: 316px;
+		height: 132px;
+		background-image: url(../../images/escolas/bgrelac31.png);
+	}
+	
+	div.relac32 {
+		position: relative;
+		float: left;
+		width: 316px;
+		height: 246px;
+		background-image: url(../../images/escolas/bgrelac32.png);
+	}
+	
+	img.mastrot1 {
+		position: relative;
+		float: left;
+		margin-right: 135px;
+	}
+	
+	div.mastrotp {
+		position: relative;
+		float: left;
+		width: 231px;
+		height: 100px;
+	}
+	
+	#person {
+		position: relative;
+		float: left;
+		width: 746px;
+		height: 295px;
+		margin-top: 6px;
+		margin-left: 36;
+	}
+	
+	div.person1 {
+		position: relative;
+		float: left;
+		width: 319px;
+		height: 142px;
+		margin-left: 5px;
+		display: inline;
+		background-image: url(../../images/escolas/bgperson1.png);
+	}
+	
+	div.person2 {
+		position: relative;
+		float: left;
+		width: 419px;
+		height: 142px;
+		margin-right: 3px;
+		background-image: url(../../images/escolas/bgperson2.png);
+	}
+	
+	div.person3 {
+		position: relative;
+		float: left;
+		width: 319px;
+		height: 153px;
+		margin-left: 5px;
+		display: inline;
+		background-image: url(../../images/escolas/bgperson3.png);
+	}
+	
+	p.descperson1 {
+		position: relative;
+		float: left;
+		color: #fff;
+		margin: 40px 0 0 20px;
+		font-size: 80%;
+		line-height: 150%;
+		display: inline;
+	}
+	
+	p.descperson {
+		position: relative;
+		float: left;
+		color: #fff;
+		margin: 4px 0 0 20px;
+		font-size: 80%;
+		line-height: 150%;
+		display: inline;
+	}
+	
+	div.person4 {
+		position: relative;
+		float: left;
+		width: 419px;
+		height: 153px;
+		margin-right: 3px;
+		background-image: url(../../images/escolas/bgperson4.png);
+	}
+	
+	img.bandperson {
+		position: relative;
+		float: left;
+		margin: 18px 0 0 0;
+	}
+	
+	img.personimg1 {
+		position: relative;
+		float: left;
+		margin-right: 25px;
+	}
+	
+	img.personimg2 {
+		position: relative;
+		float: left;
+		margin-right: 25px;
+	}
+	
+	div.persondesc {
+		position: relative;
+		float: left;
+		width: 319px;
+		height: 110px;
+	}
