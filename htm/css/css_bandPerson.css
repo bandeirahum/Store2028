@@ -1,0 +1,346 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+	* {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	border: none;
+	display: inline;
+}
+
+p.txtPerson {
+	position: relative;
+	float: left;
+	font-size: 16px;
+	color: #454545;
+	display: inline;
+}
+
+p.txtContato {
+	position: relative;
+	float: right;
+	text-align: right;
+	font-size: 14px;
+	color: #666;
+	display: inline;
+}
+
+span.txtmenor {
+	font-size: 11px;
+}
+
+#txt25 {
+	margin: 36px 0 0 10px;
+}
+
+#txt35 {
+	width: 127px;
+	margin: 25px 0 0 45px;
+}
+
+#txt18 {
+	float: right;
+	width: 112px;
+	text-align: right;
+	margin: 10px 25px 0 0;
+}
+
+#txtEst25 {
+	width: 140px;
+	margin: 13px 0 0 23px;
+}
+
+#txtEst35 {
+	width: 289px;
+	margin: 24px 0 0 7px;
+	text-align: center;
+}
+
+#txtBan35 {
+	float: right;
+	width: 120px;
+	text-align: right;
+	margin: 10px 20px 0 0;
+}
+
+#txtquad1 {
+	width: 240px;
+	margin: 25px 0 0 30px;
+}
+
+#txtquad2 {
+	width: 240px;
+	margin: 5px 0 0 30px;
+}
+
+#txtquad3 {
+	width: 240px;
+	margin: 5px 0 0 30px;
+}
+
+#email {
+	margin: 18px 100px 0 0;
+}
+
+#tel {
+	margin: 21px 100px 0 0;
+}
+
+#tudoproduto {
+	width: 746px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+div.modelo {
+	position: relative;
+	float: left;
+	background-color: #163d1b;
+	width: 736px;
+	height: 37px;
+	padding: 0 0 0 10px;
+}
+
+h1.modeloproduto {
+	position: relative;
+	float: left;
+	color: #8a9e8d;
+	font-size: 230%;
+	letter-spacing: -1.7px;
+	font-weight: normal;
+	line-height: 100%;
+}
+
+.rel {
+	position: relative;
+	float: left;
+}
+
+#wrapBG {
+	width: 100%;
+	background: url(../../prod/band_mesa/bgperson.jpg);
+}
+
+/*Pedestais*/
+#pedTopo {
+	width: 100%;
+	height: 384px;
+}
+
+#pedTopo1 {
+	width: 100%;
+	height: 115px;
+}
+
+#peds01 {
+	width: 258px;
+	height: 100%;
+	background: url(../../prod/band_mesa/peds01.jpg);
+}
+
+#txtPeds01 {
+	width: 488px;
+	height: 100%;
+	background: url(../../prod/band_mesa/txtpeds01.jpg);
+}
+
+#pedTopo2 {
+	width: 100%;
+	height: 156px;
+}
+
+#peds02 {
+	width: 258px;
+	height: 100%;
+	background: url(../../prod/band_mesa/peds02.jpg);
+}
+
+#peds03 {
+	width: 338px;
+	height: 100%;
+	background: url(../../prod/band_mesa/peds03.jpg);
+}
+
+#peds04 {
+	width: 150px;
+	height: 100%;
+	background: url(../../prod/band_mesa/peds04.jpg);
+}
+
+#pedTopo3 {
+	width: 100%;
+	height: 113px;
+}
+
+#txtPeds02 {
+	width: 258px;
+	height: 100%;
+	background: url(../../prod/band_mesa/txtpeds02.jpg);
+}
+
+#peds05 {
+	width: 338px;
+	height: 100%;
+	background: url(../../prod/band_mesa/peds05.jpg);
+}
+
+#txtPeds03 {
+	width: 150px;
+	height: 100%;
+	background: url(../../prod/band_mesa/txtpeds03.jpg);
+}
+
+/*Estandartes*/
+#estMeio {
+	width: 100%;
+	height: 353px;
+}
+
+#estMeio1 {
+	width: 100%;
+	height: 251px;
+}
+
+#est01 {
+	width: 233px;
+	height: 100%;
+	background: url(../../prod/band_mesa/est01.jpg);
+}
+
+#est02 {
+	width: 363px;
+	height: 100%;
+	background: url(../../prod/band_mesa/est02.jpg);
+}
+
+#est03 {
+	width: 150px;
+	height: 100%;
+	background: url(../../prod/band_mesa/est03.jpg);
+}
+
+#estMeio2 {
+	width: 100%;
+	height: 102px;
+}
+
+#txtEst01 {
+	width: 233px;
+	height: 100%;
+	background: url(../../prod/band_mesa/txtest01.jpg);
+}
+
+#txtEst02 {
+	width: 363px;
+	height: 100%;
+	background: url(../../prod/band_mesa/txtest02.jpg);
+}
+
+#txtEst03 {
+	width: 150px;
+	height: 100%;
+	background: url(../../prod/band_mesa/txtest03.jpg);
+}
+
+/*Pedestais Quadrados*/
+#quadBaixo {
+	width: 100%;
+	height: 958px;
+}
+
+#gapLanc {
+	width: 100%;
+	height: 13px;
+	background: url(../../prod/band_mesa/gaplanc.jpg);
+	*margin-bottom: -6px;
+}
+
+#infoDemo {
+	width: 100%;
+	height: 557px;
+}
+
+#flashDemo {
+	width: 424px;
+	height: 100%;
+	background: url(../../prod/band_mesa/flashdemo.jpg);
+}
+
+#infoQuad {
+	width: 322px;
+	height: 100%;
+}
+
+#quad10 {
+	width: 100%;
+	height: 339px;
+	background: url(../../prod/band_mesa/quad10.jpg);
+}
+
+#txtQuad {
+	width: 100%;
+	height: 218px;
+	background: url(../../prod/band_mesa/txtquad.jpg);
+}
+
+#fotosQuad {
+	width: 100%;
+	height: 275px;
+}
+
+#quad02 {
+	width: 178px;
+	height: 100%;
+	background: url(../../prod/band_mesa/quad02c.jpg);
+}
+
+#quad04 {
+	width: 166px;
+	height: 100%;
+	background: url(../../prod/band_mesa/quad04.jpg);
+}
+
+#quad06 {
+	width: 189px;
+	height: 100%;
+	background: url(../../prod/band_mesa/quad06.jpg);
+}
+
+#quad08 {
+	width: 213px;
+	height: 100%;
+	background: url(../../prod/band_mesa/quad08.jpg);
+}
+
+#rodapePerson {
+	width: 100%;
+	height: 126px;
+}
+
+#gapQuad {
+	width: 200px;
+	height: 100%;
+	background: url(../../prod/band_mesa/gapquad.jpg);
+}
+
+#consulteP {
+	width: 184px;
+	height: 100%;
+	background: url(../../prod/band_mesa/consulte.jpg);
+}
+
+#contatoP {
+	width: 362px;
+	height: 100%;
+	background: url(../../prod/band_mesa/contato.jpg);
+}
+
+#sombraSite {
+	width: 100%;
+	height: 14px;
+	background: url(../../prod/band_mesa/sombrasite.jpg) no-repeat;
+	*margin: -7px 0 -7px 0;
+}
