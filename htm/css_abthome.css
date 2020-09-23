@@ -1,0 +1,797 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*HOME*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	border: none;
+}
+
+img.fixIE {
+	*margin: 0 -3px 0 -3px;
+}
+
+a {
+	text-decoration: none;
+}
+
+div.popup{
+     position: fixed;
+     top: 50px;
+  bottom: 0;
+     left: 0;
+     margin: auto;
+     width: 150px;
+     height: 750px;
+     padding: 20px;
+     
+     
+     display: none;
+  }
+#tudohome {
+	font-family: Myriad Pro, Segoe UI, Tahoma;
+	width: 870px;
+	height: 1400px;
+	position: relative;
+	margin-left: -8px;
+	
+}
+
+#flashprodutos {
+	width: 746px;
+	height: 295px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+
+div.titulo h1 {
+	text-align: center;
+	letter-spacing: -1.2px;
+	color: #8a9e8d;
+	font-weight: normal;
+	font-size: 220%;
+	line-height: 100%;
+}
+
+#destaque div.titulo {
+	width: 340px;
+}
+
+#destaque div.orgdestaque1 {
+	position: relative;
+	float: left;
+	width: 124px;
+	height: 621px;
+}
+
+#destaque div.orgdestaque2 {
+	position: relative;
+	float: left;
+	width: 216px;
+	height: 621px;
+}
+
+#destaque img.bandeira {
+	position: relative;
+	float: left;
+	width: 118px;
+	height: 617px;
+}
+
+#slider {
+	position: relative;
+	/* left: 15px; */
+	/* top: 258px; */
+	width: 234px;
+	height: 229px;
+	
+}
+
+#cont_kit1 {
+	position: float;
+	left: 15px;
+	top: 258px;
+	width: 234px;
+	height: 229px;
+	z-index: 99;
+}
+#cont_kit2 {
+	position: absolute;
+	left: 301px;
+	top: 376px;
+	width: 270px;
+	height: 343px;
+	z-index: 555;
+}
+#txtkit2 {
+	position: absolute;
+	left: 312px;
+	top: 272px;
+	width: 251px;
+	height: 110px;
+	/* z-index: 2; */
+	font-family: "Segoe UI";
+	font-size: 14px;
+	color: 0f698d;
+	text-align: left;
+}
+#cont_kit3 {
+	position: absolute;
+	left: 4px;
+	top: 82px;
+	width: 267px;
+	height: 399px;
+	z-index: 555;
+}
+#txtkit3 {
+	position: absolute;
+	left: 8px;
+	top: 35px;
+	width: 260px;
+	height: 51px;
+	z-index: 4;
+	font-family: "Segoe UI";
+	font-size: 14px;
+	color: 0f698d;
+        text-align: center;
+}
+
+#txtkit1 {
+	position: absolute;
+	left: 99px;
+	top: 263px;
+	width: 174px;
+	height: 54px;
+	/* z-index: 999; */
+	font-family: "Segoe UI";
+	font-size: 14px;
+	color: 0f698d;
+	text-align: right;
+}
+
+#destaque img.base {
+	position: absolute;
+	top: 148px;
+	left: 0px;
+	width: 216px;
+	height: 168px;
+}
+
+#destaque img.rosca {
+	position: absolute;
+	top: 316px;
+	left: 0px;
+	width: 216px;
+	height: 143px;
+}
+
+#destaque img.lanca {
+	position: absolute;
+	top: 459px;
+	left: 0px;
+	width: 216px;
+	height: 159px;
+}
+
+#destaque div.txtdestaque {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 216px;
+	height: 148px;
+}
+
+#destaque h3 {
+	font-weight: normal;
+	font-size: 135%;
+	margin: 35px 35px 0 0;
+	text-align: right;
+	line-height: 100%;
+	letter-spacing: -1px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #163d1b;
+}
+
+#destaque h3 a {
+	color: #163d1b;
+}
+
+#destaque p {
+	font-size: 80%;
+	text-align: right;
+	margin-right: 35px;
+	color: #666;
+}
+
+#destaque p a {
+	color: #666;
+}
+
+#cubos {
+	width: 746px;
+	height: 150px;
+	position: absolute;
+	top: 323px;
+	left: 0px;
+}
+
+div.tituloCubos {
+	width: 746px;
+	background-color: #163d1b;
+	height: 37px;
+	position: relative;
+	float: left;
+}
+
+div.tituloCubos h1 {
+	width: 746px;
+	text-align: center;
+	letter-spacing: -1.2px;
+	color: #8a9e8d;
+	font-weight: normal;
+	font-size: 220%;
+	line-height: 100%;
+}
+
+div.imgsCubos {
+	width: 746px;
+	height: 113px;
+	position: relative;
+	float: left;
+}
+
+div.imgsCubos img {
+	position: relative;
+	float: left;
+}
+
+#vendidos {
+	width: 397px;
+	height: 658px;
+	position: absolute;
+	top: 485px;
+	left: 349px;
+}
+
+#vendidos div.titulo {
+	width: 397px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#img1 {
+	position: absolute;
+	top: 59px;
+	left: 0px;
+}
+
+#img2 {
+	position: absolute;
+	top: 179px;
+	left: 239px;
+}
+
+#img3 {
+	position: absolute;
+	top: 299px;
+	left: 0px;
+}
+
+#img4 {
+	position: absolute;
+	top: 419px;
+	left: 239px;
+}
+
+#img5 {
+	position: absolute;
+	top: 539px;
+	left: 0px;
+}
+
+#tit1 {
+	position: absolute;
+	top: 59px;
+	left: 158px;
+}
+
+#tit2 {
+	position: absolute;
+	top: 179px;
+	left: 0px;
+}
+
+#tit3 {
+	position: absolute;
+	top: 299px;
+	left: 158px;
+}
+
+#tit4 {
+	position: absolute;
+	top: 419px;
+	left: 0px;
+}
+
+#tit5 {
+	position: absolute;
+	top: 539px;
+	left: 158px;
+}
+
+#txt1 {
+	position: absolute;
+	top: 101px;
+	left: 158px;
+}
+
+#txt2 {
+	position: absolute;
+	top: 221px;
+	left: 0px;
+}
+
+#txt3 {
+	position: absolute;
+	top: 341px;
+	left: 158px;
+}
+
+#txt4 {
+	position: absolute;
+	top: 461px;
+	left: 0px;
+}
+
+#txt5 {
+	position: absolute;
+	top: 581px;
+	left: 158px;
+}
+
+#vendidos div.tit_esq, div.tit_dir {
+	width: 239px;
+	height: 35px;
+}
+
+#vendidos h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 155%;
+	font-weight: normal;
+	letter-spacing: -2px;
+	line-height: 100%;
+	color: #163d1b;
+}
+
+#vendidos h3 a {
+	color: #163d1b;
+}
+
+#vendidos div.tit_esq h3 {
+	margin: 10px 0 0 10px;
+}
+
+#vendidos div.tit_dir h3 {
+	margin: 10px 10px 0 0;
+	text-align: right;
+}
+
+#vendidos div.txt_esq, div.txt_dir {
+	width: 239px;
+	height: 64px;
+}
+
+#vendidos p {
+	font-size: 80%;
+	color: #404040;
+}
+
+#vendidos p a {
+	color: #404040;
+}
+
+#vendidos div.txt_esq p {
+	margin-left: 10px;
+}
+
+#vendidos div.txt_dir p {
+	margin-right: 10px;
+	text-align: right;
+}
+
+#torcedorflash {
+	width: 746px;
+	height: 307px;
+	position: absolute;
+	top: 1164px;
+	left: 0px;
+}
+
+#bandMuni {
+	width: 280px;
+	height: 399px;
+	position: absolute;
+	top: 1494px;
+	left: 0px;
+}
+
+#muni01 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 280px;
+	height: 21px;
+	background: url(../../../../Home%202011/HTML/home/NOVA/prod/home/muni01.jpg);
+}
+
+#muniTit {
+	position: absolute;
+	top: 21px;
+	left: 0px;
+	width: 280px;
+	height: 129px;
+}
+
+#muni021 {
+	position: absolute;
+	top: 150px;
+	left: 0px;
+	width: 60px;
+	height: 100px;
+	background: url(../../../../Home%202011/HTML/home/NOVA/prod/home/muni02.jpg);
+}
+
+#muni022 {
+	position: absolute;
+	top: 150px;
+	left: 60px;
+	width: 220px;
+	height: 100px;
+}
+
+#muniTxt {
+	position: absolute;
+	top: 250px;
+	left: 0px;
+	width: 133px;
+	height: 97px;
+}
+
+#muni032 {
+	position: absolute;
+	top: 250px;
+	left: 133px;
+	width: 147px;
+	height: 97px;
+}
+
+#muni041 {
+	position: absolute;
+	top: 347px;
+	left: 0px;
+	width: 133px;
+	height: 52px;
+	background: url(../../../../Home%202011/HTML/home/NOVA/prod/home/muni05.jpg);
+}
+
+#muni042 {
+	position: absolute;
+	top: 347px;
+	left: 133px;
+	width: 147px;
+	height: 52px;
+	background: url(../../../../Home%202011/HTML/home/NOVA/prod/home/muni06.jpg);
+}
+
+#pedPerson {
+	width: 457px;
+	height: 399px;
+	position: absolute;
+	top: 1494px;
+	left: 289px;
+}
+
+#personTit01 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 137px;
+	height: 94px;
+}
+
+#personTit02 {
+	position: absolute;
+	top: 0px;
+	left: 137px;
+	width: 180px;
+	height: 94px;
+}
+
+#person013 {
+	position: absolute;
+	top: 0px;
+	left: 317px;
+	width: 140px;
+	height: 94px;
+	background: url(../../../../Home%202011/HTML/home/NOVA/prod/home/person013.jpg);
+}
+
+#person021 {
+	position: absolute;
+	top: 94px;
+	left: 0px;
+	width: 15px;
+	height: 200px;
+	background: url(../../../../Home%202011/HTML/home/NOVA/prod/home/person021.jpg) repeat-y;
+}
+
+#pedFoto01 {
+	position: absolute;
+	top: 94px;
+	left: 15px;
+	width: 231px;
+	height: 200px;
+}
+
+#pedFoto02 {
+	position: absolute;
+	top: 94px;
+	left: 246px;
+	width: 71px;
+	height: 200px;
+}
+
+#pedFoto03 {
+	position: absolute;
+	top: 94px;
+	left: 317px;
+	width: 140px;
+	height: 200px;
+}
+
+#person031 {
+	position: absolute;
+	top: 294px;
+	left: 0px;
+	width: 15px;
+	height: 105px;
+	background: url(../../../../Home%202011/HTML/home/NOVA/prod/home/person031.jpg);
+}
+
+#personTxt01 {
+	position: absolute;
+	top: 294px;
+	left: 15px;
+	width: 231px;
+	height: 105px;
+	background: url(../../../../Home%202011/HTML/home/NOVA/prod/home/persontxt01.jpg);
+}
+
+#personTxt01 p.txtPerson {
+	position: absolute;
+	width: 190px;
+	font-size: 13px;
+	color: #575757;
+	line-height: 100%;
+	display: inline;
+}
+
+#txtPed1 {
+	top: 13px;
+	left: 19px;
+}
+
+#txtPed2 {
+	top: 45px;
+	left: 19px;
+}
+
+#txtPed3 {
+	top: 63px;
+	left: 19px;
+}
+
+#personTxt02 {
+	position: absolute;
+	top: 294px;
+	left: 246px;
+	width: 211px;
+	height: 105px;
+	background: url(../../../../Home%202011/HTML/home/NOVA/prod/home/persontxt02.jpg);
+}
+
+#personTxt02 p.txtPerson {
+	position: absolute;
+	top: 19px;
+	left: 26px;
+	float: left;
+	width: 180px;
+	font-size: 16px;
+	color: #fff;
+	line-height: 124%;
+	display: inline;
+	letter-spacing: -0.5px;
+	text-align: center;
+}
+
+#personTxt02 p.txtPerson span {
+	font-weight: bold;
+}
+
+#bandGig {
+	width: 746px;
+	height: 329px;
+	position: absolute;
+	top: 1909px;
+	left: 0px;
+	background: blue;
+}
+
+#gig01 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 552px;
+	height: 329px;
+}
+
+#gigTit {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 541px;
+	*width: 552px;
+	height: 39px;
+	padding-left: 11px;
+	background: url(../../../../Home%202011/HTML/home/NOVA/prod/home/gigtit.jpg) repeat-x;
+}
+
+#gigTit h1 {
+	letter-spacing: -1.2px;
+	color: #8a9e8d;
+	font-weight: normal;
+	font-size: 220%;
+	line-height: 100%;
+}
+
+#gigTxt {
+	position: absolute;
+	top: 39px;
+	left: 0px;
+	width: 552px;
+	height: 114px;
+	background: url(../../../../Home%202011/HTML/home/NOVA/prod/home/gigtxt.jpg) repeat-x;
+}
+
+#gigTxt p.txtGig {
+	position: absolute;
+	top: 14px;
+	left: 14px;
+	width: 376px;
+	font-size: 13px;
+	color: #454545;
+	line-height: 155%;
+}
+
+#gig013 {
+	position: absolute;
+	top: 153px;
+	left: 0px;
+	width: 552px;
+	height: 104px;
+	background: url(../../../../Home%202011/HTML/home/NOVA/prod/home/gig013.jpg) repeat-x;
+}
+
+#gigContato {
+	position: absolute;
+	top: 257px;
+	left: 0px;
+	width: 552px;
+	height: 72px;
+}
+
+#gigInfo {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 138px;
+	height: 72px;
+	background: url(../../../../Home%202011/HTML/home/NOVA/prod/home/giginfo.jpg);
+}
+
+#gigTel01 {
+	position: absolute;
+	top: 0px;
+	left: 138px;
+	width: 65px;
+	height: 72px;
+	background: url(../../../../Home%202011/HTML/home/NOVA/prod/home/gigtel01.jpg);
+}
+
+#gigTel02 {
+	position: absolute;
+	top: 0px;
+	left: 203px;
+	width: 97px;
+	height: 72px;
+	background: url(../../../../Home%202011/HTML/home/NOVA/prod/home/gigtel02.jpg);
+}
+
+#gigTel02 p.txtGig {
+	position: absolute;
+	top: 20px;
+	left: 5px;
+	font-size: 12px;
+	color: #797979;
+	line-height: 135%;
+}
+
+#gigTel02 p.txtGig span{
+	font-size: 11px;
+}
+
+#gigMail01 {
+	position: absolute;
+	top: 0px;
+	left: 300px;
+	width: 59px;
+	height: 72px;
+	background: url(../../../../Home%202011/HTML/home/NOVA/prod/home/gigmail01.jpg);
+}
+
+#gigMail02 {
+	position: absolute;
+	top: 0px;
+	left: 359px;
+	width: 193px;
+	height: 72px;
+	background: url(../../../../Home%202011/HTML/home/NOVA/prod/home/gigmail02.jpg);
+}
+
+#gigMail02 p.txtGig {
+	position: absolute;
+	top: 20px;
+	left: 5px;
+	font-size: 12px;
+	line-height: 135%;
+}
+
+#gigMail02 p.txtGig a {
+	color: #797979;
+}
+
+#gig02 {
+	position: absolute;
+	top: 0px;
+	left: 552px;
+	width: 194px;
+	height: 329px;
+	background: url(../../../../Home%202011/HTML/home/NOVA/prod/home/gig02.jpg);
+}
+
+.kits {
+	font-family: "Segoe UI";
+	font-size: 22px;
+	font-weight: bold;
+	color: #FFF;
+	/* z-index: 111; */
+}
+.destakband {
+	font-family: "Myriad Pro";
+	font-size: 38px;
+	color: #2975A3;
+	letter-spacing: -3em;
+}
+.EstLinhaBarraExt{
+display: none;
+}
+.EstLinhaBarra{
+display: none;
+}
