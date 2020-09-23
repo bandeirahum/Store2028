@@ -1,0 +1,99 @@
+	<link rel="stylesheet" type="text/css" href="<baseloja>htm/kitbm2014/css_kitsBM.css" media="screen" />
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script>
+	<script type="text/javascript" src="<baseloja>htm/kitbm2014/chooseKitteste2.js"></script>
+	
+	<script type="text/javascript">
+	// Lista do caminho e nome dos arquivos de imagesm. Pode ter quantas você quiser :)
+	imagesm_lista = Array('../../HTML/bases+mastros/img/check.png', '../../HTML/bases+mastros/img/01mogno.png', '../../HTML/bases+mastros/img/02mogno.png', '../../HTML/bases+mastros/img/03mogno.png', '../../HTML/bases+mastros/img/04mogno.png', '../../HTML/bases+mastros/img/05mogno.png', '../../HTML/bases+mastros/img/01imbuia.png', '../../HTML/bases+mastros/img/02imbuia.png', '../../HTML/bases+mastros/img/03imbuia.png', '../../HTML/bases+mastros/img/04imbuia.png', '../../HTML/bases+mastros/img/05imbuia.png', '../../HTML/bases+mastros/img/01jacaranda.png', '../../HTML/bases+mastros/img/02jacaranda.png', '../../HTML/bases+mastros/img/03jacaranda.png', '../../HTML/bases+mastros/img/04jacaranda.png', '../../HTML/bases+mastros/img/05jacaranda.png', '../../HTML/bases+mastros/img/mastroBola.png', '../../HTML/bases+mastros/img/mastroLanca.png');
+	imagesm_qtd = imagesm_lista.length;
+	for (i = 0; i < imagesm_qtd; i++) {
+		var preload = new Image();
+		preload.src = imagesm_lista[i];
+	}
+	</script>
+
+
+
+
+<div id="tudoKits">
+
+<div id="boxKits02">
+	<div class="titPag2">
+	  <h2></h2>
+	</div>
+	<div id="subtitMonte">
+		<h3>Monte seu kit:</h3>
+		<p>• Escolha a base, cor da base e ponteira do mastro.</p>
+	</div>
+	
+	<div id="passo01" class="boxPassos">
+       <div id="p1"><img src="<baseloja>images/kitbm2014/botpasso1.png" width="91" height="82" /></div>
+      <img src="<baseloja>images/kitbm2014/check.png" id="checkBase" class="checkBox" />
+	  <h3><span id="tit1" class="colorT">&nbsp;&nbsp;&nbsp;&nbsp;Escolha a Base</span></h3>
+	  <div id="grayBox01" class="grayBox">
+		  <p><img src="<baseloja>images/kitbm/baseM1.png" alt="Para 01 mastro" name="base01" class="baseM mouseO" id="base01" />
+			  <img src="<baseloja>images/kitbm/baseM2.png" alt="Para 02 mastros" name="base02" class="baseM mouseO" id="base02" />
+			  <img src="<baseloja>images/kitbm/baseM3.png" alt="Para 03 mastros" id="base03" class="baseM mouseO" />
+			  <img src="<baseloja>images/kitbm/baseM4.png" alt="Para 04 mastros" id="base04" class="baseM mouseO" />
+			  <img src="<baseloja>images/kitbm/baseM5.png" alt="Para 05 mastros" id="base05" class="baseM mouseO" />
+			  <img src="<baseloja>images/kitbm2014/baseM6.png" alt="Para 06 mastros" id="base06" class="baseM mouseO" />
+              <img src="<baseloja>images/kitbm2014/bmod2.png" alt="Mod 02 mastros" id="base07" class="baseMod mouseO" />
+              <img src="<baseloja>images/kitbm2014/bmod3.png" alt="Mod 03 mastros" id="base08" class="baseMod mouseO"  /> 
+              
+              <img src="<baseloja>images/kitbm2014/bmod4.png" alt="Mod 04 mastros" id="base09" class="baseMod mouseO"  /> 
+              
+              <img src="<baseloja>images/kitbm2014/bmod5.png" alt="Mod 05 mastros" id="base10" class="baseMod mouseO" /> 
+              
+        <img src="<baseloja>images/kitbm2014/bmod6.png" alt="Mod 06 mastros" id="base11" class="baseMod mouseO" /></p>
+	  </div>
+	</div>
+	<div id="passos23" class="boxPassos">
+		<div id="passo02">
+           <div id="p2"><img src="<baseloja>images/kitbm2014/botpasso2.png" width="91" height="82" /></div>
+			<img src="<baseloja>images/kitbm2014/check.png" name="checkCor" class="checkBox" id="checkCor" />
+			<h3><span id="tit2" class="colorT">Escolha a Cor</span></h3>
+			<div id="grayBox02" class="grayBox">
+				<img src="<baseloja>images/kitbm2014/cerejeira2.png" alt="Mogno" width="84" height="83" class="corBase mouseO" id="cor01" />
+				<img src="<baseloja>images/kitbm2014/imbuia2.png" alt="Imbuia" width="84" height="85" class="corBase mouseO" id="cor02" />
+				<img src="<baseloja>images/kitbm2014/jacaranda2.png" alt="Jacarandá" width="84" height="83" class="corBase mouseO" id="cor03" />
+                <img src="<baseloja>images/kitbm2014/mogno2.png" alt="Mogno" width="84" height="82" class="corBase mouseO" id="cor04" />
+                                 <div id="cerejeiratxt" class="txtcor">Cerejeira</div>
+                                 <div id="imbuiatxt" class="txtcor">Imbuia</div>
+                                 <div id="jacarandatxt" class="txtcor">Jacarandá</div>
+                                 <div id="mognotxt" class="txtcor">Mogno</div>               
+			</div>
+	  </div>
+		<div id="passo03">
+          <div id="txtbola">Bola</div>
+          <div id="txtlanca">Lança</div>
+           <div id="p3"><img src="<baseloja>images/kitbm2014/botpasso3.png" width="91" height="82" /></div>
+		  <img src="<baseloja>images/kitbm2014/check.png" id="checkPont" class="checkBox" />
+		  <h3><span id="tit3" class="colorT">Escolha a ponteira do Mastro</span></h3>
+			<img src="<baseloja>images/kitbm2014/botProximo2.png" alt="Montar Kit" id="proxMontar" class="botProximo mouseO"/>
+			<div id="grayBox03" class="grayBox">
+			<img src="<baseloja>images/kitbm2014/bola2.png" alt="Bola" class="ponteiras mouseO" id="bola" /><img src="<baseloja>images/kitbm2014/lanca2.png" alt="Lança" class="ponteiras mouseO" id="lanca" /></div>
+	  </div>
+	</div>
+	<div id="boxPreview">
+        	<div class="titPrev">
+             <div id="kit">#Kit</div>
+			<h3><img src="<baseloja>images/kitbm2014/kitpronto.png" width="815" height="42" alt="visualize" /></h3>
+		</div>
+	  <div class="fotosPrev">
+          <p class="TitDescPrev">&nbsp;</p>
+          <p id="quant" name="quant"></p>
+        <div id="botcomprar"><a class="linkProd mouseO"><img src="<baseloja>images/kitbm2014/adcarrinho.jpg" width="165" height="65" /></a>
+        </div>
+          </div>
+		  <div id="boxBase">
+				<img class="imgBase" src="<baseloja>images/kitbm2014/imgfundo.jpg" alt="Base" />
+			
+             
+      </div>
+ 
+	</div>
+        
+    </div>
+</div>
