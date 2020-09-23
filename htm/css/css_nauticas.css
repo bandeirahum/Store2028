@@ -1,0 +1,217 @@
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	img {
+		border: none;
+	}
+	
+	a {
+		text-decoration: none;
+	}
+
+	#tudonauticas {
+		width: 870px;
+		height: 1900px;
+		font-family: Tahoma, Geneva, sans-serif;
+	}
+	
+		div.modelo {
+position: relative;
+float: left;
+height: 27px;
+/* margin: 10px 0px 0px; */
+background-image: url('../../images/barras/barranauticas.gif');
+background-repeat: no-repeat;
+width: 877px;
+padding-bottom: 30;
+margin-top: 10;
+
+
+}
+	
+	h1.modelonauticas {
+		position: relative;
+		float: left;
+		color: #8a9e8d;
+		font-size: 230%;
+		letter-spacing: -1.7px;
+		font-weight: normal;
+		line-height: 100%;
+	}
+	
+	div.tipo {
+		width: 746px;
+		height: 55px;
+		position: relative;
+		float: left;		
+	}
+	
+	img.square {
+		position: relative;
+		float: left;
+		clear: both;
+		margin: 26px 0 0 1px;
+	}
+	
+	p.subtitulonauticas {
+		position: relative;
+		float: left;
+		font-size: 16px;
+		color: #777;
+		margin: 20px 0 0 5px;
+	}
+	
+	p.mouse {
+		position: relative;
+		float: left;
+		margin: 0 500px 15px 13px;
+		font-size: 80%;
+		color: #848581
+		
+	}
+	
+	div.bandeirasp {
+		width: 108px;
+		height: 93px;
+		position: relative;
+		float: left;
+		margin: 0 66px 26px 10px;
+		*margin: 0 38px 26px 10px;
+		display: inline;		
+	}
+	
+	img.imgnaut {
+		width: 108px;
+		height: 75px;
+		position: relative;
+		float: left;
+	}
+	
+	span.nomenaut {
+		width: 108px;
+		height: 18px;
+		position: relative;
+		float: left;
+		text-align: center;
+		font-size: 16px;
+		color: #848581;
+	
+		font-family: "Segoe UI";
+}
+	
+	div.bandeiras {
+		width: 108px;
+		height: 93px;
+		position: relative;
+		float: left;
+		margin: 0 66px 26px 0;
+		*margin: 0 38px 26px 0;
+		display: inline;
+	}
+	
+	div.bandeirasu {
+		width: 108px;
+		height: 93px;
+		position: relative;
+		float: left;
+		margin: 0 11px 26px 0;
+		display: inline;
+	}
+	
+	#ToolTip {
+		*margin-left: -450px;
+	}
+	
+	.chrome  #ToolTip {
+		margin-left:  -450px;
+	}
+
+
+#kittd {
+	position: absolute;
+	/* left: 11px; */
+	top: 1818px;
+	width: 867px;
+	height: 274px;
+	z-index: 1;
+}
+#kitga {
+	position: absolute;
+	left: -4px;
+	top: 61px;
+	width: 47px;
+	height: 40px;
+	z-index: 2;
+	text-align: center;
+}
+#txtga {
+	position: absolute;
+	left: 6px;
+	top: 179px;
+	width: 114px;
+	height: 46px;
+	z-index: 2;
+}
+.txtsub {
+	font-size: 16px;
+	color: #848581;
+	font-family: "segoe ui";
+}
+#kitn {
+	position: absolute;
+	left: 197px;
+	top: 60px;
+	width: 102px;
+	height: 108px;
+	z-index: 2;
+}
+#kitnum {
+	position: absolute;
+	left: 2px;
+	top: 181px;
+	width: 115px;
+	height: 46;
+	z-index: 2;
+	text-align: center;
+}
+#kitsubs {
+	position: absolute;
+	left: 405px;
+	top: 102px;
+	width: 131px;
+	height: 106px;
+	z-index: 2;
+}
+#txtsubs {
+	position: absolute;
+	left: 8px;
+	top: 139px;
+	width: 109px;
+	height: 46px;
+	z-index: 2;
+	text-align: center;
+}
+#kittodas {
+	position: absolute;
+	left: 615px;
+	top: 72px;
+	width: 82px;
+	height: 148px;
+	z-index: 2;
+}
+#txttudo {
+	position: absolute;
+	left: 3px;
+	top: 169px;
+	width: 114px;
+	height: 37px;
+	z-index: 2;
+	text-align: center;
+}
+	
+	
+
+	
+	
