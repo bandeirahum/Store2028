@@ -1,0 +1,845 @@
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	img {
+		border: none;
+	}
+	
+	a {
+		text-decoration: none;
+		color: #000;
+		cursor: pointer;
+	}
+	
+	span.bold {
+		font-weight: bold;
+	}
+
+	#tudoproduto {
+		position: relative;
+		float: left;
+		width: 746px;
+		height: 2810px;
+		display: inline;
+	}
+	
+	#brasil {
+		position: relative;
+		float: left;
+		width: 746px;
+		height: 206px;
+	}
+	
+		div.linha1 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 206px;
+		}
+		
+			div.tit1 {
+				position: relative;
+				float: left;
+				width: 386px;
+				height: 206px;
+				background: url(../../images/brasil/bg_tit01.png);
+			}
+			
+			div.tit2 {
+				position: relative;
+				float: left;
+				width: 360px;
+				height: 206px;
+				background: url(../../images/brasil/bg_tit02.png);
+			}
+				
+		div.linha2 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 58px;
+		}
+		
+			div.tit3 {
+				position: relative;
+				float: left;
+				width: 262px;
+				height: 58px;
+				background: url(../../images/brasil/bg_tit03.png);
+			}
+			
+			div.tit4 {
+				position: relative;
+				float: left;
+				width: 484px;
+				height: 58px;
+				background: url(../../images/brasil/bg_tit04.png);
+			}
+			
+		div.linha3 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 355px;
+		}
+		
+			div.band1 {
+				position: relative;
+				float: left;
+				width: 262px;
+				height: 355px;
+				background: url(../../prod/brasil/band1.jpg);
+			}
+			
+			div.band2 {
+				position: relative;
+				float: left;
+				width: 251px;
+				height: 355px;
+				background: url(../../prod/brasil/band2.jpg);
+			}
+
+			div.band3 {
+				position: relative;
+				float: left;
+				width: 233px;
+				height: 355px;
+				background: url(../../prod/brasil/band3.jpg);
+			}
+			
+		div.linha4 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 132px;
+		}
+		
+			div.desc_band1 {
+				position: relative;
+				float: left;
+				width: 262px;
+				height: 132px;
+				background: url(../../images/brasil/bgband1.png);
+			}
+
+			div.prod_band1 {
+				width: 169px;
+				height: 110px;
+				margin-left:54px;
+				margin-top:4px;
+			}
+
+			div.titulo1 {
+				position: relative;
+				float: right;
+				width: 169px;
+				height: 29px;
+				background: url(../../images/brasil/titulo1.png);
+			}
+
+			p.txt_desc1 {
+				position: relative;
+				float: right;
+				width: 169px;
+				height: 35px;
+				font-family:Tahoma, Geneva, sans-serif;
+				font-size:11px;
+				color:#535353;
+				text-align:center;
+			}
+
+			div.valor1 {
+				position: relative;
+				float: left;
+				width: 79px;
+				height: 42px;
+				margin-left: 45px;
+				background: url(../../images/brasil/valor41.png);
+			}			
+			
+			div.desc_band2 {
+				position: relative;
+				float: left;
+				width: 251px;
+				height: 132px;
+				background: url(../../images/brasil/bgband2.png);
+			}
+
+			div.prod_band2 {
+				width: 169px;
+				height: 110px;
+				margin-left:44px;
+				margin-top:4px;
+			}
+
+			div.titulo2 {
+				position: relative;
+				float:left;
+				width: 159px;
+				height: 29px;
+				margin-left:5px;
+				background: url(../../images/brasil/titulo2.png);
+			}
+
+			p.txt_desc2 {
+				position: relative;
+				float: right;
+				width: 169px;
+				height: 35px;
+				font-family:Tahoma, Geneva, sans-serif;
+				font-size:11px;
+				color:#535353;
+				text-align:center;
+			}
+
+			div.valor2 {
+				position: relative;
+				float: left;
+				width: 79px;
+				height: 42px;
+				margin-left: 45px;
+				background: url(../../images/brasil/valor40.png);
+			}
+			
+			div.desc_band3 {
+				position: relative;
+				float: left;
+				width: 233px;
+				height: 132px;
+				background: url(../../images/brasil/bgband3.png);
+			}
+
+			div.prod_band3 {
+				width: 169px;
+				height: 110px;
+				margin-left:50px;
+				margin-top:4px;
+			}
+
+			div.titulo3 {
+				position: relative;
+				float: left;
+				width: 159px;
+				height: 29px;
+				margin-left:5px;
+				background: url(../../images/brasil/titulo3.png);
+			}
+
+			p.txt_desc3 {
+				position: relative;
+				float: right;
+				width: 169px;
+				height: 35px;
+				font-family:Tahoma, Geneva, sans-serif;
+				font-size:11px;
+				color:#535353;
+				text-align:center;
+			}
+
+			div.valor3 {
+				position: relative;
+				float: left;
+				width: 79px;
+				height: 42px;
+				margin-left: 45px;
+				background: url(../../images/brasil/valor39.png);
+			}
+
+		div.linha5 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 52px;
+		}
+		
+			div.tit5 {
+				position: relative;
+				float: left;
+				width: 513px;
+				height: 52px;
+				background: url(../../images/brasil/bg_tit05.png);
+			}
+			
+			div.tit6 {
+				position: relative;
+				float: left;
+				width: 233px;
+				height: 52px;
+				background: url(../../images/brasil/bg_tit06.png);
+			}
+			
+		div.linha6 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 393px;
+		}
+		
+			div.pedestal {
+				position: relative;
+				float: left;
+				width: 746px;
+				height: 393px;
+			}
+			
+		div.linha7 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 52px;
+		}
+		
+			div.tit7 {
+				position: relative;
+				float: left;
+				width: 746px;
+				height: 52px;
+				background: url(../../images/brasil/bg_tit07.png);
+			}
+			
+		div.linha8 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 384px;
+		}
+		
+			div.flamulas {
+				position: relative;
+				float: left;
+				width: 746px;
+				height: 384px;
+			}	
+			
+		div.linha9 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 52px;
+		}
+		
+			div.tit8 {
+				position: relative;
+				float: left;
+				width: 746px;
+				height: 52px;
+				background: url(../../images/brasil/bg_tit08.png);
+			}
+			
+		div.linha10 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 242px;
+		}
+		
+			div.prod1 {
+				position: relative;
+				float: left;
+				width: 253px;
+				height: 242px;
+				background: url(../../images/brasil/prod1.png);
+			}
+			div.prod2 {
+				position: relative;
+				float: left;
+				width: 240px;
+				height: 242px;
+				background: url(../../images/brasil/prod2.png);
+			}
+			div.prod3 {
+				position: relative;
+				float: left;
+				width: 253px;
+				height: 242px;
+				background: url(../../images/brasil/prod3.png);
+			}	
+			
+		div.linha11 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 164px;
+		}
+		
+			div.desc1 {
+				position: relative;
+				float: left;
+				width: 253px;
+				height: 164px;
+				background: url(../../images/brasil/desc1.png);
+			}
+
+			div.produto1 {
+				width: 169px;
+				height: 120px;
+				margin-left:53px;
+				margin-top:20px;
+			}
+
+			div.prod_tit1 {
+				position: relative;
+				float: left;
+				width: 128px;
+				height: 26px;
+				background: url(../../images/brasil/titulo_prod1.png);
+			}
+
+			p.prod_desc1 {
+				position: relative;
+				float: right;
+				width: 164px;
+				height: 45px;
+				font-family:Tahoma, Geneva, sans-serif;
+				font-size:11px;
+				color:#535353;
+				margin-left:5px;
+				margin-top:5px;
+			}
+
+			div.prod_valor1 {
+				position: relative;
+				float: left;
+				width: 88px;
+				height: 42px;
+				background: url(../../images/brasil/valor_01.png);
+			}
+
+			div.desc2 {
+				position: relative;
+				float: left;
+				width: 240px;
+				height: 164px;
+				background: url(../../images/brasil/desc2.png);
+			}
+			
+			div.produto2 {
+				width: 185px;
+				height: 120px;
+				margin-left:29px;
+				margin-top:20px;
+			}
+
+			div.prod_tit2 {
+				position: relative;
+				float: left;
+				width: 167px;
+				height: 26px;
+				background: url(../../images/brasil/titulo_prod2.png);
+			}
+
+			p.prod_desc2 {
+				position: relative;
+				float: right;
+				width: 180px;
+				height: 45px;
+				font-family:Tahoma, Geneva, sans-serif;
+				font-size:11px;
+				color:#535353;
+				margin-left:5px;
+				margin-top:5px;
+			}
+
+			div.prod_valor2 {
+				position: relative;
+				float: left;
+				width: 79px;
+				height: 42px;
+				background: url(../../images/brasil/valor_3.png);
+			}
+
+			div.desc3 {
+				position: relative;
+				float: left;
+				width: 253px;
+				height: 164px;
+				background: url(../../images/brasil/desc3.png);
+			}	
+
+			div.produto3 {
+				width: 185px;
+				height: 120px;
+				margin-left:24px;
+				margin-top:20px;
+			}
+
+			div.prod_tit3 {
+				position: relative;
+				float: left;
+				width: 167px;
+				height: 26px;
+				background: url(../../images/brasil/titulo_prod3.png);
+			}
+
+			p.prod_desc3 {
+				position: relative;
+				float: right;
+				width: 180px;
+				height: 45px;
+				font-family:Tahoma, Geneva, sans-serif;
+				font-size:11px;
+				color:#535353;
+				margin-left:5px;
+				margin-top:5px;
+			}
+
+			div.prod_valor3 {
+				position: relative;
+				float: left;
+				width: 79px;
+				height: 42px;
+				background: url(../../images/brasil/valor_3.png);
+			}
+
+
+		div.linha12 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 176px;
+		}
+		
+			div.prod4 {
+				position: relative;
+				float: left;
+				width: 253px;
+				height: 176px;
+				background: url(../../images/brasil/prod4b.png);
+			}
+			div.prod5 {
+				position: relative;
+				float: left;
+				width: 240px;
+				height: 176px;
+				background: url(../../images/brasil/prod5.png);
+			}
+			div.prod6 {
+				position: relative;
+				float: left;
+				width: 253px;
+				height: 176px;
+				background: url(../../images/brasil/prod6b.png);
+			}	
+			
+		div.linha13 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 161px;
+		}
+		
+			div.desc4 {
+				position: relative;
+				float: left;
+				width: 253px;
+				height: 161px;
+				background: url(../../images/brasil/desc4b.png);
+			}
+			
+			div.produto4 {
+				width: 169px;
+				height: 120px;
+				margin-left:53px;
+				margin-top:20px;
+			}
+
+			div.prod_tit4 {
+				position: relative;
+				float: left;
+				width: 200px;
+				height: 26px;
+				background: url(../../images/brasil/titulo_prod4b.png);
+			}
+
+			p.prod_desc4 {
+				position: relative;
+				float: right;
+				width: 164px;
+				height: 45px;
+				font-family:Tahoma, Geneva, sans-serif;
+				font-size:11px;
+				color:#535353;
+				margin-left:5px;
+				margin-top:5px;
+			}
+
+			div.prod_valor4 {
+				position: relative;
+				float: left;
+				width: 79px;
+				height: 42px;
+				background: url(../../images/brasil/valor_04b.png);
+			}
+
+
+			div.desc5 {
+				position: relative;
+				float: left;
+				width: 240px;
+				height: 161px;
+				background: url(../../images/brasil/desc5.png);
+			}
+
+			div.produto5 {
+				width: 185px;
+				height: 120px;
+				margin-left:29px;
+				margin-top:20px;
+			}
+
+			div.prod_tit5 {
+				position: relative;
+				float: left;
+				width: 153px;
+				height: 26px;
+				background: url(../../images/brasil/titulo_prod5.png);
+			}
+
+			p.prod_desc5 {
+				position: relative;
+				float: right;
+				width: 180px;
+				height: 45px;
+				font-family:Tahoma, Geneva, sans-serif;
+				font-size:11px;
+				color:#535353;
+				margin-left:5px;
+				margin-top:5px;
+			}
+
+			div.prod_valor5 {
+				position: relative;
+				float: left;
+				width: 79px;
+				height: 42px;
+				background: url(../../images/brasil/valor_5.png);
+			}
+
+			div.desc6 {
+				position: relative;
+				float: left;
+				width: 253px;
+				height: 161px;
+				background: url(../../images/brasil/desc6b.png);
+			}	
+
+			div.produto6 {
+				width: 185px;
+				height: 120px;
+				margin-left:24px;
+				margin-top:20px;
+			}
+
+			div.prod_tit6 {
+				position: relative;
+				float: left;
+				width: 122px;
+				height: 28px;
+				background: url(../../images/brasil/titulo_prod6b.png);
+			}
+
+			p.prod_desc6 {
+				position: relative;
+				float: right;
+				width: 180px;
+				height: 45px;
+				font-family:Tahoma, Geneva, sans-serif;
+				font-size:11px;
+				color:#535353;
+				margin-left:5px;
+				margin-top:5px;
+			}
+
+			div.prod_valor6 {
+				position: relative;
+				float: left;
+				width: 79px;
+				height: 42px;
+				background: url(../../images/brasil/valor_06b.png);
+			}
+
+
+		div.linha14 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 181px;
+		}
+		
+			div.prod7 {
+				position: relative;
+				float: left;
+				width: 253px;
+				height: 181px;
+				background: url(../../images/brasil/prod7.png);
+			}
+			div.prod8 {
+				position: relative;
+				float: left;
+				width: 240px;
+				height: 181px;
+				background: url(../../images/brasil/prod8.png);
+			}
+			div.prod9 {
+				position: relative;
+				float: left;
+				width: 253px;
+				height: 181px;
+				background: url(../../images/brasil/prod9.png);
+			}	
+			
+		div.linha15 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 169px;
+		}
+
+			div.desc7 {
+				position: relative;
+				float: left;
+				width: 253px;
+				height: 169px;
+				background: url(../../images/brasil/desc7.png);
+			}
+
+			div.produto7 {
+				width: 180px;
+				height: 120px;
+				margin-left:53px;
+				margin-top:20px;
+			}
+
+			div.prod_tit7 {
+				position: relative;
+				float: left;
+				width: 159px;
+				height: 26px;
+				background: url(../../images/brasil/titulo_prod7.png);
+			}
+
+			p.prod_desc7 {
+				position: relative;
+				float: right;
+				width: 175px;
+				height: 45px;
+				font-family:Tahoma, Geneva, sans-serif;
+				font-size:11px;
+				color:#535353;
+				margin-left:5px;
+				margin-top:5px;
+			}
+
+			div.prod_valor7 {
+				position: relative;
+				float: left;
+				width: 79px;
+				height: 42px;
+				background: url(../../images/brasil/valor_7.png);
+			}
+
+
+			div.desc8 {
+				position: relative;
+				float: left;
+				width: 240px;
+				height: 169px;
+				background: url(../../images/brasil/desc8.png);
+			}
+
+			div.produto8 {
+				width: 185px;
+				height: 120px;
+				margin-left:29px;
+				margin-top:20px;
+			}
+
+			div.prod_tit8 {
+				position: relative;
+				float: left;
+				width: 180px;
+				height: 26px;
+				background: url(../../images/brasil/titulo_prod8.png);
+			}
+
+			p.prod_desc8 {
+				position: relative;
+				float: right;
+				width: 180px;
+				height: 45px;
+				font-family:Tahoma, Geneva, sans-serif;
+				font-size:11px;
+				color:#535353;
+				margin-left:5px;
+				margin-top:5px;
+			}
+
+			div.prod_valor8 {
+				position: relative;
+				float: left;
+				width: 79px;
+				height: 42px;
+				background: url(../../images/brasil/valor_8.png);
+			}
+
+			
+			div.desc9 {
+				position: relative;
+				float: left;
+				width: 253px;
+				height: 169px;
+				background: url(../../images/brasil/desc9.png);
+			}			
+
+			div.produto9 {
+				width: 185px;
+				height: 120px;
+				margin-left:24px;
+				margin-top:20px;
+			}
+
+			div.prod_tit9 {
+				position: relative;
+				float: left;
+				width: 202px;
+				height: 26px;
+				background: url(../../images/brasil/titulo_prod9.png);
+			}
+
+			p.prod_desc9 {
+				position: relative;
+				float: right;
+				width: 180px;
+				height: 45px;
+				font-family:Tahoma, Geneva, sans-serif;
+				font-size:11px;
+				color:#535353;
+				margin-left:5px;
+				margin-top:5px;
+			}
+
+			div.prod_valor9 {
+				position: relative;
+				float: left;
+				width: 79px;
+				height: 42px;
+				background: url(../../images/brasil/valor_3.png);
+			}
+
+
+		div.linha16 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 49px;
+		}
+		
+			div.rodape {
+				position: relative;
+				float: left;
+				width: 746px;
+				height: 49px;
+				background: url(../../images/brasil/rodape.png);
+			}			
