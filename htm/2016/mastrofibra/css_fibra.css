@@ -1,0 +1,252 @@
+#tudofibra {
+	position: relative;
+    width: 892px;
+    height: 2361px;
+    z-index: 1;
+    right: -9px;
+    top: 25px;
+}
+#imgfundo {
+	position: absolute;
+	width: 892px;
+	height: 188px;
+	z-index: 2;
+}
+#txtopo {
+	position: absolute;
+	left: 2px;
+	width: 430px;
+	height: 334px;
+	z-index: 3;
+	text-align: center;
+	line-height: 80px;
+}
+.chamada {
+	font-family: NeoTech;
+	font-size: 87px;
+	font-weight: bold;
+	color: #FFF;
+}
+.chamadap {
+	font-family: NeoTech;
+	font-size: 44px;
+	font-weight: bold;
+	color: #FFF;
+	line-height: 10px;
+}
+#em {
+	position: absolute;
+	left: 169px;
+	top: 81px;
+	width: 82px;
+	height: 55px;
+	z-index: 4;
+}
+#mastrof {
+	position: absolute;
+	left: 14px;
+	top: 27px;
+	width: 147px;
+	height: 72px;
+	z-index: 2;
+}
+#emf {
+	position: absolute;
+	left: 156px;
+	top: 110px;
+	width: 70px;
+	height: 33px;
+	z-index: 2;
+}
+#fibraf {
+	position: absolute;
+	left: 52px;
+	top: 128px;
+	width: 287px;
+	height: 41px;
+	z-index: 2;
+}
+#vidrof {
+	position: absolute;
+	left: 208px;
+	top: 200px;
+	width: 86px;
+	height: 35px;
+	z-index: 2;
+}
+#txt1fibra {
+	position: absolute;
+	left: 26px;
+	top: 616px;
+	width: 413px;
+	height: 129px;
+	z-index: 2;
+}
+.txtvermelho {
+	font-family: "Segoe UI";
+	font-size: 35px;
+	color: #bd0623;
+	line-height: 35px;
+}
+.txtcinza {
+	font-family: "Segoe UI";
+	font-size: 15px;
+	color: #7f7f7f;
+}
+.txtcinza2 {
+	font-family: "Segoe UI";
+	font-size: 13px;
+	color: #7f7f7f;
+}
+#pesofibra {
+	position: absolute;
+	left: 580px;
+	top: 707px;
+	width: 194px;
+	height: 67px;
+	z-index: 2;
+	text-align: right;
+}
+#linhacomp {
+	position: absolute;
+	left: 85px;
+	top: 1055px;
+	width: 324px;
+	height: 46px;
+	z-index: 2;
+}
+#modelos {
+	position: absolute;
+	left: 458px;
+	top: 1055px;
+	width: 317px;
+	height: 52px;
+	z-index: 2;
+}
+#originalf {
+	position: absolute;
+	left: 231px;
+	top: 1149px;
+	width: 179px;
+	height: 61px;
+	z-index: 2;
+}
+#ISS {
+	position: absolute;
+	left: 545px;
+	top: 1149px;
+	width: 263px;
+	height: 102px;
+	z-index: 2;
+}
+#placabase {
+	position: absolute;
+	left: 388px;
+	top: 1764px;
+	width: 379px;
+	height: 74px;
+	z-index: 2;
+}
+#carac {
+	position: absolute;
+	left: 24px;
+	top: 2078px;
+	width: 390px;
+	height: 42px;
+	z-index: 2;
+}
+#apDiv1 {
+	position: absolute;
+	left: 40px;
+	top: 2242px;
+	width: 72px;
+	height: 19px;
+	z-index: 2;
+}
+#naoenf {
+	position: absolute;
+	left: -2px;
+	width: 98px;
+	height: 26px;
+	z-index: 2;
+}
+#txtcarac {
+	position: absolute;
+	left: 18px;
+	top: 2227px;
+	width: 738px;
+	height: 71px;
+	z-index: 3;
+	text-align: center;
+}
+#supventos {
+	position: absolute;
+	left: 103px;
+	width: 107px;
+	height: 24px;
+	z-index: 4;
+}
+#noraio {
+	position: absolute;
+	left: 220px;
+	width: 84px;
+	height: 35px;
+	z-index: 5;
+}
+#leve {
+	position: absolute;
+	left: 326px;
+	width: 88px;
+	height: 22px;
+	z-index: 6;
+}
+#resistente {
+	position: absolute;
+	left: 436px;
+	width: 87px;
+	height: 32px;
+	z-index: 7;
+}
+#acabamento {
+	position: absolute;
+	left: 538px;
+	width: 90px;
+	height: 27px;
+	z-index: 8;
+}
+#galvaniza {
+	position: absolute;
+	left: 627px;
+	width: 131px;
+	height: 28px;
+	z-index: 9;
+}
+#selo {
+	position: absolute;
+	left: 451px;
+	top: 41px;
+	width: 122px;
+	height: 120px;
+	z-index: 2;
+}
+#valores {
+	position: absolute;
+	left: 749px;
+	top: 20px;
+	width: 138px;
+	height: 50px;
+	z-index: 2;
+	font-family: NeoTech;
+	font-size: 22px;
+	color: #0b3f7f;
+	font-weight: bold;
+}
+#linkvalores{
+	position: absolute;
+	left: 749px;
+	top: 20px;
+	width: 138px;
+	height: 50px;
+	z-index: 3;
+	
+}
