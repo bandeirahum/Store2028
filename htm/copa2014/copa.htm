@@ -1,0 +1,405 @@
+<!--[if IE]>
+<style>
+/* Somente para IE */
+#tudo {position:absolute; left:230px; top:200px;}
+.image_reel img {width:756px;}
+</style>
+<![endif]-->
+
+
+<link href="<baseloja>htm/copa2014/css_slider.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" src="<baseloja>htm/copa2014/css_browser_selector.js"></script>
+<script src="="<baseloja>htm/copa2014/Scripts/swfobject_modified.js" type="text/javascript"></script>
+
+
+<link href="<baseloja>htm/copa2014/css_copa.css" rel="stylesheet" type="text/css">
+
+
+
+<div id="jquery">
+<div class="main_view">
+    <div class="window">
+        <div class="image_reel">
+            <a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;IDProduto=486965"><img src="<baseloja>images/copa2014/reel_1.jpg" alt="" /></a>
+            <a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=+BT&amp;x=0&amp;y=0"><img src="<baseloja>images/copa2014/reel_2.jpg" alt="" border="0" /></a>
+			<a href="http://www.bandeira1.com.br/prod,IDLoja,2028,IDProduto,4387349,copa-kit-de-bandeira-de-mesa---32-pasises"><img src="<baseloja>images/copa2014/reel_3.jpg" alt="" /></a>
+			<a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;IDCategoria=180566"><img src="<baseloja>images/copa2014/reel_4.jpg" alt="" /></a>
+
+        </div>
+</div>
+    <div class="paging">
+        <a href="#" rel="1">1</a>
+        <a href="#" rel="2">2</a>
+        <a href="#" rel="3">3</a>
+        <a href="#" rel="4">4</a>
+
+</div>
+						</div>						
+					</div>
+					
+<div id="barraDestaq_dir"></div>
+				</div>
+				<div id="faixaDestaq_bot">
+				  <div class="pixelGap_destaq"></div>
+				  <div id="barraDestaq_bot"></div>
+				  <div class="pixelGap_destaq"></div>
+				</div>
+			</div>
+<div id="gapDestaq_dir"></div>
+		</div>
+</div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+			//Code goes here
+			//Show the paging and activate its first link
+$(".paging").show();
+$(".paging a:first").addClass("active");
+
+//Get size of the image, how many images there are, then determin the size of the image reel.
+var imageWidth = $(".window").width();
+var imageSum = $(".image_reel img").size();
+var imageReelWidth = imageWidth * imageSum;
+
+//Adjust the image reel to its new size
+$(".image_reel").css({'width' : imageReelWidth});
+	
+rotate = function(){
+    var triggerID = $active.attr("rel") - 1; //Get number of times to slide
+    var image_reelPosition = triggerID * imageWidth; //Determines the distance the image reel needs to slide
+
+    $(".paging a").removeClass('active'); //Remove all active class
+    $active.addClass('active'); //Add active class (the $active is declared in the rotateSwitch function)
+
+    //Slider Animation
+    $(".image_reel").animate({
+        left: -image_reelPosition
+    }, 1000 );
+
+}; 
+
+//Rotation  and Timing Event
+rotateSwitch = function(){
+    play = setInterval(function(){ //Set timer - this will repeat itself every 7 seconds
+        $active = $('.paging a.active').next(); //Move to the next paging
+        if ( $active.length === 0) { //If paging reaches the end...
+            $active = $('.paging a:first'); //go back to first
+        }
+        rotate(); //Trigger the paging and slider function
+    }, 7000); //Timer speed in milliseconds (7 seconds)
+};
+
+rotateSwitch(); //Run function on launch
+
+//On Hover
+$(".image_reel a").hover(function() {
+    clearInterval(play); //Stop the rotation
+}, function() {
+    rotateSwitch(); //Resume rotation timer
+});	
+
+//On Click
+$(".paging a").click(function() {
+    $active = $(this); //Activate the clicked paging
+    //Reset Timer
+    clearInterval(play); //Stop the rotation
+    rotate(); //Trigger rotation immediately
+    rotateSwitch(); // Resume rotation timer
+    return false; //Prevent browser jump to link anchor
+});
+
+	});
+</script>
+</div>
+
+
+<div id="tudo">
+
+<div id="conteudo">
+
+
+		<!--Bandeirinhas-->
+<div id="bandeirinhas">
+	<div id="faixa_bandeirinhas"><img src="<baseloja>images/copa2014/faixaProdTorcedor.jpg" width="499" height="29" /></div>
+    <div id="bg_bandeirinhas"><img src="<baseloja>images/copa2014/bgBandeirinhas.jpg" width="499" height="278" /></div>
+     
+   <div id="bandBR"><a href="http://www.bandeira1.com.br/custom.asp?IDLoja=2028&amp;arq=brasil/brasil.htm"><img src="<baseloja>images/copa2014/bandBrasil.png" width="50" height="35" /></a></div>
+  <div class="nome_band" id="brasil"><a href="http://www.bandeira1.com.br/custom.asp?IDLoja=2028&amp;arq=brasil/brasil.htm" class="linkbandeirinhas" >Brasil</a></div>
+  
+  <div id="bandCR"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=croacia&amp;x=0&amp;y=0"><img src="<baseloja>images/copa2014/bandCroacia.png" width="50" height="34" /></a></div>
+    <div class="nome_band" id="croacia"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=croacia&amp;x=0&amp;y=0" class="linkbandeirinhas">Croácia</a></div>
+    
+  <div id="bandCA"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=camaroes&amp;x=0&amp;y=0"><img src="<baseloja>images/copa2014/bandCamaroes.png" width="50" height="34" /></a></div>
+    <div class="nome_band" id="camaroes"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=camaroes&amp;x=0&amp;y=0" class="linkbandeirinhas">Camarões</a></div>
+    
+   <div id="bandME"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=mexico&amp;x=0&amp;y=0"><img src="<baseloja>images/copa2014/bandMexico.png" width="50" height="35" /></a></div>
+    <div class="nome_band" id="mexico"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=mexico&amp;x=0&amp;y=0" class="linkbandeirinhas">México</a></div>
+    
+   <div id="bandAU"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=Australia&amp;x=0&amp;y=0"><img src="<baseloja>images/copa2014/bandAustralia.png" width="50" height="35" /></a></div>
+    <div class="nome_band" id="australia"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=Australia&amp;x=0&amp;y=0" class="linkbandeirinhas">Austrália</a></div>
+    
+   <div id="bandCH"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=chile&amp;x=0&amp;y=0"><img src="<baseloja>images/copa2014/bandChile.png" width="50" height="34" /></a></div>
+    <div class="nome_band" id="chile"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=chile&amp;x=0&amp;y=0" class="linkbandeirinhas">Chile</a></div>
+    
+   <div id="bandES"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=espanha&amp;x=0&amp;y=0"><img src="<baseloja>images/copa2014/bandEspanha.png" width="50" height="34" /></a></div>
+    <div class="nome_band" id="espanha"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=espanha&amp;x=0&amp;y=0" class="linkbandeirinhas">Espanha</a></div>
+    
+   <div id="bandHO"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=holanda&amp;x=0&amp;y=0"><img src="<baseloja>images/copa2014/bandHolanda.png" width="50" height="34" /></a></div>
+    <div class="nome_band" id="holanda"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=holanda&amp;x=0&amp;y=0" class="linkbandeirinhas">Holanda</a></div>
+   
+    <div id="bandCL"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=colombia&amp;x=0&amp;y=0"><img src="<baseloja>images/copa2014/bandColombia.png" width="49" height="35" /></a></div>
+    <div class="nome_band" id="colombia"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=colombia&amp;x=0&amp;y=0" class="linkbandeirinhas">Colômbia</a></div>
+   
+   <div id="bandCM"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=marfim&amp;x=0&amp;y=0"><img src="<baseloja>images/copa2014/bandCostamarfim.png" width="49" height="34" /></a></div>
+    <div class="nome_band" id="costaM"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=marfim&amp;x=0&amp;y=0" class="linkbandeirinhas">Costa do Marfim</a></div>
+    
+   <div id="bandGR"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=grecia&amp;x=0&amp;y=0"><img src="<baseloja>images/copa2014/bandGrecia.png" width="49" height="34" /></a></div>
+    <div class="nome_band" id="grecia"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=grecia&amp;x=0&amp;y=0" class="linkbandeirinhas">Grécia</a></div>
+    
+   <div id="bandJP"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=japao&amp;x=0&amp;y=0"><img src="<baseloja>images/copa2014/bandJapao.png" width="49" height="34" /></a></div>
+    <div class="nome_band" id="japao"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=japao&amp;x=0&amp;y=0" class="linkbandeirinhas">Japão</a></div>
+    
+    <div id="bandCOR"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=costa+rica&amp;x=0&amp;y=0"><img src="<baseloja>images/copa2014/bandCostarica.png" width="49" height="35" /></a></div>
+    <div class="nome_band" id="costaRica"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=costa+rica&amp;x=0&amp;y=0" class="linkbandeirinhas">Costa Rica</a></div>
+    
+    <div id="bandIN"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=inglaterra&amp;x=0&amp;y=0"><img src="<baseloja>images/copa2014/bandInglaterra.png" width="50" height="34" /></a></div>
+    <div class="nome_band" id="inglaterra"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=inglaterra&amp;x=0&amp;y=0" class="linkbandeirinhas">Inglaterra</a></div>
+    
+    <div id="bandIT"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=italia&amp;x=0&amp;y=0"><img src="<baseloja>images/copa2014/bandItalia.png" width="49" height="34" /></a></div>
+    <div class="nome_band" id="italia"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=italia&amp;x=0&amp;y=0" class="linkbandeirinhas">Itália</a></div>
+    
+    <div id="bandUR"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=uruguai&amp;x=0&amp;y=0"><img src="<baseloja>images/copa2014/bandUruguai.png" width="49" height="34" /></a></div>
+    <div class="nome_band" id="uruguai"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=uruguai&amp;x=0&amp;y=0" class="linkbandeirinhas">Uruguai</a></div>
+   
+    <div id="BandEQ"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=equador&amp;x=0&amp;y=0"><img src="<baseloja>images/copa2014/bandEquador.png" width="50" height="35" /></a></div>
+    <div class="nome_band" id="equador"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=equador&amp;x=0&amp;y=0" class="linkbandeirinhas">Equador</a></div>
+    
+   <div id="BandFR"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=franca&amp;x=0&amp;y=0"><img src="<baseloja>images/copa2014/bandFranca.png" width="50" height="34" /></a></div>
+    <div class="nome_band" id="franca"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=franca&amp;x=0&amp;y=0" class="linkbandeirinhas">França</a></div>
+
+    <div id="bandHD"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=honduras&amp;x=0&amp;y=0"><img src="<baseloja>images/copa2014/bandHonduras.png" width="50" height="34" /></a></div>
+    <div class="nome_band" id="honduras"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=honduras&amp;x=0&amp;y=0" class="linkbandeirinhas">Honduras</a></div>
+
+    <div id="bandSU"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=suica&amp;x=0&amp;y=0"><img src="<baseloja>images/copa2014/bandSuica.png" width="50" height="34" /></a></div>
+    <div class="nome_band" id="suica"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=suica&amp;x=0&amp;y=0" class="linkbandeirinhas">Suíça</a></div>
+
+    <div id="bandAR"><img src="<baseloja>images/copa2014/bandArgentina.png" width="50" height="35" border="0" /></div>
+    <div class="nome_band" id="argentina"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=argentina&amp;x=0&amp;y=0" class="linkbandeirinhas">Argentina</a></div>
+
+    <div id="bandBO"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=bosnia&amp;x=0&amp;y=0"><img src="<baseloja>images/copa2014/bandBosnia.png" width="50" height="34" /></a></div>
+    <div class="nome_band" id="bosnia"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=bosnia&amp;x=0&amp;y=0" class="linkbandeirinhas">Bósnia</a></div>
+
+    <div id="bandIRA"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=ira&amp;x=0&amp;y=0"><img src="<baseloja>images/copa2014/bandIra.png" width="50" height="34" /></a></div>
+    <div class="nome_band" id="ira"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=ira&amp;x=0&amp;y=0" class="linkbandeirinhas">Irã</a></div>
+
+    <div id="bandNI"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=nigeria&amp;x=0&amp;y=0"><img src="<baseloja>images/copa2014/bandNigeria.png" width="50" height="34" /></a></div>
+    <div class="nome_band" id="nigeria"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=nigeria&amp;x=0&amp;y=0" class="linkbandeirinhas">Nigéria</a></div>
+
+    <div id="bandAL"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=alemanha&amp;x=0&amp;y=0"><img src="<baseloja>images/copa2014/bandAlemanha.png" width="55" height="35" /></a></div>
+    <div class="nome_band" id="alemanha"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=alemanha&amp;x=0&amp;y=0" class="linkbandeirinhas">Alemanha</a></div>
+
+    <div id="bandEUA"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=estados+unidos&amp;x=0&amp;y=0"><img src="<baseloja>images/copa2014/bandEUA.png" width="49" height="34" /></a></div>
+    <div class="nome_band" id="eua"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=estados+unidos&amp;x=0&amp;y=0" class="linkbandeirinhas">EUA</a></div>
+
+    <div id="bandGA"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=gana&amp;x=0&amp;y=0"><img src="<baseloja>images/copa2014/bandGana.png" width="50" height="34" /></a></div>
+    <div class="nome_band" id="gana"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=gana&amp;x=0&amp;y=0" class="linkbandeirinhas">Gana</a></div>
+
+    <div id="bandPO"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=portugal&amp;x=0&amp;y=0"><img src="<baseloja>images/copa2014/bandPortugal.png" width="49" height="34" /></a></div>
+    <div class="nome_band" id="portugal"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=portugal&amp;x=0&amp;y=0" class="linkbandeirinhas">Portugal</a></div>
+
+    <div id="bandARG"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=argelia&amp;x=0&amp;y=0"><img src="<baseloja>images/copa2014/bandArgelia.png" width="49" height="35" /></a></div>
+    <div class="nome_band" id="argelia"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=argelia&amp;x=0&amp;y=0" class="linkbandeirinhas">Argélia</a></div>
+
+    <div id="bandBE"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=belgica&amp;x=0&amp;y=0"><img src="<baseloja>images/copa2014/bandBelgica.png" width="55" height="34" /></a></div>
+    <div class="nome_band" id="belgica"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=belgica&amp;x=0&amp;y=0" class="linkbandeirinhas">Bélgica</a></div>
+
+    <div id="bandCS"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=coreia+do+sul&amp;x=0&amp;y=0"><img src="<baseloja>images/copa2014/bandCoreiasul.png" width="49" height="34" /></a></div>
+    <div class="nome_band" id="coreiaS"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=coreia+do+sul&amp;x=0&amp;y=0" class="linkbandeirinhas">Coréia do Sul</a></div>
+
+    <div id="bandRU"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=russia&amp;x=0&amp;y=0"><img src="<baseloja>images/copa2014/bandRussia.png" width="49" height="34" /></a></div>
+    <div class="nome_band" id="russia"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=russia&amp;x=0&amp;y=0" class="linkbandeirinhas">Rússia</a></div>
+</div>
+		 
+		<!--Kit Bandeiras-->  
+<div id="kit_band">         
+         <div id="bg_kitband"><img src="<baseloja>images/copa2014/bgKitpaises2.jpg" width="251" height="384" /></div>
+         <div id="faixa_kitpaises"><img src="<baseloja>images/copa2014/faixaKitBands.jpg" width="251" height="29" /></div>
+<div id="desc_kitpaises1">participantes</div>
+         <div id="desc_kitpaises2">Jogo com 32 bandeiras dos paí­ses participantes<br />
+da copa. Fabricados em tecido 100% poliéster.</div>
+         <div id="band_kit"><a href="http://www.bandeira1.com.br/prod,IDLoja,2028,IDProduto,4342761,copa-do-mundo-kit-de-bandeiras-da-copa-do-mundo"><img src="<baseloja>images/copa2014/bandKitpaises.png" width="250" height="137" /></a></div>
+      <div class="tamanho_bands" id="band22"><a href="http://www.bandeira1.com.br/AddProduto.asp?IDProduto=4342761&amp;IDLoja=2028&amp;AdicionalD1=0.22x0.33m" class="link_kitbands">0,22x0,33m</a></div>
+         <div id="detalhe_band22"><hr align="center" width="80" size="2" color=#FFCC00 /></div>
+         <div id="valor_kit22"><span class="cifrao_kit">R$ </span><span class="valor_kit">288,</span><span class="centavos_kit">00</span></div>
+<div class="tamanho_bands" id="band33"><a href="http://www.bandeira1.com.br/AddProduto.asp?IDProduto=4342953&amp;IDLoja=2028&amp;AdicionalD1=0.33x0.47m" class="link_kitbands">0,33x0,47m</a></div>
+         <div id="detalhe_band33"><hr align="center" width="80" size="2" color=#ffcc00 /></div>
+         <div id="valor_band33"><span class="cifrao_kit">R$</span> <span class="valor_kit">445,</span><span class="centavos_kit">00</span></div>
+         <div class="tamanho_bands" id="band45"><a href="http://www.bandeira1.com.br/AddProduto.asp?IDProduto=4342954&amp;IDLoja=2028&amp;AdicionalD1=0.45x0.64m" class="link_kitbands">0,45x0,64m</a></div>
+         <div id="detalhe_band45"><hr align="center" width="80" size="2" color=#ffcc00 /></div>
+         <div id="valor_band45"><span class="cifrao_kit">R$</span> <span class="valor_kit">608,</span><span class="centavos_kit">00</span></div>
+         <div class="tamanho_bands" id="band70"><a href="http://www.bandeira1.com.br/AddProduto.asp?IDProduto=4342960&amp;IDLoja=2028&amp;AdicionalD1=0.70x1.00m" class="link_kitbands">0,70x1,00m</a></div>
+         <div id="detalhe_band70"><hr align="center" width="72" size="2" color=#ffcc00 /></div>
+         <div id="valor_band70"><span class="cifrao_kit">R$</span> <span class="valor_kit">1180,</span><span class="centavos_kit">00</span></div>
+         <div class="tamanho_bands" id="band90"><a href="http://www.bandeira1.com.br/AddProduto.asp?IDProduto=4342961&amp;IDLoja=2028&amp;AdicionalD1=0.90x1.28m" class="link_kitbands">0,90x1,28m</a></div>
+         <div id="detalhe_band90"><hr align="center" width="72" size="2" color=#ffcc00 /></div>
+         <div id="valor_band90"><span class="cifrao_kit">R$</span> <span class="valor_kit">1568,</span><span class="centavos_kit">00</span></div>
+         <div class="tamanho_bands" id="band112"><a href="http://www.bandeira1.com.br/AddProduto.asp?IDProduto=4342962&amp;IDLoja=2028&amp;AdicionalD1=1.12x1.60m" class="link_kitbands">1,12x1,60m</a></div>
+         <div id="detalhe_band112"><hr align="center" width="72" size="2" color=#ffcc00 /></div>
+         <div id="valor_band112"><span class="cifrao_kit">R$</span> <span class="valor_kit">2080,</span><span class="centavos_kit">00</span></div>
+         <div class="tamanho_bands" id="band135"><a href="http://www.bandeira1.com.br/AddProduto.asp?IDProduto=4342963&amp;IDLoja=2028&amp;AdicionalD1=1.35x1.93m" class="link_kitbands">1,35x1,93m</a></div>
+         <div id="detalhe_band135"><hr align="center" width="72" size="2" color=#ffcc00 /></div>
+         <div id="valor_band135"><span class="cifrao_kit">R$</span> <span class="valor_kit">2848,</span><span class="centavos_kit">00</span></div>
+        
+</div> 
+  		<!--Lancamento-->
+        
+<div id="lancamento">
+  <div id="bg_lancamento"><img src="<baseloja>images/copa2014/bgLancamento.png" width="499" height="187" /></div>
+  
+<div id="detalhe_lancamento2"><img src="<baseloja>images/copa2014/detalheLancamentoDois.jpg" width="444" height="2" /></div>
+<div id="faixa_lancamento"><img src="<baseloja>images/copa2014/faixaLancamento.jpg" width="498" height="27" /></div>
+   <div id="detalhe_lancamento"><img src="<baseloja>images/copa2014/detalheLancamento.png" width="75" height="76" /></div>
+   <div id="bola_lancamento"><img src="<baseloja>images/copa2014/bolaLancamento.png" width="43" height="45" /></div>
+   <div id="bracadeira1"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=bracadeira&amp;x=0&amp;y=0"><img src="<baseloja>images/copa2014/bracadeiradois.png" width="235" height="144" /></a></div>
+   <div id="bracadeira2"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=bracadeira&amp;x=0&amp;y=0"><img src="<baseloja>images/copa2014/bracadeiraum.png" width="101" height="203" /></a></div>
+   <div id="desc_bracadeira"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=bracadeira&amp;x=0&amp;y=0"><img src="<baseloja>images/copa2014/descBracadeira.png" width="198" height="53" /></a></div>
+   <div id="bandana1"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=bandana&amp;x=0&amp;y=0"><img src="<baseloja>images/copa2014/bandanaPerfil.png" width="107" height="128" /></a></div>
+   <div id="bandana2"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=bandana&amp;x=0&amp;y=0"><img src="<baseloja>images/copa2014/bandanaFrente.png" width="149" height="143" /></a></div>
+   <div id="desc_bandana"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=bandana&amp;x=0&amp;y=0"><img src="<baseloja>images/copa2014/descBandana.png" width="170" height="60" /></a></div>
+   
+</div>
+		
+        <!--Secao Brasil-->
+<div id="secaoBR">
+<div id="faixa_secaoBR"><img src="<baseloja>images/copa2014/faixa_secaobr.jpg" width="765" height="36" /></div>
+
+<!--Produto 1-->
+<div class="titulo_secaobr" id="titulo_prod1"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;IDProduto=486965" class="linksecaobr">Bandeira do Brasil</a></div>
+<div class="desc_secaobr" id="desc_prod1">Modelo Stampo, 100% Poliéster, globo dupla-face.</div>
+<div id="prod1"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;IDProduto=486965"><img src="<baseloja>images/copa2014/bandBr.png" width="147" height="93" /></a></div>
+<div id="botao_prod1"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;IDProduto=486965"><img src="<baseloja>images/copa2014/botao.png" width="119" height="31" /></a></div>
+
+<!--Produto 2-->
+<div class="titulo_secaobr" id="titulo_prod2"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=flamula+brasil&amp;x=0&amp;y=0" class="linksecaobr">Flâmula do Brasil</a></div>
+<div class="desc_secaobr" id="desc_prod2">Vários Modelos, acabamento<br />
+  de luxo, dupla-face.</div>
+<div id="prod2"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=flamula+brasil&amp;x=0&amp;y=0"><img src="<baseloja>images/copa2014/flamulas.png" width="117" height="96" /></a></div>
+<div id="botao_prod2"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=flamula+brasil&amp;x=0&amp;y=0"><img src="<baseloja>images/copa2014/botao.png" width="119" height="31" /></a></div>
+
+<!--Produto 3-->
+<div class="titulo_secaobr" id="titulo_prod3"><a href="http://www.bandeira1.com.br/prod,IDLoja,2028,IDCategoria,133405,distintivos---brasil" class="linksecaobr">Distintivo do Brasil</a></div>
+<div class="desc_secaobr" id="desc_prod3">Modelo Bordado, <br />
+  no tamanho 7x5cm.</div>
+<div id="prod3"><a href="http://www.bandeira1.com.br/prod,IDLoja,2028,IDCategoria,133405,distintivos---brasil"><img src="<baseloja>images/copa2014/distintivo.png" width="124" height="89" /></a></div>
+<div id="botao_prod3"><a href="http://www.bandeira1.com.br/prod,IDLoja,2028,IDCategoria,133405,distintivos---brasil"><img src="<baseloja>images/copa2014/botao.png" width="119" height="31" /></a></div>
+
+<!--Produto 4-->
+<div class="titulo_secaobr" id="titulo_prod4"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=bandeira+de+mesa+brasil&amp;x=0&amp;y=0" class="linksecaobr">Bandeira de Mesa</a></div>
+<div class="desc_secaobr" id="desc_prod4">Impressão de alta qualidade. Vários tamanhos e modelos.</div>
+<div id="prod4"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=bandeira+de+mesa+brasil&amp;x=0&amp;y=0"><img src="<baseloja>images/copa2014/bandMesa.png" width="85" height="93" /></a></div>
+<div id="botao_prod4"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=bandeira+de+mesa+brasil&amp;x=0&amp;y=0"><img src="<baseloja>images/copa2014/botao.png" width="119" height="31" /></a></div>
+
+<!--Produto 5-->
+<div class="titulo_secaobr" id="titulo_prod5"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;IDProduto=486961" class="linksecaobr">Bandeira do Brasil</a></div>
+<div class="desc_secaobr" id="desc_prod5">Modelo Oficial Bordado, <br/>diversos tamanhos</div>
+<div id="prod5"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;IDProduto=486961"><img src="<baseloja>images/copa2014/bandBordada.png" width="126" height="62" /></a></div>
+<div id="botao_prod5"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;IDProduto=486961"><img src="<baseloja>images/copa2014/botao.png" width="119" height="31" /></a></div>
+
+</div>   
+
+		<!--Gol da Rodada-->
+        
+<div id="golda_rodada">
+<div id="faixa_gol"><img src="<baseloja>images/copa2014/faixaGolrodada.jpg" width="325" height="34" /></div>
+<div id="bg_goldarodada"><a href="http://www.bandeira1.com.br/prod,IDLoja,2028,IDProduto,4386903,copa-bandeira-de-retrovisor---modelo-brt10copa"><img src="<baseloja>images/copa2014/retroBand.jpg" width="325" height="365" /></a></div>
+<div id="txt_goldarodada"><a href="http://www.bandeira1.com.br/prod,IDLoja,2028,IDProduto,4386903,copa-bandeira-de-retrovisor---modelo-brt10copa"><img src="<baseloja>images/copa2014/FonteBR.png" width="251" height="115" /></a></div>
+<div id="preco_goldarodada"><a href="http://www.bandeira1.com.br/prod,IDLoja,2028,IDProduto,4386903,copa-bandeira-de-retrovisor---modelo-brt10copa"><img src="<baseloja>images/copa2014/precoBandCarro.png" width="139" height="55" /></a></div>
+
+</div>
+		
+        <!--Produtos Torcedor-->
+<div id="produtos_torcedor">
+
+<div id="faixa_prod_torcedor"><img src="<baseloja>images/copa2014/faixaProdTorcedorDois.jpg" width="427" height="29" /></div>
+<div id="bg_prodTorcedor"><img src="<baseloja>images/copa2014/bgProdtorcedor.png" width="426" height="140" /></div>
+
+<!--Produto 6-->
+<div class="titulo_prod_torcedor" id="titulo_prod6"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;IDCategoria=168755" class="linkprodtorcedor">Pin do Brasil</a></div>
+<div class="sub_titulo_prod_torcedor" id="desc_prod6">Pin de Metal com Bandeira<br />
+  do Brasil resinada</div>
+<div id="prod6"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;IDCategoria=168755"><img src="<baseloja>images/copa2014/pinBr.png" width="74" height="55" /></a></div>
+<div id="botao_prod6"><a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;IDCategoria=168755"><img src="<baseloja>images/copa2014/botaodois.png" width="91" height="25" /></a></div>
+
+<!--Produto 7-->
+<div class="titulo_prod_torcedor" id="titulo_prod7"><a href="http://www.bandeira1.com.br/custom.asp?IDLoja=2028&amp;arq=news/bones.htm" class="linkprodtorcedor">Boné do Brasil</a></div>
+<div class="sub_titulo_prod_torcedor" id="desc_prod7">Boné do Brasil em Micro Fibra. Vários modelos.</div>
+<div id="prod7"><a href="http://www.bandeira1.com.br/custom.asp?IDLoja=2028&amp;arq=news/bones.htm"><img src="<baseloja>images/copa2014/bone.png" width="58" height="49" /></a></div>
+<div id="botao_prod7"><a href="http://www.bandeira1.com.br/custom.asp?IDLoja=2028&amp;arq=news/bones.htm"><img src="<baseloja>images/copa2014/botaodois.png" width="91" height="25" /></a></div>
+
+<!--Produto8-->
+<div class="titulo_prod_torcedor" id="titulo_prod8"><a href="http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=camiseta+torcedor&amp;x=18&amp;y=8" class="linkprodtorcedor">Camiseta do Brasil</a></div>
+<div class="sub_titulo_prod_torcedor" id="desc_prod8">Camisetas modelos femininos e masculinos. </div>
+<div id="prod8"><a href="http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=camiseta+torcedor&amp;x=18&amp;y=8"><img src="<baseloja>images/copa2014/camiseta.png" width="58" height="54" /></a></div>
+<div id="botao_prod8"><a href="http://www.bandeira1.com.br/sistema/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=camiseta+torcedor&amp;x=18&amp;y=8"><img src="<baseloja>images/copa2014/botaodois.png" width="91" height="25" /></a></div>
+
+</div>
+
+			<!--Confira-->
+<div id="confira">
+<div id="faixa_confira"><img src="<baseloja>images/copa2014/faixaConfira.jpg" width="427" height="36" /></div>
+
+<!--Produto 9-->
+<div class="titulo_confira" id="titulo_prod9"><a href="http://www.bandeira1.com.br/prod,IDLoja,2028,IDProduto,595151,especial-brasil-kit-mini-banner-do-brasil" class="linkconfira">Mini Banner</a></div>
+<div class="desc_confira" id="desc_prod9">Mini banner do Brasil, fabricado em poliéster. </div>
+<div id="prod9"><a href="http://www.bandeira1.com.br/prod,IDLoja,2028,IDProduto,595151,especial-brasil-kit-mini-banner-do-brasil"><img src="<baseloja>images/copa2014/miniBanner.png" width="52" height="73" /></a></div>
+<div id="botao_prod9"><a href="http://www.bandeira1.com.br/prod,IDLoja,2028,IDProduto,595151,especial-brasil-kit-mini-banner-do-brasil"><img src="<baseloja>images/copa2014/botaotres.png" width="99" height="26" /></a></div>
+
+<!--Produto 10-->
+<div class="titulo_confira" id="titulo_prod10"><a href="http://www.bandeira1.com.br/prod,IDLoja,2028,IDProduto,4386696,copa-bandeira-de-vestir" class="linkconfira">Bandeira de Vestir</a></div>
+<div class="desc_confira" id="desc_prod10">Fabricada em tecido 100% Poliéster. Confira!</div>
+<div id="prod10"><a href="http://www.bandeira1.com.br/prod,IDLoja,2028,IDProduto,4386696,copa-bandeira-de-vestir"><img src="<baseloja>images/copa2014/bandVestir.png" width="49" height="75" /></a></div>
+<div id="botao_prod10"><a href="http://www.bandeira1.com.br/prod,IDLoja,2028,IDProduto,4386696,copa-bandeira-de-vestir"><img src="<baseloja>images/copa2014/botaotres.png" width="99" height="26" /></a></div>
+
+</div>
+
+<!--Rodape-->
+
+<div id="grama"><img src="<baseloja>images/copa2014/grama.png" width="763" height="47" /></div>
+
+<!--Placar-->
+<div id="placar">
+  <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="138" height="204">
+    <param name="movie" value="<baseloja>htm/copa2014/placar.swf" />
+    <param name="quality" value="high" />
+    <param name="wmode" value="opaque" />
+    <param name="swfversion" value="6.0.65.0" />
+    <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you donâ€™t want users to see the prompt. -->
+    <param name="expressinstall" value="<baseloja>htm/copa2014/Scripts/expressInstall.swf" />
+    <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
+    <!--[if !IE]>-->
+    <object type="application/x-shockwave-flash" data="<baseloja>htm/copa2014/placar.swf" width="138" height="204">
+      <!--<![endif]-->
+      <param name="quality" value="high" />
+      <param name="wmode" value="opaque" />
+      <param name="swfversion" value="6.0.65.0" />
+      <param name="expressinstall" value="<baseloja>htm/copa2014/Scripts/expressInstall.swf" />
+      <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+      <div>
+        <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
+        <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" width="112" height="33" /></a></p>
+      </div>
+      <!--[if !IE]>-->
+    </object>
+    <!--<![endif]-->
+  </object>
+</div>
+
+
+</div>
+</div>
+<script type="text/javascript">
+swfobject.registerObject("FlashID");
+</script>
+
+
