@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* css document */
+
+div.image_reel img {
+	border: none;
+	*margin: 0 -3px 0 -3px;
+}
+
+/*--main container--*/
+.main_view {
+	float: left;
+	position: relative;
+}
+/*--window/masking styles--*/
+.window {
+	height: 295px;	width: 746px;
+	overflow: hidden; /*--hides anything outside of the set width/height--*/
+	position: relative;
+}
+.image_reel {
+	position: absolute;
+	top: 0; left: 0;
+}
+.image_reel img {float: left;}
+
+/*--paging styles--*/
+.paging {
+	position: absolute;
+	top: 5px; right: -5px;
+	width: 140px; height:35px;
+	z-index: 100; /*--assures the paging stays on the top layer--*/
+	text-align: center;
+	line-height: 30px;
+	background-image: url(../../prod/home/paging_bg2.png);
+	background-repeat: no-repeat;
+	background-position:right;
+	display: none; /*--hidden by default, will be later shown with jquery--*/
+}
+.paging a {
+	padding: 1px 4px;
+	text-decoration: none;
+	color: #888;
+}
+.paging a.active {
+	font-weight: bold;
+	color: #fff;
+	background: #999;
+	border: 1px solid #666;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.paging a:hover {color: #666;}
