@@ -1,0 +1,298 @@
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	img {
+		border: none;
+	}
+	
+	a {
+		text-decoration: none;
+		color: #000;
+	}
+
+	#tudoproduto {
+		position: relative;
+		float: left;
+		width: 746px;
+		display: inline;
+		font-family: Tahoma, Geneva, sans-serif;
+	}
+	
+		#tudoproduto img.imgsTorcedor {
+			position: relative;
+			float: left;
+		}
+	
+	div.topoTorcedor {
+		position: relative;
+		float: left;
+		width: 746px;
+		height: 138px;
+		background: url(../../images/torcedor/faixa.gif) repeat-x;
+	}
+	
+		div.titTorcedor {
+			position: relative;
+			float: left;
+			width: 486px;
+			height: 84px;
+			margin-top: 40px;
+			padding-left: 5px;
+		}
+		
+			h1.tituloTorcedor {
+				position: relative;
+				float: left;
+				color: #163d1b;
+				font-size: 200%;
+				letter-spacing: -1.7px;
+				font-weight: normal;
+				line-height: 100%;
+				font-family: Arial, sans-serif;
+			}
+			
+			p.descTorcedor {
+				position: relative;
+				float: left;
+				color: #5d5d5d;
+				font-size: 80%;
+				margin-left: 5px;
+				display: inline;
+			}
+	
+	div.imgsConteudo {
+		position: relative;
+		float: left;
+		width: 746px;
+		height: 907px;
+	}
+	
+		div.conteudo01 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 261px;
+		}
+		
+			div.sub12 {
+				position: relative;
+				float: left;
+				width: 282px;
+				height: 61px;
+				padding-top: 200px;
+				background: url(../../images/torcedor/bone2.jpg);
+			}
+			
+				h3.produtosTorcedor {
+					position: relative;
+					float: left;
+					color: #163d1b;
+					font-size: 180%;
+					letter-spacing: -1.7px;
+					font-weight: normal;
+					line-height: 85%;
+					font-family: Arial, sans-serif;
+				}
+			
+			div.sub13 {
+				position: relative;
+				float: left;
+				width: 176px;
+				height:261px;
+				background: url(../../images/torcedor/glaucia1.gif);
+			}
+		
+		div.conteudo02 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 306px;
+		}
+		
+			div.sub21 {
+				position: relative;
+				float: left;
+				width: 504px;
+				height: 306px;
+			}
+			
+				div.sub212 {
+					position: relative;
+					float: left;
+					width: 170px;
+					height: 210px;
+					background: url(../../images/torcedor/estrela.gif);
+				}
+				
+				div.sub213 {
+					position: relative;
+					float: left;
+					width: 170px;
+					height: 43px;
+					padding: 53px 0 0 39px;
+					background: url(../../images/torcedor/bg1.gif);
+				}
+				
+				div.sub214 {
+					position: relative;
+					float: left;
+					width: 197px;
+					height: 96px;
+					padding-left: 98px;
+					background: url(../../images/torcedor/bg2.gif);
+				}
+			
+			div.sub22 {
+				position: relative;
+				float: left;
+				width: 242px;
+				height: 306px;
+			}
+		
+		div.conteudo03 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 293px;
+		}
+		
+			div.sub32 {
+				position: relative;
+				float: left;
+				width: 238px;
+				height: 69px;
+				background: url(../../images/torcedor/bg3.jpg);
+			}
+			
+			div.sub33 {
+				position: relative;
+				float: left;
+				width: 299px;
+				height: 69px;
+				background: url(../../images/torcedor/glaucia2.gif);
+			}
+			
+			div.sub35 {
+				position: relative;
+				float: left;
+				width: 299px;
+				height: 224px;
+				background: url(../../images/torcedor/glaucia3.gif);
+			}
+		
+		div.conteudo04 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 47px;
+		}
+		
+			div.sub41 {
+				position: relative;
+				float: left;
+				width: 209px;
+				height: 47px;
+				background: url(../../images/torcedor/bg4.gif);
+			}
+			
+			div.sub42 {
+				position: relative;
+				float: left;
+				width: 153px;
+				height: 42px;
+				padding: 5px 0 0 85px;
+				background: url(../../images/torcedor/bg5.gif);
+			}
+			
+			div.sub43 {
+				position: relative;
+				float: left;
+				width: 299px;
+				height: 47px;
+				background: url(../../images/torcedor/glaucia4.gif);
+			}
+	
+	div.modelo {
+		position: relative;
+		float: left;
+		background-color: #163d1b;
+		width: 736px;
+		height: 37px;
+		padding: 0 0 0 10px;
+		margin-bottom: 15px;
+	}
+	
+	h2.modeloproduto {
+		position: relative;
+		float: left;
+		color: #8a9e8d;
+		font-size: 230%;
+		letter-spacing: -1.7px;
+		font-weight: normal;
+		line-height: 100%;
+	}
+	
+	div.colunaLinks1 {
+		position: relative;
+		float: left;
+		width: 248px;
+	}
+	
+		div.produtoLink1 {
+			position: relative;
+			float: left;
+			width: 217px;
+			height: 72px;
+			margin: 0 0 15px 31px;
+			display: inline;
+		}
+		
+			div.divTitulo {
+				position: relative;
+				float: left;
+				width: 217px;
+				height: 22px;
+			}
+			
+				h6.tituloProd {
+					position: relative;
+					float: left;
+					color: #163d1b;
+					font-size: 130%;
+					letter-spacing: -1px;
+					font-weight: normal;
+					line-height: 100%;
+				}
+				
+				p.descProduto {
+					position: relative;
+					float: left;
+					color: #404040;
+					font-size: 80%;
+					margin-left: 5px;
+					display: inline;
+				}
+				
+			div.divDesc {
+				position: relative;
+				float: left;
+				width: 176px;
+				height: 50px;
+			}
+	
+	div.colunaLinks2 {
+		position: relative;
+		float: left;
+		width: 249px;
+	}
+	
+		div.produtoLink2 {
+			position: relative;
+			float: left;
+			width: 217px;
+			height: 72px;
+			margin: 0 0 15px 32px;
+			display: inline;
+		}
