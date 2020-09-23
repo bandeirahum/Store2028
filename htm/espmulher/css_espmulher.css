@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+#tudoMulher {
+	position: relative;
+	float: left;
+	width: 746px;
+	background: #f0f0f0;
+}
+
+#tudoMulher img {
+	position: relative;
+	float: left;
+}
+
+object {
+	position: relative;
+	float: left;
+}
