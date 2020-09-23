@@ -1,0 +1,225 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	border: none;
+	display: inline;
+}
+
+.divs {
+	position: relative;
+	float: left;
+}
+
+.dw {
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+.dh {
+	position: relative;
+	float: left;
+	height: 100%;
+}
+
+#tudoPromo {
+	width: 746px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+#titPromo {
+	height: 158px;
+	background: url(../../prod/promo/titPromo.jpg);
+}
+
+#promoTop {
+	height: 398px;
+}
+
+#gap1 {
+	width: 20px;
+	background: url(../../prod/promo/gap1.jpg);
+}
+
+#boxDesc {
+	width: 226px;
+	background: url(../../prod/promo/boxDesc.jpg);
+}
+
+p.txtDesc {
+	width: 100%;
+	font-size: 15px;
+	text-align: center;
+	margin-top: 10px;
+	color: #666;
+}
+
+#txt1 {
+	margin-top: 20px;
+}
+
+span.red {
+	color: #811d1a;
+}
+
+span.bold {
+	font-weight: bold;
+}
+
+#boxAng1 {
+	width: 189px;
+	background: url(../../prod/promo/boxAng1.jpg);
+}
+
+#boxAng2 {
+	width: 130px;
+	background: url(../../prod/promo/boxAng2.jpg);
+}
+
+#boxAng3 {
+	width: 181px;
+	background: url(../../prod/promo/boxAng3.jpg);
+}
+
+#pmidTop {
+	height: 113px;
+}
+
+#gap2 {
+	width: 20px;
+	background: url(../../prod/promo/gap2.jpg);
+}
+
+#midTop1 {
+	width: 226px;
+	background: url(../../prod/promo/midTop1.jpg);
+}
+
+#midTop2 {
+	width: 189px;
+	background: url(../../prod/promo/midTop2.jpg);
+}
+
+#midTop3 {
+	width: 130px;
+	background: url(../../prod/promo/midTop3.jpg);
+}
+
+#midTop4 {
+	width: 181px;
+	background: url(../../prod/promo/midTop4.jpg);
+}
+
+#promoMidle {
+	height: 292px;
+}
+
+#gap3 {
+	width: 20px;
+	background: url(../../prod/promo/gap3.jpg);
+}
+
+#bandBosque {
+	width: 226px;
+	background: url(../../prod/promo/bandBosque.jpg);
+}
+
+#bands1 {
+	width: 189px;
+	background: url(../../prod/promo/bands1.jpg);
+}
+
+#bands2 {
+	width: 130px;
+	background: url(../../prod/promo/bands2.jpg);
+}
+
+#bands3 {
+	width: 181px;
+	background: url(../../prod/promo/bands3.jpg);
+}
+
+#promoBot {
+	height: 162px;
+}
+
+#gap4 {
+	width: 20px;
+	background: url(../../prod/promo/gap4.jpg);
+}
+
+#boxMan {
+	width: 226px;
+	background: url(../../prod/promo/boxMan.jpg);
+}
+
+#bands4 {
+	width: 189px;
+	background: url(../../prod/promo/bands4.jpg);
+}
+
+#bands5 {
+	width: 130px;
+	background: url(../../prod/promo/bands5.jpg);
+}
+
+#splash {
+	width: 181px;
+	background: url(../../prod/promo/splash.jpg);
+}
+
+#promoRod {
+	height: 121px;
+}
+
+#gapRod {
+	width: 193px;
+	background: url(../../prod/promo/gapRod.jpg);
+}
+
+#boxInfo {
+	width: 180px;
+	background: url(../../prod/promo/boxInfo.jpg);
+}
+
+#infoRod {
+	width: 362px;
+	background: url(../../prod/promo/infoRod.jpg);
+}
+
+p.txtContato {
+	position: relative;
+	float: right;
+	text-align: right;
+	font-size: 14px;
+	color: #666;
+	display: inline;
+}
+
+#email {
+	margin: 14px 100px 0 0;
+}
+
+#tel {
+	margin: 20px 100px 0 0;
+}
+
+#gapRod2 {
+	width: 11px;
+	background: url(../../prod/promo/gapRod2.jpg);
+}
+
+#pbRod {
+	height: 27px;
+	background: url(../../prod/promo/pbRod.jpg);
+}
+
+#sombraPromo {
+	height: 20px;
+	background: url(../../prod/promo/sombraPromo.jpg);
+}
