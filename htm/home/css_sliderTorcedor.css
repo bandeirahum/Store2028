@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+img {
+	border: none;
+}
+
+/*--Main Container--*/
+.main_view2 {
+	float: left;
+	position: relative;
+}
+/*--Window/Masking Styles--*/
+.window2 {
+	height: 307px;	width: 746px;
+	overflow: hidden; /*--Hides anything outside of the set width/height--*/
+	position: relative;
+}
+.image_reel2 {
+	position: absolute;
+	top: 0; left: 0;
+}
+.image_reel2 img {float: left;}
+
+/*--Paging Styles--*/
+.paging2 {
+	position: absolute;
+	bottom: 5px; left: -5px;
+	width: 105px; height:35px;
+	z-index: 100; /*--Assures the paging stays on the top layer--*/
+	text-align: center;
+	line-height: 30px;
+	background: url(../../prod/home/paging_bg3.png) no-repeat;
+	display: none; /*--Hidden by default, will be later shown with jQuery--*/
+}
+.paging2 a {
+	padding: 1px 4px;
+	text-decoration: none;
+	color: #888;
+}
+.paging2 a.active {
+	font-weight: bold;
+	color: #fff;
+	background: #999;
+	border: 1px solid #666;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.paging2 a:hover {color: #666;}
+
+.logo2 {
+	width: 254px;
+	height: 135px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(logo.png);
+	z-index: 90;
+}
