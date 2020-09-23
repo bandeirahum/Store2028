@@ -1,0 +1,325 @@
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	img {
+		border: none;
+	}
+	
+	a {
+		text-decoration: none;
+		color: #000;
+	}
+	
+	span.bold {
+		font-weight: bold;
+	}
+
+	#tudoproduto {
+		position: relative;
+		float: left;
+		width: 746px;
+		display: inline;
+	}
+	
+	#brasil {
+		position: relative;
+		float: left;
+		width: 746px;
+		height: 206px;
+	}
+	
+		div.linha1 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 365px;
+		}
+		
+			div.tit1 {
+				position: relative;
+				float: left;
+				width: 373px;
+				height: 365px;
+				background: url(../../prod/eleicao/eleicoes01.jpg);
+			}
+			
+			div.tit2 {
+				position: relative;
+				float: left;
+				width: 373px;
+				height: 365px;
+				background: url(../../prod/eleicao/eleicoes02.jpg);
+			}
+				
+		div.linha2 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 259px;
+		}
+		
+			div.tit3 {
+				position: relative;
+				float: left;
+				width: 746px;
+				height: 259px;
+				background: url(../../prod/eleicao/eleicoes03.jpg);
+			}
+			
+		div.linha3 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 501px;
+		}
+		
+			div.tit4 {
+				position: relative;
+				float: left;
+				width: 261px;
+				height: 501px;
+				background: url(../../prod/eleicao/eleicoes04.png);
+			}
+			
+			div.tit5 {
+				position: relative;
+				float: left;
+				width: 485px;
+				height: 501px;
+				background: url(../../prod/eleicao/eleicoes05.jpg
+				);
+			}
+			
+		div.linha4 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 54px;
+		}
+		
+			div.tit6 {
+				position: relative;
+				float: left;
+				width: 746px;
+				height: 54px;
+				background: url(../../prod/eleicao/eleicoes06.png);
+			}
+
+		div.linha5 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 175px;
+		}
+		
+			div.tit7 {
+				position: relative;
+				float: left;
+				width: 373px;
+				height: 175px;
+				background: url(../../prod/eleicao/eleicoes07.png);
+			}
+			
+			div.tit8 {
+				position: relative;
+				float: left;
+				width: 373px;
+				height: 175px;
+				background: url(../../prod/eleicao/eleicoes08.png);
+			}
+			
+			
+		div.linha6 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 80px;
+		}
+		
+			div.desc1 {
+				position: relative;
+				float: left;
+				width: 373px;
+				height: 80px;
+				background: url(../../prod/eleicao/eleicoes09.png);
+			}
+
+			div.produto1 {
+				width: 240px;
+				height: 45px;
+				margin-left:108px;
+				margin-top:5px;
+			}
+			
+			p.prod_desc1 {
+				position: relative;
+				float: left;
+				width: 240px;
+				height: 45px;
+				font-family:Verdana, Geneva, sans-serif;
+				font-size:11px;
+				color:#535353;
+			}
+
+			div.desc2 {
+				position: relative;
+				float: left;
+				width: 373px;
+				height: 80px;
+				background: url(../../prod/eleicao/eleicoes10.png);
+			}
+
+			div.produto2 {
+				width: 240px;
+				height: 45px;
+				margin-left:95px;
+				margin-top:5px;
+			}
+			
+			p.prod_desc2 {
+				position: relative;
+				float: left;
+				width: 240px;
+				height: 45px;
+				font-family:Verdana, Geneva, sans-serif;
+				font-size:11px;
+				color:#535353;
+			}
+
+		div.linha7 {
+			position: relative;
+			float: right;
+			width: 746px;
+			height: 125px;
+		}
+		
+			div.tit9 {
+				position: relative;
+				float: left;
+				width: 746px;
+				height: 125px;
+				background: url(../../prod/eleicao/eleicoes11.png);
+			}
+
+			div.email {
+				width: 220px;
+				height: 18px;
+				margin-left:400px;
+				margin-top:16px;
+			}
+			
+			p.txt_email {
+				position: relative;
+				float: right;
+				width: 220px;
+				height: 18px;
+				font-family:Tahoma, Geneva, sans-serif;
+				font-size:14px;
+				text-align:right;
+				color:#666666;
+			}
+
+			div.tel {
+				width: 220px;
+				height: 18px;
+				margin-left:400px;
+				margin-top:38px;
+				*margin-top: 17px;
+			}
+			
+			p.txt_tel {
+				position: relative;
+				float: right;
+				width: 220px;
+				height: 18px;
+				font-family:Tahoma, Geneva, sans-serif;
+				font-size:14px;
+				text-align:right;
+				color:#666666;
+			}
+			
+			span.txtmenor {
+				font-size: 11px;
+			}
+
+			div.rodape {
+				position: relative;
+				float: left;
+				width: 746px;
+				height: 22px;
+				background: url(../../prod/eleicao/rodape.png);
+			}			
+			
+			#linha9 {
+				position:relative;
+				float: left;
+				width: 746px;
+				height: 35px;
+				background: url(../../prod/eleicao/linha9.png) repeat-y;
+			}
+			
+			#linha10 {
+				position: relative;
+				float: left;
+				width: 746px;
+				height: 54px;
+				background: url(../../prod/eleicao/linha10.png);
+			}
+			
+			#linha11 {
+				position: relative;
+				float: left;
+				width: 746px;
+				height: 381px;
+			}
+			
+				#linha111 {
+					position: relative;
+					float: left;
+					width: 203px;
+					height: 381px;
+					background:url(../../prod/eleicao/linha111.png);
+				}
+				
+				#linha112 {
+					position: relative;
+					float: left;
+					width: 243px;
+					height: 381px;
+					background: url(../../prod/eleicao/linha112.png);
+				}
+				
+				#linha113 {
+					position: relative;
+					float: left;
+					width: 300px;
+					height: 381px;
+				}
+				
+					#linha113a {
+						position: relative;
+						float: left;
+						width: 300px;
+						height: 53px;
+						background: url(../../prod/eleicao/linha113a.png);
+					}
+					
+					#linha113b {
+						position: relative;
+						float: left;
+						width: 300px;
+						height: 328px;
+						background: url(../../prod/eleicao/linha113b.png);
+					}
+					
+						p.prod_desc3 {
+							position: relative;
+							float: right;
+							text-align: right;
+							font-family:Verdana, Geneva, sans-serif;
+							font-size:11px;
+							color:#535353;
+							margin: 3px 48px 0 0;
+						}
