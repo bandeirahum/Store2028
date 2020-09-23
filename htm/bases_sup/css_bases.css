@@ -1,0 +1,347 @@
+	
+	* {
+		margin: 0;
+		padding: 0;
+		border:0;
+	}
+	
+	
+    #tudobases {
+		width: 877px;
+		font-family: Tahoma, Geneva, sans-serif;
+		position: relative;
+                
+	}
+	
+	#titulobase {
+		position: relative;
+		float: left;
+		width: 746px;
+		height: 63px;
+		
+	}
+	
+		div.modelo {
+position: relative;
+float: left;
+height: 27px;
+/* margin: 10px 0px 0px; */
+background-image: url('../../images/barras/BarraBaseLaminada.gif');
+background-repeat: no-repeat;
+width: 877px;
+padding-bottom: 20;
+margin-top: 10;
+}
+
+div.modelo2 {
+position: relative;
+float: left;
+height: 27px;
+/* margin: 10px 0px 0px; */
+background-image: url('../../images/barras/BaseLatao.gif');
+background-repeat: no-repeat;
+width: 877px;
+padding-bottom: 20;
+margin-top: 10;
+}
+
+div.modelo3 {
+position: relative;
+float: left;
+height: 27px;
+/* margin: 10px 0px 0px; */
+background-image: url('../../images/barras/KitBMAlum.gif');
+background-repeat: no-repeat;
+width: 877px;
+padding-bottom: 20;
+margin-top: 10;
+}
+
+div.modelo4 {
+position: relative;
+float: left;
+height: 27px;
+/* margin: 10px 0px 0px; */
+background-image: url('../../images/barras/BMvernizada.gif');
+background-repeat: no-repeat;
+width: 877px;
+padding-bottom: 20;
+margin-top: 10;
+}
+	
+	h1.modelobases {
+		position: relative;
+		float: left;
+		color: #8a9e8d;
+		font-size: 230%;
+		letter-spacing: -1.7px;
+		font-weight: normal;
+		line-height: 100%;
+	}
+	
+	div.tipo {
+		width: 877px;
+		height: 55px;
+		position: relative;
+		float: left;		
+	}
+	
+	img.square {
+	position: relative;
+	float: left;
+	clear: both;
+	margin: 26px 0 0 30px;
+	}
+#geral {
+	height: auto;
+	width: 860px;
+}
+
+	
+	p.subtitulobases {
+	position: relative;
+	float: left;
+	font-size: 16px;
+	color: #777;
+	margin: 20px 0 0 5px;
+	font-family: Tahoma, Geneva, sans-serif;
+	}
+	
+	div.fotos1 {
+		position: relative;
+		float: left;
+		width: 35px;
+		height: 111px;
+		margin: 0 0 35px 0;
+		background-image:url('../../images/bases_sup/bg_fotos01.gif');
+	}
+	
+	div.fotos2 {
+		position: relative;
+		float: left;
+		width: 825px;
+		height: 111px;
+		background-image: url('../../images/bases_sup/bg_fotos02.gif');
+		background-repeat: repeat-x;
+		margin: 0 0 35px 0;
+	}
+	
+	div.fotos3 {
+		position: relative;
+		float: left;
+		width: 55px;
+		height: 134px;
+		margin: 27px 0 39px 0;
+		background-image: url('../../images/bases_sup/bg_fotos03.gif');
+	}
+div.foto15 {
+	position: relative;
+	float: left;
+	width: 55px;
+	height: 134px;
+	margin: 0;
+	background-image: url('../../images/bases_sup/bg_fotos02.gif');
+}
+
+	
+	div.fotos4 {
+		position: relative;
+		float: left;
+		width: 805;
+		height: 134px;
+		background-image: url('../../images/bases_sup/bg_fotos04.gif');
+		background-repeat: repeat-x;
+		margin: 27px 0 39px 0;
+	}
+	
+	div.fotos5 {
+		position: relative;
+		float: left;
+		width: 60px;
+		height: 161px;
+		margin: 35px 0 39px 0;
+		background-image: url('../../images/bases_sup/bg_fotos05.gif');
+	}
+	
+	div.fotos6 {
+		position: relative;
+		float: left;
+		width: 686px;
+		height: 161px;
+		background-image: url('../../images/bases_sup/bg_fotos06.gif');
+		background-repeat: repeat-x;
+		margin: 35px 0 39px 0;
+	}
+	
+	div.fotos7 {
+		position: relative;
+		float: left;
+		width: 53px;
+		height: 153px;
+		margin: 17px 0 29px 0;
+		background-image: url('../../images/bases_sup/bg_fotos07.gif');
+	}
+	
+	div.fotos8 {
+		position: relative;
+		float: left;
+		width: 693px;
+		height: 153px;
+		background-image: url('../../images/bases_sup/bg_fotos08.gif');
+		background-repeat: repeat-x;
+		margin: 17px 0 29px 0;
+	}
+	
+	div.mogno {
+	display: inline;
+	width: 164px;
+	height: 111px;
+	position: relative;
+	float: left;
+	margin: 0 23 0 25px;
+	}	
+	
+	div.embuia {
+	width: 169px;
+	height: 111px;
+	display: inline;
+	position: relative;
+	float: left;
+	margin: 0 23 0 0px;
+	}
+div.cerejeira {
+	width: 169px;
+	height: 111px;
+	display: inline;
+	position: relative;
+	float: left;
+	margin: 0 0 0 0px;
+}
+
+	
+	div.jacaran {
+	width: 181px;
+	height: 111px;
+	display: inline;
+	position: relative;
+	float: left;
+	margin: 0 23 0 0px;
+	}
+	
+	div.latao01 {
+		display: inline;
+		width: 126px;
+		height: 134px;
+		position: relative;
+		float: left;
+	}	
+	
+	div.latao02 {
+		width: 129px;
+		height: 134px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 0 0 117px;
+	}
+	
+	div.latao03 {
+		width: 129px;
+		height: 134px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 0 0 116px;
+	}
+	
+	div.madeira {
+		width: 138px;
+		height: 153px;
+		display: inline;
+		position: relative;
+		float: left;
+	}
+	
+	div.fotos9 {
+		position: relative;
+		float: left;
+		width: 35px;
+		height: 157px;
+		margin: 0 0 35px 0;
+		background-image:  url('../../images/kitmastro/bg_fotos01.gif');
+	}
+	
+	div.fotos10 {
+		position: relative;
+		float: left;
+		width: 711px;
+		height: 157px;
+		background-image: url('../../images/kitmastro/bg_fotos02.gif');
+		background-repeat: repeat-x;
+		margin: 0 0 35px 0;
+	}
+	
+	div.fotos11 {
+		position: relative;
+		float: left;
+		width: 35px;
+		height: 157px;
+		margin: 0 0 35px 0;
+		background-image: url('../../images/kitmastro/bg_fotos03.gif');
+	}
+	
+	div.fotos12 {
+		position: relative;
+		float: left;
+		width: 711px;
+		height: 157px;
+		background-image: url('../../images/kitmastro/bg_fotos04.gif');
+		background-repeat: repeat-x;
+		margin: 0 0 35px 0;
+	}
+	
+	div.fotos13 {
+		position: relative;
+		float: left;
+		width: 35px;
+		height: 159px;
+		margin: 0 0 35px 0;
+		background-image:  url('../../images/kitmastro/bg_fotos05.gif');
+	}
+	
+	div.fotos14 {
+		position: relative;
+		float: left;
+		width: 711px;
+		height: 159px;
+		background-image:url('../../images/kitmastro/bg_fotos06.gif');
+		background-repeat: repeat-x;
+		margin: 0 0 35px 0;
+	}
+	
+	div.prata {
+		display: inline;
+		width: 306px;
+		height: 157px;
+		position: relative;
+		float: left;
+		margin: 0 0 0 52px;
+	}	
+	
+	div.cobre {
+		width: 322px;
+		height: 158px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 0 0 52px;
+	}
+	
+	div.dourado {
+		width: 306px;
+		/* height: 159px; */
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 0 0 52px;
+	}
