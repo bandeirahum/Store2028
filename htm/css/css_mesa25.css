@@ -1,0 +1,553 @@
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	img {
+		border: none;
+	}
+
+
+	#tudoproduto {
+		width: 770px;
+		font-family: Tahoma, Geneva, sans-serif;
+	}
+	
+	div.modelo {
+		position: relative;
+		float: left;
+		background-color: #163d1b;
+		width: 736px;
+		height: 37px;
+		padding: 0 0 0 10px;
+	}
+	
+	h1.modeloproduto {
+		position: relative;
+		float: left;
+		color: #8a9e8d;
+		font-size: 230%;
+		letter-spacing: -1.7px;
+		font-weight: normal;
+		line-height: 100%;
+	}
+	
+	div.tipo {
+		width: 746px;
+		height: 55px;
+		position: relative;
+		float: left;		
+	}
+	
+	img.square {
+		position: relative;
+		float: left;
+		clear: both;
+		margin: 26px 0 0 1px;
+	}
+	
+	p.subtituloproduto {
+		position: relative;
+		float: left;
+		font-size: 16px;
+		color: #777;
+		margin: 20px 0 0 5px;
+	}
+	
+	div.fotos1 {
+		position: relative;
+		float: left;
+		width: 34px;
+		height: 172px;
+		margin: 0 0 8px 0;
+		background-image: url(../../images/band_mesa/bg_fotos01.gif);
+	}
+	
+	div.fotos2 {
+		position: relative;
+		float: left;
+		width: 712px;
+		height: 172px;
+		background-image: url(../../images/band_mesa/bg_fotos02.gif);
+		background-repeat: repeat-x;
+		margin: 0 0 8px 0;
+	}
+	
+	div.bra01 {
+		display: inline;
+		width: 60px;
+		height: 172px;
+		position: relative;
+		float: left;
+		margin: 0 0 0 35px;
+	}	
+	
+	div.bra02 {
+		width: 58px;
+		height: 172px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 0 0 147px;
+	}
+	
+	div.bra03 {
+		width: 64px;
+		height: 172px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 0 0 144px;
+	}
+	
+	div.pai01 {
+		display: inline;
+		width: 58px;
+		height: 172px;
+		position: relative;
+		float: left;
+		margin: 0 0 0 43px;
+	}	
+	
+	div.pai02 {
+		width: 57px;
+		height: 172px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 0 0 147px;
+	}
+	
+	div.pai03 {
+		width: 47px;
+		height: 172px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 0 0 150px;
+	}
+	
+	div.fotos3 {
+		position: relative;
+		float: left;
+		width: 34px;
+		height: 173px;
+		margin: 0 0 8px 0;
+		background-image: url(../../images/band_mesa/bg_fotos03.gif);
+	}
+	
+	div.fotos4 {
+		position: relative;
+		float: left;
+		width: 712px;
+		height: 173px;
+		background-image: url(../../images/band_mesa/bg_fotos04.gif);
+		background-repeat: repeat-x;
+		margin: 0 0 8px 0;
+	}
+	
+	div.est01 {
+		display: inline;
+		width: 55px;
+		height: 173px;
+		position: relative;
+		float: left;
+		margin: 0 0 0 41px;
+	}	
+	
+	div.est02 {
+		width: 51px;
+		height: 173px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 0 0 153px;
+	}
+	
+	div.est03 {
+		width: 55px;
+		height: 173px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 0 0 152px;
+	}
+	
+	div.cap01 {
+		display: inline;
+		width: 45px;
+		height: 173px;
+		position: relative;
+		float: left;
+		margin: 0 0 0 43px;
+	}	
+	
+	div.cap02 {
+		width: 52px;
+		height: 173px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 0 0 158px;
+	}
+	
+	div.cap03 {
+		width: 51px;
+		height: 173px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 0 0 152px;
+	}
+
+	div.his01 {
+		display: inline;
+		width: 55px;
+		height: 173px;
+		position: relative;
+		float: left;
+		margin: 0 0 0 43px;
+	}	
+	
+	div.his02 {
+		width: 54px;
+		height: 173px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 0 0 150px;
+	}
+	
+	div.his03 {
+		width: 61px;
+		height: 173px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 0 0 148px;
+	}
+	
+	div.fotos5 {
+		position: relative;
+		float: left;
+		width: 34px;
+		height: 174px;
+		margin: 0 0 8px 0;
+		background-image: url(../../images/band_mesa/bg_fotos05.gif);
+	}
+	
+	div.fotos6 {
+		position: relative;
+		float: left;
+		width: 712px;
+		height: 174px;
+		background-image: url(../../images/band_mesa/bg_fotos06.gif);
+		background-repeat: repeat-x;
+		margin: 0 0 8px 0;
+	}
+	
+	div.braest01 {
+		display: inline;
+		width: 120px;
+		height: 174px;
+		position: relative;
+		float: left;
+		margin: 0 0 0 8px;
+	}	
+	
+	div.braest02 {
+		width: 140px;
+		height: 174px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 0 0 78px;
+	}
+	
+	div.braest03 {
+		width: 103px;
+		height: 174px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 0 0 85px;
+	}
+	
+	div.bracap01 {
+		display: inline;
+		width: 118px;
+		height: 173px;
+		position: relative;
+		float: left;
+		margin: 0 0 0 7px;
+	}	
+	
+	div.bracap02 {
+		width: 126px;
+		height: 173px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 0 0 91px;
+	}
+	
+	div.bracap03 {
+		width: 101px;
+		height: 173px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 0 0 87px;
+	}
+	
+	div.brahis01 {
+		display: inline;
+		width: 113px;
+		height: 174px;
+		position: relative;
+		float: left;
+		margin: 0 0 0 14px;
+	}	
+	
+	div.brahis02 {
+		width: 129px;
+		height: 174px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 0 0 82px;
+	}
+	
+	div.brahis03 {
+		width: 101px;
+		height: 174px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 0 0 90px;
+	}
+	
+	div.estcap01 {
+		display: inline;
+		width: 116px;
+		height: 174px;
+		position: relative;
+		float: left;
+		margin: 0 0 0 14px;
+	}	
+	
+	div.estcap02 {
+		width: 113px;
+		height: 174px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 0 0 83px;
+	}
+	
+	div.estcap03 {
+		width: 97px;
+		height: 174px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 0 0 102px;
+	}
+	
+	div.fotos7 {
+		position: relative;
+		float: left;
+		width: 34px;
+		height: 183px;
+		margin: 0 0 8px 0;
+		background-image: url(../../images/band_mesa/bg_fotos07.gif);
+	}
+	
+	div.fotos8 {
+		position: relative;
+		float: left;
+		width: 712px;
+		height: 183px;
+		background-image: url(../../images/band_mesa/bg_fotos08.gif);
+		background-repeat: repeat-x;
+		margin: 0 0 8px 0;
+	}
+	
+	div.braestcap01 {
+		display: inline;
+		width: 144px;
+		height: 183px;
+		position: relative;
+		float: left;
+	}	
+	
+	div.braestcap02 {
+		width: 144px;
+		height: 183px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 0 0 61px;
+	}
+	
+	div.braestcap03 {
+		width: 150px;
+		height: 183px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 0 0 56px;
+	}
+	
+	div.fotos9 {
+		position: relative;
+		float: left;
+		width: 34px;
+		height: 133px;
+		margin: 0 0 8px 0;
+		background-image: url(../../images/band_mesa/bg_fotos09.gif);
+	}
+	
+	div.fotos10 {
+		position: relative;
+		float: left;
+		width: 712px;
+		height: 133px;
+		background-image: url(../../images/band_mesa/bg_fotos10.gif);
+		background-repeat: repeat-x;
+		margin: 0 0 8px 0;
+	}
+	
+	div.kitmini {
+		display: inline;
+		width: 86px;
+		height: 133px;
+		position: relative;
+		float: left;
+		margin: 0 0 0 23px;
+	}
+	
+	div.fotos11 {
+		position: relative;
+		float: left;
+		width: 34px;
+		height: 170px;
+		margin: 0 0 8px 0;
+		background-image: url(../../images/band_mesa/bg_fotos11.gif);
+	}
+	
+	div.fotos12 {
+		position: relative;
+		float: left;
+		width: 712px;
+		height: 170px;
+		background-image: url(../../images/band_mesa/bg_fotos12.gif);
+		background-repeat: repeat-x;
+		margin: 0 0 8px 0;
+	}
+	
+	div.kitest01 {
+		display: inline;
+		width: 143px;
+		height: 170px;
+		position: relative;
+		float: left;
+		margin: 0 0 0 4px;
+	}	
+	
+	div.kitest02 {
+		width: 138px;
+		height: 170px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 0 0 63px;
+	}
+	
+	div.kitest03 {
+		width: 137px;
+		height: 170px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 0 0 63px;
+	}
+	
+	div.fotos13 {
+		position: relative;
+		float: left;
+		width: 34px;
+		height: 169px;
+		margin: 0 0 8px 0;
+		background-image: url(../../images/band_mesa/bg_fotos13.gif);
+	}
+	
+	div.fotos14 {
+		position: relative;
+		float: left;
+		width: 712px;
+		height: 169px;
+		background-image: url(../../images/band_mesa/bg_fotos14.gif);
+		background-repeat: repeat-x;
+		margin: 0 0 8px 0;
+	}
+	
+	div.kithis01 {
+		display: inline;
+		width: 145px;
+		height: 169px;
+		position: relative;
+		float: left;
+		margin: 0 0 0 5px;
+	}	
+	
+	div.kithis02 {
+		width: 138px;
+		height: 169px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 0 0 60px;
+	}
+	
+	div.kithis03 {
+		width: 140px;
+		height: 169px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 0 0 68px;
+	}
+	
+	div.kitcap01 {
+		display: inline;
+		width: 164px;
+		height: 170px;
+		position: relative;
+		float: left;
+		margin: 0 0 0 24px;
+	}	
+	
+	div.kitcap02 {
+		width: 163px;
+		height: 170px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 0 0 38px;
+	}
+	
+	div.kitcap03 {
+		width: 158px;
+		height: 170px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 0 0 43px;
+	}
+	
+
+
+
+
+
