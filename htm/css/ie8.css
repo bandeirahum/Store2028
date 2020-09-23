@@ -1,0 +1,189 @@
+.padrao{
+	width:120px;
+	height:160px;
+	background:#ededed;
+	float:left;
+	border:1px solid red;
+	margin:10px;
+	font-family:Arial;
+	font-size:11px;
+	text-align:justify;
+	padding:10px;
+	}
+
+#tudo {
+	position:absolute;
+	width:763px;
+	height:2235px;
+z-index:0;
+	margin:px;
+      
+}
+#topo {
+	position:absolute;
+	left:px;
+	top:190px;
+	width:746px;
+	height:172px;
+	z-index:1;
+}
+#Selokits {
+	position:absolute;
+	left:858px;
+	top:292px;
+	width:94px;
+	height:100px;
+	z-index:2;
+}
+#Historicas {
+	position:absolute;
+	left:271px;
+	top:383px;
+	width:500px;
+	height:112px;
+	z-index:3;
+}
+#Kitestado {
+	position:absolute;
+	left:613px;
+	top:427px;
+	width:391px;
+	height:132px;
+	z-index:4;
+}
+#Destaque {
+	position:absolute;
+	left:px;
+	top:787px;
+	width:px;
+	height:96px;
+	z-index:5;
+}
+#BandHistorica {
+	position:absolute;
+	left:306px;
+	top:574px;
+	width:239px;
+	height:188px;
+	z-index:6;
+}
+#Proddestaque {
+	position:absolute;
+	left:814px;
+	top:728px;
+	width:180px;
+	height:113px;
+	z-index:7;
+}
+#MastroBase {
+	position:absolute;
+	left:284px;
+	top:830px;
+	width:111px;
+	height:255px;
+	z-index:8;
+}
+#BaseSuporte {
+	position:absolute;
+	left:540px;
+	top:840px;
+	width:146px;
+	height:292px;
+	z-index:9;
+}
+#MastroAlum {
+	position:absolute;
+	left:776px;
+	top:880px;
+	width:219px;
+	height:292px;
+	z-index:10;
+}
+#Faixa {
+	position:absolute;
+	left:280px;
+	top:1150px;
+	width:714px;
+	height:73px;
+	z-index:11;
+}
+#TudoDesf {
+	position:absolute;
+	left:240px;
+	top:1130px;
+	width:164px;
+	height:101px;
+	z-index:12;
+}
+#KitDesfile {
+	position:absolute;
+	left:600px;
+	top:1230px;
+	width:227px;
+	height:398px;
+	z-index:13;
+}
+#Luva {
+	position:absolute;
+	left:580px;
+	top:1645px;
+	width:118px;
+	height:185px;
+	z-index:14;
+}
+#Talabarte {
+	position:absolute;
+	left:290px;
+	top:1316px;
+	width:240px;
+	height:97px;
+	z-index:15;
+}
+#Roset {
+	position:absolute;
+	left:290px;
+	top:1550px;
+	width:258px;
+	height:173px;
+	z-index:16;
+}
+#CD {
+	position:absolute;
+	left:340px;
+	top:1749px;
+	width:159px;
+	height:132px;
+	z-index:17;
+}
+#Mapa {
+	position:absolute;
+	left:250px;
+	top:1910px;
+	width:746px;
+	height:99px;
+	z-index:18;
+}
+#Bordada {
+	position:absolute;
+	left:290px;
+	top:2000px;
+	width:142px;
+	height:278px;
+	z-index:19;
+}
+#Flamula {
+	position:absolute;
+	left:520px;
+	top:2110px;
+	width:126px;
+	height:276px;
+	z-index:20;
+}
+#Mesa {
+	position:absolute;
+	left:735px;
+	top:2010px;
+	width:167px;
+	height:247px;
+	z-index:21;
+}
