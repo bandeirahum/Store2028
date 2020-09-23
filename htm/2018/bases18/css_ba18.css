@@ -1,0 +1,598 @@
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	img {
+		border: none;
+	}
+
+
+	#tudobases {
+		width: 877px;
+		font-family: Tahoma, Geneva, sans-serif;
+		height: 1980px;
+		margin-top: 90px;
+	}
+
+#tudo_faixa {
+	position: relative;
+	top: -1575;
+	width: 140px;
+	z-index: 0;
+}
+#barra_prod {
+	position: absolute;
+	float: left;
+	height: 27px;
+	background-image: url(http://www.bandeira1.com.br/lojas/00002028/images/barras/BarraBaseLaminada.gif);
+	background-repeat: no-repeat;
+	width: 877px;
+	padding-bottom: 20px;
+	top: 250;
+}
+	
+	div.modelo {
+	position: relative;
+	float: left;
+	height: 27px;
+	/* margin: 10px 0px 0px; */
+	background-image: url(<baseloja>images/BarraBaseLaminada.gif);
+	background-repeat: no-repeat;
+	width: 877px;
+	padding-bottom: 20px;
+	margin-top: 10px;
+}
+
+div.modelo2 {
+	position: relative;
+	height: 30px;
+	width: 214px;
+	margin-top: -29px;
+	background-color: #046dae;
+	font-family: "Segoe UI", "Segoe UI Semibold", "Segoe UI Light";
+	font-size: 20px;
+	float: left;
+	color: #FFF;
+	font-weight: bold;
+	z-index: 3;
+}
+
+div.modelo3 {
+	position: relative;
+	float: left;
+	height: 27px;
+	/* margin: 10px 0px 0px; */
+	background-image: url(<baseloja>images/KitBMAlum.gif);
+	background-repeat: no-repeat;
+	width: 877px;
+	padding-bottom: 20px;
+	margin-top: 10px;
+}
+
+div.modelo4 {
+	position: relative;
+	float: left;
+	height: 27px;
+	/* margin: 10px 0px 0px; */
+	background-image: url(<baseloja>images/BarraBMEnvern.gif);
+	background-repeat: no-repeat;
+	width: 877px;
+	padding-bottom: 20px;
+	margin-top: 10px;
+}
+
+div.modelo5 {
+	position: absolute;
+	height: 30px;
+	width: 214px;
+	margin-top: -49px;
+	background-color: #046dae;
+	font-family: "Segoe UI", "Segoe UI Semibold", "Segoe UI Light";
+	font-size: 20px;
+	float: left;
+	color: #FFF;
+	font-weight: bold;
+	z-index: 3;
+}
+	
+	h1.modelobases {
+		position: relative;
+		float: left;
+		color: #8a9e8d;
+		font-size: 230%;
+		letter-spacing: -1.7px;
+		font-weight: normal;
+		line-height: 100%;
+	}
+	
+	div.tipo {
+	width: 870px;
+	height: 25;
+	position: relative;
+	float: left;
+	}
+	
+	img.square {
+		position: relative;
+		float: left;
+		clear: both;
+		top: 10px;
+	}
+	
+	p.subtitulobases {
+	position: relative;
+	float: left;
+	font-size: 14px;
+	color: #777;
+	margin: 5px 0 0 5px;
+	/* padding-top: 10px; */
+	}
+	
+	div.fotos1 {
+	position: relative;
+	float: left;
+	width: 10px;
+	/* height: 111px; */
+	margin: 0 0 15px 0;
+	background-image: url(../Imagens da Loja/base_sup/nova/bg_fotos01.gif);
+	}
+	
+	div.fotos2 {
+	position: relative;
+	float: left;
+	width: 860px;
+	height: 111px;
+	background-image: url(../Imagens da Loja/base_sup/nova/bg_fotos02.gif);
+	background-repeat: repeat-x;
+	margin: 0 0 10px 0;
+	z-index: 5;
+	}
+	
+	div.fotos3 {
+	position: relative;
+	float: left;
+	/* width: 55px; */
+	height: 134px;
+	margin: 13px 0 39px 0;
+
+		background-image: url(../Imagens da Loja/base_sup/nova/bg_fotos03.gif);
+	z-index: 1;
+	}
+	
+	div.fotos4 {
+	position: relative;
+	float: left;
+	width: 870px;
+	height: 134px;
+
+	background-image: url(../Imagens da Loja/base_sup/nova/bg_fotos04.gif);
+	background-repeat: repeat-x;
+	margin: 13px 0 39px 0;
+	z-index: 1;
+	}
+	
+	div.fotos5 {
+		position: relative;
+		float: left;
+		width: 60px;
+		height: 161px;
+		margin: 35px 0 39px 0;
+		background-image: url(../Imagens da Loja/base_sup/nova/bg_fotos05.gif);
+	}
+	
+	div.fotos6 {
+		position: relative;
+		float: left;
+		width: 686px;
+		height: 161px;
+		background-image: url(../Imagens da Loja/base_sup/nova/bg_fotos06.gif);
+		background-repeat: repeat-x;
+		margin: 35px 0 39px 0;
+	}
+	
+	div.fotos7 {
+		position: relative;
+		float: left;
+		width: 53px;
+		height: 153px;
+		margin: 17px 0 29px 0;
+		background-image: url(../Imagens da Loja/base_sup/nova/bg_fotos07.gif);
+	}
+	
+	div.fotos8 {
+	position: relative;
+	float: left;
+	width: 820px;
+	height: 153px;
+
+	background-image: url(../Imagens da Loja/base_sup/nova/bg_fotos08.gif);
+	background-repeat: repeat-x;
+	margin: 17px 0 29px 0;
+	z-index: 1;
+	}
+	div.fotos10 {
+	position: relative;
+	float: left;
+	width: 840px;
+	height: 111px;
+	background-image: url(../Imagens da Loja/base_sup/nova/bg_fotos02.gif);
+	background-repeat: repeat-x;
+	margin: 0 0 45px 0;
+	}
+	
+	
+	div.fotos11 {
+	position: relative;
+	float: left;
+	width: 840px;
+	height: 111px;
+	background-image: url(../Imagens da Loja/base_sup/nova/bg_fotos01.gif);
+	background-repeat: repeat-x;
+	margin: 0 0 45px 0;
+	}
+	
+	div.mogno {
+	display: inline;
+	width: 134px;
+	height: 111px;
+	position: relative;
+	float: left;
+	margin: 0 5px 0 5px;
+	}	
+	
+	div.embuia {
+	width: 129px;
+	height: 111px;
+	display: inline;
+	position: relative;
+	float: left;
+	margin: 0 2px 0 10px;
+	}
+	
+	div.jacaran {
+	width: 121px;
+	height: 101px;
+	display: inline;
+	position: relative;
+	float: left;
+	margin: 0 10px 0 11px;
+	}
+	
+	div.latao01 {
+	display: inline;
+	width: 126px;
+	height: 134px;
+	position: relative;
+	float: left;
+	margin: 0 6px 0 7px;
+	}	
+	
+	div.latao02 {
+	width: 129px;
+	height: 134px;
+	display: inline;
+	position: relative;
+	float: left;
+	margin: 0 6px 0 7px;
+	}
+	
+	div.latao03 {
+	width: 129px;
+	height: 134px;
+	display: inline;
+	position: relative;
+	float: left;
+	margin: 0 6px 0 7px;
+	}
+	
+	div.madeira {
+	width: 138px;
+	height: 153px;
+	display: inline;
+	position: relative;
+	float: left;
+	margin: 0 20px  0 10px;
+	}
+	
+	div.fotos9 {
+		position: relative;
+		float: left;
+		width: 35px;
+		height: 157px;
+		margin: 0 0 40px 0;
+		background-image: url(../Imagens da Loja/base_sup/nova/bg_fotos09.gif);
+	}
+	
+	div.fotos10 {
+	position: relative;
+	float: left;
+	width: 860px;
+	height: 111px;
+
+
+
+	/* [disabled]background-image: url(../Imagens da Loja/base_sup/nova/bg_fotos10.gif); */
+	background-repeat: repeat-x;
+	margin: 0 0 40px 0;
+	z-index: 5;
+	}
+	
+	div.fotos11 {
+	position: relative;
+	float: left;
+	width: 10px;
+	height: 157px;
+	margin: 0 0 0px 0;
+	}
+	
+	div.fotos12 {
+		position: relative;
+		float: left;
+		width: 711px;
+		height: 157px;
+		background-image: url(../Imagens da Loja/base_sup/nova/bg_fotos12.gif);
+		background-repeat: repeat-x;
+		margin: 0 0 40px 0;
+	}
+	
+	div.fotos13 {
+		position: relative;
+		float: left;
+		width: 35px;
+		height: 159px;
+		margin: 0 0 40px 0;
+		background-image: url(../Imagens da Loja/base_sup/nova/bg_fotos13.gif);
+	}
+	
+	div.fotos14 {
+	position: relative;
+	float: left;
+	width: 840px;
+	height: 159px;
+	background-image: url(../Imagens da Loja/base_sup/nova/bg_fotos14.gif);
+	background-repeat: repeat-x;
+	margin: 0 0 40px 0;
+	}
+	
+	div.prata {
+		display: inline;
+		width: 230px;
+		height: 157px;
+		position: relative;
+		float: left;
+		margin: 0 0 0 52px;
+	}	
+	
+	div.cobre {
+		width: 322px;
+		height: 158px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 0 0 52px;
+	}
+	
+	div.dourado {
+	width: 236;
+	height: 159px;
+	display: inline;
+	position: relative;
+	float: left;
+	margin: 0 0 0 52px;
+	}
+modulares {
+	font-size: 18px;
+}
+.modularestxt {
+	padding-left: 7px;
+}
+
+
+#sub2 {
+	position: absolute;
+	left: -10px;
+	top: 695px;
+	width: 214px;
+	height: 30px;
+	z-index: 1;
+	font-size: 20px;
+	font-family: "Segoe UI";
+	font-weight: bold;
+	color: #FFF;
+	background-color: #046DAE;
+}
+#sub1 {
+	position: relative;
+	left: -1px;
+	width: 214px;
+	height: 30px;
+	z-index: 1;
+	font-size: 20px;
+	font-family: "Segoe UI";
+	font-weight: bold;
+	color: #FFF;
+	background-color: #046DAE;
+}
+#fxcinza01 {
+	position: absolute;
+	top: 70px;
+	width: 873px;
+	height: 40px;
+	z-index: 0;
+	background-color: #e4e4e469;
+}
+#fxcinza02 {
+	position: absolute;
+	top: 212px;
+	width: 873px;
+	height: 40px;
+	z-index: 0;
+	background-color: #e4e4e469;
+}#fxcinza03 {
+	position: absolute;
+	top: 359px;
+	width: 873px;
+	height: 40px;
+	z-index: 0;
+	background-color: #e4e4e469;
+}#fxcinza04 {
+	position: absolute;
+	top: 504px;
+	width: 873px;
+	height: 40px;
+	z-index: 0;
+	background-color: #e4e4e469;
+}#fxcinza05 {
+	position: absolute;
+	top: 651px;
+	width: 873px;
+	height: 40px;
+	z-index: 0;
+	background-color: #e4e4e469;
+}#fxcinza06 {
+	position: absolute;
+	top: 832px;
+	width: 873px;
+	height: 40px;
+	z-index: 0;
+	background-color: #e4e4e469;
+	left: 0px;
+}
+#fxcinza07 {
+	position: absolute;
+	top: 979px;
+	width: 873px;
+	height: 40px;
+	z-index: 0;
+	background-color: #e4e4e469;
+	left: 0px;
+}#fxcinza08 {
+	position: absolute;
+	top: 1125px;
+	width: 873px;
+	height: 40px;
+	z-index: 0;
+	background-color: #e4e4e469;
+	left: 0px;
+}#fxcinza09 {
+	position: absolute;
+	top: 1270px;
+	width: 873px;
+	height: 40px;
+	z-index: 0;
+	background-color: #e4e4e469;
+	left: 0px;
+}
+#fxcinza10 {
+	position: absolute;
+	top: 1417px;
+	width: 873px;
+	height: 40px;
+	z-index: 0;
+	background-color: #e4e4e469;
+	left: 0px;
+}#fxcinza11 {
+	position: absolute;
+	top: 1875px;
+	width: 873px;
+	height: 40px;
+	z-index: 0;
+	background-color: #e4e4e469;
+	left: 0px;
+}#fxcinza12 {
+	position: absolute;
+	top: 2080px;
+	width: 873px;
+	height: 40px;
+	z-index: 0;
+	background-color: #e4e4e469;
+	left: 0px;
+}
+#fund_lat {
+	position: absolute;
+	/* [disabled]top: 1787px; */
+	width: 868px;
+	z-index: 0;
+	/* top: 400px; */
+}
+#fundo_lat18 {
+    position: relative;
+    top: 1506px;
+    width: 868px;
+    height: 366px;
+    z-index: 3;
+}
+#lat_01 {
+	position: absolute;
+	left: 40px;
+	top: 6px;
+	width: 141px;
+	height: 41px;
+	z-index: 4;
+}
+#lat_02 {
+	position: absolute;
+	left: 246px;
+	top: 6px;
+	width: 141px;
+	height: 41px;
+	z-index: 4;
+}
+#lat_03 {
+	position: absolute;
+	left: 448px;
+	top: 6px;
+	width: 141px;
+	height: 41px;
+	z-index: 4;
+}
+#lat_04 {
+	position: absolute;
+	left: 689px;
+	top: -11px;
+	width: 101px;
+	height: 17px;
+	z-index: 4;
+}
+#dour_01 {
+	position: absolute;
+	left: 40px;
+	top: 193px;
+	width: 132px;
+	height: 17px;
+	z-index: 4;
+}
+#dour_02 {
+	position: absolute;
+	left: 243px;
+	top: 193px;
+	width: 131px;
+	height: 17px;
+	z-index: 4;
+}
+#dour_03 {
+	position: absolute;
+	left: 445px;
+	top: 193px;
+	width: 138px;
+	height: 17px;
+	z-index: 4;
+}
+#dour_04 {
+	position: absolute;
+	left: 671px;
+	top: 182px;
+	width: 140px;
+	height: 17px;
+	z-index: 4;
+}
+.txt_lat18 {
+	font-family: "Segoe UI", "Segoe UI Semibold", "Segoe UI Light";
+	font-size: 14px;
+	color: #676767;
+	text-align: center;
+	padding-top: 138px;
+	font-weight: 500;
+	line-height: 1;
+}
