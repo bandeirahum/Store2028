@@ -1,0 +1,565 @@
+span.colorT {
+	font-size: 22px;
+	color: #1886B2;
+	font-family: "Segoe UI";
+}
+.mouseO {cursor:pointer;}
+#tudokits {
+	position:absolute;
+	width:100%;
+}
+
+#boxKits01 {
+	width: 895px;
+	height: 461px;
+}
+
+	.titPag {
+	width: 895px;
+	height: 20px;
+	font-family: "Segoe UI";
+	font-size: 40px;
+	color: #006600;
+	}
+
+		.titPag h2 {
+	color: #1F66B4;
+	font-size: 31px;
+	margin-left: 10px;
+	letter-spacing: -1px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		}
+
+	.boxProds {
+	width: 895px;
+	height: 195px;
+	}
+
+		.boxSubtit {
+	width: 746px;
+	height: 40px;
+	color: #CC0033;
+	font-family: "Segoe UI";
+	font-size: 30px;
+		}
+		
+			div.square {
+			position:relative;
+			float:left;
+			width:9px;
+			height:9px;
+			margin:23px 0 0 1px;
+			background-color:#163d1b;
+			*overflow: hidden;
+			}
+			
+			.boxSubtit h5 {
+	position: relative;
+	float: left;
+	font-size: 20px;
+	color: #007095;
+	margin: 12px 0 0 0px;
+	font-family: "Segoe UI";
+			}
+			
+		.boxProds01 {
+	width: 850px;
+
+
+
+
+
+
+
+
+
+
+
+		*width:746px;
+	height: 150px;
+	padding-left: 35px;
+	background: url(../../images/kitbm/faixaProds.jpg) no-repeat;
+	background-position: 0 42px;
+	/* [disabled]padding-top: 5px; */
+		}	
+		#prodsA img {
+	position: relative;
+	float: left;
+	margin: 5px 15px 0px 15px;
+	display: inline;
+		}
+		#prodsB img {
+	position: relative;
+	margin: 10px 15px 0 5px;
+	display: inline;
+		}
+		
+#boxKits02 {
+width:746px;
+height:958px;
+}
+
+	#subtitMonte {
+	position:relative;
+	width:746px;
+	height:92px;
+	}
+		#subtitMonte h3 {
+	position: absolute;
+	top: 0px;
+	left: 308px;
+	font-size: 31px;
+	color: #D50E2E;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		}
+		#subtitMonte p {
+	position: absolute;
+	top: 45px;
+	left: 218px;
+	font-size: 18px;
+	color: #D50E2E;
+	font-family: "Segoe UI";
+		}
+		
+	.boxPassos {
+	position: relative;
+	width: 95px;
+	height: 140px;
+	padding-top: 60px;
+	lef: 10px;
+	margin-left: 9;
+	}
+	
+		.boxPassos h3 {
+	position: absolute;
+	top: -26px;
+	left: -3px;
+	font-size: 14px;
+	color: #aaa;
+	z-index: 10;
+	width: 242px;
+	background-image: url(images/bmmadeira2_24.jpg);
+	height: 51px;
+	background-color: #1886B2;
+		}
+		
+		.botProximo {
+	position: absolute;
+	bottom: -439px;
+	left: 125px;
+	z-index: 30;
+	}
+	
+		.grayBox {
+	position: absolute;
+	top: 0px;
+	/* border-radius: 20px; */
+	z-index: 30;
+	/* background-color: #FFFFFF; */
+	background-image: url(../images/fundobases.jpg);
+	left: 0px;
+	/* color: #D6D6D6; */
+		}
+		.grayBox2 {
+	position: absolute;
+	top: 0px;
+	/* border-radius: 20px; */
+	z-index: 30;
+	/* background-color: #FFFFFF; */
+	background-image: url(../images/bmmadeira2_10.jpg);
+	left: 0px;
+	/* color: #D6D6D6; */
+		}
+		#grayBox01{
+	width: 282px;
+	height: 610px;
+	top: 10px;
+}
+		
+			img.baseM {
+	position: relative;
+	float: left;
+	margin: 65px 6px 20px 18px;
+			}
+			
+			img.baseMod {
+	position: relative;
+	float: left;
+	margin: 12px 6px 15px 76px;
+	}
+			
+		#passo02 {
+	position: relative;
+	/* float:left; */
+	width: 205;
+	height: 200px;
+		}
+		
+			.botProximo1 {
+	position: absolute;
+	bottom: -29px;
+	left: 125px;
+	z-index: 10;
+			}
+			
+			#grayBox02{
+	width: 286px;
+	height: 101px;
+}
+			
+				img.corBase {
+	position: relative;
+	float: left;
+	margin: 18px 18px 0 0px;
+	text-align: center;
+				
+	left: 35;
+}
+		
+		#passo03 {
+	position: relative;
+	float: left;
+	width: 365px;
+	height: 200px;
+	left: 136px;
+		}
+		
+			#passo03 h3 {
+	position: absolute;
+	top: 6px;
+	left: 68px;
+	font-size: 14px;
+	color: #aaa;
+	z-index: 10;
+	height: 41px;
+			}
+			
+			#grayBox03{
+	width: 392px;
+	height: 220px;
+	right: -14px;
+}
+			
+					img#lanca {
+	position: absolute;
+	left: 216px;
+	bottom: 0px;
+	width: 149px;
+				}
+				
+				img#bola {
+	position: absolute;
+	right: 223px;
+	bottom: 0px;
+	width: 135px;
+				}
+				
+	#boxPreview {
+	width: 746px;
+	height: 400px;
+	/* position: relative; */
+	top: 20px;
+}
+	
+		.titPrev {
+	position: relative;
+	width: 570;
+	height: 65px;
+		}
+		
+			.titPrev h3 {
+	position: absolute;
+	/* bottom: 469px; */
+	left: 330px;
+	font-size: 14px;
+	color: #aaa;
+	z-index: 3;
+	width: 570px;
+	top: -488px;
+			}
+		
+		#fotosPrev {
+		position:relative;
+		width:880px;
+		height:950px;
+		top:0px;
+		background-image:url(../images/images/imgfundo_03.jpg);
+		z-index:28;
+		
+		}
+		
+			#boxBase {
+	position: absolute;
+	left: 329px;
+	width: 315px;
+	height: 241px;
+	z-index: 0;
+	top: 110px;
+	}
+			
+			.boxMastro {
+	position: absolute;
+	top: -39px;
+	right: -112px;
+	width: 405px;
+	height: 241px;
+			}
+			
+			p.descPrev {
+	position: absolute;
+	top: 96px;
+	left: 12px;
+	font-size: 14px;
+	color: #666;
+	z-index: 10;
+	height: 34px;
+	width: 230px;
+	font-family: "Segoe UI";
+			}
+			p.descPrev span {color:#454545;}
+			
+			p.plus {
+	position: absolute;
+	top: 255px;
+	left: 367px;
+	font-size: 90px;
+	z-index: 999;
+	width: 62px;
+			}
+			
+			p#quant {
+	position: absolute;
+	top: 356px;
+	right: 385px;
+	font-size: 40px;
+	color: #06B343;
+	z-index: 50;
+	font-family: "Segoe UI";
+			}
+		
+		.linkPrev {
+	position: fixed;
+	width: 746px;
+	height: 94px;
+	z-index: 999;
+		}
+		
+			p.instruc {
+			position:absolute;
+			bottom:9px; left:9px;
+			font-size:12px;
+			color:#666;
+			}
+			span.boldC {font-weight:bold; color:#163d1b;}
+			
+			.linkDet {
+	position: absolute;
+	right: 81px;
+	width: 88px;
+	height: 94px;
+	z-index: 9999;
+	top: 1366px;
+	
+			}
+			
+			.linkDet p {
+	font-size: 54px;
+	color: #163d1b;
+	height: 78px;
+	width: 80px;
+	position: absolute;
+    top: 150;
+    left: 44%
+			}
+			
+.checkBox {
+	position: absolute;
+	z-index: 50;
+	left: 2px;
+	top: 15px;
+}
+
+#p1 {
+	position: absolute;
+	left: -8px;
+	top: 0px;
+	width: 65px;
+	height: 71px;
+	z-index: 21;
+}
+#p2 {
+	position: absolute;
+	left: -7px;
+	top: 2px;
+	width: 65px;
+	height: 71px;
+	z-index: 21;
+}
+#p3 {
+	position: absolute;
+	left: -23px;
+	top: 4px;
+	width: 65px;
+	height: 71px;
+	z-index: 21;
+}
+
+#kit {
+	font-family: "Segoe UI";
+	font-size: 35px;
+	color: #096;
+	/* position: relative; */
+}
+#apDiv2 {
+	position: absolute;
+	left: 552px;
+	top: 1111px;
+	width: 68px;
+	height: 36px;
+	z-index: 1;
+}
+#txtbola {
+	position: absolute;
+	left: 56px;
+	top: 119px;
+	width: 58px;
+	height: 19px;
+	z-index: 1;
+	font-family: "Segoe UI";
+	font-size: 16px;
+	color: #666;
+	text-align: center;
+}
+#txtlanca {
+	position: absolute;
+	left: 235px;
+	top: 119px;
+	width: 58px;
+	height: 19px;
+	z-index: 1;
+	font-family: "Segoe UI";
+	font-size: 16px;
+	color: #666;
+	text-align: center;
+}
+.TitDescPrev {
+	font-family: "Segoe UI";
+	font-size: 45px;
+	font-weight: bold;
+	color: #063;
+}
+.TitDescPrev2 {
+	font-family: "Segoe UI";
+	font-size: 36px;
+	color: #0C0;
+	font-weight: normal;
+	text-align: left;
+}
+#DescPrev2 {
+	position: absolute;
+	width: 174px;
+	height: 10px;
+	font-family: "Segoe UI";
+	font-size: 36px;
+	color: #A4BFA5;
+	font-weight: normal;
+	text-align: left;
+	left: 126px;
+	top: 39px;
+}
+#botcomprar {
+	position: absolute;
+	left: 751px;
+	top: 125px;
+	z-index: 30;
+	width: 147px;
+	height: 49px;
+}
+	
+ 
+#detalhes {
+	position: absolute;
+	left: 641px;
+	top: 17px;
+	width: 119px;
+	height: 106px;
+	z-index: 30;
+}
+#cerejeiratxt {
+	position: absolute;
+	left: 20px;
+	top: 151px;
+	width: 61px;
+	height: 11px;
+	z-index: 51;
+}
+#imbuiatxt {
+	position: absolute;
+	left: 141px;
+	top: 151px;
+	width: 52px;
+	height: 11px;
+	z-index: 51;
+}
+#jacarandatxt {
+	position: absolute;
+	left: 245px;
+	top: 151px;
+	width: 52px;
+	height: 11px;
+	z-index: 51;
+}
+#mognotxt {
+	position: absolute;
+	left: 366px;
+	top: 151px;
+	width: 52px;
+	height: 11px;
+	z-index: 51;
+}
+.txtcor {
+	font-family: "segoe UI";
+	font-size: 16px;
+	color: #333;
+}
+#titcores {
+	position: absolute;
+	left: 3px;
+	top: 26px;
+	width: 281px;
+	height: 28px;
+	z-index: 51;
+	background-image: url(../images/bmmadeira2_07.jpg);
+}
+#titbasemm {
+	position: absolute;
+	left: 2px;
+	top: -23px;
+	width: 281;
+	height: 28px;
+	z-index: 51;
+	background-image: url(../images/bmmadeira2_24.jpg);
+}
+#titpreview {
+	position: absolute;
+	left: 311px;
+	top: 72px;
+	width: 588px;
+	height: 50px;
+	z-index: 51;
+}
+#txttit {
+	position: absolute;
+	left: 302px;
+	top: 3px;
+	width: 187px;
+	height: 32px;
+	z-index: 52;
+	font-size: 24px;
+	font-weight: bold;
+}
+.textotit {
+	font-family: "Segoe UI Light";
+	font-size: 14px;
+	color: #063;
+}
