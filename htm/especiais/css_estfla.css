@@ -1,0 +1,357 @@
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	img {
+		border: none;
+	}
+	a {
+		text-decoration: none;
+		color: #000;
+	}
+	span.bold {
+		font-weight: bold;
+	}
+	#tudoproduto {
+		position: relative;
+		float: left;
+		width: 746px;
+		display: inline;
+	}
+	#tudo {
+		position: relative;
+		width: 746px;
+		height: 206px;
+	}
+		div.linha1 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 283px;
+		}
+			div.coluna01 {
+				position: relative;
+				float: left;
+				width: 393px;
+				height: 286px;
+				background: url(../../prod/estfla/estfla01.jpg);
+			}
+			div.coluna02 {
+				position: relative;
+				float: left;
+				width: 353px;
+				height: 286px;
+				background: url(../../prod/estfla/estfla02.jpg);
+			}
+			div.estandarte {
+				width: 270px;
+				height: 30px;
+				margin-left:62px;
+				margin-top:132px;
+			}
+			p.estandarte_desc {
+				position: relative;
+				float: left;
+				width: 270px;
+				height: 30px;
+				font-family:Tahoma, Geneva, sans-serif;
+				font-size:12px;
+				color:#881b18;
+			}
+			div.estandarte2 {
+				width: 270px;
+				height: 30px;
+				margin-left:62px;
+				margin-top:13px;
+			}
+			p.estandarte_desc2 {
+				position: relative;
+				float: left;
+				width: 270px;
+				height: 30px;
+				font-family:Tahoma, Geneva, sans-serif;
+				font-size:12px;
+				color:#0a193a;
+			}
+		div.linha2 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 344px;
+		}
+			div.coluna03 {
+				position: relative;
+				float: left;
+				width: 393px;
+				height: 344px;
+				background: url(../../prod/estfla/estfla03.jpg);
+			}
+			div.coluna04 {
+				position: relative;
+				float: left;
+				width: 353px;
+				height: 344px;
+				background: url(../../prod/estfla/estfla04.jpg);
+			}
+		div.linha3 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 96px;
+		}
+			div.coluna05 {
+				position: relative;
+				float: left;
+				width: 393px;
+				height: 96px;
+				background: url(../../prod/estfla/estfla05.jpg);
+			}
+			div.coluna06 {
+				position: relative;
+				float: left;
+				width: 353px;
+				height: 96px;
+				background: url(../../prod/estfla/estfla06.jpg);
+			}
+			div.flamulas1 {
+				width: 270px;
+				height: 30px;
+				margin-left:55px;
+				margin-top:6px;
+			}
+			p.flamulas1_desc {
+				position: relative;
+				float: left;
+				width: 270px;
+				height: 30px;
+				font-family:Tahoma, Geneva, sans-serif;
+				font-size:12px;
+				color:#881b18;
+			}
+			p.flamulas2_desc {
+				position: relative;
+				float: left;
+				width: 270px;
+				height: 30px;
+				margin-top:15px;
+				font-family:Tahoma, Geneva, sans-serif;
+				font-size:12px;
+				color:#881b18;
+			}
+		div.linha4 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 98px;
+		}
+			div.coluna07 {
+				position: relative;
+				float: left;
+				width: 746px;
+				height: 98px;
+				background: url(../../prod/estfla/estfla07.jpg);
+			}
+		div.linha5 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 161px;
+		}
+			div.coluna08 {
+				position: relative;
+				float: left;
+				width: 362px;
+				height: 161px;
+				background: url(../../prod/estfla/estfla08.jpg);
+			}
+			div.coluna09 {
+				position: relative;
+				float: left;
+				width: 384px;
+				height: 161px;
+				background: url(../../prod/estfla/estfla09.jpg);
+			}
+		div.linha6 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 157px;
+		}
+			div.coluna10 {
+				position: relative;
+				float: left;
+				width: 362px;
+				height: 157px;
+				background: url(../../prod/estfla/estfla10.jpg);
+			}
+			div.coluna11 {
+				position: relative;
+				float: left;
+				width: 384px;
+				height: 157px;
+				background: url(../../prod/estfla/estfla11.jpg);
+			}
+		div.linha7 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 126px;
+		}
+			div.coluna12 {
+				position: relative;
+				float: left;
+				width: 362px;
+				height: 126px;
+				background: url(../../prod/estfla/estfla12.jpg);
+			}
+			div.flamulas {
+				width: 280px;
+				height: 16px;
+				margin-left:63px;
+				margin-top:28px;
+			}
+			p.flamulas_desc {
+				position: relative;
+				float: left;
+				width: 280px;
+				height: 16px;
+				font-family:Tahoma, Geneva, sans-serif;
+				font-size:13px;
+				color:#881b18;
+			}
+			p.flamulas_desc2 {
+				position: relative;
+				float: left;
+				width: 280px;
+				height: 16px;
+				margin-top:5px;
+				font-family:Tahoma, Geneva, sans-serif;
+				font-size:13px;
+				color:#881b18;
+			}
+			div.coluna13 {
+				position: relative;
+				float: left;
+				width: 384px;
+				height: 126px;
+				background: url(../../prod/estfla/estfla13.jpg);
+			}
+			div.flamulas2 {
+				width: 280px;
+				height: 16px;
+				margin-left:38px;
+				margin-top:28px;
+			}
+		div.linha8 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 106px;
+		}
+			div.coluna14 {
+				position: relative;
+				float: left;
+				width: 362px;
+				height: 106px;
+				background: url(../../prod/estfla/estfla14.jpg);
+			}
+			div.coluna15 {
+				position: relative;
+				float: left;
+				width: 384px;
+				height: 106px;
+				background: url(../../prod/estfla/estfla15.jpg);
+			}
+		div.linha9 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 304px;
+		}
+			div.coluna16 {
+				position: relative;
+				float: left;
+				width: 563px;
+				height: 304px;
+				background: url(../../prod/estfla/estfla16.jpg);
+			}
+			div.coluna17 {
+				position: relative;
+				float: left;
+				width: 183px;
+				height: 304px;
+				background: url(../../prod/estfla/estfla17.jpg);
+			}
+		div.linha10 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 167px;
+		}
+			div.coluna18 {
+				position: relative;
+				float: left;
+				width: 518px;
+				height: 167px;
+				background: url(../../prod/estfla/estfla18.jpg);
+			}
+			div.coluna19 {
+				position: relative;
+				float: left;
+				width: 228px;
+				height: 167px;
+				background: url(../../prod/estfla/estfla19.jpg);
+			}
+		div.linha11 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 129px;
+		}
+			div.coluna20 {
+				position: relative;
+				float: left;
+				width: 746px;
+				height: 129px;
+				background: url(../../prod/estfla/estfla20.jpg);
+			}
+			div.emails {
+				width: 170px;
+				height: 30px;
+				margin-left:475px;
+				margin-top:28px;
+			}
+			p.emails2 {
+				position: relative;
+				float: left;
+				width: 170px;
+				height: 30px;
+				text-align:right;
+				font-family:Tahoma, Geneva, sans-serif;
+				font-size:12px;
+				color:#5e4b0a;
+			}
+			p.telefones {
+				position: relative;
+				float: left;
+				width: 170px;
+				height: 30px;
+				margin-top:24px;
+				text-align:right;
+				font-family:Tahoma, Geneva, sans-serif;
+				font-size:12px;
+				color:#5e4b0a;
+			}
+		div.linha12 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 24px;
+		}
+			div.coluna21 {
+				position: relative;
+				float: left;
+				width: 746px;
+				height: 24px;
+				background: url(../../prod/estfla/estfla21.jpg);
+			}
