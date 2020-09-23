@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:0;
+	padding:0;
+	background-image:url(../../images/bg2.jpg) fixed repeat-y center;
+	text-align:center; /* hack para o IE */
+}
+
+#tudotopo {
+	width: 100%;
+	height:230px;
+	margin: 0 auto;
+	text-align: center; /* "rem&#65533;dio" para o hack do IE */
+	padding: 0px;
+	background-image:url(../../../Images/fundotopo.png)
+	background-repeat: no-repeat;
+	
+	}
+#conteudotopo {
+	margin: 0 auto;
+	text-align: center; /* "rem&#65533;dio" para o hack do IE */
+	padding: 0px;
+	position: relative;
+	/* top: 9px; */
+	width: 100%;
+	height: 205px;
+	z-index: 0;
+	background-image: url(../../images/fundotopo.png);
+	background-repeat: no-repeat;
+}	
+#logoband {
+	position: absolute;
+	margin-top: 15px;
+	width: 273px;
+	height: 154px;
+	z-index: 999;
+	left: 13px;
+	top: 7px;
+		}
+#pedidos {
+	position: absolute;
+	left: 629px;
+	top: 60px;
+	width: 132px;
+	height: 122px;
+	z-index: 4;
+}
+#cadastro {
+	position: absolute;
+	left: 772px;
+	top: 60px;
+	width: 132px;
+	height: 122px;
+	z-index: 5;
+}
+#carrinho {
+	position: absolute;
+	left: 916px;
+	top: 60px;
+	width: 132px;
+	height: 122px;
+	z-index: 6;
+}
+#buscprod {
+	position:absolute;
+	left:416px;
+	top:100px;
+	width:74px;
+	height:80px;
+	z-index:7;
+	font-family: "Segoe UI";
+}
+#busca {
+	position: absolute;
+	left: 530px;
+	top: 107px;
+	width: 63px;
+	height: 30px;
+	z-index: 7;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #FFF;
+	font-size: 18px;
+}
+#produtos{
+	position: absolute;
+	left: 490px;
+	top: 118px;
+	width: 51px;
+	height: 20px;
+	z-index: 8;
+	font-family: "Segoe UI";
+	color: #FFF;
+	font-size: 26px;
+}
+#barrabusca {
+	position: absolute;
+	left: 305px;
+	top: 149px;
+	width: 318px;
+	height: 34px;
+	z-index: 9;
+	font-size: 20px;
+}
