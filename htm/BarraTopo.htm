@@ -1,0 +1,171 @@
+<!-- BarraTopo Includes -->
+
+<script type="text/javascript" src="<BaseLoja>htm/LojaLib.js"></script>
+<script type="text/javascript" src="<BaseLoja>htm/JurosParcelas.js"></script>
+<script type="text/javascript" src="../sistema/magiczoom.js"></script>
+<script type="text/javascript" src="RequestObject.js"></script>
+<script type="text/javascript" src="/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="/jquery-ui-1.9.2.custom.min.js"></script>
+<script src="<BaseLoja>htm/LojaLib2.js"></script>
+
+<script>IDLojaNum='<IDLojaNum>';</script>
+
+<script>
+var sPag=document.location.href.toUpperCase();
+IDLojaNum='<IDLojaNum>';
+sCaminhoImages='<BaseLoja>images/';
+</script>
+
+
+<!--Start of Zopim Live Chat Script-->
+<script type="text/javascript">
+window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
+$.src="//v2.zopim.com/?3J75xKgBoKUrP8eLyxmbl2GQRi6ELVrX";z.t=+new Date;$.
+type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+</script>
+<!--End of Zopim Live Chat Script-->
+
+<meta name="google-site-verification" content="A5liSNEfCb8SN1puorrjANjpx77LOFkTRkpLy-L1f-U" />
+
+<script language='JavaScript'>
+function bloquear(e){return false}
+function desbloquear(){return true}
+document.onselectstart=new Function (&quot;return false&quot;)
+if (window.sidebar){document.onmousedown=bloquear
+document.onclick=desbloquear}
+</script>
+
+  
+<script>
+var sPag=document.location.href.toUpperCase();
+IDLojaNum='<IDLojaNum>';
+sCaminhoImages='<BaseLoja>images/';
+</script>
+
+<link type="text/css" rel="stylesheet" href="<BaseLoja>htm/jquery_ui.css">
+<link href="<baseloja>htm//BarraTopo.css" rel="stylesheet" type="text/css">
+<meta name="author" content="Marcel Vasiunas">
+<!--[if IE]>
+<style type="text/css">.ui-autocomplete-category{margin-top: -2px}</style>
+<![endif]-->
+<script type="text/javascript" src="<BaseLoja>htm/nivo_slider.js"></script>
+<link rel="stylesheet" href="<BaseLoja>htm/nivo.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="<BaseLoja>htm/nivo_slider.css" type="text/css" media="screen"/> 
+
+<script type="text/javascript">
+         jQuery.noConflict();
+	jQuery(window).load(function() {
+		jQuery('#slider').nivoSlider();
+	});
+</script>
+<!--[if IE]><style type="text/css">ul.MenuBarraTopo li a {height:50px;}ul.MenuBarraTopo li a:hover {height:50px;}.ShadowBottom{margin-top:0px}#slider {margin:0 0 0 0;}</style><![endif]-->
+
+
+ <div id="conteudotopo">
+        <div id="logoband"><a href="/"><img src="<baseloja>images/home2014/logoband.png" width="273" 	height="154" /></a></div>
+
+    <div id="pedidos"><a href="/track.asp"><img src="<baseloja>images/home2014/pedidos.png" alt="pedidos" width="132" height="122" border="0" /></a> </div>
+
+        <div id="cadastro"><a href="/cadastro.asp"><img src="<baseloja>images/home2014/cadastro.png" alt="cadastro" width="132" height="122" border="0" /></a></div>
+
+              <div id="carrinho"><a href="/addproduto.asp"><img src="<baseloja>images/home2014/meucarrinho.png" alt="carrinho" width="132" height="122" border="0" /></a></div>
+    <div id="busca">Buscar<br />
+    </div>
+    <div id="produtos">Produtos</div>
+    <div id="barrabusca">
+  
+        <div class="busca2">
+        	<script type="text/javascript">function VerTexto(oNome){if (oNome.texto.value==''){alert('Digite antes sua busca.');oNome.texto.focus();return false;}else{return true;}}</script>
+    		<form name=fBusca onSubmit="return VerTexto(this);" action="/listaprodutos.asp" method=get>              
+        		<input class="campobusca" type="text" name="texto" style="
+    width: 244px;" />
+		        <input class="ok" type="image" src="<baseloja>images/home2014/lupa.png" value="Ok" />
+    		</form>        	
+        </div>
+          
+    </div>
+
+ </div>
+
+<!-- Inicio Cálculo do CEP -->
+<script type="text/javascript">
+var IDProdShipping="";
+
+function GetShippingValues(IDZip,IDProd){
+  sCEP=document.getElementById("idZip"+ IDZip).value;
+  if(sCEP==""){alert("Informe o CEP");return;}
+  if(IDProdShipping!="")var sParamProd="&idproduto="+ IDProdShipping;
+  else if(IDProd)var sParamProd="&idproduto="+ IDProd;
+  else var sParamProd="";
+  AjaxExecFC("/XMLShippingCEP.asp","IDLoja=<IDLojaNum>&cep="+ sCEP + sParamProd,false,processXMLCEP,IDZip);
+}
+
+function processXMLCEP(obj,IDProd){
+  var iErr=ReadXMLNode(obj,"err");if(iErr==null)return;
+  if(iErr!="0"){
+    alert(ReadXMLNode(obj,"msg"));
+    return;
+  }
+  oShippingValues=document.getElementById("idShippingValues"+IDProd);
+  oShippingValues.innerHTML="<a href=#na onclick=document.getElementById('idShippingValues"+ IDProd +"').style.display='none'><img src='<BaseLoja>images/icon_fechar.png'width='15' height='15' style='margin-left:180px'/></a>";
+  var UseCart=ReadXMLNode(obj,"UseCart");
+  if(UseCart=="False"){
+    var ProdName=ReadXMLNode(obj,"ProdName");
+    var ProdRef=ReadXMLNode(obj,"ProdRef");
+    
+  }
+  var iOpt=ReadXMLNode(obj,"OptQt");
+  for(var i=1;i<=iOpt;i++){
+    var OptName=ReadXMLNode(obj,"Opt"+ i +"Name");
+    var OptValue=ReadXMLNode(obj,"Opt"+ i +"Value");
+    var OptImage=ReadXMLNode(obj,"Opt"+ i +"Image");
+    var OptObs=ReadXMLNode(obj,"Opt"+ i +"Obs");
+    if(OptImage==null)oShippingValues.innerHTML+="<div class='CepName'>"+ OptName +"&nbsp-&nbsp"+ OptValue +":</div>";
+    else oShippingValues.innerHTML+="<img src='"+ OptImage +"'>";
+    oShippingValues.innerHTML+="<div class='CepObsVal'>Obs:&nbsp"+ OptObs +"</div>";
+  }
+  oShippingValues.style.display="block";
+}
+</script>
+<!-- Fim Cálculo do CEP -->
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td>
+		    <div class="Visitante" style="padding-left: 15px; font-size: 14px; margin-top: 8px;">
+		        <script>
+		            if(""!="<NomeCliente>")
+		            {document.write("  <span class=TextoPequeno>Olá, <b><NomeCliente></b>!</span>&nbsp;<span class=TextoPequeno>Se não for você, <a href='/cadastro.asp?logoff=1' target='_top' class='TextoPequeno'>clique</a>.</span>")}
+		            else
+		            {document.write("  <span class=TextoPequeno>Olá, <b>visitante</b>!  <a href='/cadastro.asp' target='_top' class='TextoPequeno'>Clique</a> para fazer o seu cadastro.</span>")}
+		        </script>
+		    </div>
+		</td>
+		<td>
+			<table width="290"  height="25" border="0" align="right" background="<baseloja>images/home2014/fundocesta.jpg" >
+				<tr>
+					<td class="StyProdLinkCart" align="right"><a href="/addproduto.asp"><b>Cesta: <span class="StyProdShoppingCartPrice" id="QtdItensCesta"></span></b></a></td></td><td class="StyProdLinkCart" align="center"><a href="addproduto.asp"><b>Sub-total: <span id="ValorItensCesta"></span></a></b></td></tr></table>
+		                        </td>
+	                       </tr>
+                        </table>
+
+
+
+<style type="text/css">
+.BarToplFC{display:none}
+</style>
+
+<div class=BarToplFC>
+	<div id="slider" class="nivoSlider">
+      <a href="/listaprodutos.asp?idproduto=6231231&q=kit-completo-para-sala-de-aulala"><img src="<BaseLoja>images/banner_topo/banner_saladeaula2.jpg" width="1100" height="315" /></a>
+      <a href="listaprodutos.asp?texto=mascara&x=0&y=0"><img src="<BaseLoja>images/banner_topo/mascara.jpg" width="1100" height="315" /></a>
+      <a href="/listaprodutos.asp?idcategoria=16467"><img src="<BaseLoja>images/home2014/image1.jpg" width="1100" height="315" /></a>     
+      
+	    <a href="/custom.asp?arq=bases_sup/bases2014.html"><img src="<BaseLoja>images/home2014/image4.jpg" width="1100" height="315" /></a>
+      
+  </div>
+</div>
+
+  
