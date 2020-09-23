@@ -1,0 +1,336 @@
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	img {
+		border: none;
+	}
+
+
+	#tudobones {
+		width: 870px;
+		font-family: Tahoma, Geneva, sans-serif;
+               
+	}
+	
+		div.modelo {
+position: relative;
+float: left;
+height: 27px;
+/* margin: 10px 0px 0px; */
+background-image: url('../../images/barras/bones.gif');
+background-repeat: no-repeat;
+width: 877px;
+
+padding-bottom: 20;
+}
+
+div.modelo2 {
+position: relative;
+float: left;
+height: 27px;
+/* margin: 10px 0px 0px; */
+background-image: url('../../images/barras/chapeus.gif');
+background-repeat: no-repeat;
+width: 877px;
+
+padding-bottom: 20;
+}
+	
+	h1.modelobones {
+		position: relative;
+		float: left;
+		color: #8a9e8d;
+		font-size: 230%;
+		letter-spacing: -1.7px;
+		font-weight: normal;
+		line-height: 100%;
+	}
+	
+	div.tipo {
+		width: 870px;
+		height: 55px;
+		position: relative;
+		float: left;		
+	}
+	
+	img.square {
+		position: relative;
+		float: left;
+		clear: both;
+		margin: 26px 0 0 1px;
+	}
+	
+	p.subtitulobones {
+		position: relative;
+		float: left;
+		font-size: 16px;
+		color: #777;
+		margin: 20px 0 0 5px;
+	}
+	
+	div.fotos1 {
+		position: relative;
+		float: left;
+		width: 46px;
+		height: 179px;
+		margin: 0 0 37px 0;
+		background-image: url(../../images/bones/bg_fotos01.gif);
+	}
+	
+	div.fotos2 {
+		position: relative;
+		float: left;
+		width: 820px;
+		height: 179px;
+		background-image: url(../../images/bones/bg_fotos02.gif);
+		background-repeat: repeat-x;
+		margin: 0 0 37px 0;
+	}
+	
+	div.fotos3 {
+		position: relative;
+		float: left;
+		width: 46px;
+		height: 179px;
+		margin: 0 0 40px 0;
+		background-image: url(../../images/bones/bg_fotos03.gif);
+	}
+	
+	div.fotos4 {
+		position: relative;
+		float: left;
+		width: 820px;
+		height: 179px;
+		background-image: url(../../images/bones/bg_fotos04.gif);
+		background-repeat: repeat-x;
+		margin: 0 0 40px 0;
+	}
+	
+	div.fotos5 {
+		position: relative;
+		float: left;
+		width: 53px;
+		height: 180px;
+		margin: 0 0 40px 0;
+		background-image: url(../../images/bones/bg_fotos05.gif);
+	}
+	
+	div.fotos6 {
+		position: relative;
+		float: left;
+		width: 815px;
+		height: 180px;
+		background-image: url(../../images/bones/bg_fotos06.gif);
+		background-repeat: repeat-x;
+		margin: 0 0 40px 0;
+	}
+	
+	div.fotos7 {
+		position: relative;
+		float: left;
+		width: 53px;
+		height: 179px;
+		margin: 0 0 40px 0;
+		background-image: url(../../images/bones/bg_fotos07.gif);
+	}
+	
+	div.fotos8 {
+		position: relative;
+		float: left;
+		width: 815px;
+		height: 179px;
+		background-image: url(../../images/bones/bg_fotos08.gif);
+		background-repeat: repeat-x;
+		margin: 0 0 40px 0;
+	}
+	
+	div.fotos9 {
+		position: relative;
+		float: left;
+		width: 40px;
+		height: 177px;
+		margin: 0 0 40px 0;
+		background-image: url(../../images/bones/bg_fotos09.gif);
+	}
+	
+	div.fotos10 {
+		position: relative;
+		float: left;
+		width: 828px;
+		height: 177px;
+		background-image: url(../../images/bones/bg_fotos10.gif);
+		background-repeat: repeat-x;
+		margin: 0 0 40px 0;
+	}
+	
+	div.fotos11 {
+		position: relative;
+		float: left;
+		width: 40px;
+		height: 177px;
+		margin: 0 0 40px 0;
+		background-image: url(../../images/bones/bg_fotos11.gif);
+	}
+	
+	div.fotos12 {
+		position: relative;
+		float: left;
+		width: 828px;
+		height: 177px;
+		background-image: url(../../images/bones/bg_fotos12.gif);
+		background-repeat: repeat-x;
+		margin: 0 0 40px 0;
+	}
+	
+	div.bgazulmar {
+		display: inline;
+		width: 128px;
+		height: 179px;
+		position: relative;
+		float: left;
+		margin: 0 44px 0 0;
+	}	
+	
+	div.bgazulroy {
+		width: 112px;
+		height: 179px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 59px 0 0;
+	}
+	
+	div.bgbranco {
+		width: 117px;
+		height: 179px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 48px 0 0;
+	}
+	
+	div.bgbrancov {
+		width: 129px;
+		height: 179px;
+		display: inline;
+		position: relative;
+		float: left;
+	}
+	
+	div.bgpreto {
+		width: 117px;
+		height: 179px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 53px 0 0;
+	}
+	
+	div.bgverdeazul {
+		width: 118px;
+		height: 179px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 63px 0 0;
+	}
+	
+	div.bgverdeol {
+		width: 107px;
+		height: 179px;
+		display: inline;
+		position: relative;
+		float: left;
+	}
+
+                #bgverdeol2 {
+	               position:absolute;
+	               width:107px;
+	               height:177px;
+	               z-index:1;
+	               top: 4px;
+	              left: 520px;
+                  }
+	
+	div.bpamarelo {
+		width: 117px;
+		height: 180px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 54px 0 0;
+	}
+	
+	div.bpazulamr {
+		width: 114px;
+		height: 180px;
+		display: inline;
+		position: relative;
+		float: left;
+	}
+	
+	div.clamareloverde {
+		width: 116px;
+		height: 179px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 53px 0 0;
+	}
+	
+	div.clbrancoazul {
+		width: 117px;
+		height: 179px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 41px 0 0;
+	}
+	
+	div.clverdeamarelo {
+		width: 141px;
+		height: 179px;
+		display: inline;
+		position: relative;
+		float: left;
+	}
+	
+	div.austazulmar {
+		width: 146px;
+		height: 177px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 28px 0 0;
+	}
+	
+	div.austverdemus {
+		width: 146px;
+		height: 177px;
+		display: inline;
+		position: relative;
+		float: left;
+	}
+	
+	div.pescamarelo {
+		width: 155px;
+		height: 177px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 23px 0 0;
+	}
+	
+	div.pescazulroy {
+		width: 155px;
+		height: 177px;
+		display: inline;
+		position: relative;
+		float: left;
+	}
+	
+	
+
+
