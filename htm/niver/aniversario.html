@@ -1,0 +1,173 @@
+<link href="<baseloja>htm/niver/css_aniversario.css" rel="stylesheet" type="text/css">
+<script src="<baseloja>htm/news/Scripts/swfobject_modified.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="<baseloja>htm/niver/cycle.js" type="text/javascript"></script>
+<script src="<baseloja>htm/niver/easing.js" type="text/javascript"></script>
+<script src="<baseloja>htm/niver/sliderCamiseta.js" type="text/javascript"></script>
+
+<div id="tudoNiver">
+	<div id="niverTopo">
+		<div id="flashBolo">
+			<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="310" height="438" id="FlashID" title="Bolo">
+				<param name="movie" value="<baseloja>htm/niver/bolo.swf">
+				<param name="quality" value="high">
+				<param name="wmode" value="transparent" />
+				<param name="swfversion" value="6.0.65.0">
+				<!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
+				<param name="expressinstall" value="<baseloja>htm/news/Scripts/expressInstall.swf">
+				<!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
+				<!--[if !IE]>-->
+				<object type="application/x-shockwave-flash" data="<baseloja>htm/niver/bolo.swf" width="310" height="438">
+					<!--<![endif]-->
+					<param name="quality" value="high">
+					<param name="wmode" value="transparent">
+					<param name="swfversion" value="6.0.65.0">
+					<param name="expressinstall" value="<baseloja>htm/news/Scripts/expressInstall.swf">
+					<!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+					<div>
+						<h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
+						<p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" width="112" height="33" /></a></p>
+					</div>
+					<!--[if !IE]>-->
+				</object>
+				<!--<![endif]-->
+			</object>
+		</div>
+		<div id="tituloNiver">
+			<img src="<baseloja>prod/niver/faixaTit.png" width="746" height="211" alt="13 anos de Bandeira1 - Nós fazemos aniversário e quem ganha é você!" />
+		</div>
+		<div id="niverTopo01">
+			<div id="produtoDestaqBG">
+				<div id="produtoDestaq">
+					<a href="listaprodutos.asp?idloja=<IDLoja>&idproduto=486961"><img src="<baseloja>prod/niver/produtoDestaq01.png" width="436" height="414" alt="Bandeira do Brasil - Modelo Bordado" /></a>
+					<a href="<HTMLoja>news/band_mesa.html"><img src="<baseloja>prod/niver/produtoDestaq02.png" width="436" height="414" alt="Pedestais de Mesa" /></a>
+					<a href="listaprodutos.asp?idloja=<IDLoja>&idcategoria=168755"><img src="<baseloja>prod/niver/produtoDestaq03.png" width="436" height="414" alt="Pins do Brasil" /></a>
+					<a href="listaprodutos.asp?idloja=<IDLoja>&texto=Fl%E2mula+Especial+Brasil"><img src="<baseloja>prod/niver/produtoDestaq04.png" width="436" height="414" alt="Flâmulas do Brasil" /></a>
+				</div>
+				<script type="text/javascript">
+				<!--
+				$(function() {
+					$('#produtoDestaq') 
+					.before('<div id="nav">') 
+					.cycle({ 
+						fx: 'custom',					//Tipo de efeito: personalizado
+						cssBefore: {  					//CSS antes da animação
+							left: 0,  
+							top:  -1000, 
+							opacity: 1, 
+							display: 'block' 
+						}, 
+						animIn: { 						//Animação de entrada
+							opacity: 1, 
+							left: 0,  
+							top: 0
+						},
+						animOut: { 						//Animação de saída
+							opacity: 0,
+							left: 436 
+						},						 
+						cssAfter: {  					//CSS depois da animação
+							zIndex: 0 
+						},
+						sync: 1,						//Efeitos in e out acontecem ao mesmo tempo
+						speedIn: 1000, 					//velocidade da transição de entrada
+						speedOut: 300, 					//velocidade da transição de saída
+						timeout: 8000,					//tempo entre as transições 
+						pager:  '#nav',					//elemento que contém o navegador
+						easeIn: 'easeOutBounce',		//efeito ease entrada
+						easeOut: 'easeInBack'			//efeito ease saída
+					});
+				});
+				// -->
+				</script>
+			</div>
+		</div>
+	</div>
+	
+	<div id="niverCamis">
+		<div id="subtitCart"><img src="<baseloja>prod/niver/subtitCart.png" width="746" height="63" alt="Confira o que preparamos para você:"></div>
+		<div id="subtitCamis">
+			<div id="subtitCamis01"><img src="<baseloja>prod/niver/subtitCamis01.png" width="545" height="131" alt="Queima de Estoque"></div>
+			<div id="subtitCamis02"></div>
+		</div>
+		<div id="camisSlider">
+			<div id="boxEsq">
+				<img src="<baseloja>prod/niver/setaEsq.png" id="setaEsq" width="56" height="51" />
+			</div>
+			<div id="wrapCamis">
+				<div id="cami01" class="boxCami"><a href="<HTMLoja>news/camisetasfem.html"><img src="<baseloja>prod/niver/cami01.png" width="211" height="283" alt="BL10OL"></a></div>
+				<div id="cami02" class="boxCami"><a href="<HTMLoja>news/camisetasfem.html"><img src="<baseloja>prod/niver/cami02.png" width="211" height="283" alt="BL20AM"></a></div>
+				<div id="cami03" class="boxCami"><a href="<HTMLoja>news/camisetasmasc.html"><img src="<baseloja>prod/niver/cami03.png" width="211" height="283" alt="CM20BZ"></a></div>
+				<div id="cami04" class="boxCami"><a href="<HTMLoja>news/camisetasfem.html"><img src="<baseloja>prod/niver/cami04.png" width="211" height="283" alt="RG40MB"></a></div>
+				<div id="cami05" class="boxCami"><a href="<HTMLoja>news/camisetasmasc.html"><img src="<baseloja>prod/niver/cami05.png" width="211" height="283" alt="CM20BA"></a></div>
+				<div id="cami06" class="boxCami"><a href="<HTMLoja>news/camisetasfem.html"><img src="<baseloja>prod/niver/cami06.png" width="211" height="283" alt="BL20VB"></a></div>
+				<div id="cami07" class="boxCami"><a href="<HTMLoja>news/camisetasmasc.html"><img src="<baseloja>prod/niver/cami07.png" width="211" height="283" alt="CM20AB"></a></div>
+				<div id="cami08" class="boxCami"><a href="<HTMLoja>news/camisetasfem.html"><img src="<baseloja>prod/niver/cami08.png" width="211" height="283" alt="RG40RS"></a></div>
+				<div id="cami09" class="boxCami"><a href="<HTMLoja>news/camisetasfem.html"><img src="<baseloja>prod/niver/cami09.png" width="211" height="283" alt="BL10BV"></a></div>
+				<div id="cami10" class="boxCami"><a href="<HTMLoja>news/camisetasfem.html"><img src="<baseloja>prod/niver/cami10.png" width="211" height="283" alt="BL20AB"></a></div>
+				<div id="cami11" class="boxCami"><a href="<HTMLoja>news/camisetasfem.html"><img src="<baseloja>prod/niver/cami11.png" width="211" height="283" alt="BL30OL"></a></div>
+				<div id="cami12" class="boxCami"><a href="<HTMLoja>news/camisetasfem.html"><img src="<baseloja>prod/niver/cami12.png" width="211" height="283" alt="RG40AM"></a></div>
+				<div id="cami13" class="boxCami"><a href="<HTMLoja>news/camisetasfem.html"><img src="<baseloja>prod/niver/cami13.png" width="211" height="283" alt="BL30AB"></a></div>
+				<div id="cami14" class="boxCami"><a href="<HTMLoja>news/camisetasfem.html"><img src="<baseloja>prod/niver/cami14.png" width="211" height="283" alt="BL10BA"></a></div>
+				<div id="cami15" class="boxCami"><a href="<HTMLoja>news/camisetasfem.html"><img src="<baseloja>prod/niver/cami15.png" width="211" height="283" alt="BL30BZ"></a></div>
+			</div>
+			<div id="boxDir">
+				<img src="<baseloja>prod/niver/setaDir.png" id="setaDir" width="57" height="51" />
+			</div>
+		</div>		
+	</div>
+	
+	<div id="niverBone">
+		<div id="glaucia02"></div>
+		<div id="niverBone01">
+			<div id="subtitBones"><img src="<baseloja>prod/niver/subtitBones.png" width="495" height="146" alt="Bonés e Chapéus" /></div>
+			<div id="bonesSlider">
+				<div id="boxEsq02">
+					<img id="setaEsq02" src="<baseloja>prod/niver/setaEsq02.png" width="65" height="50" />
+				</div>
+				<div id="wrapBones">
+					<div id="bone01" class="boxBones"><a href="<HTMLoja>news/bones.htm"><img src="<baseloja>prod/niver/bone01.png" width="122" height="172" alt="Azul Marinho" /></a></div>
+					<div id="bone02" class="boxBones"><a href="<HTMLoja>news/bones.htm"><img src="<baseloja>prod/niver/bone02.png" width="122" height="172" alt="Verde com aba Azul" /></a></div>
+					<div id="bone03" class="boxBones"><a href="<HTMLoja>news/bones.htm"><img src="<baseloja>prod/niver/bone03.png" width="122" height="172" alt="Azul Royal" /></a></div>
+					<div id="bone04" class="boxBones"><a href="<HTMLoja>news/bones.htm"><img src="<baseloja>prod/niver/bone04.png" width="122" height="172" alt="Branco com Azul" /></a></div>
+					<div id="bone05" class="boxBones"><a href="<HTMLoja>news/bones.htm"><img src="<baseloja>prod/niver/bone05.png" width="122" height="172" alt="Verde Musgo" /></a></div>
+					<div id="bone06" class="boxBones"><a href="<HTMLoja>news/bones.htm"><img src="<baseloja>prod/niver/bone06.png" width="122" height="172" alt="Amarelo" /></a></div>
+				</div>
+				<div id="boxDir02">
+					<img id="setaDir02" src="<baseloja>prod/niver/setaDir02.png" width="64" height="50" />
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="niverKits">
+		<div id="subtitKits"><img src="<baseloja>prod/niver/subtitKits.png" width="463" height="70" alt="Kits para Fachada" /></div>
+		<div id="fachada70"><a href="listaprodutos.asp?idloja=<IDLoja>&idproduto=3124741"><img src="<baseloja>prod/niver/fachada70.png" width="112" height="216" alt="Kit para fachada 0,70m" /></a></div>
+		<div id="fachada140"><a href="listaprodutos.asp?idloja=<IDLoja>&idproduto=950882"><img src="<baseloja>prod/niver/fachada140.png" width="96" height="281" alt="Kit para fachada 1,40m" /></a></div>
+		<div id="preco70"><a href="listaprodutos.asp?idloja=<IDLoja>&idproduto=3124741"><img src="<baseloja>prod/niver/preco70.png" width="129" height="57" alt="Por apenas R$89,90"></a></div>
+		<div id="preco140"><a href="listaprodutos.asp?idloja=<IDLoja>&idproduto=950882"><img src="<baseloja>prod/niver/preco140.png" width="129" height="57" alt="Por apenas R$133,90"></a></div>
+		<div id="niverKits1">
+			<div id="niverKits11"></div>
+			<div id="niverKits12"></div>
+		</div>
+		<div id="niverKits2">
+		
+			<div id="niverKits21"></div>
+			<div id="niverKits22">
+				<div>
+					<p id="txt701">• Mastro de 0,70m.</p>
+					<p id="txt702">• Suporte para parede<br />contendo 01 peça.</p>
+					<p id="txt703">• Bandeira do Brasil<br />tamanho: 0,64x0,45m</p>
+				</div>
+				<div>
+					<p id="txt141">• Mastro de 1,40m</p>
+					<p id="txt142">• Suporte para parede<br />contendo 02 peças.</p>
+					<p id="txt143">• Bandeira do Brasil<br />tamanho: 0,70x1,00m</p>
+				</div>				
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+swfobject.registerObject("FlashID");
+</script>
