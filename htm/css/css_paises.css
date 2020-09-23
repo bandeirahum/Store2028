@@ -1,0 +1,128 @@
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	img {
+		border: none;
+	}
+	
+	a {
+		text-decoration: none;
+	}
+
+	#tudobandeiras {
+                width: 95%;
+                font-family: Tahoma, Geneva, sans-serif;
+               margin: 10px 0 0 0;
+	}
+	
+	div.modelo {
+		position: relative;
+		float: left;
+		width: 877px;
+                              *width: 746px;
+		height: 37px;
+		padding: 0 0 20 0px;
+	
+		background-image: url(../../images/barras/barrabandeiraspaises.gif);
+		background-repeat: no-repeat;
+}
+	
+	h1.modelobandeiras {
+		position: relative;
+		float: left;
+		color: #8a9e8d;
+		font-size: 34px;
+		letter-spacing: -1.7px;
+		font-weight: normal;
+		line-height: 100%;
+	}
+	
+	div.tipo {
+		width: 880px;
+		height: 55px;
+		position: relative;
+		float: left;
+		margin: 0 0 30px 0px;
+		display: inline;
+	}
+	
+	p.linksletras {
+		position: relative;
+		float: left;
+		color: #8d8d8d;
+		font-size: 34px;
+		font-weight: bold;
+		line-height: 100%;
+		display: inline;
+	}
+	
+	a.letras:link, a.letras:visited {
+		color: #A8E5FE;
+	}
+	
+	a.letras:hover, a.letrasn:link, a.letrasn:visited, a.letrasn:hover {
+		color: #000;
+	}
+	
+	div.bandeirasp {
+		width: 108px;
+		height: 93px;
+		position: relative;
+		float: left;
+		margin: 0 67px 26px 24px;
+		*margin: 0 38px 26px 10px;
+		display: inline;		
+	}
+	
+	img.imgnaut {
+		width: 108px;
+		height: 75px;
+		position: relative;
+		float: left;
+	}
+	
+	span.nomenaut {
+		width: 110px;
+		height: 18px;
+		position: relative;
+		float: left;
+		text-align: center;
+		font-size: 96%;
+		color: #848581;
+		line-height: 1;
+	}
+	
+	span.nomenautg {
+		width: 108px;
+		height: 18px;
+		position: relative;
+		float: left;
+		text-align: center;
+		font-size: 75%;
+		line-height: 100%;
+		color: #848581;
+	}
+	
+	div.bandeiras {
+		width: 108px;
+		height: 93px;
+		position: relative;
+		float: left;
+		margin: 0 67px 26px 0;
+		*margin: 0 38px 26px 0;
+		display: inline;
+	}
+	
+	div.bandeirasu {
+		width: 108px;
+		height: 93px;
+		position: relative;
+		float: left;
+		margin: 0 11px 26px 0;
+		display: inline;
+	}
+
+	
+	
