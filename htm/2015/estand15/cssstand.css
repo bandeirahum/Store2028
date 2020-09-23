@@ -1,0 +1,122 @@
+#tudoestand {
+	position: relative;
+	width: 887px;
+	height: 2250px;
+	z-index: 1;
+	left: 7;
+	top: 80;
+}
+#funtoestand {
+	position: absolute;
+	width: 887px;
+	height: 2219px;
+	z-index: 2;
+}
+#titestand {
+	position: absolute;
+	left: 569px;
+	top: 32px;
+	width: 122px;
+	height: 39px;
+	z-index: 2;
+	font-size: 35px;
+	font-weight: bold;
+	color: #1382BA;
+}
+.titest {
+	font-family: "Segoe UI";
+	font-size: 48px;
+	color: #063B6F;
+}
+#estadesc {
+	position: absolute;
+	left: 487px;
+	top: 88px;
+	width: 375px;
+	height: 169px;
+	z-index: 3;
+}
+.estadesc {
+	font-family: "Segoe UI Light";
+	font-size: 16px;
+	color: #1362af;
+	font-weight: bold;
+}
+#pontuacao {
+	position: absolute;
+	left: 478px;
+	top: 91px;
+	width: 17px;
+	height: 161px;
+	z-index: 2;
+	line-height: 1.6;
+}
+#desctrav {
+	position: absolute;
+	left: 530px;
+	top: 662px;
+	width: 345px;
+	height: 59px;
+	z-index: 2;
+}
+#desc1flam {
+	position: absolute;
+	left: 87px;
+	top: 1309px;
+	width: 395px;
+	height: 76px;
+	z-index: 2;
+}
+.flamdesc {
+	font-family: "Segoe UI Light";
+	font-size: 16px;
+	font-weight: bold;
+	color: #039;
+	line-height: 13px;
+}
+#descflam2 {
+	position: absolute;
+	left: 481px;
+	top: 1309px;
+	width: 394px;
+	height: 76px;
+	z-index: 3;
+}
+#emailcontato {
+	position: absolute;
+	left: 343px;
+	top: 2135px;
+	width: 200px;
+	height: 40px;
+	z-index: 2;
+}
+
+.classemail {
+	font-family: "Segoe UI Light";
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFF;
+	line-height: 23px;
+	text-align: right;
+}
+#telest {
+	position: absolute;
+	left: 273px;
+	top: 2088px;
+	width: 272px;
+	height: 32px;
+	z-index: 2;
+	font-size: 18px;
+}
+.num1 {
+	font-size: 14px;
+}
+
+#titestand15 {
+	position: absolute;
+	left: 2px;
+	top: -78px;
+	width: 877px;
+	height: 65px;
+	z-index: 2;
+}
