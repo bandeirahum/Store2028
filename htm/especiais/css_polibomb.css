@@ -1,0 +1,356 @@
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	img {
+		border: none;
+	}
+	a {
+		text-decoration: none;
+		color: #000;
+	}
+	span.bold {
+		font-weight: bold;
+	}
+	
+	#tudoproduto {
+		position: relative;
+		float: left;
+		width: 746px;
+		height: 2100px;
+		display: inline;
+	}
+	#brasil {
+		position: relative;
+		float: left;
+		width: 746px;
+		height: 206px;
+	}
+		div.linha1 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 279px;
+		}
+			div.coluna01 {
+				position: relative;
+				float: left;
+				width: 373px;
+				height: 279px;
+				background: url(../../prod/polibomb//especial01.png);
+			}
+			div.coluna02 {
+				position: relative;
+				float: left;
+				width: 373px;
+				height: 279px;
+				background: url(../../prod/polibomb//especial02.png);
+			}
+		div.linha2 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 256px;
+		}
+			div.coluna03 {
+				position: relative;
+				float: left;
+				width: 214px;
+				height: 256px;
+				background: url(../../prod/polibomb//especial03.png);
+			}
+			div.coluna04 {
+				position: relative;
+				float: left;
+				width: 266px;
+				height: 256px;
+				background: url(../../prod/polibomb//especial04.png);
+			}
+			div.coluna05 {
+				position: relative;
+				float: left;
+				width: 266px;
+				height: 256px;
+				background: url(../../prod/polibomb//especial05.png);
+			}
+		div.linha3 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 256px;
+		}
+			div.coluna06 {
+				position: relative;
+				float: left;
+				width: 214px;
+				height: 256px;
+				background: url(../../prod/polibomb//especial06.png);
+			}
+			div.coluna07 {
+				position: relative;
+				float: left;
+				width: 266px;
+				height: 256px;
+				background: url(../../prod/polibomb//especial07.png);
+			}
+			div.coluna08{
+				position: relative;
+				float: left;
+				width: 266px;
+				height: 256px;
+				background: url(../../prod/polibomb//especial08.png);
+			}
+			div.linha4 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 294px;
+		}	
+			div.coluna09{
+				position: relative;
+				float: left;
+				width: 185px;
+				height: 294px;
+				background: url(../../prod/polibomb//especial09.png);
+			}
+			div.coluna10{
+				position: relative;
+				float: left;
+				width: 175px;
+				height: 294px;
+				background: url(../../prod/polibomb//especial10.png);
+			}	
+			div.coluna11{
+				position: relative;
+				float: left;
+				width: 191px;
+				height: 294px;
+				background: url(../../prod/polibomb//especial11.png);
+			}		
+			div.coluna12{
+				position: relative;
+				float: left;
+				width: 195px;
+				height: 294px;
+				background: url(../../prod/polibomb//especial12.png);
+			}			
+			div.produto1 {
+				width: 130px;
+				height: 70px;
+				margin-left:7px;
+				margin-top:197px;
+			}
+			p.prod_desc1 {
+				position: relative;
+				float: left;
+				width: 130px;
+				height: 70px;
+				font-family:Verdana, Geneva, sans-serif;
+				font-size:11px;
+				color:#535353;
+			}
+			div.produto2 {
+				width: 170px;
+				height: 110px;
+				margin-left:7px;
+				margin-top:147px;
+			}
+			p.prod_desc2 {
+				position: relative;
+				float: left;
+				width: 170px;
+				height: 110px;
+				font-family:Verdana, Geneva, sans-serif;
+				font-size:11px;
+				color:#535353;
+			}
+		div.linha5 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 252px;
+		}
+
+		div.coluna13{
+				position: relative;
+				float: left;
+				width: 216px;
+				height: 252px;
+				background: url(../../prod/polibomb//especial13.png);
+			}
+		div.coluna14{
+				position: relative;
+				float: left;
+				width: 184px;
+				height: 252px;
+				background: url(../../prod/polibomb//especial14.png);
+			}
+		div.coluna15{
+				position: relative;
+				float: left;
+				width: 183px;
+				height: 252px;
+				background: url(../../prod/polibomb//especial15.png);
+			}
+		div.coluna16{
+				position: relative;
+				float: left;
+				width: 163px;
+				height: 252px;
+				background: url(../../prod/polibomb//especial16.png);
+			}
+			div.produto3 {
+				width: 180px;
+				height: 100px;
+				margin-left:25px;
+				margin-top:112px;
+			}
+			p.prod_desc3 {
+				position: relative;
+				float: left;
+				width: 180px;
+				height: 100px;
+				font-family:Verdana, Geneva, sans-serif;
+				font-size:11px;
+				text-align:right;
+				color:#535353;
+			}
+			div.produto4 {
+				width: 140px;
+				height: 60px;
+				margin-left:33px;
+				margin-top:164px;
+			}
+			p.prod_desc4 {
+				position: relative;
+				float: left;
+				width: 140 px;
+				height: 60px;
+				font-family:Verdana, Geneva, sans-serif;
+				font-size:11px;
+				text-align:right;
+				color:#535353;
+			}
+		div.linha6 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 170px;
+		}
+		div.coluna17{
+				position: relative;
+				float: left;
+				width: 195px;
+				height: 170px;
+				background: url(../../prod/polibomb//especial17.png);
+			}
+		div.coluna18{
+				position: relative;
+				float: left;
+				width: 250px;
+				height: 170px;
+				background: url(../../prod/polibomb//especial18.png);
+			}
+		div.coluna19{
+				position: relative;
+				float: left;
+				width: 301px;
+				height: 170px;
+				background: url(../../prod/polibomb//especial19.png);
+			}
+		div.linha7 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 207px;
+		}
+		div.coluna20{
+				position: relative;
+				float: left;
+				width: 373px;
+				height: 207px;
+				background: url(../../prod/polibomb//especial20.png);
+			}
+		div.coluna21{
+				position: relative;
+				float: left;
+				width: 373px;
+				height: 207px;
+				background: url(../../prod/polibomb//especial21.png);
+			}
+		div.linha8 {
+			position: relative;
+			float: left;
+			width: 746px;
+			height: 207px;
+		}
+		div.coluna22{
+				position: relative;
+				float: left;
+				width: 373px;
+				height: 207px;
+				background: url(../../prod/polibomb//especial22.png);
+			}
+		div.coluna23{
+				position: relative;
+				float: left;
+				width: 373px;
+				height: 207px;
+				background: url(../../prod/polibomb//especial23.png);
+			}
+		div.poliContato {
+			position: relative;
+			float: right;
+			width: 746px;
+			height: 121px;
+		}
+			div.poliBgcontato {
+				position: relative;
+				float: left;
+				width: 746px;
+				height: 121px;
+				background: url(../../prod/polibomb//contato.png);
+			}
+			div.poliEmail {
+				width: 220px;
+				height: 18px;
+				margin-left:400px;
+				margin-top:10px;
+			}
+			p.txt_poliEmail {
+				position: relative;
+				float: right;
+				width: 220px;
+				height: 18px;
+				font-family:Tahoma, Geneva, sans-serif;
+				font-size:14px;
+				text-align:right;
+				color:#666666;
+			}
+			div.poliTel {
+				width: 220px;
+				height: 18px;
+				margin-left:400px;
+				margin-top:42px;
+				*margin-top: 24px;
+			}
+			p.txt_poliTel {
+				position: relative;
+				float: right;
+				width: 220px;
+				height: 18px;
+				font-family:Tahoma, Geneva, sans-serif;
+				font-size:14px;
+				text-align:right;
+				color:#666666;
+			}
+			span.poliTxtmenor {
+				font-size: 11px;
+			}
+			div.poliRodape {
+				position: relative;
+				float: left;
+				width: 746px;
+				height: 22px;
+				background: url(../../prod/polibomb//rodape.png);
+			}
