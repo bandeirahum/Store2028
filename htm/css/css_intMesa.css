@@ -1,0 +1,441 @@
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	img {
+		border: none;
+		display: inline;
+	}
+
+
+	#tudoproduto {
+		width: 877px;
+		font-family: Tahoma, Geneva, sans-serif;
+		/* margin-left: 155px; */
+		/* margin-top: 20; */
+	}
+	
+	div.modelo {
+		position: relative;
+		float: left;
+		background: url(../../images/band_mesa/titbandm25.gif);
+		width: 736px;
+		height: 37px;
+		padding: 0 0 0 10px;
+	}
+	
+	h1.modeloproduto {
+		position: relative;
+		float: left;
+		color: #8a9e8d;
+		font-size: 230%;
+		letter-spacing: -1.7px;
+		font-weight: normal;
+		line-height: 100%;
+	}
+	
+	div.tipo {
+		width: 746px;
+		height: 55px;
+		position: relative;
+		float: left;		
+	}
+	
+	img.square {
+		position: relative;
+		float: left;
+		clear: both;
+		margin: 26px 0 0 1px;
+	}
+	
+	p.subtituloproduto {
+		position: relative;
+		float: left;
+		font-size: 16px;
+		color: #777;
+		margin: 20px 0 0 5px;
+	}
+	
+	div.boxPeds {
+		position: relative;
+		float: left;
+		width: 885px;
+		margin-bottom: 30px;
+	}
+	
+	div.boxBar01 {
+		position: relative;
+		float: left;
+		width: 68px;
+		height: 172px;
+		background: url(../../images/band_mesa/bgbar01.jpg);
+	}
+	
+	div.Peds01 {
+		position: relative;
+		float: left;
+		width: 815px;
+		height: 172px;
+		background: url(../../images/band_mesa/bgbar_rp01.jpg) repeat-x;
+	}
+	
+	.preto01 {
+		margin-left: 147px;
+	}
+	
+	.branco01 {
+		margin-left: 145px;
+	}
+	
+	div.boxBar02 {
+		position: relative;
+		float: left;
+		width: 37px;
+		height: 170px;
+		background: url(../../images/band_mesa/bgbar02.jpg);
+	}
+	
+	div.Peds02 {
+		position: relative;
+		float: left;
+		width: 847px;
+		height: 170px;
+		background: url(../../images/band_mesa/bgbar_rp02.jpg) repeat-x;
+	}
+	
+	.preto02 {
+		margin-left: 63px;
+	}
+	
+	.branco02 {
+		margin-left: 63px;
+	}
+	
+	div.boxBar03 {
+		position: relative;
+		float: left;
+		width: 37px;
+		height: 169px;
+		background: url(../../images/band_mesa/bgbar03.jpg);
+	}
+	
+	div.Peds03 {
+		position: relative;
+		float: left;
+		width: 847px;
+		height: 169px;
+		background: url(../../images/band_mesa/bgbar_rp03.jpg) repeat-x;
+	}
+	
+	.preto03 {
+		margin-left: 60px;
+	}
+	
+	.branco03 {
+		margin-left: 68px;
+	}
+	
+	div.boxBar04 {
+		position: relative;
+		float: left;
+		width: 57px;
+		height: 170px;
+		background: url(../../images/band_mesa/bgbar04.jpg);
+	}
+	
+	div.Peds04 {
+		position: relative;
+		float: left;
+		width: 827px;
+		height: 170px;
+		background: url(../../images/band_mesa/bgbar_rp04.jpg) repeat-x;
+	}
+	
+	.preto04 {
+		margin-left: 38px;
+	}
+	
+	.branco04 {
+		margin-left: 43px;
+	}
+	
+	div.boxBar05 {
+		position: relative;
+		float: left;
+		width: 104px;
+		height: 246px;
+		background: url(../../images/band_mesa/bgbar05.jpg);
+	}
+	
+	div.Peds05 {
+		position: relative;
+		float: left;
+		width: 642px;
+		height: 246px;
+		background: url(../../images/band_mesa/bgbar_rp05.jpg) repeat-x;
+	}
+	
+	.preto05 {
+		margin-left: 216px;
+	}
+	
+	div.boxBar06 {
+		position: relative;
+		float: left;
+		width: 64px;
+		height: 247px;
+		background: url(../../images/band_mesa/bgbar06.jpg);
+	}
+	
+	div.Peds06 {
+		position: relative;
+		float: left;
+		width: 682px;
+		height: 247px;
+		background: url(../../images/band_mesa/bgbar_rp06.jpg) repeat-x;
+	}
+	
+	.preto06 {
+		margin-left: 128px;
+	}
+	
+	div.boxBar07 {
+		position: relative;
+		float: left;
+		width: 40px;
+		height: 247px;
+		background: url(../../images/band_mesa/bgbar07.jpg);
+	}
+	
+	div.Peds07 {
+		position: relative;
+		float: left;
+		width: 706px;
+		height: 247px;
+		background: url(../../images/band_mesa/bgbar_rp07.jpg) repeat-x;
+	}
+	
+	.preto07 {
+		margin-left: 103px;
+	}
+	
+	div.boxBar08 {
+		position: relative;
+		float: left;
+		width: 137px;
+		height: 246px;
+		background: url(../../images/band_mesa/bgbar08.jpg);
+	}
+	
+	div.Peds08 {
+		position: relative;
+		float: left;
+		width: 609px;
+		height: 246px;
+		background: url(../../images/band_mesa/bgbar_rp08.jpg) repeat-x;
+	}
+	
+	.preto08 {
+		margin-left: 213px;
+	}
+	
+	div.boxBar09 {
+		position: relative;
+		float: left;
+		width: 91px;
+		height: 247px;
+		background: url(../../images/band_mesa/bgbar09.jpg);
+	}
+	
+	div.Peds09 {
+		position: relative;
+		float: left;
+		width: 655px;
+		height: 247px;
+		background: url(../../images/band_mesa/bgbar_rp09.jpg) repeat-x;
+	}
+	
+	.preto09 {
+		margin-left: 125px;
+	}
+	
+	div.boxBar10 {
+		position: relative;
+		float: left;
+		width: 59px;
+		height: 247px;
+		background: url(../../images/band_mesa/bgbar10.jpg);
+	}
+	
+	div.Peds10 {
+		position: relative;
+		float: left;
+		width: 687px;
+		height: 247px;
+		background: url(../../images/band_mesa/bgbar_rp10.jpg) repeat-x;
+	}
+	
+	.preto10 {
+		margin-left: 92px;
+	}
+	
+	div.boxBar11 {
+		position: relative;
+		float: left;
+		width: 154px;
+		height: 172px;
+		background: url(../../images/band_mesa/bgbar11.jpg);
+	}
+	
+	div.Peds11 {
+		position: relative;
+		float: left;
+		width: 592px;
+		height: 172px;
+		background: url(../../images/band_mesa/bgbar_rp11.jpg) repeat-x;
+	}
+	
+	.preto11 {
+		margin-left: 188px;
+	}
+	
+	div.boxBar12 {
+		position: relative;
+		float: left;
+		width: 130px;
+		height: 173px;
+		background: url(../../images/band_mesa/bgbar12.jpg);
+	}
+	
+	div.Peds12 {
+		position: relative;
+		float: left;
+		width: 754px;
+		height: 173px;
+		background: url(../../images/band_mesa/bgbar_rp12.jpg) repeat-x;
+	}
+	
+	.preto12 {
+		margin-left: 155px;
+	}
+	
+	div.boxBar13 {
+		position: relative;
+		float: left;
+		width: 122px;
+		height: 173px;
+		background: url(../../images/band_mesa/bgbar13.jpg);
+	}
+	
+	div.Peds13 {
+		position: relative;
+		float: left;
+		width: 762px;
+		height: 173px;
+		background: url(../../images/band_mesa/bgbar_rp13.jpg) repeat-x;
+	}
+	
+	.preto13 {
+		margin-left: 145px;
+	}
+	
+	div.boxBar14 {
+		position: relative;
+		float: left;
+		width: 117px;
+		height: 173px;
+		background: url(../../images/band_mesa/bgbar14.jpg);
+	}
+	
+	div.Peds14 {
+		position: relative;
+		float: left;
+		width: 629px;
+		height: 173px;
+		background: url(../../images/band_mesa/bgbar_rp14.jpg) repeat-x;
+	}
+	
+	.preto14 {
+		margin-left: 103px;
+	}
+	
+	div.boxBar15 {
+		position: relative;
+		float: left;
+		width: 86px;
+		height: 173px;
+		background: url(../../images/band_mesa/bgbar15.jpg);
+	}
+	
+	div.Peds15 {
+		position: relative;
+		float: left;
+		width: 660px;
+		height: 173px;
+		background: url(../../images/band_mesa/bgbar_rp15.jpg) repeat-x;
+	}
+	
+	.preto15 {
+		margin-left: 72px;
+	}
+	
+	div.boxBar16 {
+		position: relative;
+		float: left;
+		width: 161px;
+		height: 131px;
+		background: url(../../images/band_mesa/bgbar16.jpg);
+	}
+	
+	div.Peds16 {
+		position: relative;
+		float: left;
+		width: 721px;
+		height: 131px;
+		background: url(../../images/band_mesa/bgbar_rp16.jpg) repeat-x;
+	}
+	
+	.preto16 {
+		margin-left: 177px;
+	}
+	
+	div.boxBar17 {
+		position: relative;
+		float: left;
+		width: 125px;
+		height: 131px;
+		background: url(../../images/band_mesa/bgbar17.jpg);
+	}
+	
+	div.Peds17 {
+		position: relative;
+		float: left;
+		width: 757px;
+		height: 131px;
+		background: url(../../images/band_mesa/bgbar_rp17.jpg) repeat-x;
+	}
+	
+	.preto17 {
+		margin-left: 113px;
+	}
+	
+	div.boxBar18 {
+		position: relative;
+		float: left;
+		width: 97px;
+		height: 131px;
+		background: url(../../images/band_mesa/bgbar18.jpg);
+	}
+	
+	div.Peds18 {
+		position: relative;
+		float: left;
+		width: 649px;
+		height: 131px;
+		background: url(../../images/band_mesa/bgbar_rp18.jpg) repeat-x;
+	}
+	
+	.preto18 {
+		margin-left: 86px;
+	}
