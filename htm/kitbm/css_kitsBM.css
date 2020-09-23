@@ -1,0 +1,321 @@
+*{
+	margin:0;
+	padding:0;
+	border:0;}
+
+
+#tudoKits p, #tudoKits h3, #tudoKits h2, #tudoKits h4 {font-weight:normal; font-family:Tahoma, Sans-serif;}
+
+span.colorT {font-size:18px; color:#163d1b;}
+.mouseO {cursor:pointer;}
+
+#boxKits01 {
+	width:746px;
+	height:461px;
+        margin: 23px 0 0 0;
+}
+
+	.titPag {
+	width:746px;
+	height:37px;
+	background-color:#163d1b;
+	}
+
+		.titPag h2 {
+		color:#8a9e8d;
+		font-size:34px;
+		margin-left:10px;
+		letter-spacing:-1px;
+		}
+
+	.boxProds {
+	width:746px;
+	height:195px;
+	}
+
+		.boxSubtit {
+		width:746px;
+		height:40px;
+		}
+		
+			div.square {
+			position:relative;
+			float:left;
+			width:9px;
+			height:9px;
+			margin:23px 0 0 1px;
+			background-color:#163d1b;
+			*overflow: hidden;
+			}
+			
+			.boxSubtit h4 {
+			position:relative;
+			float:left;
+			font-size:16px;
+			color:#858585;
+			margin:16px 0 0 5px;
+			}
+			
+		.boxProds01 {
+	width:746px;
+
+
+
+
+		*width:746px;
+	height:155px;
+	padding-left:35px;
+	background: url(../../images/kitbm/faixaProds.jpg) no-repeat;
+	background-position:0 42px;
+	position: absolute;
+		}	
+		#prodsA img {
+			position:relative;
+			float:left;
+			margin: 5px 15px 0 15px;
+			display: inline;
+		}
+		#prodsB img {
+			position:relative;
+			float:left;
+			margin: 20px 5px 0 5px;
+			display: inline;
+		}
+		
+#boxKits02 {
+width:746px;
+height:958px;
+}
+
+	#subtitMonte {
+	position:relative;
+	width:746px;
+	height:92px;
+	}
+		#subtitMonte h3 {
+		position:absolute;
+		top:20px; left:10px;
+		font-size:22px;
+		color:#163d1b;
+		}
+		#subtitMonte p {
+	position:absolute;
+	top:50px;
+	left:36px;
+	font-size:14px;
+	color:#666;
+	width: 407px;
+	height: 22px;
+		}
+		
+	.boxPassos {
+	position:relative;
+	width:746px;
+	height:200px;
+	margin-bottom:30px;
+	}
+	
+		.boxPassos h3 {
+	position:absolute;
+	top:-10px;
+	left:5px;
+	font-size:14px;
+	z-index:10;
+	color: #999;
+		}
+.corpass {
+	color: #603;
+	font-weight: bold;
+}
+
+		
+		.botProximo {
+		position:absolute;
+		bottom:0; right:5px;
+		z-index:10;
+		}
+	
+		.grayBox {
+		position:absolute;
+		top:19px;
+		background-color:#eee;
+		border-radius:10px;
+		}
+			
+			#grayBox02{
+	width:380px;
+	height:160px;
+}
+		#grayBox01{width:746px; height:160px;}
+		
+			img.baseM {
+			position:relative;
+			float:left;
+			margin:30px 15px 0 15px;
+			}
+			
+		#passo02 {
+		position:relative;
+		float:left;
+		width:381px;
+		height:200px;
+		}
+		
+			.botProximo1 {
+			position:absolute;
+			bottom:0; right:16px;
+			z-index:10;
+			}
+
+			
+				img.corBase {
+	position:relative;
+	float:left;
+	margin:38px 9px 0 5px;
+				}
+		
+		#passo03 {
+		position:relative;
+		float:left;
+		width:365px;
+		height:200px;
+		}
+		
+			#passo03 h3 {
+	position:absolute;
+	top:-10px;
+	left:20px;
+	font-size:14px;
+	color:#aaa;
+	z-index:10;
+			}
+			
+			#grayBox03{width:354px; height:160px; right:0;}
+			
+				img#lanca {
+				position:absolute;
+				left:100px; bottom:21px;
+				}
+				
+				img#bola {
+				position:absolute;
+				right:100px; bottom:24px;
+				}
+				
+	#boxPreview {
+	width:746px;
+	height:400px;
+	}
+	
+		.titPrev {
+		position:relative;
+		width:746px;
+		height:65px;
+		}
+		
+			.titPrev h3 {
+			position:absolute;
+			bottom:2px; left:10px;
+			font-size:14px;
+			color:#aaa;
+			z-index:10;
+			}
+		
+		.fotosPrev {
+		position:relative;
+		width:746px;
+		height:241px;
+		}
+		
+			.boxBase {
+			position:absolute;
+			top:0; left:0;
+			width:315px;
+			height:241px;
+			}
+			
+			.boxMastro {
+			position:absolute;
+			top:0; right:0;
+			width:355px;
+			height:241px;
+			}
+			
+			p.descPrev {
+	position:absolute;
+	top:2px;
+	left:2px;
+	font-size:12px;
+	color:#666;
+	z-index:10;
+			}
+			p.descPrev span {color:#454545;}
+			
+			p.plus {
+	position:absolute;
+	top:38px;
+	left:320px;
+	font-size:90px;
+	color:#ddd;
+	z-index:10;
+			}
+			
+			p#quant {
+			position:absolute;
+			top:155px; right:155px;
+			font-size:30px;
+			color:#aaa;
+			z-index:10;
+			}
+		
+		.linkPrev {
+		position:relative;
+		width:746px;
+		height:94px;
+		background:#eee;
+		border-radius:10px;
+	
+		}
+		
+		
+			p.instruc {
+			position:absolute;
+			bottom:9px; left:9px;
+			font-size:12px;
+			color:#666;
+			}
+			span.boldC {font-weight:bold; color:#163d1b;}
+			
+	
+
+
+
+	.linkDet {
+			position:absolute;
+			right:0; top:0;
+			width:279px;
+			height:94px;
+			background:#ddd;
+			border-radius:0 10px 10px 60px;
+                        -webkit-radius:0 10px 10px 60px;
+                        -o-radius:0 10px 10px 60px;
+                        -ms-radius:0 10px 10px 60px;
+                          -moz-radius:0 10px 10px 60px;
+			box-shadow:1px 1px 3px #666666;
+			}
+
+			.linkDet p {
+	position:absolute;
+	top:8px;
+	left:6px;
+	font-size:54px;
+	color:#163d1b;
+	width: 270px;
+	height: 71px;
+			
+			}
+			
+.checkBox {
+position:absolute;
+z-index:20;
+}
