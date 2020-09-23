@@ -1,0 +1,189 @@
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	img {
+		border: none;
+	}
+	
+	a {
+		text-decoration: none;
+	}
+
+	#tudobandeiras {
+		width: 870px;
+		font-family: Tahoma, Geneva, sans-serif;
+                
+		margin: 5px 0 0 0;
+	}
+	
+	div.modelo {
+		position: relative;
+		float: left;
+		/* background-color: #491c23; */
+		width: 870px;
+		*width: 746px;
+		height: 37px;
+		padding: 0 0 15px 7px;
+	
+		background-image: url("../../images/barras/hinospesquisa.gif");
+}
+	
+	h1.modelobandeiras {
+		position: relative;
+		float: left;
+		color: #92777b;
+		font-size: 230%;
+		letter-spacing: -1.7px;
+		font-weight: normal;
+		line-height: 100%;
+	}
+	
+	h2.titpesquisa {
+		position: relative;
+		float: right;
+		color: #92777b;
+		font-size: 170%;
+		letter-spacing: -1.7px;
+		font-weight: normal;
+		line-height: 100%;
+		font-style: italic;
+		margin: 9px 20px 0 0;
+		display: inline;
+	}
+	
+	div.tipo {
+		width: 876px;
+		height: 55px;
+		position: relative;
+		float: left;		
+	}
+	
+	img.square {
+		position: relative;
+		float: left;
+		clear: both;
+		margin: 26px 0 0 1px;
+		display: inline;
+	}
+	
+	p.subtitulonauticas {
+		position: relative;
+		float: left;
+		font-size: 18px;
+		color: #046DAE;
+		margin: 20px 0 0 5px;
+		display: inline;
+	
+		font-weight: 600;
+}
+	
+	p.historia1 {
+		position: relative;
+		float: left;
+		width: 730px;
+		color: #444;
+		font-size: 90%;
+		margin: 0 0 0 15px;
+		display: inline;
+		text-align: justify;
+	
+		font-family: segoe ui;
+}
+	
+	p.historia {
+		position: relative;
+		float: left;
+		width: 730px;
+		color: #444;
+		font-size: 90%;
+		margin: 5px 0 0 15px;
+		display: inline;
+		text-align: justify;
+	
+		font-family: segoe ui;
+}
+	
+	div.hino {
+		position: relative;
+		float: left;
+		width: 745px;
+		color: #444;
+	
+}
+	
+	div.hino1 {
+		position: relative;
+		float: left;
+		width: 359px;
+	}
+	
+	div.hino2 {
+		position: relative;
+		float: left;
+		width: 359px;
+		margin-left: 25px;
+		display: inline;
+	}
+	
+	p.phino1 {
+		position: relative;
+		float: right;
+		text-align: right;
+		width: 359px;
+		margin-top: 5px;
+	
+		font-family: segoe ui;
+		font-size: 15px;
+}
+	
+	p.phino2 {
+		position: relative;
+		float: left;
+		text-align: left;
+		width: 359px;
+		margin-top: 5px;
+	
+		font-size: 15;
+		font-family: segoe ui;
+}
+	
+	p.hbandeira {
+		position: relative;
+		float: left;
+		width: 730px;
+		color: #444;
+		font-size: 80%;
+		display: inline;
+		text-align: center;
+		margin-top: 5px;
+	
+		font-size: 15;
+		font-family: segoe ui;
+}
+	
+	div.fotos1 {
+		position: relative;
+		float: left;
+		width: 69px;
+		height: 149px;
+		background-image: url(../../images/hino/fotos01.gif);
+	}
+	
+	div.fotos2 {
+		position: relative;
+		float: left;
+		width: 677px;
+		height: 149px;
+		background-image: url(../../images/hino/fotos02.gif);
+		background-repeat: repeat-x;
+	}
+	
+	div.cdshinos {
+		display: inline;
+		width: 257px;
+		height: 149px;
+		position: relative;
+		float: left;
+	}
