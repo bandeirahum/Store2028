@@ -1,0 +1,100 @@
+<link href="<baseloja>htm/copa2014/css_slider.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" src="<baseloja>htm/copa2014/css_browser_selector.js"></script>
+<script src="="<baseloja>htm/copa2014/Scripts/swfobject_modified.js" type="text/javascript"></script>
+
+<div id="jquery">
+<div class="main_view">
+    <div class="window">
+        <div class="image_reel">
+            <a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;IDProduto=486965"><img src="<baseloja>images/copa2014/reel_1.jpg" alt="" /></a>
+            <a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;Y=9610116277209&amp;texto=+BT&amp;x=0&amp;y=0"><img src="<baseloja>images/copa2014/reel_2.jpg" alt="" border="0" /></a>
+			<a href="http://www.bandeira1.com.br/prod,IDLoja,2028,IDProduto,4387349,copa-kit-de-bandeira-de-mesa---32-pasises"><img src="<baseloja>images/copa2014/reel_3.jpg" alt="" /></a>
+			<a href="http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&amp;IDCategoria=180566"><img src="<baseloja>images/copa2014/reel_4.jpg" alt="" /></a>
+
+        </div>
+</div>
+    <div class="paging">
+        <a href="#" rel="1">1</a>
+        <a href="#" rel="2">2</a>
+        <a href="#" rel="3">3</a>
+        <a href="#" rel="4">4</a>
+
+</div>
+						</div>						
+					</div>
+					
+<div id="barraDestaq_dir"></div>
+				</div>
+				<div id="faixaDestaq_bot">
+				  <div class="pixelGap_destaq"></div>
+				  <div id="barraDestaq_bot"></div>
+				  <div class="pixelGap_destaq"></div>
+				</div>
+			</div>
+<div id="gapDestaq_dir"></div>
+		</div>
+</div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+			//Code goes here
+			//Show the paging and activate its first link
+$(".paging").show();
+$(".paging a:first").addClass("active");
+
+//Get size of the image, how many images there are, then determin the size of the image reel.
+var imageWidth = $(".window").width();
+var imageSum = $(".image_reel img").size();
+var imageReelWidth = imageWidth * imageSum;
+
+//Adjust the image reel to its new size
+$(".image_reel").css({'width' : imageReelWidth});
+	
+rotate = function(){
+    var triggerID = $active.attr("rel") - 1; //Get number of times to slide
+    var image_reelPosition = triggerID * imageWidth; //Determines the distance the image reel needs to slide
+
+    $(".paging a").removeClass('active'); //Remove all active class
+    $active.addClass('active'); //Add active class (the $active is declared in the rotateSwitch function)
+
+    //Slider Animation
+    $(".image_reel").animate({
+        left: -image_reelPosition
+    }, 1000 );
+
+}; 
+
+//Rotation  and Timing Event
+rotateSwitch = function(){
+    play = setInterval(function(){ //Set timer - this will repeat itself every 7 seconds
+        $active = $('.paging a.active').next(); //Move to the next paging
+        if ( $active.length === 0) { //If paging reaches the end...
+            $active = $('.paging a:first'); //go back to first
+        }
+        rotate(); //Trigger the paging and slider function
+    }, 7000); //Timer speed in milliseconds (7 seconds)
+};
+
+rotateSwitch(); //Run function on launch
+
+//On Hover
+$(".image_reel a").hover(function() {
+    clearInterval(play); //Stop the rotation
+}, function() {
+    rotateSwitch(); //Resume rotation timer
+});	
+
+//On Click
+$(".paging a").click(function() {
+    $active = $(this); //Activate the clicked paging
+    //Reset Timer
+    clearInterval(play); //Stop the rotation
+    rotate(); //Trigger rotation immediately
+    rotateSwitch(); // Resume rotation timer
+    return false; //Prevent browser jump to link anchor
+});
+
+	});
+</script>
+</div>
