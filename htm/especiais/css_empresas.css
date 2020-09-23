@@ -1,0 +1,399 @@
+@charset "utf-8";
+/* CSS Document */
+
+#tudoEmpresas {
+	position: relative;
+	float: left;
+	width: 746px;
+}
+
+#tudoEmpresas img {
+	position: relative;
+	float: left;
+	border: 0;
+	*margin: 0 -3px 0 -3px;
+}
+
+#emp01 {
+	position: relative;
+	float: left;
+	width: 746px;
+	height: 232px;
+}
+
+#emp011 {
+	position: relative;
+	float: left;
+	width: 390px;
+	height: 232px;
+	background: url(../../prod/empresas/empresas_03.jpg);
+}
+
+#emp012 {
+	position: relative;
+	float: left;
+	width: 356px;
+	height: 232px;
+	background: url(../../prod/empresas/empresas_04.jpg);
+}
+
+#emp02 {
+	position: relative;
+	float: left;
+	width: 746px;
+	height: 247px;
+}
+
+#emp021 {
+	position: relative;
+	float: left;
+	width: 390px;
+	height: 247px;
+	background: url(../../prod/empresas/empresas_05.jpg);
+}
+
+#emp022 {
+	position: relative;
+	float: left;
+	width: 356px;
+	height: 247px;
+	background: url(../../prod/empresas/empresas_06.jpg);
+}
+
+#emp03 {
+	position: relative;
+	float: left;
+	width: 746px;
+	height: 151px;
+}
+
+#emp031 {
+	position: relative;
+	float: left;
+	width: 390px;
+	height: 151px;
+	background: url(../../prod/empresas/empresas_07.jpg);
+}
+
+#emp032 {
+	position: relative;
+	float: left;
+	width: 356px;
+	height: 151px;
+	background: url(../../prod/empresas/empresas_08.jpg);
+}
+
+#emp04 {
+	position: relative;
+	float: left;
+	width: 746px;
+	height: 61px;
+}
+
+#emp041 {
+	position: relative;
+	float: left;
+	width: 390px;
+	height: 61px;
+	background: url(../../prod/empresas/empresas_09.jpg);
+}
+
+#emp042 {
+	position: relative;
+	float: left;
+	width: 356px;
+	height: 61px;
+	background: url(../../prod/empresas/empresas_10.jpg);
+}
+
+#emp05 {
+	position: relative;
+	float: left;
+	width: 746px;
+	height: 256px;
+}
+
+#emp051 {
+	position: relative;
+	float: left;
+	width: 390px;
+	height: 256px;
+	background: url(../../prod/empresas/empresas_11.jpg);
+}
+
+#emp052 {
+	position: relative;
+	float: left;
+	width: 356px;
+	height: 256px;
+	background: url(../../prod/empresas/empresas_12.jpg);
+}
+
+#emp06 {
+	position: relative;
+	float: left;
+	width: 746px;
+	height: 244px;
+}
+
+#emp061 {
+	position: relative;
+	float: left;
+	width: 390px;
+	height: 244px;
+	background: url(../../prod/empresas/empresas_13.jpg);
+}
+
+#emp062 {
+	position: relative;
+	float: left;
+	width: 356px;
+	height: 244px;
+	background: url(../../prod/empresas/empresas_14.jpg);
+}
+
+#emp07 {
+	position: relative;
+	float: left;
+	width: 746px;
+	height: 294px;
+}
+
+#emp071 {
+	position: relative;
+	float: left;
+	width: 390px;
+	height: 294px;
+	background: url(../../prod/empresas/empresas_15.jpg);
+}
+
+#emp072 {
+	position: relative;
+	float: left;
+	width: 356px;
+	height: 294px;
+	background: url(../../prod/empresas/empresas_16.jpg);
+}
+
+#emp08 {
+	position: relative;
+	float: left;
+	width: 746px;
+	height: 103px;
+	background: url(../../prod/empresas/empresas_17.jpg);
+}
+
+#emp09 {
+	position: relative;
+	float: left;
+	width: 746px;
+	height: 266px;
+}
+
+#emp091 {
+	position: relative;
+	float: left;
+	width: 390px;
+	height: 266px;
+	background: url(../../prod/empresas/empresas_18.jpg);
+}
+
+#emp092 {
+	position: relative;
+	float: left;
+	width: 356px;
+	height: 266px;
+	background: url(../../prod/empresas/empresas_19.jpg);
+}
+
+#emp10 {
+	position: relative;
+	float: left;
+	width: 746px;
+	height: 186px;
+}
+
+#emp101 {
+	position: relative;
+	float: left;
+	width: 390px;
+	height: 186px;
+	background: url(../../prod/empresas/empresas_20.jpg);
+}
+
+#emp102 {
+	position: relative;
+	float: left;
+	width: 356px;
+	height: 186px;
+	background: url(../../prod/empresas/empresas_21.jpg);
+}
+
+#emp11 {
+	position: relative;
+	float: left;
+	width: 746px;
+	height: 286px;
+}
+
+#emp111 {
+	position: relative;
+	float: left;
+	width: 390px;
+	height: 286px;
+	background: url(../../prod/empresas/empresas_22.jpg);
+}
+
+#emp112 {
+	position: relative;
+	float: left;
+	width: 356px;
+	height: 286px;
+}
+
+#emp12 {
+	position: relative;
+	float: left;
+	width: 746px;
+	height: 229px;
+}
+
+#emp121 {
+	position: relative;
+	float: left;
+	width: 390px;
+	height: 229px;
+	background: url(../../prod/empresas/empresas_24.jpg);
+}
+
+#emp122 {
+	position: relative;
+	float: left;
+	width: 356px;
+	height: 229px;
+}
+
+#emp13 {
+	position: relative;
+	float: left;
+	width: 746px;
+	height: 138px;
+}
+
+#emp131 {
+	position: relative;
+	float: left;
+	width: 390px;
+	height: 138px;
+	background: url(../../prod/empresas/empresas_26.jpg);
+}
+
+#emp132 {
+	position: relative;
+	float: left;
+	width: 356px;
+	height: 138px;
+	background: url(../../prod/empresas/empresas_27.jpg);
+}
+
+#emp14 {
+	position: relative;
+	float: left;
+	width: 746px;
+	height: 30px;
+	background: url(../../prod/empresas/empresas_28.jpg);
+}
+
+#tudoEmpresas p.txtEmpresa {
+	position: relative;
+	float: left;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	color:#4d4d4d;
+}
+
+p#txtEmp012 {
+	margin: 58px 0 0 112px;
+	*display: inline;
+}
+
+#tudoEmpresas p.txtEmpresa2 {
+	margin: 10px 0 0 112px;
+	*display: inline;
+}
+
+span.altColor {
+	color: #01464e;
+}
+
+#tudoEmpresas p.txtDesc {
+	position: relative;
+	float: left;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	color:#404040;
+}
+
+p#descBan {
+	width: 173px;
+	margin: 2px 0 0 169px;
+	*display: inline;
+}
+
+#tudoEmpresas p.descBan2 {
+	width: 173px;
+	margin: 17px 0 0 169px;
+	*display: inline;
+}
+
+p#descBord {
+	margin: 73px 0 0 65px;
+	*display: inline;
+}
+
+#tudoEmpresas p.descBord2 {
+	margin: 8px 0 0 65px;
+	*display: inline;
+}
+
+p#descCar {
+	margin: 73px 0 0 42px;
+	*display: inline;
+}
+
+#tudoEmpresas p.descCar2 {
+	margin: 8px 0 0 42px;
+	*display: inline;
+}
+
+p#descEst {
+	margin: 79px 0 0 82px;
+	*display: inline;
+}
+
+#tudoEmpresas p.descEst2 {
+	margin: 5px 0 0 82px;
+	*display: inline;
+}
+
+#tudoEmpresas p.txtContato {
+	position: relative;
+	float: right;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	color:#4e7378;
+	text-align: right;
+	*display: inline;
+}
+
+#txtContato1 {
+	margin: 38px 101px 0 0;
+}
+
+#txtContato2 {
+	margin: 24px 101px 0 0;
+}
+
+span.txtMenor {
+	font-size: 11px;
+}
