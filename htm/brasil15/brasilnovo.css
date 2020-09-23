@@ -1,0 +1,1037 @@
+*{
+  margin: 0;
+  padding:0;
+}
+#tudobrasil {
+	position: relative;
+	left: 8px;
+	top: 25px;
+	width: 892px;
+	height: 3682px;
+	z-index: 1;
+}
+#fundoimg {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 892px;
+	height: 522px;
+	z-index: 1;
+}
+#bandsoficiais {
+	position: absolute;
+	left: 254px;
+	top: 52px;
+	width: 624px;
+	height: 59px;
+	z-index: 2;
+}
+.titulos {
+	font-family: "Segoe UI Light";
+	font-size: 48px;
+	font-weight: normal;
+	color: #006428;
+}
+#descbandsoficiais {
+	position: absolute;
+	left: 256px;
+	top: 111px;
+	width: 354px;
+	height: 47px;
+	z-index: 3;
+	text-align: center;
+}
+#bordadatit {
+	position: absolute;
+	left: 15px;
+	top: 4px;
+	width: 186px;
+	height: 34px;
+	z-index: 4;
+	font-size: 25px;
+	text-align: center;
+	color: #003C00;
+}
+.subtitbr {
+	font-family: "Segoe UI Light";
+	font-size: 24px;
+	color: #003C00;
+}
+.desctit {
+	font-family: "Segoe UI";
+	font-size: 16px;
+	color: #666666;
+	text-align: center;
+	/* text-align: center; */
+}
+#descbordada {
+	position: absolute;
+	left: 18px;
+	top: 37px;
+	width: 178px;
+	height: 43px;
+	z-index: 5;
+	text-align: center;
+}
+.descsub {
+	font-family: "Segoe UI";
+	font-size: 14px;
+	color: #666;
+	text-align: center;
+}
+#titpolstamp {
+	position: absolute;
+	left: 10px;
+	top: 4px;
+	width: 217px;
+	height: 36px;
+	z-index: 6;
+}
+#descpoliestamp {
+	position: absolute;
+	left: 5px;
+	top: 37px;
+	width: 215px;
+	height: 45px;
+	z-index: 7;
+	text-align: center;
+}
+#titcetimbord {
+	position: absolute;
+	left: 14px;
+	top: 4px;
+	width: 162px;
+	height: 34px;
+	z-index: 8;
+}
+#desccetimbord {
+	position: absolute;
+	left: 4px;
+	top: 37px;
+	width: 179px;
+	height: 42px;
+	z-index: 9;
+}
+#polibord {
+	position: absolute;
+	left: 80px;
+	top: 541px;
+	width: 211px;
+	height: 127px;
+	z-index: 10;
+	bottom: 3px;
+}
+#poliestamp {
+	position: absolute;
+	left: 342px;
+	top: 541px;
+	width: 242px;
+	height: 127px;
+	z-index: 11;
+	bottom: 3px;
+}
+#cetimbord {
+	position: absolute;
+	left: 631px;
+	top: 541px;
+	width: 199px;
+	height: 124px;
+	z-index: 12;
+	bottom: 3px;
+}
+#apartir1 {
+	position: absolute;
+	left: 65px;
+	top: 78px;
+	width: 64px;
+	height: 34px;
+	z-index: 2;
+	font-family: "Segoe UI";
+	font-weight: normal;
+	font-size: 11px;
+}
+.apartir {
+	font-family: "Segoe UI";
+	font-size: 10px;
+	/* font-weight: bold; */
+	color: #063;
+}
+.apartir2 {
+	font-family: "Segoe UI";
+	font-size: 12px;
+	/* font-weight: bold; */
+	color: #1362af;
+}
+
+#preco1 {
+	position: absolute;
+	left: 83px;
+	top: 87px;
+	width: 61px;
+	height: 45px;
+	z-index: 2;
+	font-size: 22px;
+}
+.valor {
+	font-family: Tahoma;
+	font-size: 25px;
+	font-weight: bold;
+	color: #060;
+}
+.valor2 {
+	font-family: Tahoma;
+	font-size: 22px;
+	font-weight: bold;
+	color: #1362af;
+}
+#apartir2 {
+	position: absolute;
+	left: 65px;
+	top: 78px;
+	width: 64px;
+	height: 34px;
+	z-index: 2;
+	font-family: "Segoe UI";
+	font-weight: normal;
+	font-size: 11px;
+}
+#preco2 {
+	position: absolute;
+	left: 83px;
+	top: 87px;
+	width: 61px;
+	height: 45px;
+	z-index: 2;
+	font-size: 22px;
+}
+#apartir3 {
+	position: absolute;
+	left: 65px;
+	top: 78px;
+	width: 64px;
+	height: 34px;
+	z-index: 2;
+	font-family: "Segoe UI";
+	font-weight: normal;
+	font-size: 11px;
+}
+#preco3 {
+	position: absolute;
+	left: 83px;
+	top: 87px;
+	width: 61px;
+	height: 45px;
+	z-index: 2;
+	font-size: 22px;
+}
+#titmesa {
+	position: absolute;
+	left: 249px;
+	top: 8px;
+	width: 413px;
+	height: 65px;
+	z-index: 2;
+}
+#tudobandoficiais {
+	position: absolute;
+	left: 2px;
+	top: 136px;
+	width: 890px;
+	height: 737px;
+	z-index: 2;
+}
+#tudobmesa {
+	position: absolute;
+	left: 0px;
+	top: 876px;
+	width: 892px;
+	height: 1384px;
+	z-index: 2;
+}
+#descbmesa {
+	position: absolute;
+	left: 233px;
+	top: 68px;
+	width: 412px;
+	height: 71px;
+	z-index: 2;
+}
+#tamanhos35 {
+	position: absolute;
+	left: 270px;
+	top: 349px;
+	width: 407px;
+	height: 33px;
+	z-index: 2;
+	font-size: 30px;
+}
+#tamanhos25 {
+	position: absolute;
+	left: 462px;
+	top: 751px;
+	width: 407px;
+	height: 33px;
+	z-index: 2;
+	font-size: 30px;
+}
+#tamanhos15 {
+	position: absolute;
+	left: 584px;
+	top: 1115px;
+	width: 196px;
+	height: 33px;
+	z-index: 2;
+	font-size: 30px;
+	text-align: center;
+}
+#tamanhos18 {
+	position: absolute;
+	left: 223px;
+	top: 1115px;
+	width: 196px;
+	height: 33px;
+	z-index: 2;
+	font-size: 30px;
+	text-align: center;
+}
+.tamanhos {
+	font-family: "Myriad Pro";
+	font-size: 24px;
+	font-weight: normal;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #666;
+}
+#tudoflam {
+	position: absolute;
+	left: -3px;
+	top: 2263px;
+	width: 895px;
+	height: 565px;
+	z-index: 2;
+}
+#titflam {
+	position: absolute;
+	left: 361px;
+	top: 10px;
+	width: 245px;
+	height: 40px;
+	z-index: 2;
+}
+#descflam {
+	position: absolute;
+	left: 251px;
+	top: 69px;
+	width: 365px;
+	height: 43px;
+	z-index: 2;
+	text-align: center;
+}
+#apDiv1 {
+	position: absolute;
+	left: 123px;
+	top: 2667px;
+	width: 660px;
+	height: 28px;
+	z-index: 2;
+}
+#descflam2 {
+	position: absolute;
+	left: 72px;
+	top: 409px;
+	width: 754px;
+	height: 33px;
+	z-index: 2;
+	font-size: 18px;
+}
+.desc2 {
+	font-family: "Segoe UI";
+	font-size: 24px;
+	color: #060;
+}
+#descflam3 {
+	position: absolute;
+	left: 52px;
+	top: 442px;
+	width: 782px;
+	height: 32px;
+	z-index: 2;
+}
+.desc3 {
+	font-family: "Segoe UI";
+	font-size: 15px;
+	color: #666;
+	#descflam3 ul li display: inline;
+	/* list-style-position: outside; */
+	/* list-style-type: circle; */
+	font-weight: 500;
+}
+#bandplastica {
+	position: absolute;
+	left: 12px;
+	top: 193px;
+	width: 199px;
+	height: 32px;
+	z-index: 2;
+	color: #1362af;
+	font-weight: bold;
+}
+#kitminibanner {
+	position: absolute;
+	left: 32px;
+	top: 192px;
+	width: 175px;
+	height: 32px;
+	z-index: 2;
+	color: #1362af;
+	font-weight: bold;
+}
+#kitminibandeira {
+	position: absolute;
+	left: 20px;
+	top: 193px;
+	width: 190px;
+	height: 32px;
+	z-index: 2;
+	color: #1362af;
+	font-weight: bold;
+}
+.titct {
+	font-family: "Segoe UI Light";
+	font-size: 24px;
+	color: #039;
+}
+#descbandplast {
+	position: absolute;
+	left: 7px;
+	top: 226px;
+	width: 180px;
+	height: 35px;
+	z-index: 2;
+	font-family: "Segoe UI Light";
+	font-weight: bold;
+	font-size: 11px;
+	text-align: center;
+}
+#desckitminib {
+	position: absolute;
+	left: 7px;
+	top: 225px;
+	width: 200px;
+	height: 35px;
+	z-index: 2;
+	font-family: "Segoe UI Light";
+	font-weight: bold;
+	font-size: 11px;
+	text-align: center;
+}
+#desckitminiband {
+	position: absolute;
+	left: 1px;
+	top: 225px;
+	width: 210px;
+	height: 35px;
+	z-index: 2;
+	font-family: "Segoe UI Light";
+	font-weight: bold;
+	font-size: 11px;
+	text-align: center;
+}
+.descct {
+	font-family: "Segoe UI Light";
+	font-size: 11px;
+	color: #666;
+	font-weight: bold;
+}
+#bandplast {
+	position: absolute;
+	left: 7px;
+	top: 110px;
+	width: 209px;
+	height: 324px;
+	z-index: 3;
+}
+#kitminib {
+	position: absolute;
+	left: 221px;
+	top: 111px;
+	width: 209px;
+	height: 326px;
+	z-index: 3;
+}
+#kitminiband {
+	position: absolute;
+	left: 445px;
+	top: 112px;
+	width: 209px;
+	height: 326px;
+	z-index: 3;
+}
+#precocf {
+	position: absolute;
+	left: 97px;
+	top: 274px;
+	width: 65px;
+	height: 44px;
+	z-index: 4;
+}
+#precocf2 {
+	position: absolute;
+	left: 103px;
+	top: 273px;
+	width: 65px;
+	height: 44px;
+	z-index: 4;
+	line-height: 1.5;
+}
+#precocf3 {
+	position: absolute;
+	left: 99px;
+	top: 273px;
+	width: 65px;
+	height: 44px;
+	z-index: 4;
+	line-height: 1.5;
+}
+#preco {
+	position: absolute;
+	left: 160px;
+	top: 3263px;
+	width: 40px;
+	height: 36px;
+	z-index: 5;
+}
+#precobandplastica {
+	position: absolute;
+	left: 115px;
+	top: 285px;
+	width: 40px;
+	height: 38px;
+	z-index: 5;
+}
+#precokitminib {
+	position: absolute;
+	left: 123px;
+	top: 285px;
+	width: 40px;
+	height: 38px;
+	z-index: 5;
+}
+#precokitminiband {
+	position: absolute;
+	left: 118px;
+	top: 285px;
+	width: 40px;
+	height: 38px;
+	z-index: 5;
+}
+#precobandcar {
+	position: absolute;
+	left: 126px;
+	top: 288px;
+	width: 40px;
+	height: 38px;
+	z-index: 5;
+}
+#precocf4 {
+	position: absolute;
+	left: 100px;
+	top: 273px;
+	width: 65px;
+	height: 44px;
+	z-index: 4;
+	line-height: 1.5;
+}
+#bandcar {
+	position: absolute;
+	left: 671px;
+	top: 111px;
+	width: 209px;
+	height: 326px;
+	z-index: 3;
+}
+#descbandcar {
+	position: absolute;
+	left: -8px;
+	top: 225px;
+	width: 210px;
+	height: 35px;
+	z-index: 2;
+	font-family: "Segoe UI Light";
+	font-weight: bold;
+	font-size: 11px;
+	text-align: center;
+}
+#bandcarro {
+	position: absolute;
+	left: 5px;
+	top: 190px;
+	width: 210px;
+	height: 32px;
+	z-index: 2;
+	color: #1362af;
+	font-weight: bold;
+}
+#precobandcar {
+	position: absolute;
+	left: 121px;
+	top: 285px;
+	width: 40px;
+	height: 38px;
+	z-index: 5;
+}
+
+#kitfac {
+	position: absolute;
+	left: 0px;
+	top: 493px;
+	width: 209px;
+	height: 326px;
+	z-index: 3;
+}
+#desckitfac {
+	position: absolute;
+	left: 45px;
+	top: 192px;
+	width: 210px;
+	height: 35px;
+	z-index: 2;
+	font-family: "Segoe UI Light";
+	font-weight: bold;
+	font-size: 11px;
+}
+#kitfachada {
+	position: absolute;
+	left: 42px;
+	top: 157px;
+	width: 210px;
+	height: 32px;
+	z-index: 2;
+	color: #1362af;
+	font-weight: bold;
+}
+#precocf5 {
+	position: absolute;
+	left: 88px;
+	top: 237px;
+	width: 65px;
+	height: 44px;
+	z-index: 4;
+}
+#precokitfac {
+	position: absolute;
+	left: 108px;
+	top: 249px;
+	width: 40px;
+	height: 38px;
+	z-index: 5;
+}
+#bordbr {
+	position: absolute;
+	left: 224px;
+	top: 494px;
+	width: 209px;
+	height: 326px;
+	z-index: 3;
+}
+#descbordbr {
+	position: absolute;
+	/* left: 3px; */
+	top: 191px;
+	width: 210px;
+	height: 35px;
+	z-index: 2;
+	font-family: "Segoe UI Light";
+	font-weight: bold;
+	font-size: 11px;
+	text-align: center;
+}
+#bordadobr {
+	position: absolute;
+	left: 26px;
+	top: 156px;
+	width: 189px;
+	height: 32px;
+	z-index: 2;
+	color: #1362af;
+	font-weight: bold;
+}
+#precocf6 {
+	position: absolute;
+	left: 115px;
+	top: 237px;
+	width: 65px;
+	height: 44px;
+	z-index: 4;
+}
+#precobordbr {
+	position: absolute;
+	left: 136px;
+	top: 249px;
+	width: 40px;
+	height: 38px;
+	z-index: 5;
+}
+#bordbr2 {
+	position: absolute;
+	left: 446px;
+	top: 494px;
+	width: 209px;
+	height: 326px;
+	z-index: 3;
+}
+#descbordbr2 {
+	position: absolute;
+	/* left: 3px; */
+	top: 191px;
+	width: 210px;
+	height: 35px;
+	z-index: 2;
+	font-family: "Segoe UI Light";
+	font-weight: bold;
+	font-size: 11px;
+	text-align: center;
+}
+#bordadobr2 {
+	position: absolute;
+	left: 25px;
+	top: 156px;
+	width: 189px;
+	height: 32px;
+	z-index: 2;
+	color: #1362af;
+	font-weight: bold;
+}
+#precocf7 {
+	position: absolute;
+	left: 100px;
+	top: 237px;
+	width: 65px;
+	height: 44px;
+	z-index: 4;
+}
+#precobordbr2 {
+	position: absolute;
+	left: 120px;
+	top: 249px;
+	width: 40px;
+	height: 38px;
+	z-index: 5;
+}
+#bandtorc {
+	position: absolute;
+	left: 670px;
+	top: 495px;
+	width: 209px;
+	height: 326px;
+	z-index: 3;
+}
+#descbandtorc {
+	position: absolute;
+	left: 1px;
+	top: 191px;
+	width: 200px;
+	height: 35px;
+	z-index: 2;
+	font-family: "Segoe UI Light";
+	font-weight: bold;
+	font-size: 11px;
+	text-align: center;
+}
+#bandeiratorc {
+	position: absolute;
+	left: 6px;
+	top: 156px;
+	width: 203px;
+	height: 32px;
+	z-index: 2;
+	color: #1362af;
+	font-weight: bold;
+}
+#precocf8 {
+	position: absolute;
+	left: 100px;
+	top: 237px;
+	width: 65px;
+	height: 44px;
+	z-index: 4;
+}
+#precobandtorc {
+	position: absolute;
+	left: 120px;
+	top: 249px;
+	width: 40px;
+	height: 38px;
+	z-index: 5;
+}
+#tudocf {
+	position: absolute;
+	left: 9px;
+	top: 553px;
+	width: 892px;
+	height: 769px;
+	z-index: 2;
+}
+#confiratbm {
+	position: absolute;
+	left: 255px;
+	top: 5px;
+	width: 393px;
+	height: 47px;
+	z-index: 2;
+}
+#titpag {
+	position: absolute;
+	left: 97px;
+	top: 11px;
+	width: 263px;
+	height: 67px;
+	z-index: 2;
+	font-weight: bold;	
+}
+.titpagina {
+	font-family: "Segoe UI Light";
+	font-size: 38px;
+	color: #118738;
+	text-shadow: 2px 2px 2px rgb(255, 255, 255), -2px -2px 2px rgb(255, 255, 255);
+	font-weight: bold;	
+}
+#bordadas {
+	position: absolute;
+	left: 72px;
+	top: 352px;
+	width: 202px;
+	height: 321px;
+	z-index: 3;
+}
+#bordadapol {
+	position: absolute;
+	left: 73px;
+	top: 351px;
+	width: 207px;
+	height: 323px;
+	z-index: 3;
+}
+#estampadapol {
+	position: absolute;
+	left: 343px;
+	top: 350px;
+	width: 207px;
+	height: 323px;
+	z-index: 3;
+}
+#bordadacetim {
+	position: absolute;
+	left: 612px;
+	top: 352px;
+	width: 207px;
+	height: 323px;
+	z-index: 3;
+}
+#bannermp35 {
+	position: absolute;
+	left: 15px;
+	top: 1030px;
+	width: 207px;
+	height: 323px;
+	z-index: 3;
+}
+#bannermb35 {
+	position: absolute;
+	left: 121px;
+	top: 1047px;
+	width: 207px;
+	height: 323px;
+	z-index: 3;
+}
+#bannermcr35 {
+	position: absolute;
+	left: 220px;
+	top: 1016px;
+	width: 207px;
+	height: 323px;
+	z-index: 3;
+}
+#bandmb35 {
+	position: absolute;
+	left: 792px;
+	top: 1063px;
+	width: 207px;
+	height: 323px;
+	z-index: 3;
+}
+#bandmp35 {
+	position: absolute;
+	left: 588px;
+	top: 999px;
+	width: 207px;
+	height: 323px;
+	z-index: 3;
+}
+#bandmcr35 {
+	position: absolute;
+	left: 691px;
+	top: 1025px;
+	width: 207px;
+	height: 323px;
+	z-index: 3;
+}
+#bandmp25 {
+	position: absolute;
+	left: 165px;
+	top: 1462px;
+	width: 207px;
+	height: 323px;
+	z-index: 3;
+}
+#bandmb25 {
+	position: absolute;
+	left: 292px;
+	top: 1475px;
+	width: 207px;
+	height: 323px;
+	z-index: 3;
+}
+#bandmpr25 {
+	position: absolute;
+	left: 11px;
+	top: 1471px;
+	width: 207px;
+	height: 323px;
+	z-index: 3;
+}
+#bandmp18 {
+	position: absolute;
+	left: 11px;
+	top: 1846px;
+	width: 207px;
+	height: 323px;
+	z-index: 3;
+}
+#bandmb18 {
+	position: absolute;
+	left: 117px;
+	top: 1887px;
+	width: 207px;
+	height: 323px;
+	z-index: 3;
+}
+#bandmcr15 {
+	position: absolute;
+	left: 787px;
+	top: 1907px;
+	width: 207px;
+	height: 323px;
+	z-index: 3;
+}
+#flam1 {
+	position: absolute;
+	left: 76px;
+	top: 2407px;
+	width: 207px;
+	height: 323px;
+	z-index: 3;
+}
+#flam2 {
+	position: absolute;
+	left: 234px;
+	top: 2430px;
+	width: 207px;
+	height: 323px;
+	z-index: 3;
+}
+#flam3 {
+	position: absolute;
+	left: 372px;
+	top: 2445px;
+	width: 207px;
+	height: 323px;
+	z-index: 3;
+}
+#flam4 {
+	position: absolute;
+	left: 518px;
+	top: 2433px;
+	width: 207px;
+	height: 323px;
+	z-index: 3;
+}
+#flam5 {
+	position: absolute;
+	left: 660px;
+	top: 2423px;
+	width: 207px;
+	height: 323px;
+	z-index: 3;
+}
+#bplastico {
+	position: absolute;
+	left: 17px;
+	top: 2941px;
+	width: 207px;
+	height: 323px;
+	z-index: 3;
+}
+#minib {
+	position: absolute;
+	left: 234px;
+	top: 2940px;
+	width: 207px;
+	height: 323px;
+	z-index: 3;
+}
+#miniband {
+	position: absolute;
+	left: 460px;
+	top: 2940px;
+	width: 207px;
+	height: 323px;
+	z-index: 3;
+}
+#carro {
+	position: absolute;
+	left: 687px;
+	top: 2941px;
+	width: 207px;
+	height: 323px;
+	z-index: 3;
+}
+#fachada {
+	position: absolute;
+	left: 17px;
+	top: 3293px;
+	width: 207px;
+	height: 323px;
+	z-index: 3;
+}
+#bordados1b {
+	position: absolute;
+	left: 234px;
+	top: 3301px;
+	width: 207px;
+	height: 323px;
+	z-index: 3;
+}
+#bordados2b {
+	position: absolute;
+	left: 460px;
+	top: 3291px;
+	width: 207px;
+	height: 323px;
+	z-index: 3;
+}
+#torcedor {
+	position: absolute;
+	left: 694px;
+	top: 3290px;
+	width: 207px;
+	height: 323px;
+	z-index: 3;
+}
+#links {
+	position: absolute;
+	left: 2px;
+	top: 6px;
+	width: 887px;
+	height: 3611px;
+	z-index: 4;
+}
