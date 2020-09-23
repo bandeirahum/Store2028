@@ -1,0 +1,170 @@
+#tudopol {
+	position: relative;
+	width: 892px;
+	height: 2003px;
+	z-index: 1;
+    left: 8;
+}
+#fundopol {
+	position: absolute;
+	left: 0;
+	top: 63px;
+	width: 892px;
+	height: 341px;
+	z-index: 2;
+}
+#pedmesapol {
+	position: absolute;
+	left: 268px;
+	top: 1034px;
+	width: 143px;
+	height: 26px;
+	z-index: 2;
+}
+#boldriepol {
+	position: absolute;
+	left: 631px;
+	top: 982px;
+	width: 143px;
+	height: 26px;
+	z-index: 2;
+}
+.titpol {
+	font-family: "Segoe UI";
+	font-size: 18px;
+	color: #039;
+	font-weight: 500;
+}
+#descboldriepol {
+	position: absolute;
+	left: 1px;
+	top: 30px;
+	width: 217px;
+	height: 105px;
+	z-index: 3;
+	font-family: "Segoe UI";
+	font-size: 13px;
+}
+
+.descpol {
+	font-family: "Segoe UI";
+	font-size: 14px;
+	color: #333;
+	font-weight: 400;
+}
+
+#descstanpol {
+	position: absolute;
+	left: 1px;
+	top: 36px;
+	width: 139px;
+	height: 105px;
+	z-index: 3;
+	font-family: "Segoe UI Light";
+	/* font-weight: bold; */
+	font-size: 12px;
+}
+descpol {
+	font-family: "Segoe UI";
+	font-size: 14px;
+	color: #333;
+}
+#descstanpol {
+	position: absolute;
+	left: -99px;
+	top: 30px;
+	width: 241px;
+	height: 97px;
+	z-index: 3;
+	font-family: "Segoe UI";
+	font-size: 13px;
+	text-align: right;
+}
+#stanpol {
+	position: absolute;
+	left: 141px;
+	top: 1240px;
+	width: 143px;
+	height: 26px;
+	z-index: 2;
+	text-align: right;
+}
+#descpedpol {
+	position: absolute;
+	left: -1px;
+	top: 28px;
+	width: 191px;
+	height: 97px;
+	z-index: 3;
+	font-family: "Segoe UI";
+	font-size: 13px;
+	text-align: left;
+}
+#descrosetapol {
+	position: absolute;
+	left: -17px;
+	top: 27px;
+	width: 159px;
+	height: 97px;
+	z-index: 3;
+	font-family: "Segoe UI";
+	font-size: 13px;
+	text-align: right;
+}
+#rosetapol {
+	position: absolute;
+	left: 509px;
+	top: 1305px;
+	width: 143px;
+	height: 26px;
+	z-index: 2;
+	text-align: right;
+}
+#apDiv1 {
+	position: absolute;
+	left: 112px;
+	top: 806px;
+	width: 145px;
+	height: 288px;
+	z-index: 2;
+}
+#linkboldrie {
+	position: absolute;
+	left: 443px;
+	top: 809px;
+	width: 190px;
+	height: 260px;
+	z-index: 2;
+}
+#linkestandarte {
+	position: absolute;
+	left: 299px;
+	top: 1103px;
+	width: 168px;
+	height: 247px;
+	z-index: 2;
+}
+#linkroseta {
+	position: absolute;
+	left: 594px;
+	top: 1097px;
+	width: 189px;
+	height: 198px;
+	z-index: 2;
+}
+#linkpedmesa {
+	position: absolute;
+	left: 106px;
+	top: 792px;
+	width: 154px;
+	height: 299px;
+	z-index: 2;
+}
+#barrapol {
+	position: absolute;
+	left: 1px;
+	top: 3px;
+	width: 891px;
+	height: 31px;
+	z-index: 2;
+}
