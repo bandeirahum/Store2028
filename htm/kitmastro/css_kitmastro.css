@@ -1,0 +1,142 @@
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	img {
+		border: none;
+	}
+
+
+	#tudokitmastro {
+		width: 770px;
+		font-family: Tahoma, Geneva, sans-serif;
+	}
+	
+	div.modelo {
+		position: relative;
+		float: left;
+		background-color: #163d1b;
+		width: 736px;
+                              *width: 746px
+		height: 37px;
+		padding: 0 0 0 10px;
+	}
+	
+	h1.modelokit {
+		position: relative;
+		float: left;
+		color: #8a9e8d;
+		font-size: 230%;
+		letter-spacing: -1.7px;
+		font-weight: normal;
+		line-height: 100%;
+	}
+	
+	div.tipo {
+		width: 746px;
+		height: 55px;
+		position: relative;
+		float: left;		
+	}
+	
+	img.square {
+		position: relative;
+		float: left;
+		clear: both;
+		margin: 26px 0 0 1px;
+	}
+	
+	p.subtitulokit {
+		position: relative;
+		float: left;
+		font-size: 16px;
+		color: #777;
+		margin: 20px 0 0 5px;
+	}
+	
+	div.fotos1 {
+		position: relative;
+		float: left;
+		width: 35px;
+		height: 157px;
+		margin: 0 0 40px 0;
+		background-image: url(../../images/kitmastro/bg_fotos01.gif);
+	}
+	
+	div.fotos2 {
+		position: relative;
+		float: left;
+		width: 711px;
+		height: 157px;
+		background-image: url(../../images/kitmastro/bg_fotos02.gif);
+		background-repeat: repeat-x;
+		margin: 0 0 40px 0;
+	}
+	
+	div.fotos3 {
+		position: relative;
+		float: left;
+		width: 35px;
+		height: 157px;
+		margin: 0 0 40px 0;
+		background-image: url(../../images/kitmastro/bg_fotos03.gif);
+	}
+	
+	div.fotos4 {
+		position: relative;
+		float: left;
+		width: 711px;
+		height: 157px;
+		background-image: url(../../images/kitmastro/bg_fotos04.gif);
+		background-repeat: repeat-x;
+		margin: 0 0 40px 0;
+	}
+	
+	div.fotos5 {
+		position: relative;
+		float: left;
+		width: 35px;
+		height: 159px;
+		margin: 0 0 40px 0;
+		background-image: url(../../images/kitmastro/bg_fotos05.gif);
+	}
+	
+	div.fotos6 {
+		position: relative;
+		float: left;
+		width: 711px;
+		height: 159px;
+		background-image: url(../../images/kitmastro/bg_fotos06.gif);
+		background-repeat: repeat-x;
+		margin: 0 0 40px 0;
+	}
+	
+	div.prata {
+		display: inline;
+		width: 306px;
+		height: 157px;
+		position: relative;
+		float: left;
+		margin: 0 0 0 52px;
+	}	
+	
+	div.cobre {
+		width: 322px;
+		height: 158px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 0 0 52px;
+	}
+	
+	div.dourado {
+		width: 336px;
+		height: 159px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 0 0 52px;
+	}
+
+
