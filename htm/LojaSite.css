@@ -1,0 +1,453 @@
+table.FundoSiteCentro {
+height: 1757px;
+position: relative;
+margin: 0 auto;
+background-color: #fff;
+}
+
+a {
+		text-decoration: none;
+		color: #000;
+	}
+
+a:hover {
+		color: #000;
+	}
+
+body {
+         font-size: 80%;
+	font-family: "Myriad Pro", "Segoe UI", "Tahoma";
+	/*background: url(../images/home/bg2.jpg) fixed no-repeat center;*/
+	background: url(../images/bg2016.jpg) fixed repeat-y center;
+  
+            	
+}
+
+
+@media only screen and (min-width: 500px) {
+    .ShareWhatsAp{ display: none !important; }
+ 
+
+.FundoBarraEsquerda {
+width: 5px;
+height: 1600px;
+}
+
+p{font-size:10pt;margin-bottom: 10px;}
+
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
+/*  ESTILO PARA OS FORMULÁRIOS BOTÕES E INPUTS TEXT */
+.InputText{
+	border-color:#ccc;
+	border-width:1;
+	border-style:solid;
+	background-color:#fff;
+	font-size:12px;
+	font-family:tahoma,verdana;
+	color:#666;
+	height: 25px;
+	padding-left:5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+.InputTextBusca{height:18px;border-color:#333333;border-width:1;border-style:solid;background-color:#F5F5F5;font-size:22px;font-family:verdana;color:#252525}
+.InputButton{border-width:1;font-size:11;font-family:verdana}
+
+
+/*  ESTILO PRODUTOS */
+</br>{line-height:2px;}
+.EstNomeProd{font-size: 13pt;font-family: segoe ui;padding:3px;font-weight: 700;color: #1362AF;}
+.EstRefProd {color: #8E8E8E; font-size: 7pt; font-family: verdana; padding-top: 8;}
+.EstDescrProd{font-size: 9pt;font-family: segoe ui;padding:3px;}
+.EstPrecoProd{color:#000000;font-size:16px;font-family:segoe ui;padding:3px;}
+.EstMaisInfo{color:black;font-size:7pt;font-family:tahoma,verdana}
+.AdicNome{font-size: 10pt;font-family: segoe ui;}
+.AdicItem{font-size:8pt;font-family:tahoma,verdana;font-weight:bold;color:#1a1b1d}
+.EstLinhaProd{display:none;padding-top:15px;}
+.EstCelProd{padding:0 10px 20px 0;}
+#idFoundFC{font-family:tahoma, Geneva, sans-serif;padding-bottom:10px;font-size:11pt;
+
+}
+
+/*  ESTILO SUBPRODUTOS */
+.EstRefSubProd{color:#163d1b;font-size:7pt;font-family:verdana,arial}
+.EstDescrSubProd{color:#163d1b;font-size: 10pt;font-family: segoe ui;}
+.EstPrecoSubProd{color:#222222;font-size: 16px;font-family: segoe ui;}
+.EstLinhaSubProd{display: none;}
+.EstCorParSubProd{background:#fff;padding:3px 8px;}
+.EstCorImparSubProd{background:#e5ebe6;padding:3px 8px;}
+
+/*  ESTILO DAS OPINIÕES DE PRODUTOS */
+.EstOpiniaoLinha{color:#CFCFCF;height:1px;width:100%;margin:5px 0 5px 0;}
+#idEstTitProdOpFC{padding-top:40px;font-size:10pt;font-family:tahoma, Geneva, sans-serif;}
+.EstOpiniaoLocal{font-size:10pt;}
+.EstOpiniaoEmail{font-size:10pt;}
+.EstOpiniaoTexto{font-size:10pt;}
+
+/* ESTILOS DO PEDIDO */
+.EstTabPedidoTit{background: #1362AF;color:#fff;font-size: 10pt;font-family:Segoe UI, Geneva, sans-serif;padding-right:3px;}
+.EstTabPedidoNome{color:#333333;font-size: 11pt;/* font-weight:bold; */font-family:Tahoma, Geneva, sans-serif;}
+.EstTabPedidoNome:visited{color:#333333}
+.EstTabPedidoNome:hover{color:#432411}
+.EstTabPedido{font-size: 8pt;background: #FFFFFF;padding:3px;border-bottom: dashed; border-width: 1px; border-color: #CCCBCB;}
+.EstTabPedidoNum{font-size: 10pt;background: #F5FAFF;font-family: Segoe UI;padding:3px;font-weight: 500;border-bottom: dashed; border-width: 1px; border-color: #CCCBCB;}
+.EstTabPedidoTotal{font-size: 10pt;background: #1362AF;padding:3px;color:#fff; font-weight: bold; letter-spacing: 2;}
+.EstTabPedidoFrete{font-size:8pt;background:#e5ebe7;font-weight:bold;padding:3px;}
+.EstTabPedidoBot{color:#432411;font-size:8pt;font-weight:bold;font-family:Tahoma, Geneva, sans-serif;padding-top:10px;}
+.EstTabPedidoRef{color: rgb(19, 98, 175);font-size:8pt;font-family:Segoe UI; font-weight: bold;}
+.EstTabPedidoAdicNome{font-size:8pt;font-family:Tahoma, Geneva, sans-serif;}
+.EstTabPedidoAdicItem{font-size:8pt;font-family:Tahoma, Geneva, sans-serif;font-weight:bold}
+.EstTextoQtd{font-size:8pt;font-family:Tahoma, Geneva, sans-serif;text-align:right}
+.EstContinuarComprando{font-size:9pt;font-weight:bold;font-family:Tahoma, Geneva, sans-serif;color:#432411}
+#idTitPagFC{margin:10px 0 30px 0;}
+.ZipValue{padding-bottom: 20;}
+table#TabCesta tbody tr td p{font-size:11pt;margin-top:25px;text-align:center;color:#868686; a:#000;}
+
+table#TabItens tbody tr td.EstTabPedidoTit{padding:3px;}
+img.EstFotoProdCesta{margin-right:5px;}
+#idTxtCorreiosFC{font-size:10pt;padding:5px 0;}
+table#TabRadio{margin-top:20px;}
+table tbody tr td p b{color:#525151;}
+table#TabRadio tbody tr td table tbody tr td a img{margin:15px 0;}
+table tbody tr td p font{font-size:10pt;}
+#idTxtTopoConfirmarFC{font-family:tahoma, Geneva, sans-serif;font-size:10pt;}
+table#TabItens{margin:10px 0 20px 0;}
+span.lgtxt{font-family:tahoma, Geneva, sans-serif;font-size:11pt;}
+table#idTabRegisterFC{margin-top:10px;}
+
+
+/* ESTILO DE TÍTULOS DE TABELA CADASTRO DE CLIENTES, AJUDA, CONFIRMAÇÃO DO PEDIDO */
+.EstTabTopo{background:#e5ebe6;color:#1a1b1d;font-size:9pt;font-family:Tahoma, Geneva, sans-serif;font-weight:bold;padding:3px 0;}
+#idDadosEntregaFC{padding-top:15px;margin-bottom:10px;}
+#idTxtComentsFC{padding-top:5px;}
+table#idTabRegisterFC tbody tr td.EstTabTopo{background:#163d1b;color:#fff;}
+span.EstTextoContinuar{margin-top:15px;}
+span.idTxtTrackConfFC{padding-top:10px;}
+
+/* ESTILO PARA A TABELA DE BUSCA RÁPIDA, PARA TABELA DE AJUDA (PAGAMENTOS) E FALE CONOSCO */
+.EstTabQuadro{background:#FFFFFF;font-size:8pt;font-family:Tahoma, Geneva, sans-serif;}
+
+/* ESTILO DOS CAMPOS DO FORMULÁRIO CLIENTES,FALE CONOSCO,... 	*/
+.EstNomeCampo{
+	font-size:10pt;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-weight:bold;
+	padding-left: 82px;
+}
+.EstCampo{font-size:8pt;font-family:Tahoma, Geneva, sans-serif;}
+
+
+
+/* Dados para entrega, campo obrigatório  */ 
+#idLocalFC .EstNomeCampo{color:#163d1b;}
+#idParaFC .EstNomeCampo{color:#163d1b;}
+#idPEmailFC .EstNomeCampo{color:#163d1b;}
+#idPEnderecoFC .EstNomeCampo{color:#163d1b;}
+#idtrPEnderecoNumFC .EstNomeCampo{color:#163d1b;}
+#idtrPEnderecoComplFC .EstNomeCampo{color:#163d1b;}
+#idPBairroFC .EstNomeCampo{color:#163d1b;}
+#idPCidadeFC .EstNomeCampo{color:#163d1b;}
+#idPEstadoFC .EstNomeCampo{color:#163d1b;}
+#idPPaisFC .EstNomeCampo{color:#163d1b;}
+#idPCEPFC .EstNomeCampo{color:#163d1b;}
+#idTablePCEPFC .EstNomeCampo{color:#163d1b;}
+#idPTelefoneFC .EstNomeCampo{color:#163d1b;}
+
+/* ESTILOS PARA AS PÁGINAS OK010509 */
+.Titulos{color:#432411;font-size:11pt;font-family:Tahoma, Geneva, sans-serif;text-decoration:none;font-weight:bold}
+.smSelect{
+	font-size:12px;
+	padding: 5px 0;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#666;
+}
+.smText{font-size:10pt;font-family:Tahoma, Geneva, sans-serif;color:#000000}
+.mnText{font-size:9pt;font-family:Tahoma, Geneva, sans-serif;color:#ffffff}
+.mdtxt{font-size:11pt;font-family:Tahoma, Geneva, sans-serif;}
+
+/*  Estilo para os botões */
+.BotLancamento{font-size: 80%;font-family: tahoma, Geneva, sans-serif;font-weight: bold;text-decoration: none;}
+.BotComprar{visibility: hidden}
+.BotEsgotado{font-size: 80%;font-family: tahoma, Geneva, sans-serif;font-weight: bold;text-decoration: none;}
+.BotExcluir{font-size: 80%;font-family: tahoma, Geneva, sans-serif;font-weight: bold;text-decoration: none;}
+.BotMaisDetalhes{font-size: 80%;font-family: tahoma, Geneva, sans-serif;font-weight: bold;text-decoration: none;}
+.BotContinuar{background: url(../images/confimar.gif);color: #ffffff;font-size: 85%;font-family: tahoma, Geneva, sans-serif;text-decoration: none;height: 38px;width: 97px;font-style: normal;font-weight: bold;letter-spacing:0.03em;border: none;text-align: center;}
+.BotContinuarConfirmacao{background: url(../images/confimar.gif);color: #ffffff;font-size: 85%;font-family: tahoma, Geneva, sans-serif;text-decoration: none;height: 38px;width: 97px;font-style: normal;font-weight: bold;letter-spacing: 0.03em;border: none;text-align: center;}
+.BotCartProd{padding-top:10px;}
+
+/*  Texto das Setas de VER MAIS */
+.BotVerMais{color: #ffffff;font-size: 80%;font-family: tahoma, Geneva, sans-serif;font-weight: bold;text-decoration: none;margin-left: -235;}
+
+/*  ESTILO DO MENU CATEGORIA */
+.EstCatLista{background-image:url(../images/estcatlista.gif);padding:7px 0px 7px 0px; width:226px;height:30px;background-repeat:repeat-y;text-align:right}
+.EstCatNome{color:#3d3d3d;font-size:12px;font-family:tahoma,verdana;text-decoration:none;font-weight:bold;margin:-2px 0px 0px 30px}
+.EstCatNome:visited{color:#3d3d3d}
+.EstCatNome:hover{color:#000000;text-decoration:underline}
+.EstCatDescr{color:black;font-size:12px;font-family:verdana;text-decoration:none}
+
+/*Estilo da confirmação do pedido*/
+#idTxtPedConfirmadoFC {
+	display: block;
+	width: 500px;
+	height: 25px;
+	*height: 50px;
+	background: #096;
+	padding: 10px;
+	color: #fff;
+	border: 1px solid #063;
+	font-size: 14pt;
+	margin-top: 30px;
+	*margin-bottom: 30px;
+}
+
+/*barra do login*/
+table#idtabloginfc tbody tr td table tbody tr td.esttabtopo {padding:0;}
+
+/*Espaçamento cadastro*/
+#idOptInFC {padding: 10px 0;}
+
+/*Endereço*/
+table#idDadosEntregaFC td.smText label {color:#285130;font-weight:bold;}
+
+
+.EstPrecoProdCross {color:#163d1b; font-size: 85%;}
+.EstNomeCatProdCross {font-size: 75%;}
+.EstCatProdCross {font-size: 75%;}
+.EstFotoProdCross {margin: 10px 0; height:100px;}
+
+/* AJUDA */
+.titAjuda {margin:20px 0 10px 0;}
+.txtAjuda {margin:10px 0;}
+.txtabAjuda {margin:5px;}
+
+/* SPAN GERAL*/
+span.bold {font-weight:bold;}
+span.italic{font-style:italic;}
+
+/*NIVO SLIDER*/
+.theme-default .nivoSlider {position:relative;background:#fff url(../images/loading.gif) no-repeat 50% 50%;margin-bottom:50px;-webkit-box-shadow: 0px 1px 5px 0px #4a4a4a;-moz-box-shadow: 0px 1px 5px 0px #4a4a4a;box-shadow: 0px 1px 5px 0px #4a4a4a;}
+.theme-default .nivoSlider img {position:absolute;top:0px;left:0px;display:none;}
+.theme-default .nivoSlider a {border:0px;display:block;}
+.theme-default .nivo-controlNav {position:absolute;left:50%;bottom:2px;margin-left:-40px;}
+.theme-default .nivo-controlNav a {display:block;width:22px;height:22px;background:url(../images/bullets.png) no-repeat;text-indent:-9999px;border:0px;margin-right:3px;float:left;}
+.theme-default .nivo-controlNav a.active {background-position:0px -22px;}
+.theme-default .nivo-directionNav a {display:block;width:30px;height:30px;background:url(../images/arrows.png) no-repeat;text-indent:-9999px;border:0px;}
+.theme-default a.nivo-nextNav {background-position:-30px 0px;right:15px;}
+.theme-default a.nivo-prevNav {left:15px;}
+.theme-default .nivo-caption {font-family: Helvetica, Arial, sans-serif;}
+.theme-default .nivo-caption a {color:#fff;border-bottom:1px dotted #fff;}
+.theme-default .nivo-caption a:hover {color:#fff;}
+.theme-default #slider {margin:0px;width:994px;height:250px;float:left;}
+.theme-pascal.slider-wrapper,.theme-orman.slider-wrapper {margin-top:150px;}
+.nivoSlider {position:relative; }
+.nivoSlider img {position:absolute;top:0px;left:0px;}
+.nivoSlider a.nivo-imageLink {position:absolute;top:0px;left:0px;width:100%;height:100%;border:0px;padding:0px;margin:0px;z-index:0;display:none;}
+.nivo-slice {display:block;position:absolute;z-index:0;height:100%;}
+.nivo-box {display:block;position:absolute;z-index:0;}
+.nivo-caption {position:absolute;left:0px;bottom:0px;background:#000;color:#fff;opacity:0.8;width:100%;z-index:0;}
+.nivo-caption p {padding:5px;margin:0px;}
+.nivo-caption a {display:inline !important;}
+.nivo-html-caption {display:none;}
+.nivo-directionNav a {position:absolute;top:50%;z-index:0;cursor:pointer;}
+.nivo-prevNav {left:0px;}
+.nivo-nextNav {right:0px;}
+.nivo-controlNav a {position:relative;z-index:0;cursor:pointer;}
+.nivo-controlNav a.active {font-weight:bold;}
+
+/*SLIDE*/
+.Banner{width:950px; height:250px; }
+#slides{width:1100px;height:250px;overflow:hidden;position:relative;z-index:0; float:left}
+
+/* cart */
+.StyProdLinkCart a{text-decoration:none;color:#000;font-size: 14px;}
+.StyProdLinkCart a:hover{text-decoration:underline}
+.StyProdShoppingCartPrice{color:#ffffff;font-size: 14px;}
+#ValorItensCesta{color: #EC3131;}
+#QtdItensCesta{color: #EC3131;}
+
+/* Xtreme Checkout */
+.FC-ShowCartOffPageLink a{color:#444444;text-decoration:none;font-size:12px;}
+.FC-ShowCartOffPageLink a:hover{color:#444444;text-decoration:none;font-size:12px;text-decoration:underline;}
+.FC-ShowCartOnPageLink a{color:#004797;text-decoration:none;font-size:12px;font-weight:bold}
+.FC-ShowCartOnPageLink a:hover{color:#003a7c;text-decoration:none;font-size:12px;text-decoration:underline;font-weight:bold}
+.FC-ShowCartOnPageLinkCart a{color:#ffffff;border-width:1px;border-color:#3b6e22;font-weight:bold;font-size:12px;font-family:verdana;cursor:pointer;border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;}
+.FC-ShowCartOnPageLinkCart a:hover{color:#FFFFFF;border-width:1px;border-color:#3b6e22;font-weight:bold;font-size:12px;font-family:verdana;cursor:pointer;border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;text-decoration:underline;}
+#DivShowCartOnPage{border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; background-image: url("../images/fundoconfirm.png");}
+#idTDTitShowCartOnPageFC{border-radius: 10px; -moz-border-radius:10px; -webkit-border-radius: 10px;}
+#idCheckoutFC a #idTxtLinkContinueFC{background-color:#6ea853;xheight:30px;padding:10px;cursor:pointer;border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px;color:#FFFFFF;font-weight:bold} 
+#idCheckoutFC a:hover #idTxtLinkContinueFC{background-color:#4c7738;xheight:30px;padding:10px;cursor:pointer;border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px;color:#FFFFFF;font-weight:bold}
+#idCheckoutFC .BotChkPaymentContinue:hover{background-color:#4c7738;border-color:#333333;border-radius:10px 10px 10px 10px;border-width:1px;color:#FCFCFC;font-family:tahoma,arial;font-size:12px;font-weight:bold;height:40px;cursor:pointer;}
+#idChkOrderNumberFC{font-size:15px;}
+#idChkFreightIntFC p{font-size: 17px;font-family:tahoma,arial;padding:5px;}
+#idChkRegisterIntFC {width:unset !important;}
+#idCheckoutFC .EstChkNomeCampo {text-align: left !important; vertical-align: inherit !important;}  
+#idCheckoutFC #idChkCol3FC {width: 300px !important;}
+
+
+
+#idCliCampo1{display:none;}
+
+/* Don't Go Popup */
+.DontGoPopup{display:none;position:fixed;z-index:99;padding-top:100px;left:0;top:0;width:100%;height:100%;overflow:auto;overflow-y:hidden;background-color:rgb(0,0,0);background-color:rgba(0,0,0,0.4);}
+.DontGoPopup .DontGoPopupContent div a img{max-width:100%;height:auto;}
+.DontGoPopupContent{margin:auto;padding:0px;border: none;}
+.DontGoBanner img{border-radius:10px;}
+.DontGoPopupCloseButton img {position: absolute;/* width: 70px; */height: auto;top: 110;margin-left: 110;}
+.DontGoPopupCloseButton:hover,.DontGoPopupCloseButton:focus{cursor:pointer;}
+@media only screen and (max-width:1680px){.DontGoPopupContent{width:48%;}}
+@media only screen and (min-width:1681px){.DontGoPopupContent{width:40%;}}
+
+  
+/* Google Suggestions */
+#GoogleTerms{margin-top:30px;}
+#GoogleTerms ul {list-style-type:none;}
+#GoogleTerms ul li{margin:5px 0;}
+#GoogleTerms ul li a{font-size:18px;color:#666666;}
+.FCNews #idTableNewsFC #GoogleTerms{margin-left:25%;}  
+  
+  
+  /* Para cálculo de frete no carrinho */
+.FCCartRightCol{display:none}
+.FCCartLeftCol{width:100%}
+.ObsFreightCalc{font-size:11px}
+#FCCartFreightSimulation,#FCCartSmallFreightSimulationBut{display:none}
+#FCCartFreightCalc .idBut{margin-left:3px;transition:background-color .3s ease;background-color:#424242;border-radius:2px;-webkit-border-radius:2px;-moz-border-border-radius:2px;border:none;padding:11px 25px;color:#ffffff;cursor:pointer;font-weight:bold;font-size:0.9rem}
+#FCCartSmallFreightCalc .idBut{margin-left:3px;transition:background-color .3s ease;background-color:#424242;border:none;padding:11px 25px;color:#ffffff;cursor:pointer;font-weight:bold;font-size:0.9rem}
+#FCCartSmallFreight{margin-top:13px}
+#FCCartSmallFreightCalc .idBut{margin:6px 0}
+#idZipC1,#idZipC2{height:25px;font-size:0.8rem}
+#FCCartSmallFreightPrice{float:right;text-align:right;max-width:500px;height:100%;border-radius:2px;white-space:nowrap}
+#FCCartSmallFreightPrice ul{margin:0px;padding:0}
+#FCCartSmallFreightPrice ul li{list-style:none;float:left}
+#FCCartSmallFreightPrice .FCCartFreightPriceLabel{width:200px;padding:5px 2px;height:40px}
+#FCCartSmallFreightPrice .FCCartFreightPriceValue{width:80px;padding:5px 2px;font-weight:bold;height:40px;display:flex;display:-webkit-flex;align-items:center;-webkit-align-items:center;justify-content:flex-end;-webkit-justify-content:flex-end}
+#FCCartSmallTotalPrice{float:right;text-align:right;max-width:500px;height:100%;border-radius:2px;white-space:nowrap}
+#FCCartSmallTotalPrice ul{margin:0px;padding:0}
+#FCCartSmallTotalPrice ul li{list-style:none;float:left}
+#FCCartSmallTotalPrice .FCCartSubtotalPriceLabel{width:200px;padding:5px 2px}
+#FCCartSmallTotalPrice .FCCartSubtotalPriceValue{width:80px;padding:5px 2px;font-weight:bold}
+#FCCartSmallFreightPrice ul li{width:50%!important;float:left;border:1px solid #e8e8e8;padding:8px 10px!important;box-sizing:border-box;list-style:none}
+#FCCartSmallFreightPrice ul li:first-child{border-right:0}
+#FCCartSmallFreightPrice ul li:last-child{font-weight:bold}
+#FCCartSmallFreightPrice{width:100%}
+#FCCartSmallTotalPrice ul li{width:50%!important;float:left;border:1px solid #e8e8e8;padding:8px 10px!important;box-sizing:border-box;list-style:none}
+#FCCartSmallTotalPrice ul li:first-child{border-right:0}
+#FCCartSmallTotalPrice ul li:last-child{font-weight:bold}
+#FCCartSmallTotalPrice{width:100%}
+/* Para cálculo de frete no carrinho */
+  
+  
+  /* WhatsApp */
+.footer-sticky-whatsapp{position:fixed;width:60px;height:60px;bottom:20px;left:20px;border-radius:50px;text-align:center;box-shadow:1px 1px 2px #888;z-index:119;}
+
+  
