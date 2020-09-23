@@ -1,0 +1,174 @@
+<style type="text/css">
+#tudo_baseslat {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 901px;
+	height: 641px;
+	z-index: 1;
+}
+#base_latnique {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 423px;
+	height: 648px;
+	z-index: 2;
+}
+#base_latdour {
+	position: absolute;
+	left: 472px;
+	top: 0;
+	width: 430px;
+	height: 648px;
+	z-index: 3;
+}
+#blatniq1 {
+	position: absolute;
+	left: 280px;
+	top: 69px;
+	width: 111px;
+	height: 52px;
+	z-index: 4;
+	font-size: 9px;
+	text-align: center;
+	font-family: "Segoe UI", "Segoe UI Semibold", "Segoe UI Light";
+}
+#blatniq2 {
+	position: absolute;
+	left: 282px;
+	top: 218px;
+	width: 111px;
+	height: 52px;
+	z-index: 4;
+	font-size: 9px;
+	text-align: center;
+	font-family: "Segoe UI", "Segoe UI Semibold", "Segoe UI Light";
+}
+
+#blatniq3 {
+	position: absolute;
+	left: 281px;
+	top: 566px;
+	width: 111px;
+	height: 52px;
+	z-index: 4;
+	font-size: 9px;
+	text-align: center;
+}
+
+#blatniq4 {
+	position: absolute;
+	left: 280px;
+	top: 389px;
+	width: 111px;
+	height: 52px;
+	z-index: 4;
+	font-size: 9px;
+	text-align: center;
+}
+
+#blatdr1 {
+	position: absolute;
+	left: 766px;
+	top: 67px;
+	width: 111px;
+	height: 52px;
+	z-index: 4;
+	font-size: 9px;
+	text-align: center;
+}
+
+#blatdr2 {
+	position: absolute;
+	left: 763px;
+	top: 219px;
+	width: 111px;
+	height: 52px;
+	z-index: 4;
+	font-size: 9px;
+	text-align: center;
+}
+
+#blatdr3 {
+	position: absolute;
+	left: 765px;
+	top: 390px;
+	width: 111px;
+	height: 52px;
+	z-index: 4;
+	font-size: 9px;
+	text-align: center;
+}
+.desc_txt {
+	font-family: "Segoe UI", "Segoe UI Semibold", "Segoe UI Light";
+	font-size: 16px;
+}
+#link_niq1 {
+	position: absolute;
+	left: 11px;
+	top: 8px;
+	width: 255px;
+	height: 121px;
+	z-index: 5;
+}
+#link_niq2 {
+	position: absolute;
+	left: 6px;
+	top: 159px;
+	width: 254px;
+	height: 125px;
+	z-index: 6;
+}
+#link_niq3 {
+	position: absolute;
+	left: 7px;
+	top: 314px;
+	width: 256px;
+	height: 140px;
+	z-index: 7;
+}
+#link_sala {
+	position: absolute;
+	left: 6px;
+	top: 538px;
+	width: 249px;
+	height: 93px;
+	z-index: 8;
+}
+#link_dr1 {
+	position: absolute;
+	left: 503px;
+	top: 6px;
+	width: 253px;
+	height: 122px;
+	z-index: 9;
+}
+#link_dr2 {
+	position: absolute;
+	left: 497px;
+	top: 157px;
+	width: 257px;
+	height: 128px;
+	z-index: 10;
+}
+#link_dr3 {
+	position: absolute;
+	left: 496px;
+	top: 314px;
+	width: 263px;
+	height: 139px;
+	z-index: 11;
+}
+#txt_salaaula {
+	position: absolute;
+	left: 6px;
+	top: 502px;
+	width: 139px;
+	height: 22px;
+	z-index: 12;
+	font-family: "Segoe UI", "Segoe UI Semibold", "Segoe UI Light";
+	font-size: 24px;
+	color: #056CAE;
+}
+</style>
