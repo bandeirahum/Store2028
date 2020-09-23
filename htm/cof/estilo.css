@@ -1,0 +1,317 @@
+*{
+	border:0;
+	padding:0;
+	margin:0;
+	}
+#risco1 {
+
+	position:absolute;
+	background-image:url("../../images/cof/risco.png");
+	background-repeat:no-repeat;
+	left:61px;
+	top:25px;
+	width:99px;
+	height:53px;
+	z-index:1;
+}
+#risco2 {
+	position:absolute;
+	background-image:url("../../images/cof/risco2.png");
+	background-repeat:no-repeat;
+	left:-25px;
+	top:26px;
+	width:97px;
+	height:59px;
+	z-index:2;
+}
+#risco3 {
+	position:absolute;
+	background-image:url("../../images/cof/risco.png");
+	background-repeat:no-repeat;
+	left:60px;
+	top:10px;
+	width:99px;
+	height:52px;
+	z-index:3;
+}
+#risco4 {
+	position:absolute;
+	background-image:url("../../images/cof/risco.png");
+	background-repeat:no-repeat;
+	left:80px;
+	top:0px;
+	width:102px;
+	height:51px;
+	z-index:4;
+}
+
+
+
+
+#ofertas1 {
+	position:absolute;
+	right: 15px;
+	top: 1450px;
+	width:765px;
+	height:636px;
+	z-index:100;
+
+}
+#ofertas2 {
+	position:absolute;
+	left:4.708in;
+	top:35px;
+	width:203px;
+	height:339px;
+	z-index:101;
+	background-image: url("painel2.png");
+	background-repeat: no-repeat;
+	overflow:hidden;
+	
+}
+#ofertas ul{
+	margin-top:39px;
+	list-style-type:none;
+	margin-left: 0px;
+}
+#ofertas3 {
+	position:absolute;
+	left:8px;
+	top:13px;
+	width:175px;
+	height:370px;
+	z-index:999;
+}
+#ofertas3 ul{
+	list-style-type:none;
+	border:1px solid #ccc;
+	height:320px;
+	width:170px;
+	padding:0;
+	background-color:#f9fffb;
+box-shadow:2px 2px 2px #ccc;
+
+	}
+
+
+#ofertas3 ul li img:hover {
+
+    box-shadow:-1px 2px 2px #666666;
+    border:1px solid #ccc;
+   
+}
+#ofertas3 ul li {
+	height: 40px;
+	width: 169px;
+	
+
+	
+}
+#ofertas3 ul li img:hover{
+   	transition: 1s;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	-ms-transition:1s;
+	-o-transition:1s;
+	margin-left: 40px;
+	background-color:#fff;
+
+
+
+}	
+.acessorapido {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#amostra {
+	position:absolute;
+	left:435px;
+	top:1655px;
+	width:569px;
+	height:372px;
+	z-index:100;
+}
+
+#ofddia {
+	position:absolute;
+	left:20px;
+	top:1517px;
+	width:238px;
+	height:354px;
+	z-index:150;
+}
+
+#grama{
+
+
+        position:absolute;
+	right:0;
+	top:1250px;
+	width:567px;
+	height:611px;
+	z-index:100;
+}
+#geral{
+	position: relative;
+	background-image:url("../../images/cof/fundo2.jpg");
+	background-repeat:no-repeat;
+	margin: 0 auto;
+	width:750px;
+	height:2000px;
+
+	
+		}
+#topo{
+	position:relative;
+	float:left;
+	width:753px;} 
+#conteudo{
+
+	position:relative;
+	float:left;
+	height:1024px;
+	width:753px;
+} 
+#produto1{
+	position: absolute;
+	top:0;
+	left:0;
+	width:294px;
+	height:345px;
+	z-index:10;	
+}
+
+#textoP1{
+	position:absolute;
+	width:210px;
+	height:63px;
+	z-index:101;
+	left: 65px;
+	top: 278px;
+}
+
+#produto2{
+	position:absolute;
+	top:0;
+	left:294px;
+	width:300px;
+	height:300px;
+	z-index:11;	
+}	
+#textoP2{
+	position:absolute;
+	width:223px;
+	height:69px;
+	z-index:102;
+	left: 53px;
+	top: 216px;
+}
+
+	
+#produto3{
+	position:absolute;
+	top:414px;
+	left:-7px;
+	width:294px;
+	height:246px;
+	z-index:12;
+}	
+#textoP3{
+	position:absolute;
+	width:157px;
+	height:62px;
+	z-index:102;
+	left: 105px;
+	top: 182px;
+}
+	
+
+#produto4{
+	position:absolute;
+	top:337px;
+	left:267px;
+	width:294px;
+	height:311px;
+	z-index:13;
+}	
+#textoP4{
+	position:absolute;
+	width:208px;
+	height:46px;
+	z-index:102;
+	left: 158px;
+	top: 255px;
+}
+	
+	#produto5{
+	position: absolute;
+	top:595px;
+	width:285px;
+	height:411px;
+	left: 2px;
+	z-index:14;
+}	
+#textoP5{
+	position:absolute;
+	width:186px;
+	height:66px;
+	z-index:102;
+	left: 142px;
+	top: 209px;
+	z-index:114;
+}
+	
+	#produto7{
+	position:absolute;
+	width: 389;
+	height:370px;
+	z-index:15;
+	left: 365px;
+	top: 630;
+background-image:url("../../images/cof/copa.png");
+background-repeat:no-repeat;	
+	}
+	
+p {
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#666;
+	font-size:12px;
+	
+	}	
+	
+	#click {
+	position:absolute;
+	left:354px;
+	top:299px;
+	width:85px;
+	height:77px;
+	z-index:130;
+	background-image: url('../../images/cof/clickjp.png');
+	background-repeat:no-repeat;
+	background-position:0 0;
+}
+#click:hover {
+	
+    background-position:0px -77px;
+
+}
+#click2 {
+	position:absolute;
+	left:-21px;
+	top:208px;
+	width:76px;
+	height:77px;
+	z-index:2;
+	background-image: url('../../images/cof/clickjp.png');
+	transition: 0.3;
+	background-repeat:no-repeat;
+	background-position:-82px 0px;
+}
+#click2:hover {
+	
+    background-position:-82px -80px;
+
+		
+	
+}
