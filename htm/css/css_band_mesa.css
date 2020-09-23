@@ -1,0 +1,349 @@
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	#tudoproduto img {
+		border: none;
+		position: relative;
+		float: left;
+                
+	}
+	
+	#tudoproduto div.pedestais {
+		*margin-left: -3px;
+	}	
+	
+	#tudoproduto div.pedestais div {
+		*margin-left: -3px;
+	}
+	
+	.fie {
+		*margin-left: -6px;
+	}
+	
+	.fie2 {
+		*margin-left: -6px;
+	}
+	
+	a {
+		text-decoration: none;
+		color: #000;
+	}
+
+	#tudoproduto {
+		position: relative;
+		float: left;
+		width: 746px;
+		display: inline;
+		font-family: Tahoma, Geneva, sans-serif;
+		*margin-left: 6px;
+                margin: 23px 0 0 0;
+	}
+	
+	div.modelo {
+		position: relative;
+		float: left;
+		background-color: #163d1b;
+		width: 736px;
+		*width: 746px;
+		height: 37px;
+		padding: 0 0 0 10px;
+		*margin-left: -6px;
+	}
+	
+	h1.modeloproduto {
+		position: relative;
+		float: left;
+		color: #8a9e8d;
+		font-size: 230%;
+		letter-spacing: -1.7px;
+		font-weight: normal;
+		line-height: 100%;
+	}
+	
+span.bold{
+	font-weight: bold;
+}
+
+.pedestais {
+	float: left;
+	height: 330px;
+	width: 746px;
+	position: relative;
+	margin-bottom: 15px;
+}
+
+.pedestais2 {
+	float: left;
+	height: 330px;
+	width: 746px;
+	position: relative;
+	margin-bottom: 15px;
+}
+
+.titPed {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16pt;
+	font-style: normal;
+	line-height: 17pt;
+	font-weight: normal;
+	color: #433821;
+	text-align: center;
+}
+.descPed {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11pt;
+	line-height: 13pt;
+	color: #6e5332;
+	text-align: center;
+}
+
+
+#tit01 {
+	width: 162px;
+	margin-top: 14px;
+	margin-left: 212px;
+}
+#desc01 {
+	width: 162px;
+	margin-top: 5px;
+	margin-bottom: -17px;
+	margin-left: 212px;
+}
+#tit02 {
+	width: 162px;
+	margin: 14px 0 0 88px;
+}
+#desc02 {
+	width: 162px;
+	margin: 5px 0 0 88px;
+}
+#desc02b {
+	width: 162px;
+	margin-top: 10px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 88px;
+}
+#desc02c {
+	width: 162px;
+	margin-top: 10px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 88px;
+}
+
+
+
+#tit03 {
+	width: 162px;
+	margin: 14px 0 0 50px;
+}
+
+#desc03 {
+	width: 162px;
+	margin: 5px 0 0 50px;
+}
+#desc03b {
+	width: 162px;
+	margin: 10px 0 0 50px;
+}
+#desc03c {
+	width: 162px;
+	margin: 10px 0 0 50px;
+}
+
+#tit04 {
+	width: 162px;
+	margin: 14px 0 0 46px;
+}
+#desc04 {
+	width: 162px;
+	margin: 5px 0 0 46px;
+}
+#tit05 {
+	width: 162px;
+	margin: 14px 0 0 188px;
+}
+	
+#desc05 {
+	width: 162px;
+	margin: 5px 0 0 188px;
+}
+#desc25 {
+	background-image: url(../../images/band_mesa/ped2504.jpg);
+	float: left;
+	height: 215px;
+	width: 461px;
+	position: relative;
+}
+
+#boxDesc35 {
+	position: relative;
+	float: left;
+	width: 277px;
+	height: 244px;
+}
+#desc35 {
+	position: relative;
+	float: left;
+	width: 277px;
+	height: 244px;
+	background: url(../../images/band_mesa/ban35desc.jpg);
+}
+#esc35 {
+	position: relative;
+	float: left;
+	width: 199px;
+	height: 240px;
+	background: url(../../images/band_mesa/ped35esc.jpg);
+}
+
+#descMini15 {
+	position: relative;
+	float: left;
+	width: 306px;
+	height: 165px;
+	background: url(../../images/band_mesa/mini15desc.jpg);
+}
+
+#descMini18 {
+	position: relative;
+	float: left;
+	width: 440px;
+	height: 165px;
+	background: url(../../images/band_mesa/mini18desc.jpg);
+	*left: 3px;
+}
+#descQuad {
+	position: relative;
+	float: left;
+	width: 230px;
+	height: 237px;
+	background: url(../../images/band_mesa/quaddesc.jpg);
+}
+
+#pedsPerson {
+	*margin-left: -3px;
+	width: 100%;
+	height: 349px;
+}
+
+#boxVent35 {
+	position: relative;
+	float: left;
+	width: 241px;
+	height: 330px;
+}
+
+#txtVent35 {
+	position: relative;
+	float: left;
+	width: 241px;
+	height: 230px;
+	background: url(../../prod/band_mesa/vent35desc.jpg);
+}
+
+#boxVent25 {
+	position: relative;
+	float: left;
+	width: 210px;
+	height: 330px;
+}
+
+#txtVent25 {
+	position: relative;
+	float: left;
+	width: 210px;
+	height: 230px;
+	background: url(../../prod/band_mesa/vent25desc.jpg);
+}
+
+#titVent35 {
+	position: relative;
+	float: left;
+	width: 165px;
+	margin: 12px 0 0 18px;
+	*display: inline;
+}
+
+#descVent35a {
+	position: relative;
+	float: left;
+	width: 160px;
+	margin: 7px 0 0 21px;
+	*display: inline;
+}
+
+#descVent35b {
+	position: relative;
+	float: left;
+	width: 165px;
+	margin: 5px 0 0 18px;
+	*display: inline;
+}
+
+#descVent35c {
+	position: relative;
+	float: left;
+	width: 160px;
+	margin: 5px 0 0 18px;
+	*display: inline;
+}
+
+#titVent25 {
+	position: relative;
+	float: left;
+	width: 165px;
+	margin: 12px 0 0 18px;
+	*display: inline;
+}
+
+#descVent25a {
+	position: relative;
+	float: left;
+	width: 160px;
+	margin: 7px 0 0 21px;
+	*display: inline;
+}
+
+#descVent25b {
+	position: relative;
+	float: left;
+	width: 165px;
+	margin: 5px 0 0 18px;
+	*display: inline;
+}
+
+#descVent25c {
+	position: relative;
+	float: left;
+	width: 160px;
+	margin: 5px 0 0 18px;
+	*display: inline;
+}
+
+#vent35 {
+	*margin: 0 0 0 -6px;
+}
+
+#vent25 {
+	*margin: 0 0 0 -6px;
+}
+
+#boxVent35 img {
+	*margin: 0 -3px 0 -3px;
+}
+
+#boxVent25 img {
+	*margin: 0 -3px 0 -3px;
+}
+
+#boxVent35 {
+	*margin: 0 0 0 -3px;
+}
+
+#boxVent25 {
+	*margin: 0 0 0 -3px;
+}
