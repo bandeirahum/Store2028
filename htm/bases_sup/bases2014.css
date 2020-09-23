@@ -1,0 +1,326 @@
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	img {
+		border: none;
+	}
+
+
+	#tudobases {
+		width: 877px;
+		font-family: Tahoma, Geneva, sans-serif;
+	}
+	
+	div.modelo {
+	position: relative;
+	float: left;
+	height: 27px;
+	/* margin: 10px 0px 0px; */
+	background-image: url(http://www.bandeira1.com.br/lojas/00002028/images/barras/BarraBaseLaminada.gif);
+	background-repeat: no-repeat;
+	width: 877px;
+	padding-bottom: 20px;
+	margin-top: 10px;
+}
+
+div.modelo2 {
+	position: relative;
+	float: left;
+	height: 27px;
+	/* margin: 10px 0px 0px; */
+	background-image: url(http://www.bandeira1.com.br/lojas/00002028/images/barras/BaseLatao.gif);
+	background-repeat: no-repeat;
+	width: 877px;
+	padding-bottom: 20px;
+	margin-top: 10px;
+}
+
+div.modelo3 {
+	position: relative;
+	float: left;
+	height: 27px;
+	/* margin: 10px 0px 0px; */
+	background-image: url(http://www.bandeira1.com.br/lojas/00002028/images/barras/KitBMAlum.gif);
+	background-repeat: no-repeat;
+	width: 877px;
+	padding-bottom: 20px;
+	margin-top: 10px;
+}
+
+div.modelo4 {
+	position: relative;
+	float: left;
+	height: 27px;
+	/* margin: 10px 0px 0px; */
+	background-image: url(http://www.bandeira1.com.br/lojas/00002028/images/barras/BarraBMEnvern.gif);
+	background-repeat: no-repeat;
+	width: 877px;
+	padding-bottom: 20px;
+	margin-top: 10px;
+}
+	
+	h1.modelobases {
+		position: relative;
+		float: left;
+		color: #8a9e8d;
+		font-size: 230%;
+		letter-spacing: -1.7px;
+		font-weight: normal;
+		line-height: 100%;
+	}
+	
+	div.tipo {
+	width: 870px;
+	height: 25;
+	position: relative;
+	float: left;
+	/* padding-bottom: 10px; */
+}
+	
+	img.square {
+		position: relative;
+		float: left;
+		clear: both;
+		margin: 4px 7 0 0px;
+	}
+	
+	p.subtitulobases {
+	position: relative;
+	float: left;
+	font-size: 14px;
+	color: #777;
+	/* margin: 20px 0 0 5px; */
+	}
+	
+	div.fotos1 {
+		position: relative;
+		float: left;
+		width: 35px;
+		height: 111px;
+		margin: 0 0 25px 0;
+		background-image: url(http://www.bandeira1.com.br/lojas/00002028/images/bases_sup/bg_fotos01.gif);
+	}
+	
+	div.fotos2 {
+	position: relative;
+	float: left;
+	width: 840px;
+	height: 111px;
+	background-image: url(http://www.bandeira1.com.br/lojas/00002028/images/bases_sup/bg_fotos02.gif);
+	background-repeat: repeat-x;
+	margin: 0 0 45px 0;
+	}
+	
+	div.fotos3 {
+		position: relative;
+		float: left;
+		width: 55px;
+		height: 134px;
+		margin: 5px 0 39px 0;
+		background-image: url(http://www.bandeira1.com.br/lojas/00002028/images/bases_sup/bg_fotos03.gif);
+	}
+	
+	div.fotos4 {
+	position: relative;
+	float: left;
+	width: 820px;
+	height: 134px;
+	background-image: url(http://www.bandeira1.com.br/lojas/00002028/images/bases_sup/bg_fotos04.gif);
+	background-repeat: repeat-x;
+	margin: 5px 0 39px 0;
+	}
+	
+	div.fotos5 {
+		position: relative;
+		float: left;
+		width: 60px;
+		height: 161px;
+		margin: 35px 0 39px 0;
+		background-image: url(http://www.bandeira1.com.br/lojas/00002028/images/bases_sup/bg_fotos05.gif);
+	}
+	
+	div.fotos6 {
+		position: relative;
+		float: left;
+		width: 686px;
+		height: 161px;
+		background-image: url(http://www.bandeira1.com.br/lojas/00002028/images/bases_sup/bg_fotos06.gif);
+		background-repeat: repeat-x;
+		margin: 35px 0 39px 0;
+	}
+	
+	div.fotos7 {
+		position: relative;
+		float: left;
+		width: 53px;
+		height: 153px;
+		margin: 0px 0 29px 0;
+		background-image: url(http://www.bandeira1.com.br/lojas/00002028/images/bases_sup/bg_fotos07.gif);
+	}
+	
+	div.fotos8 {
+	position: relative;
+	float: left;
+	width: 820px;
+	height: 153px;
+	background-image: url(http://www.bandeira1.com.br/lojas/00002028/images/bases_sup/bg_fotos08.gif);
+	background-repeat: repeat-x;
+	margin: 0px 0 29px 0;
+	}
+		
+	div.fotos11 {
+	position: relative;
+	float: left;
+	width: 840px;
+	height: 111px;
+	background-image: url(http://www.bandeira1.com.br/lojas/00002028/images/bases_sup/bg_fotos01.gif);
+	background-repeat: repeat-x;
+	margin: 0 0 45px 0;
+	}
+	
+	div.mogno {
+		display: inline;
+		width: 164px;
+		height: 111px;
+		position: relative;
+		float: left;
+		margin: 0 40px 0 0px;
+	}	
+	
+	div.embuia {
+		width: 169px;
+		height: 111px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 40px 0 0px;
+	}
+	
+	div.jacaran {
+	width: 181px;
+	height: 111px;
+	display: inline;
+	position: relative;
+	float: left;
+	margin: 0 30px 0 0px;
+	}
+	
+	div.latao01 {
+		display: inline;
+		width: 126px;
+		height: 134px;
+		position: relative;
+		float: left;
+		margin: 0 0 0 57px;
+	}	
+	
+	div.latao02 {
+		width: 129px;
+		height: 134px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 0 0 137px;
+	}
+	
+	div.latao03 {
+		width: 129px;
+		height: 134px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 0 0 136px;
+	}
+	
+	div.madeira {
+		width: 138px;
+		height: 153px;
+		display: inline;
+		position: relative;
+		float: left;
+	}
+	
+	div.fotos9 {
+		position: relative;
+		float: left;
+		width: 35px;
+		height: 157px;
+		margin: 0 0 40px 0;
+		background-image: url(http://www.bandeira1.com.br/lojas/00002028/images/bases_sup/bg_fotos09.gif);
+	}
+	
+	div.fotos10 {
+	position: relative;
+	float: left;
+	width: 840px;
+	height: 111px;
+	background-image: url(http://www.bandeira1.com.br/lojas/00002028/images/bases_sup/bg_fotos02.gif);
+	background-repeat: repeat-x;
+	margin: 0 0 40px 0;
+	}
+	
+	div.fotos11 {
+	position: relative;
+	float: left;
+	width: 35px;
+	height: 157px;
+	margin: 0px 0 40px 0;
+	}
+	
+	div.fotos12 {
+		position: relative;
+		float: left;
+		width: 711px;
+		height: 157px;
+		background-image: url(http://www.bandeira1.com.br/lojas/00002028/images/bases_sup/bg_fotos12.gif);
+		background-repeat: repeat-x;
+		margin: 0 0 40px 0;
+	}
+	
+	div.fotos13 {
+		position: relative;
+		float: left;
+		width: 35px;
+		height: 159px;
+		margin: 0 0 40px 0;
+		background-image: url(http://www.bandeira1.com.br/lojas/00002028/images/bases_sup/bg_fotos07.gif);
+	}
+	
+	div.fotos14 {
+	position: relative;
+	float: left;
+	width: 840px;
+	height: 159px;
+	background-image: url(http://www.bandeira1.com.br/lojas/00002028/images/bases_sup/bg_fotos08.gif);
+	background-repeat: repeat-x;
+	margin: 0 0 40px 0;
+	}
+	
+	div.prata {
+		display: inline;
+		width: 230px;
+		height: 157px;
+		position: relative;
+		float: left;
+		margin: 0 0 0 52px;
+	}	
+	
+	div.cobre {
+		width: 322px;
+		height: 158px;
+		display: inline;
+		position: relative;
+		float: left;
+		margin: 0 0 0 52px;
+	}
+	
+	div.dourado {
+	width: 236;
+	height: 159px;
+	display: inline;
+	position: relative;
+	float: left;
+	margin: 0 0 0 52px;
+	}
