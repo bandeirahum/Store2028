@@ -1,0 +1,374 @@
+@charset "utf-8";
+/* CSS Document */
+
+#tudomesa15 {
+	position: relative;
+	width: 892;
+	z-index: 1;
+	left: 9px;
+	top: 30px;
+	height: 2310;
+}
+#fundomesa15 {
+	position: absolute;
+	width: 892;
+	z-index: 1;
+	left: 0px;
+	top: 0px;
+}
+#ped1 {
+	position: absolute;
+	left: 505px;
+	top: 18px;
+	width: 363px;
+	height: 48px;
+	z-index: 2;
+}
+.titped {
+	font-family: "Segoe UI Light";
+	color: #836642;
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 23px;
+}
+#ped2501 {
+	position: absolute;
+	left: 11px;
+	top: 6px;
+	width: 881px;
+	height: 374px;
+	z-index: 3;
+}
+#descmesa01 {
+	position: absolute;
+	left: 228px;
+	top: 323px;
+	width: 121px;
+	height: 31px;
+	z-index: 4;
+	
+}
+.descmesa {
+	font-family: "Segoe UI";
+	font-size: 12px;
+	text-align: center;
+	color: #333;
+}
+#modmesa01 {
+	position: absolute;
+	left: 172px;
+	top: 233px;
+	width: 230px;
+	height: 54px;
+	z-index: 4;
+}
+.descmod {
+	font-family: "Myriad Pro";
+	font-size: 34px;
+	color: #FFF;
+	font-size: 33px;
+	text-align: center;
+	text-shadow: 0px 3px 1px #666;
+	letter-spacing: -1;
+	line-height: 0.9;
+}
+#apDiv1 {
+	position: absolute;
+	left: 3px;
+	top: 383px;
+	width: 884px;
+	height: 357px;
+	z-index: 4;
+}
+#ped2 {
+	position: absolute;
+	left: 546px;
+	top: 407px;
+	width: 334px;
+	height: 54px;
+	z-index: 4;
+}
+#descmesa2 {
+	position: absolute;
+	left: 101px;
+	top: 698px;
+	width: 117px;
+	height: 31px;
+	z-index: 5;
+}
+#descmesa3 {
+	position: absolute;
+	left: 372px;
+	top: 697px;
+	width: 124px;
+	height: 29px;
+	z-index: 6;
+}
+#modmesa02 {
+	position: absolute;
+	left: 194px;
+	top: 597px;
+	width: 218px;
+	height: 55px;
+	z-index: 7;
+}
+#ped2502 {
+	position: absolute;
+	left: 6px;
+	top: 744px;
+	width: 886px;
+	height: 355px;
+	z-index: 8;
+}
+#ped3 {
+	position: absolute;
+	left: 529px;
+	top: 25px;
+	width: 343px;
+	height: 52px;
+	z-index: 9;
+}
+#descmesa4 {
+	position: absolute;
+	left: 210px;
+	top: 299px;
+	width: 125px;
+	height: 33px;
+	z-index: 9;
+}
+#modmesa3 {
+	position: absolute;
+	left: 168px;
+	top: 212px;
+	width: 226px;
+	height: 66px;
+	z-index: 9;
+}
+#ped1501 {
+	position: absolute;
+	left: 6px;
+	top: 1105px;
+	width: 885px;
+	height: 352px;
+	z-index: 9;
+}
+#ped04 {
+	position: absolute;
+	left: 386px;
+	top: 28px;
+	width: 337px;
+	height: 54px;
+	z-index: 10;
+}
+#ped05 {
+	position: absolute;
+	left: 0px;
+	top: 28px;
+	width: 317px;
+	height: 57px;
+	z-index: 10;
+}
+#descmesa5 {
+	position: absolute;
+	left: 83px;
+	top: 296px;
+	width: 122px;
+	height: 29px;
+	z-index: 10;
+}
+#descmesa6 {
+	position: absolute;
+	left: 464px;
+	top: 309px;
+	width: 128px;
+	height: 31px;
+	z-index: 10;
+}
+#modmesa4 {
+	position: absolute;
+	left: 67px;
+	top: 211px;
+	width: 225px;
+	height: 62px;
+	z-index: 10;
+}
+#modmesa5 {
+	position: absolute;
+	left: 498px;
+	top: 210px;
+	width: 234px;
+	height: 64px;
+	z-index: 10;
+}
+#vent {
+	position: absolute;
+	left: 0px;
+	top: 1556px;
+	width: 890px;
+	height: 271px;
+	z-index: 10;
+}
+#ped06 {
+	position: absolute;
+	left: 142px;
+	top: 45px;
+	width: 201px;
+	height: 40px;
+	z-index: 11;
+}
+#ped07 {
+	position: absolute;
+	left: 656px;
+	top: 45px;
+	width: 203px;
+	height: 45px;
+	z-index: 11;
+}
+#descvent1 {
+	position: absolute;
+	left: 198px;
+	top: 136px;
+	width: 166px;
+	height: 146px;
+	z-index: 11;
+}
+.descvent {
+	font-family: "Segoe UI";
+	font-size: 14px;
+	color: #836642;
+	text-align: center;
+	line-height: 13px;
+}
+#descvent2 {
+	position: absolute;
+	left: 718px;
+	top: 136px;
+	width: 168px;
+	height: 131px;
+	z-index: 11;
+}
+#perso {
+	position: absolute;
+	left: 50px;
+	top: 1888px;
+	width: 289px;
+	height: 63px;
+	z-index: 11;
+	font-size: 28px;
+	text-align: left;
+}
+
+#linksmesa {
+	position: absolute;
+	left: 11px;
+	top: 21px;
+	width: 881px;
+	height: 2211px;
+	z-index: 12;
+}
+#link1 {
+	position: absolute;
+	left: 7px;
+	top: -1px;
+	width: 210px;
+	height: 347px;
+	z-index: 13;
+}
+#link2 {
+	position: absolute;
+	left: 361px;
+	top: 44px;
+	width: 112px;
+	height: 299px;
+	z-index: 13;
+}
+#link3 {
+	position: absolute;
+	left: 9px;
+	top: 366px;
+	width: 222px;
+	height: 344px;
+	z-index: 13;
+}
+#link4 {
+	position: absolute;
+	left: 355px;
+	top: 371px;
+	width: 228px;
+	height: 339px;
+	z-index: 13;
+}
+#link5 {
+	position: absolute;
+	left: 17px;
+	top: 777px;
+	width: 167px;
+	height: 308px;
+	z-index: 13;
+}
+#link6 {
+	position: absolute;
+	left: 365px;
+	top: 767px;
+	width: 192px;
+	height: 302px;
+	z-index: 14;
+}
+#link7 {
+	position: absolute;
+	left: 9px;
+	top: 1254px;
+	width: 60px;
+	height: 165px;
+	z-index: 15;
+}
+#link8 {
+	position: absolute;
+	left: 378px;
+	top: 1212px;
+	width: 207px;
+	height: 226px;
+	z-index: 16;
+}
+#link9 {
+	position: absolute;
+	left: -1px;
+	top: 1438px;
+	width: 144px;
+	height: 265px;
+	z-index: 17;
+}
+#link10 {
+	position: absolute;
+	left: 547px;
+	top: 1502px;
+	width: 141px;
+	height: 201px;
+	z-index: 18;
+}
+#link11 {
+	position: absolute;
+	left: 33px;
+	top: 1860px;
+	width: 808px;
+	height: 311px;
+	z-index: 19;
+}
+
+.negr {
+	font-family: "Segoe UI";
+	font-size: 13px;
+	font-weight: bold;
+	color: #836642;
+}
+.negr2 {
+	font-family: "Segoe UI";
+	font-weight: bold;
+}
+#titpagmesa {
+	position: absolute;
+	z-index: 2;
+	left: 215px;
+	/* top: 0px; */
+}
