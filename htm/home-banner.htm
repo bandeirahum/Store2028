@@ -6,10 +6,10 @@
       <script>
       function fnSlideshowStore() {
         var numBannerHomeFC = sF$.fnGetConfig("Qty_Banner_Slideshow");
-        var bannerImageFC = ["<banner-image 11>", "<banner-image 12>", "<banner-image 13>", "<banner-image 14>"];
-        var bannerimageMobileFC = ["<banner-image-mobile 11>", "<banner-image-mobile 12>", "<banner-image-mobile 13>", "<banner-image-mobile 14>"];
-        var bannerRedirFC = ["<banner-redir 11>", "<banner-redir 12>", "<banner-redir 13>", "<banner-redir 14>"];
-        var bannerAltFC = ["<banner-alt 11>", "<banner-alt 12>", "<banner-alt 13>", "<banner-alt 14>"];
+        var bannerImageFC = ["<banner-image 1>", "<banner-image 12>", "<banner-image 13>", "<banner-image 14>", "<banner-image 15>"];
+        var bannerimageMobileFC = ["<banner-image-mobile 1>", "<banner-image-mobile 12>", "<banner-image-mobile 13>", "<banner-image-mobile 14>", "<banner-image-mobile 15>"];
+        var bannerRedirFC = ["<banner-redir 1>", "<banner-redir 12>", "<banner-redir 13>", "<banner-redir 14>","<banner-redir 15>"];
+        var bannerAltFC = ["<banner-alt 1>", "<banner-alt 12>", "<banner-alt 13>", "<banner-alt 14>","<banner-alt 15>"];
         for (i = 0; i < bannerImageFC.length-(4-numBannerHomeFC); i++) {
           document.write ('<div class="swiper-slide"><a href="'+ bannerRedirFC[i] +'"><picture><source media="(max-width:1024px)" srcset="'+ bannerimageMobileFC[i] +'"><img alt="'+ bannerAltFC[i] +'" src="'+ bannerImageFC[i] +'"></picture></a></div>');                                                                                                              
         }
