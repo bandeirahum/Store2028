@@ -1,20 +1,41 @@
-<p255>
-<div class="DivHomeProd" onclick="NoCascate('<URLProd>');" <DataAttribute> id="DivProd<IDProduto>">
-  <div class="DivHomeImagemProd" id="DivImagemProdDouble<IDProduto>"></div>
-  <div class="DivHome-fastview font-bold" onclick='bCascate=true;FCLib$.OpenRWD("<url-prod-id><IDProduto>&sty=9&int=1","Disp","width=700,height=700")'>
-<a href="<URLProd>" rel="nofollow" onclick="insertURLPreview();">ESPIAR</a></div>
-  <div class="DivHomeNomeProd">
-    <span class="HomeNomeProd font-regular"><NomeProd></span>
+<p254>
+<div class="DivHomeProd DivHotSiteProd smoothShow home-container-products-child" <DataAttribute> id="DivProd<prodId>">
+  <div class="DivHomeImagemProd" id="DivImagemProdDouble<prodId>" onclick="fcSpy$.openSmartModal('<URLProd>');"></div>
+  <div class="DivHomeNomeProd" id="DivHomeNomeProd<prodId>" onclick="NoCascate('<URLProd>');">
+    <span class="HomeNomeProd text-overflow font-regular"><prodName></span>
   </div>
-  <div class="DivHomePriceProd" style="white-space:nowrap;">
-    <div id="idProdPrice<IDProduto>"></div> 
-    <div class="PriceAVistaLista" id="ProdDesc<IDProduto>"></div>
+  <div class="DivHomePriceProd" id="DivHomePriceProd<prodId>" style="white-space:nowrap;" onclick="fcSpy$.openSmartModal('<URLProd>');">
+    <div id="idProdPrice<prodId>"></div> 
+    <div class="PriceAVistaLista" id="ProdDesc<prodId>"></div>
+  </div>
+  <div class="home-spy-details-container">
+    <div class="DivHomeDetails" onclick="fcSpy$.openSmartModal('<URLProd>');"><img  src="<storePath>images/icon-more-details.svg?cccfc=1" loading="lazy" width="25" height="25" alt="Fast Preview" title="Fast Preview"></div>
+    <div class="DivHome-wishlist"><wishlist></div>
   </div>
 </div>
 <script>
-FCLib$.onReady(function(){
-  sF$.fnChangeImages("<ImagemProdPri>","<ImagemProdDet>","<URLProd>","<IDProduto>","<NomeProdUA>");
-  sF$.fnShowProd(<PrecoNum>,<PrecoOri>,'<CodProd>',<MaxParcelasProdNum>,<IDProduto>)
-});
+FCLib$.onReady(function(){sF$.fnProdOut("<prodImgMain>","<prodImgDet>","<URLProd>",<prodId>,"<prodNameFU>",<prodPriceNum>,<prodPriceOri>,"<prodRef>",<prodMaxInstallmentNum>)});
+LibHotSite$.aFiltersHotsite.push(<ProdFiltersJS>);
+LibHotSite$.oDicCat[<prodId>]="<catNameSimple>";
+</script>
+</p254>
+
+<p255>
+<div class="DivHomeProd" <DataAttribute> id="DivProd<prodId>">
+  <div class="DivHomeImagemProd" id="DivImagemProdDouble<prodId>" onclick="fcSpy$.openSmartModal('<URLProd>');" tabIndex="0"></div>
+  <div class="DivHomeNomeProd" id="DivHomeNomeProd<prodId>" onclick="fcSpy$.openSmartModal('<URLProd>');" tabIndex="0">
+    <span class="HomeNomeProd text-overflow font-regular"><prodName></span>
+  </div>
+  <div class="DivHomePriceProd" id="DivHomePriceProd<prodId>" style="white-space:nowrap;" onclick="fcSpy$.openSmartModal('<URLProd>');" tabIndex="0">
+    <div id="idProdPrice<prodId>"></div> 
+    <div class="PriceAVistaLista" id="ProdDesc<prodId>"></div>
+  </div>
+  <div class="home-spy-details-container">
+    <div class="DivHomeDetails" onclick="fcSpy$.openSmartModal('<URLProd>');" tabIndex="0"><img  src="<storePath>images/icon-more-details.svg?cccfc=1" loading="lazy" width="25" height="25" alt="Fast Preview - <prodId>" title="Fast Preview"></div>
+    <div class="DivHome-wishlist"><wishlist></div>
+  </div>
+</div>
+<script>
+FCLib$.onReady(function(){sF$.fnProdOut("<prodImgMain>","<prodImgDet>","<URLProd>",<prodId>,"<prodNameFU>",<prodPriceNum>,<prodPriceOri>,"<prodRef>",<prodMaxInstallmentNum>)});
 </script>
 </p255>
