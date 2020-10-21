@@ -1,0 +1,29 @@
+* {
+    font-family: Segoe UI, sans-serif;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 23px;
+    max-width: 1050px;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: space-between;
+  }
+
+
+  .contato {
+      align-items: flex-start;
+  }
+
+.acesse {
+    align-items: flex-end;
+}
