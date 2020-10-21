@@ -1,0 +1,284 @@
+<!--[if IE]><style type="text/css">.ui-autocomplete-category{margin-top: -2px}</style><![endif]-->
+<script language=JavaScript src=<BaseLoja>htm/SimulaFreteFC.js></script>
+<link href="lojasite.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link href="https://fonts.gstatic.com/" rel="preconnect">
+<link href="https://cdnjs.cloudflare.com/" rel="preconnect">
+<link href="https://fonts.googleapis.com/" rel="preconnect">
+<link href="https://ajax.googleapis.com" rel="preconnect">
+<link href="https://stats.g.doubleclick.net" rel="preconnect">
+<link href="https://www.google-analytics.com" rel="preconnect">
+<script src="/js/vex/v4.0.1/vex.combined.min.js?cccfc=1"></script>
+
+<link rel="stylesheet" href="<baseloja>htm/css/reset.css">
+  
+  
+  <link href="<baseloja>htm/css/bootstrap_min.css" rel="stylesheet" type="text/css">
+  <link href="<baseloja>htm/css/styles3.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="<baseloja>htm/css/custom2.css">
+  
+  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+
+
+<script type=""text/javascript"">
+IDLoja='<IDLoja>'; //Obtém IDLoja para montar links
+IDLojaNum='<IDLojaNum>';
+</script>
+
+
+<StoreInterests>
+<script src='<PathTo file="htm/js/resource-<StoreLanguage>.js">'></script>
+<script src='<PathTo file="htm/js/config.js">'></script>
+<script src='<PathTo file="htm/js/store-lib.js">'></script>
+<script>
+vex.defaultOptions.className="vex-theme-default";
+var iItensCesta=<QtdCesta>;
+var iQtdProds=0;
+ImgLoadingFC="/images/circular-loading.svg?cccfc=1";
+ImgOnError=FC$.PathImg+"nd";
+FCLib$.LazyLoadWaitImage="/images/circular-loading.svg?cccfc=1"; //loading lazy load
+</script>
+
+  <script src="https://kit.fontawesome.com/466a4fd97c.js" crossorigin=""></script>
+  
+<header>
+<div id="offcanvas-overlay" onclick="headerCloseNav();"></div>
+<div id="headerSidenav" class="header-sidenav font-regular" role="navigation">
+  <div class="logo_menu"><img src="<baseloja>images/logmenu.svg" style="width: 100%;"></div>
+  <div class="closebtn" onclick="headerCloseNav();"><img alt="Fechar" id="header-cat-menu-close" src="<PathTo file="images/icon-menu-close.svg">" loading="lazy" width="30" height="30"></div>
+  
+  <a href="" class="header-sidenav-link tit_menu"><span class="header-sidenav-link-position"><b>BANDEIRAS</b></span></a>
+  <a href="https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=paginas/brasil.html" class="header-sidenav-link"><span class="header-sidenav-link-position">Brasil</span></a>
+  <a href="https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=paginas/paises/paisesa.html" class="header-sidenav-link"><span class="header-sidenav-link-position">Países</span></a>
+  <a href="https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=paginas/estados.html" class="header-sidenav-link"><span class="header-sidenav-link-position">Estados</span></a>
+  <a href="https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=paginas/capitais.html" class="header-sidenav-link"><span class="header-sidenav-link-position">Capitais</span></a>
+  <a href="https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=paginas/municipios.html" class="header-sidenav-link"><span class="header-sidenav-link-position">Municípios</span></a>
+  <a href="https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=paginas/historicas.html" class="header-sidenav-link"><span class="header-sidenav-link-position">Históricas</span></a>
+  <a href="https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=paginas/nauticas.html" class="header-sidenav-link"><span class="header-sidenav-link-position">Náuticas</span></a>
+  <a href="https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=paginas/empresa.html" class="header-sidenav-link"><span class="header-sidenav-link-position">Empresas</span></a>
+  <a href="https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=paginas/diversas.html" class="header-sidenav-link"><span class="header-sidenav-link-position">Diversas</span></a>
+  <a href="https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=paginas/carro.html" class="header-sidenav-link"><span class="header-sidenav-link-position">Para Carro</span></a>
+  <a href="https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=paginas/bmesa.html" class="header-sidenav-link"><span class="header-sidenav-link-position">Para Mesa</span></a>
+  <a href="https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=paginas/bandpapel.html" class="header-sidenav-link"><span class="header-sidenav-link-position">Em Papel</span></a>
+  <a href="https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=paginas/lisas.html" class="header-sidenav-link"><span class="header-sidenav-link-position">Lisas</span></a>
+  <a href="https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=paginas/automobilismo.htm" class="header-sidenav-link"><span class="header-sidenav-link-position">Automobilismo</span></a>
+  <a href="https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=paginas/tribos_israel.htm" class="header-sidenav-link"><span class="header-sidenav-link-position">Tribos de Israel</span></a>
+  
+  <span class="header-sidenav-link-position"><br></span>
+  
+  <a href="" class="header-sidenav-link tit_menu"><span class="header-sidenav-link-position"><b>ACESSÓRIOS</b></span></a>
+  <a href="https://www.bandeira1.com.br/listaprodutos.asp?idcategoria=17667&q=talabartes-com-boldrie" class="header-sidenav-link"><span class="header-sidenav-link-position">Talabartes com Boldriê</span></a>
+  <a href="https://www.bandeira1.com.br/listaprodutos.asp?idcategoria=140848&q=copos-de-talabartes" class="header-sidenav-link"><span class="header-sidenav-link-position">Copos de Talabartes</span></a>
+  <a href="https://www.bandeira1.com.br/listaprodutos.asp?idcategoria=141636&q=rosetas" class="header-sidenav-link"><span class="header-sidenav-link-position">Rosetas</span></a>
+  <a href="https://www.bandeira1.com.br/listaprodutos.asp?idcategoria=141637&q=corda-para-hastear" class="header-sidenav-link"><span class="header-sidenav-link-position">Cordas para Hastear</span></a>
+  <a href="https://www.bandeira1.com.br/listaprodutos.asp?idcategoria=141696&q=mosquetoes-e-presilhas" class="header-sidenav-link"><span class="header-sidenav-link-position">Mosquetão de Presilhas</span></a>
+  <a href="https://www.bandeira1.com.br/listaprodutos.asp?idcategoria=180763&q=luva-para-desfile" class="header-sidenav-link"><span class="header-sidenav-link-position">Luvas para Desfile</span></a>
+  
+   <span class="header-sidenav-link-position"><br></span>
+  
+  <a href="" class="header-sidenav-link tit_menu"><span class="header-sidenav-link-position"><b>BASES E MASTROS</b></span></a>
+  <a href="https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=paginas/bases.html" class="header-sidenav-link"><span class="header-sidenav-link-position">Bases</span></a>
+  <a href="https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=paginas/mastros.html" class="header-sidenav-link"><span class="header-sidenav-link-position">Mastros de Ferro</span></a>
+  <a href="https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=paginas/lanca.html" class="header-sidenav-link"><span class="header-sidenav-link-position">Lanças para Mastros</span></a>
+  <a href="https://www.bandeira1.com.br/listaprodutos.asp?idcategoria=16467&q=mastros" class="header-sidenav-link"><span class="header-sidenav-link-position">Mastros de Alumínio</span></a>
+  <a href="https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=2018/kitbm18/kits_BM18.html" class="header-sidenav-link"><span class="header-sidenav-link-position">Kit Base + Mastro</span></a>
+  
+  
+   <span class="header-sidenav-link-position"><br></span>  
+  
+  <a href="" class="header-sidenav-link tit_menu"><span class="header-sidenav-link-position"><b>TORCEDOR</b></span></a>
+  <a href="https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=paginas/bones.htm" class="header-sidenav-link"><span class="header-sidenav-link-position">Chapéus e Bonés</span></a>
+  <a href="https://www.bandeira1.com.br/listaprodutos.asp?idcategoria=59973&q=hinos" class="header-sidenav-link"><span class="header-sidenav-link-position">CDs de Hinos</span></a>
+  <a href="https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=paginas/camisetasfem.html" class="header-sidenav-link"><span class="header-sidenav-link-position">Camisetas Femininas</span></a>
+  <a href="https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=paginas/camisetasmasc.html" class="header-sidenav-link"><span class="header-sidenav-link-position">Camisetas Masculinas</span></a>
+  <a href="https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=paginas/flamulas.htm" class="header-sidenav-link"><span class="header-sidenav-link-position">Flâmulas</span></a>
+  <a href="https://www.bandeira1.com.br/listaprodutos.asp?idcategoria=168755&q=pins-do-brasil" class="header-sidenav-link"><span class="header-sidenav-link-position">Pins</span></a>
+  
+  
+   <span class="header-sidenav-link-position"><br></span> 
+  
+  
+  
+  <a href="<url-add-product>" class="header-sidenav-link"><span class="header-sidenav-link-position"><img width="23" height="23" src="<baseloja>images/images/carrinhomenu.svg"><var key="header-cat-cart"></var></span></a>
+  <a href="<url-account>?orders=1#Orders" class="header-sidenav-link"><span class="header-sidenav-link-position"><var key="header-cat-my-orders"></var></span></a>
+  <a href="<url-purchase-list>" rel="nofollow" class="header-sidenav-link header-sidenav-link-shopping-list"><span class="header-sidenav-link-position header-menu-shopping-list"><img64 src="<storePath>images/product-list.svg" width="22" height="22" plain="true"><span><var key="header-cat-my-shopping-list"></var></span></span></a>
+  <a href="<url-account>?wishlist=1#Wishlist" rel="nofollow" class="header-sidenav-link"><span class="header-sidenav-link-position header-menu-wishlist"><img64 src="<storePath>images/product-wishlist.svg" width="22" height="22" plain="true"><span><var key="header-cat-my-wishlist"></var></span></span></a>
+  <a href="<url-account>?register=1#Register" class="header-sidenav-link"><span class="header-sidenav-link-position"><var key="header-cat-register"></var></span></a>
+  <a href="<url-newsletter>" class="header-sidenav-link"><span class="header-sidenav-link-position"><var key="header-cat-newsletter"></var></span></a>
+  <a href="<url-contact>" class="header-sidenav-link"><span class="header-sidenav-link-position"><var key="header-cat-contact-us"></var></span></a>
+</div>
+
+<div class="HeaderMainbar">
+  <div class="header-mainbar-container">
+  <div class="img2" onclick="headerOpenNav();" tabindex="0" ><img alt="Menu navigation" title="Menu" src="<baseloja>images/icon-menu.svg?cccfc=26ecc951" loading="lazy" width="35" height="35"></div>
+    
+    <div id="atend">
+  <div id="atendmail">
+    <div id="img_atend"><img src="<baseloja>images/img_home/email.svg" width="35" /></div>
+    <div class="txt_atend" id="txt_atend"><a href="mailto:vendas@bandeira1.com.br">vendas@<b><br />
+      bandeira1</b>.com.br</a></div>
+  </div>
+  <div id="atendtel">
+    <div id="img_tel"><img src="<baseloja>images/img_home/atendimento.svg" width="30"/></div>
+    <div class="txt_atend" id="txt_atend"><span class="txt_tel">(11) 2723 2919</span></div>
+  </div>
+</div>
+    
+    <div class="header-mainbar-container-menu">
+      <div class="header-mainbar-flex-logo  header-mainbar-container-logo">
+      <a href="<StoreDomain>"><img alt="Bandeira1 Logo" title="Ultra Light Store" src="<baseloja>images/bandlogo.svg" class="HeaderLogo"></a>
+      </div>
+            
+    </div>
+    <div class="header-mainbar-container-all-icons">
+
+      <div id="header-mainbar-container-search">
+        <img alt="Buscar" onclick="sF$.fnShowSearchBox();sF$.fnSearchInputGetFocus();" src="<storePath>images/iconsearch.svg?cccfc=1" loading="lazy" width="30" height="30" id="header-mainbar-container-search-icon" tabIndex="0">
+      </div>
+      <div id="header-mainbar-container-login">
+        <span class="loginInfo" id="fc-loginInfo"></span>
+      </div>
+      <div class="header-mainbar-container-cart">
+        <div class="HeaderBasket">
+          <a onclick="Cart$.fnShowCartCheckout();" style="cursor:pointer;">
+            <img width="30" height="30" src="<PathTo file="images/iconcart.svg">" loading="lazy" id="header-cat-cart" alt="Cart">
+            <div class="HeaderCartItensPosition"><span id="idCartItemsTop" class="HeaderCartNumberProds"></span></div>
+          </a>
+        </div>       
+      </div>
+    </div>
+    
+  </div>
+<div class="container2" style="
+    background-color: #006b3e;
+">
+      <div id='cssmenu'>
+<ul>
+   
+   <li class='active'><a href='#'>Bandeiras</a>
+      <ul>
+         <li><a href='https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=paginas/brasil.html'>Brasil</a></li>
+         <li><a href='https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=paginas/paises/paisesa.html'>Países</a></li>
+         <li><a href='https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=paginas/estados.html'>Estados</a></li>
+         <li><a href='https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=paginas/municipios.html'>Municípios</a></li>
+         <li><a href='https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=paginas/historicas.html'>Históricas</a></li>
+         <li><a href='https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=paginas/nauticas.html'>Náuticas</a></li>
+         <li><a href='https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=paginas/empresa.html'>Empresas</a></li>
+         <li><a href='https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=paginas/diversas.html'>Diversas</a></li>
+         <li><a href='https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=paginas/carro.html'>Para Carro</a></li>
+         <li><a href='https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=paginas/bmesa.html'>Para Mesa</a></li>
+         <li><a href='https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=paginas/bandpapel.html'>Em Papel</a></li>
+         <li><a href='https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=paginas/lisas.html'>Lisas</a></li>
+         <li><a href='https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=paginas/automobilismo.htm'>Automobilismo</a></li>
+         <li><a href='https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=paginas/tribos_israel.htm'>Tribos de Israel</a></li>
+         
+      </ul>
+   </li>
+  <li class='active'><a href='#'>Acessórios</a>
+      <ul>
+         <li><a href='https://www.bandeira1.com.br/listaprodutos.asp?idcategoria=17667&q=talabartes-com-boldrie'>Talabartes com Boldriê</a></li>
+         <li><a href='https://www.bandeira1.com.br/listaprodutos.asp?idcategoria=140848&q=copos-de-talabartes'>Copos de Talabartes</a></li>
+         <li><a href='https://www.bandeira1.com.br/listaprodutos.asp?idcategoria=141636&q=rosetas'>Rosetas</a></li>
+         <li><a href='https://www.bandeira1.com.br/listaprodutos.asp?idcategoria=141637&q=corda-para-hastear'>Cordas para Hastear</a></li>
+         <li><a href='https://www.bandeira1.com.br/listaprodutos.asp?idcategoria=141696&q=mosquetoes-e-presilhas'>Mosquetão e Presilhas</a></li>
+         <li><a href='https://www.bandeira1.com.br/listaprodutos.asp?idcategoria=180763&q=luva-para-desfile'>Luvas para Desfile</a></li>
+         
+         
+      </ul>
+   </li>
+  
+  <li class='active espacomenu'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+  
+  
+  <li class='active'><a href='#'>Bases e Mastros</a>
+      <ul>
+         <li><a href='https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=paginas/bases.html'>Bases</a></li>
+         <li><a href='https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=paginas/mastros.html'>Mastros de Ferro</a></li>
+         <li><a href='https://www.bandeira1.com.br/listaprodutos.asp?idcategoria=67088&q=fachada'>Kit para Fachada</a></li>
+         <li><a href='https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=paginas/lanca.html'>Lanças para Mastros</a></li>
+         <li><a href='https://www.bandeira1.com.br/listaprodutos.asp?idcategoria=16467&q=mastros'>Mastros de Alumínio</a></li>
+         <li><a href='https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=2018/kitbm18/kits_BM18.html'>Kit Base + Mastro</a></li>
+         
+         
+      </ul>
+   </li>
+  <li class='active'><a href='#'>Torcedor</a>
+      <ul>
+         <li><a href='https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=paginas/bones.htm'>Bonés e Chapéus</a></li>
+         <li><a href='https://www.bandeira1.com.br/listaprodutos.asp?idcategoria=59973&q=hinos'>CDs de Hinos</a></li>
+         <li><a href='https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=paginas/camisetasfem.html'>Camisetas Femininas</a></li>
+         <li><a href='https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=paginas/camisetasmasc.html'>Camisetas Masculinas</a></li>
+         <li><a href='https://www.bandeira1.com.br/custom.asp?IDLoja=2028&arq=paginas/flamulas.htm'>Flâmulas</a></li>
+         <li><a href='https://www.bandeira1.com.br/listaprodutos.asp?idcategoria=168755&q=pins-do-brasil'>Pins</a></li>
+         
+         
+      </ul>
+   </li>
+   
+</ul>
+</div>
+    
+    
+    
+    </div>
+  <!-- Search box -->
+  <div>
+    <div id="header-mainbar-container-search-result" role="search">
+      <div class="header-mainbar-container-search-result-full-position">
+        <div id="header-mainbar-container-search-result-close" onclick="sF$.fnCloseSearchBox()"><img alt="Close" id="header-cat-search-close" src="<PathTo file="images/icon-search-close.svg">"></div>
+          <div class="child-header-mainbar header-mainbar-flex-search speech" id="search-box">
+            <form name="TopSearchForm" method="GET" id="autocomplete-form" action="<url-prod>">
+              <input type="hidden" name="<par-typed>" value="true">
+              <input type="text" id="autocomplete" value="<SearchText>" name="<par-text>" class="InputTextBusca" autofocus aria-label="" placeholder="">
+              <img class="header-speech-icon" id="voiceSearch" onclick="sF$.fnStartDictation()" src="<storePath>images/icon-speech.svg?cccfc=1" loading="lazy" width="24" height="24" alt="Voice" />
+              <button id="search-button" type="submit" aria-label="Buscar">                     
+                <img src="<storePath>images/iconsearch.svg?cccfc=1" loading="lazy" width="22" height="22" alt="Search" id="voiceSearchMGlass">
+              </button>
+            </form>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <!-- Menu -->  
+  <script>
+  if(sF$.fnGetConfig("Show_Header_Menu")){
+    document.write("<div class='horizontalMenuArea' role='navigation'><div class='horizontalMenu MainContainer' id='horizontalMenuCont'></div>");
+      <ListPathCat out="14">
+      var menuHorCont = document.getElementById('horizontalMenuCont');
+      for (var i in FCLib$.oCatMenu.slice(0,8)){
+       var textTOInsert="";
+        textTOInsert+='<div class="dropdown">';
+        textTOInsert+=' <a href="'+FCLib$.oCatMenu[i].url+'"><button class="dropbtn" id='+ FCLib$.oCatMenu[i].id +'>'+ FCLib$.oCatMenu[i].name +'</button></a>';
+          if(FCLib$.oCatMenu[i].subs){
+            textTOInsert+='<div class="dropdown-content">';
+            for (var ii in FCLib$.oCatMenu[i].subs){
+              textTOInsert+='<a href="'+FCLib$.oCatMenu[i].subs[ii].url+'"><span></span> '+FCLib$.oCatMenu[i].subs[ii].name+'</a>';
+            }
+            textTOInsert+='</div>';
+          }
+          textTOInsert+='</div>';
+          menuHorCont.innerHTML+=textTOInsert;
+          /* Create Arrow */
+          var menuParentCustom = document.querySelectorAll(".dropdown-content");
+          for (i = 0; i < menuParentCustom.length; i++) {
+            menuParentCustom[i].parentElement.classList.add("dropdown-arrow");
+          }
+      }
+    document.write("</div>");
+    document.write("<style>.header-space-top{padding-top:105px}.FCHelp #idFCContent{max-width:800px;margin:70px 25% 15px 25%}@media only screen and (min-width:1025px){.ProductList #idFCLeftContentRight{padding:50px 30px 0 30px}.FCRateProd #idFCContent,.FCMyAccount #idFCContent,.FCPwreset #idFCContent,.FCNewsletter #idFCContent,.FCRecommend #idFCContent,.FCAdvancedSearch #idFCContent,.FCNews #idFCContent,.FCContact #idFCContent,.FCTrack #idFCContent,.FCCategories #idFCContent,.FCWishlist #idFCContent{margin:70px 18% 15px 18%}.det-product-container{max-width:1306px!important;margin:0 auto;padding-top:70px}}@media only screen and (max-width:1024px){.header-space-top{padding-top:0px!important}.FCHelp #idFCContent{max-width:800px;margin:15px}}</style>");
+  }
+  </script>
+  
+</div>
+
+<div class="header-space-top"></div>
+
+<!-- Receive Banner Home -->
+<div id="FC-ShowHomeBanners"></div>
+<!-- End Banner Home -->
+
+</header>
+
+<!-- Begin Aside - Don't remove -->
+<div class="middle-container" role="main">
