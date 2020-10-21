@@ -1,0 +1,385 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+#tudo_lisas {
+	position: relative;
+	width: 1100px;
+	z-index: 1;
+	text-align: right;
+	/* margin-top: 20px; */
+	/* float: left; */
+	height: 1200px;
+	margin: auto;
+}
+#img_lateral {
+    position: relative;
+    width: 236px;
+    /* height: 653px; */
+    z-index: 2;
+    margin-left: 15px;
+    float: left;
+    text-align: left;
+}
+.txt_lateral {
+    font-family: "Segoe UI", "Segoe UI Light";
+    color: #666;
+    font-size: 14px;
+}
+.txt_lat_negrito {
+    font-family: "Segoe UI", "Segoe UI Light";
+    color: #666;
+    font-size: 21px;
+    font-weight: 500;
+}
+#descricao {
+	position: relative;
+	/* top: 11px; */
+	width: 796px;
+	height: 70px;
+	z-index: 3;
+	margin-left: 280px;
+	/* float: left; */
+}
+#nome_pag {
+	position: absolute;
+	left: 8px;
+	top: 7px;
+	width: 261px;
+	height: 60px;
+	z-index: 4;
+	font-size: 20px;
+}
+.nome_pag {
+	font-family: "Segoe UI", "Segoe UI Light";
+	color: #05533a;
+	text-align: left;
+}
+.nome_pag_bold {
+    font-size: 26px;
+    font-weight: 700;
+    color: #05533a;
+    line-height: 0.5;
+}
+#escolha {
+	position: relative;
+	width: 189px;
+	/* [disabled]height: 59px; */
+	float: right;
+	z-index: 4;
+	margin-right: 80px;
+}
+.escolha {
+	font-family: "Segoe UI", "Segoe UI Light";
+	font-size: 18px;
+	text-align: right;
+	line-height: 19px;
+	color: #05533a;
+}
+.escolha_txt_menor {
+	font-family: "Segoe UI", "Segoe UI Light";
+	font-size: 12px;
+}
+#bottons {
+	position: relative;
+	left: 33px;
+	/* top: 90px; */
+	width: 723px;
+	z-index: 5;
+	5: 10px
+	height:;
+	float: left;
+}
+
+	
+	img {
+		border: none;
+	}
+	
+	a {
+		text-decoration: none;
+	}
+
+	#tudobandeiras {
+	width: 680px;
+	/* padding: 0 0 0 24px; */
+	font-family: Tahoma, Geneva, sans-serif;
+	float: right;
+	margin-right: 5px;
+	}
+	
+	div.modelo {
+		position: relative;
+		float: left;
+		background-color: #163d1b;
+		width: 736px;
+		height: 37px;
+		padding: 0 0 0 10px;
+		margin: 23px 0 0 0;
+	}
+	
+	h1.modelobandeiras {
+		position: relative;
+		float: left;
+		color: #8a9e8d;
+		font-size: 230%;
+		letter-spacing: -1.7px;
+		font-weight: normal;
+		line-height: 100%;
+	}
+	
+	div.tipo {
+	width: 100%;
+	height: 38px;
+	position: relative;
+	float: right;
+	margin: 0 0 20px 0;
+	display: inline;
+	}
+	
+	p.linksletras {
+	position: relative;
+	float: right;
+	color: #ffffff;
+	font-size: 170%;
+	font-weight: normal;
+	/* line-height: 100%; */
+	margin: 11px 0 0 0px;
+	display: inline;
+	background-color: #518f6c;
+	font-family: segoe ui;
+	width: 94%;
+	height: 100%;
+	}
+	
+	a.letras:link, a.letras:visited {
+		color: #e8e8e8;
+	}
+	
+	a.letras:hover, a.letrasn:link, a.letrasn:visited, a.letrasn:hover {
+	color: #cccccc;
+	}
+	
+	div.bandeirasp {
+	width: 108px;
+	height: 93px;
+	position: relative;
+	float: left;
+	margin: 0 0 26px 5px;
+	display: inline;
+	}
+	
+	img.imgnaut {
+		width: 108px;
+		height: 75px;
+		position: relative;
+		float: left;
+	}
+	
+	span.nomenaut {
+    width: 108px;
+    height: 18px;
+    position: relative;
+    float: left;
+    text-align: center;
+    font-size: 96%;
+    color: #05533a;
+    font-family: segoe ui;
+    line-height: 1;
+}
+	
+	span.nomenautg {
+		width: 111px;
+		height: 18px;
+		position: relative;
+		float: left;
+		text-align: center;
+		font-size: 75%;
+		line-height: 100%;
+		color: #05533a;
+    font-family: segoe ui;
+	}
+	
+	div.bandeiras {
+	width: 108px;
+	height: 93px;
+	position: relative;
+	float: left;
+	margin: 0 0 26px 45px;
+	}
+	
+	div.bandeirasu {
+	width: 108px;
+	height: 93px;
+	position: relative;
+	float: right;
+	margin: 0 0 26px 25px;
+	}
+
+	
+	
+
+#prod_relacionado {
+    position: relative;
+    /* top: 844px; */
+    width: 1094px;
+    height: 353px;
+    z-index: 6;
+}
+#faixa_relacionado {
+	position: absolute;
+	top: 28px;
+	width: 546px;
+	height: 25px;
+	z-index: 7;
+	background-color: #008e48;
+	font-family: "segoe ui";
+	color: #FFF;
+	font-weight: 600;
+	font-size: 17px;
+	text-align: left;
+}
+#ext_faixa_rel {
+	position: absolute;
+	left: 539px;
+	top: 24px;
+	width: 250px;
+	height: 21px;
+	z-index: 8;
+}
+#lista_relac {
+	position: absolute;
+	top: 155px;
+	width: 1025px;
+	height: 49px;
+	z-index: 7;
+	background-color: #E6E6E6;
+}
+#relac_01 {
+    top: -83px;
+    width: 155px;
+    z-index: 8;
+}
+#relac_02 {
+	top: -83px;
+	width: 155px;
+	z-index: 8;
+}
+#relac_03 {
+	top: -83px;
+	width: 155px;
+	z-index: 8;
+}#relac_04 {
+	top: -94px;
+	width: 155px;
+	z-index: 8;
+}
+#relac_05 {
+	top: -93px;
+	width: 155px;
+	z-index: 8;
+}
+.txt_relac {
+	font-family: "Segoe UI", "Segoe UI Light";
+	font-size: 14px;
+	color: #626365;
+	text-align: left;
+	position: relative;
+	float: left;
+	padding: 25px 23px;
+}
+.txt_relac1 {
+	font-family: "Segoe UI", "Segoe UI Light";
+	font-size: 14px;
+	color: #626365;
+	text-align: left;
+	position: relative;
+	float: left;
+	padding: 25px 25px 0 40px;
+}
+.relac_bold {
+	font-family: "Segoe UI", "Segoe UI Light";
+	font-weight: 500;
+	color: #626365;
+}
+#tudo_relac {
+	position: relative;
+	top: 30px;
+	width: 100%;
+	z-index: 2;
+	float: left;
+}
+@-webkit-keyframes cf4FadeInOut {
+0% {
+   opacity:1;
+ }
+ 17% {
+   opacity:1;
+ }
+ 25% {
+   opacity:0;
+ }
+ 62% {
+   opacity:0;
+ }
+ 82% {
+   opacity:0;
+ }
+ 100% {
+   opacity:1;
+ }
+}
+
+#cf4a {
+  position:relative;
+  height: 180px;
+  width: 100%;
+  margin:0 auto;
+}
+#cf4a img {
+  position:absolute;
+  left:0;
+}
+
+#cf4a img {
+  -webkit-animation-name: cf4FadeInOut;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 12s;
+
+  -moz-animation-name: cf4FadeInOut;
+  -moz-animation-timing-function: ease-in-out;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-duration: 12s;
+
+  -o-animation-name: cf4FadeInOut;
+  -o-animation-timing-function: ease-in-out;
+  -o-animation-iteration-count: infinite;
+  -o-animation-duration: 12s;
+
+  animation-name: cf4FadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 12s;
+}
+#cf4a img:nth-of-type(1) {
+  -webkit-animation-delay: 12s;
+  -moz-animation-delay: 12s;
+  -o-animation-delay: 12s;
+  animation-delay: 12s;
+}
+#cf4a img:nth-of-type(2) {
+  -webkit-animation-delay: 8s;
+  -moz-animation-delay: 8s;
+  -o-animation-delay: 8s;
+  animation-delay: 8s;
+}
+#cf4a img:nth-of-type(3) {
+  -webkit-animation-delay: 4s;
+  -moz-animation-delay: 4s;
+  -o-animation-delay: 4s;
+  animation-delay: 4s;
+}
