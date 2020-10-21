@@ -1,0 +1,146 @@
+Comando,NomeCat,IDProduto,CodProd,NomeProd,Peso,Descricao,DescrLonga,DescrURL,URLTarget,Estoque,EstoqueMinimo,Disponivel,ICMS,Custo,Preco,PrecoProm,PrecoB2B,PrecoB2BProm,DataPromInicio,DataPromFim,Lancamento,EmDestaque,ImagemProd,ImagemDet,ImagemAmp,Adicional1,Adicional2,Adicional3,AdicionalD1,AdicionalD2,AdicionalD3,Cores,OrdemProd,IDProdutoPai,RamoProd,MaisProd,DataVencimento,DiasAvisoVencimento,DiasReposicao,IDParceiroProd,DescrHTM,MetaKeywordsProd,MaxParcelasProd,XMLParcelasProd,CodBarrasProd,Embalavel,IsProdutoGrande,LarguraProd,AlturaProd,ProfundidadeProd,CodVideo,ProdMPN,TitleProd,URLProd,VendaConjunta,MetaDescriptionProd,IDsFiltroItem
+A,Especial Brasil,486967,BBRS090,,0.4,Modelo Stampo,,,False,9411,0,True,0,0,80,75,0,0,01/06/2015,31/08/2015,False,True,,,,,,,0.90x1.28m,,,,3,486965,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,486970,BBRS112,,0.75,Modelo Stampo,,,False,918,0,True,0,0,105,0,0,0,,,False,False,,,,,,,1.12x1.60m,,,,2,486965,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,486971,BBRS135,,0.8,Modelo Stampo,,,False,9691,0,True,0,0,135,0,0,0,,,False,False,,,,,,,1.35x1.93m,,,,1,486965,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,487521,BR09005,,0.4,Globo Bordado / Aplicado,,,False,809,0,True,0,0,120,0,0,0,,,False,False,,,,,,,0.90x1.28m,,,,17,486961,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,487522,BR11206,,0.75,Globo Bordado / Aplicado,,,False,9386,0,True,0,0,149,0,0,0,,,False,False,,,,,,,1.12x1.60m,,,,16,486961,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,487523,BR13507,,0.8,Globo Bordado / Aplicado,,,False,9615,10,True,0,0,170,0,0,0,,,False,False,,,,,,,1.35x1.93m,,,,15,486961,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,487524,BR15708,,0.9,Globo Bordado / Aplicado,,,False,9782,0,True,0,0,220,0,0,0,,,False,False,,,,,,,1.57x2.24m,,,,14,486961,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,487525,BR18009,,1.2,Globo Bordado / Aplicado,,,False,9900,0,True,0,0,340,0,0,0,,,False,False,,,,,,,1.80x2.56m,,,,14,486961,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,487526,BR22510,,1.7,Modelo Aplicado / Globo Stampo Digital,,,False,9937,0,True,0,0,450,0,0,0,,,False,False,,,,,,,2.25x3.20m,,,,12,486961,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,487527,BR27011,,2.2,Modelo Aplicado / Globo Stampo Digital,,,False,9973,0,True,0,0,590,0,0,0,,,False,False,,,,,,,2.70x3.86m,,,,11,486961,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,487528,BR31512,,3.1,Modelo Aplicado / Globo Stampo Digital,,,False,9980,0,True,0,0,870,0,0,0,,,False,False,,,,,,,3.15x4.50m,,,,9,486961,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,487529,BR36013,,4.2,Modelo Aplicado / Globo Stampo Digital,,,False,9992,0,True,0,0,1100,0,0,0,,,False,False,,,,,,,3.60x5.15m,,,,8,486961,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,487530,BR40514,,4.7,Modelo Aplicado / Globo Stampo Digital,,,False,9994,0,True,0,0,1320,0,0,0,,,False,False,,,,,,,4.05x5.80m,,,,7,486961,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,487531,BR45015,,6.3,Modelo Aplicado / Globo Stampo Digital,,,False,9998,0,True,0,0,1700,0,0,0,,,False,False,,,,,,,4.50x6.40m,,,,6,486961,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,487532,BR49516,,7.5,Modelo Aplicado / Globo Stampo Digital,,,False,9999,0,True,0,0,1980,0,0,0,,,False,False,,,,,,,4.95x.7.10m,,,,5,486961,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,487533,BR54017,,12,Modelo Aplicado / Globo Stampo Digital,,,False,9994,0,True,0,0,2300,0,0,0,,,False,False,,,,,,,5.40x7.70m,,,,4,486961,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,487534,BR58518,,11,Modelo Aplicado / Globo Stampo Digital,,,False,10000,0,True,0,0,2790,0,0,0,,,False,False,,,,,,,5.85x8.35m,,,,3,486961,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,487535,BR63019,,13,Modelo Aplicado / Globo Stampo Digital,,,False,1000,0,True,0,0,3100,0,0,0,,,False,False,,,,,,,6.30x9.00m,,,,2,486961,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,487536,BR70020,,15,Modelo Aplicado / Globo Stampo Digital,,,False,999,0,True,0,0,3900,0,0,0,,,False,False,,,,,,,7.00x10.00m,,,,1,486961,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,494152,,,3.1,"<li>Kit com 50 peças</li>
+",,,False,1000,0,False,0,0,315,0,0,0,,,False,False,,,,,,,,,,3165,2,346165,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,494155,,,6.2,"<li>Kit com 100 peças</li>
+",,,False,1000,0,False,0,0,530,0,0,0,,,False,False,,,,,,,,,,3165,1,346165,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,891024,BRPL22x33 500,,7.5,<li>Kit com 500 peças,,,False,0,0,True,0,0,300,0,0,0,,,False,False,,,,,,,,,,,2,592770,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,891038,BRPL22x33 1000,,15,<li>Kit com 1000 peças,,,False,0,0,False,0,0,520,0,0,0,,,False,False,,,,,,,,,,,1,592770,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,1390953,BR80021,,0,Modelo Aplicado,,,False,0,0,False,0,0,2995,0,0,0,,,False,False,,,,,,,8.00x11.50m,,,,0,486961,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,1390954,BR90022,,0,Modelo Aplicado,,,False,0,0,False,0,0,3799,0,0,0,,,False,False,,,,,,,9.00x12.80m,,,,0,486961,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,1390955,BR10M23,,0,Modelo Aplicado / Globo Stampo Digital,,,False,0,0,False,0,0,4480,0,0,0,,,False,False,,,,,,,10.00x14.30m,,,,0,486961,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,1390956,BR11M24,,0,Modelo Aplicado / Globo Stampo Digital,,,False,0,0,False,0,0,5799,0,0,0,,,False,False,,,,,,,11.00x15.70m,,,,0,486961,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,1390957,BR12M25,,0,Modelo Aplicado,,,False,0,0,False,0,0,6500,0,0,0,,,False,False,,,,,,,12.00x17.10m,,,,0,486961,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,1390958,BR13M26,,0,Modelo Aplicado,,,False,0,0,False,0,0,7890,0,0,0,,,False,False,,,,,,,13.00x18.60m,,,,0,486961,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,1390959,BR14M27,,0,Modelo Aplicado,,,False,0,0,False,0,0,8970,0,0,0,,,False,False,,,,,,,14.00x20.00m,,,,0,486961,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,1390961,BR15M28,,0,Modelo Aplicado,,,False,0,0,False,0,0,9950,0,0,0,,,False,False,,,,,,,15.00x21.40m,,,,0,486961,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,1390962,BR16M29,,0,Modelo Aplicado,,,False,0,0,False,0,0,12300,0,0,0,,,False,False,,,,,,,16.00x23.80m,,,,0,486961,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,1390963,BR17M30,,0,Modelo Aplicado,,,False,0,0,False,0,0,13560,0,0,0,,,False,False,,,,,,,17.00x24.30m,,,,0,486961,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,1390965,BR18M31,,0,Modelo Aplicado,,,False,0,0,False,0,0,14940,0,0,0,,,False,False,,,,,,,18.00x25.70m,,,,0,486961,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,1390966,BR19M32,,0,Modelo Aplicado,,,False,0,0,False,0,0,16380,0,0,0,,,False,False,,,,,,,19.00x27.00m,,,,0,486961,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,1390967,BR20M33,,0,Modelo Aplicado,,,False,0,0,False,0,0,18880,0,0,0,,,False,False,,,,,,,20.00x28.60m,,,,0,486961,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,1390968,BR21M34,,0,Modelo Aplicado,,,False,0,0,False,0,0,21500,0,0,0,,,False,False,,,,,,,21.00x30.00m,,,,0,486961,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,460415,,,2,"<li>Kit com 50 peças</li>
+",,,False,0,0,True,0,0,70,0,0,0,,,False,False,,,,,,,,,,,4,354862,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,460416,,,3.6,"<li>Kit com 100 peças</li>
+",,,False,0,0,True,0,0,110,0,0,0,,,False,False,,,,,,,,,,,3,354862,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,460417,,,14,"<li>Kit com 500 peças</li>
+",,,False,0,0,True,0,0,450,0,0,0,,,False,False,,,,,,,,,,,2,354862,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,460419,,,27,"<li>Kit com 1000 peças</li>
+",,,False,0,0,True,0,0,840,0,0,0,,,False,False,,,,,,,,,,,1,354862,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,460451,,,0.8,"<li>Kit com 10 peças</li>
+",,,False,998,0,False,0,0,89,0,0,0,,,False,False,,,,,,,,,,3165,3,346165,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,460479,,,1.5,"<li>Kit com 10 peças</li>
+",,,False,999,0,True,0,0,190,0,0,0,,,False,False,,,,,,,,,,,3,328258,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,460481,,,5.05,"<li>Kit com 50 peças</li>
+",,,False,1000,0,True,0,0,850,0,0,0,,,False,False,,,,,,,,,,,2,328258,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,460483,,,10.2,"<li>Kit com 100 peças</li>
+",,,False,1000,0,True,0,0,1580,0,0,0,,,False,False,,,,,,,,,,,1,328258,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,592773,BRPL22x33 100,,2.5,<li>Kit com 100 peças,,,False,0,0,True,0,0,75,0,0,0,,,False,False,,,,,,,,,,,3,592770,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,3045640,BBRS070,,0.35,Modelo Stampo,,,False,9619,0,True,0,0,46,0,0,0,,,False,False,,,,,,,0.70x1.00m,,,,4,486965,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,3045643,BBRS033,,0.2,Modelo Stampo,,,False,9875,0,True,0,0,35,0,0,0,,,False,False,,,,,,,0.33x0.47m,,,,7,486965,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,3045646,BBRS045,,0.25,Modelo Stampo,,,False,9798,0,True,0,0,40,0,0,0,,,False,False,,,,,,,0.45x0.64m,,,,6,486965,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,3136549,BR30012,,2.8,Modelo Aplicado / Globo Stampo Digital,,,False,9979,0,True,0,0,720,0,0,0,,,False,False,,,,,,,3.00x4.29m,,,,10,486961,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,3136554,BR20013,,1.5,"Modelo Aplicado / Globo Stampo Digital
+",,,False,9925,0,True,0,0,390,0,0,0,,,False,False,,,,,,,2.00x2.86m,,,,13,486961,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,6060811,BBRS157,,0.95,Modelo Stampo,,,False,963,0,True,0,0,180,0,0,0,,,False,False,,,,,,,1.57x2.24m,,,,0,486965,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,6060814,BBRS180,,1.1,Modelo Stampo,,,False,980,0,True,0,0,260,0,0,0,,,False,False,,,,,,,1.80x2.56m,,,,0,486965,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,6117094,BBRS200,,1.5,Modelo Stampo,,,False,973,0,True,0,0,320,0,0,0,,,False,False,,,,,,,2.00x2.86m,,,,0,486965,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,6117095,BBRS225,,1.7,Modelo Stampo,,,False,986,0,True,0,0,350,0,0,0,,,False,False,,,,,,,2.25x3.20m,,,,0,486965,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,6117096,BBRS270,,2.2,Modelo Stampo,,,False,972,0,True,0,0,450,0,0,0,,,False,False,,,,,,,2.70x3.86m,,,,0,486965,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,6117097,BBRS300,,2.8,Modelo Stampo,,,False,989,0,True,0,0,585,0,0,0,,,False,False,,,,,,,3.00x4.29m,,,,0,486965,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,6117098,BBRS315,,3.1,Modelo Stampo,,,False,995,0,True,0,0,645,0,0,0,,,False,False,,,,,,,3.15x4.50m,,,,0,486965,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,6117099,BBRS360,,3.7,Modelo Stampo,,,False,996,0,True,0,0,850,0,0,0,,,False,False,,,,,,,3.60x5.15m,,,,0,486965,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,6117100,BBRS405,,4.7,Modelo Stampo,,,False,996,0,True,0,0,970,0,0,0,,,False,False,,,,,,,4.05x5.80m,,,,0,486965,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,6117101,BBRS450,,6.3,Modelo Stampo,,,False,1000,0,True,0,0,1300,0,0,0,,,False,False,,,,,,,4.50x6.40m,,,,0,486965,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,6117103,BBRS495,,7.5,Modelo Stampo,,,False,1000,0,True,0,0,1600,0,0,0,,,False,False,,,,,,,4.95x7.10m,,,,0,486965,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,6117104,BBRS540,,12,Modelo Stampo,,,False,1000,0,True,0,0,2040,0,0,0,,,False,False,,,,,,,5.40x7.70m,,,,0,486965,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,6117105,BBRS585,,11,Modelo Stampo,,,False,1000,0,True,0,0,2300,0,0,0,,,False,False,,,,,,,5.85x8.35m,,,,0,486965,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,6117107,BBRS630,,13,Modelo Stampo,,,False,1000,0,True,0,0,2790,0,0,0,,,False,False,,,,,,,6.30x9.00m,,,,0,486965,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,6117109,BBRS700,,15,Modelo Stampo,,,False,999,0,True,0,0,3530,0,0,0,,,False,False,,,,,,,7.00x10.00m,,,,0,486965,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,3041411,BBO-C128,,0.8,,,,False,781,0,True,0,0,220,0,0,0,,,True,False,,,,,,,0.90x1.28m,,,,2,3041410,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,3041413,BBO-C160,,1.1,,,,False,635,0,True,0,0,245,0,0,0,,,True,False,,,,,,,1.12x1.60m,,,,0,3041410,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,486961,BR07001,Bandeira do Brasil - Oficial,0.35,"Bandeira do Brasil em 100% poliester,  dupla-face.",<iframe frameborder=0 style=width:530px;height:465px src=/lojas/00002028/htm/prodbase/desc_bandbord2015.html></iframe>,,False,9381,0,True,0,0,79,0,0,0,,,False,False,brasil/bandeira-brasil-bordada.jpg,brasil/bandeira-brasil-bordada-detalhe2.jpg,brasil/bandeira-brasil-bordada-reta.jpg,,,,0.70x1.00m,,,,18,,,"BFMOG01,KITMBALUM,MALS230,RSTA2CR,PRSMAST",,0,0,,,"bandeira oficial, brasil, estados brasileiros, países, bandeiras",0,0,,True,False,0,0,0,,,Bandeira do Brasil - Oficial,custom-asp-idloja-2028-arq-brasil15-brnovo-html,,"Bandeira do Brasil em 100% poliester,  dupla-face.",
+A,Especial Brasil,486965,BBRS022,Bandeira do Brasil - Oficial em Stampo,0.1,"Bandeira do Brasil, 
+modelo Oficial em stampo",<iframe frameborder=0 style=width:96%;height:430px src=/lojas/00002028/htm/prodbase/desc_band2015.html></iframe>,,False,9786,0,True,0,0,24,0,0,0,,,False,False,brasil/bandeira-brasil-stampo-reta.jpg,brasil/bandeira-brasil-stampo.jpg,brasil/bandeira-brasil-stampo.jpg,,,,0.22x0.33m,,,,8,,,"BFMOG01,KITMBALUM,MALS230,RSTA2CR,PRSMAST",,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,354862,BRPL 33x47,Bandeira do Brasil em Plástico com Cabo,0.75,"Bandeira do Brasil fabricada em plástico polietileno + cabo plástico.
+","<span style=""color:#000;"">Bandeira do Brasil fabricada em plástico polietileno + cabo plástico.
+
+• Tamanho 33x47cm
+• Kit com 10 peças
+<br/>&nbsp</span>",,False,0,0,False,0,0,20,0,0,0,,,False,True,pl1.jpg,pl2.jpg,pl3.jpg,,,,,,,,5,,,"BRPL 22X33 50,MiniBanner,Kmini para auto,Bandcar,K",,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,592770,BRPL 22X33 50,Bandeira do Brasil em Plástico com Cabo,1.2,"Bandeira do Brasil fabricada em plástico polietileno com cabo.
+","<span style=""color:#000;"">Bandeira do Brasil fabricada em polietileno com cabo plástico medindo 50 cm de altura na cor amarela.
+
+• Tamanho da bandeira 22X33cm.
+• Kit com 50 peças.
+<br/>&nbsp</span>",,False,0,0,True,0,0,50,0,0,0,,,False,False,bandplastp.jpg,bandplastm.jpg,bandplastg.jpg,,,,,,,,0,,,"BRPL 33x47,MiniBanner,Kmini para auto,Bandcar,Kit",,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,3041410,BBO-C100,Bandeira do Brasil Oficial em Cetim,0.6,"Bandeira do Brasil em Cetim brilho, dupla-face.","Modelo Bordado/Aplicado.
+
+Bandeira confeccionada em tecido CETIM BRILHO. Dupla-face com letras e estrelas bordadas.
+
+• <strong>Exclusivo para uso interno.</strong>
+• Tarja na cor verde, acabada em cetim e com cordões nas pontas para amarração.",,False,854,0,True,0,0,180,0,0,0,,,True,False,brasil/bandeira-brasil-cetim-bordada.jpg,brasil/bandeira-brasil-cetim-bordada.jpg,brasil/bandeira-brasil-cetim-reta.jpg,,,,0.70x1.00m,,,,0,,,"BFMOG01,KITMBALUM,MALS230,RSTA2CR,PRSMAST",,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,328258,FLEA-BR,"Flâmula ""Eu amo Brasil""",0.25,"Flâmula ""Eu amo Brasil"". Tamanho 22x33 cm.","<iframe frameborder=0 style=width:500px;height:150px src=/lojas/00002028/htm/descfla/br.htm></iframe>
+",,False,967,0,True,0,0,30,0,0,0,,,True,True,flabrasilp.jpg,flabrasilm.jpg,flabrasilg.jpg,,,,,,,,4,,,"FL330BR,FLBRA2011,FL33GRS,FL33COL,KITFLAAMO",,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,1427487,FL330BR,Flâmula Brasil,0.25,Flâmula do Brasil.Tamanho 22 x 33 cm.,"<span style=""color:#000;"">Flâmula Brasil fabricada em tecido, com acabamento de luxo, produto exclusivo Bandeira1.
+
+• Para flâmulas personalizadas, consulte-nos. 
+
+• <b>Dupla face</b> estampada frente e verso.
+<br/>&nbsp</span>",,False,851,0,True,0,0,30,0,0,0,,,True,False,flabrp.jpg,flabrm.jpg,flabrg.jpg,,,,,,,,0,,,"FLBRA2011,FLEA-BR,FL33GRS,FL33COL,KITFLA",,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,2962492,FLBRA2011,Flâmula Brasil Gold,0.25,Flâmula do Brasil. Tamanho 22 x 33 cm.,"<SPAN style=""COLOR: #000"">Flâmula Brasil fabricada em tecido, com acabamento de luxo, produto exclusivo Bandeira1.<BR><BR>• Para flâmulas personalizadas, consulte-nos. <BR><BR>• <B>Dupla face</B> estampada frente e verso.<br/>&nbsp</SPAN>",,False,960,0,True,0,0,30,0,0,0,,,True,False,flabr_p.jpg,flabr_m.jpg,flabr_g.jpg,,,,,,,,0,,,"FL330BR,FLEA-BR,FL33GRS,FL33COL,DBBRA70",,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,3044153,FL33GRS,Flâmula Brasil Grass,0.25,Flâmula do Brasil.Tamanho 22 x 33 cm.,"<span style=""color:#000;"">Flâmula Brasil fabricada em tecido, com acabamento de luxo, produto exclusivo Bandeira1.
+
+• Para flâmulas personalizadas, consulte-nos. 
+
+• <b>Dupla face</b> estampada frente e verso.
+<br/>&nbsp</span>",,False,964,0,True,0,0,30,0,0,0,,,True,False,flagrs_p.jpg,flagrs_m.jpg,flagrs_g.jpg,,,,,,,,0,,,"FL330BR,FLBRA2011,FLEA-BR,FL33COL,DBBRA70",,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,3044165,FL33COL,Flâmula Brasil Stain Colors,0.35,Flâmula do Brasil.Tamanho 22 x 33 cm.,"<span style=""color:#000;"">Flâmula Brasil fabricada em tecido, com acabamento de luxo, produto exclusivo Bandeira1.
+
+• Para flâmulas personalizadas, consulte-nos. 
+
+• <b>Dupla face</b> estampada frente e verso.
+<br/>&nbsp</span>",,False,967,0,True,0,0,30,0,0,0,,,True,False,flacolor_p.jpg,flacolor_m.jpg,flacolor_g.jpg,,,,,,,,0,,,"FL330BR,FLBRA2011,FLEA-BR,FL33GRS,DBBRA70",,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,592916,Kmini para auto,Kit Mini bandeira do Brasil com ventosa,0.3,"Mini bandeira do Brasil com ventosa para fixação
+<li>Kit com 10 peças","<span style=""color:#000;"">Mini bandeira do Brasil, uma face com mastrinho de plástico na cor cinza acompanha cordão e ventosa para fixação. Fabricada em poliester.
+
+• Tamanho da bandeira: 8,5x5,4 cm.
+• Tamanho do mastrinho: 14,2 cm de altura.
+• Kit com 10 peças.
+<br/>&nbsp</span>",,False,994,0,True,0,0,65,0,0,0,,,False,False,banderinhap.jpg,banderinham.jpg,banderinhag.jpg,,,,,,,,0,,,"BRPL 22X33 50,MiniBanner,BRPL 33x47,Bandcar,Kit Mi",,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,595151,MiniBanner,Kit Mini Banner do Brasil,0.4,"Mini Banner do Brasil
+<li>Kit com 10 peças","<span style=""color:#000;"">Mini Banner do Brasil, fabricado em poliester.
+
+• Com ventosa para fixação, cordão e ponteiro dourado.
+• Modelo Dupla-face.
+• Tamanho 13,5x9,5cm.
+• Kit com 10 peças.
+&nbsp</span>",,False,984,0,True,0,0,65,0,0,0,,,False,False,BrasilP.jpg,Brasil.jpg,BrasilG.jpg,,,,,,,,0,,,"BRPL 22X33 50,Kmini para auto,BRPL 33x47,Bandcar,K",,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,608510,Kit Mini,Mini Bandeira de Mesa,0.5,<b><i>Kit</i> com 10 </b>Mini bandeiras decorativas do Brasil,"<span style=""color:#000;""><b>Kit</b> com 10 Mini bandeiras decorativas do Brasil em ABS cromado.
+
+• Ideal para reuniões, salas de aula, palestras, convenções, colecionadores, entre outros.
+• Pedestal Mini com 15cm de altura.
+• Bandeira com 8,0x5,5cm.
+• Embalagens individuais.
+<br/>&nbsp</span>",,False,875,0,True,0,0,65,0,0,0,,,False,False,KitBrasilp.jpg,KitBrasilm.jpg,KitBrasilg.jpg,,,,,,,,0,,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
+A,Especial Brasil,346165,PMCR1,Pedestal de Mesa Brasil,0.07,Pedestal de Mesa decorativo para 01 bandeira do Brasil.,"<span style=""color:#000;"">Pedestal de Mesa decorativo ideal para reuniões, salas de aula, palestras, convenções, colecionadores, entre outros. Pedestal com 25cm de altura total e a bandeira tem 10x14cm.
+Para modelos personalizados de bandeira, consulte-nos.<br/>&nbsp</span>",,False,932,0,False,0,0,16,0,0,0,,,False,False,brasilpedp.jpg,brasilpedm.jpg,brasilpedg.jpg,,,,,,,3165,4,,,,,0,0,,,,0,0,,True,False,0,0,0,,,,,,,
