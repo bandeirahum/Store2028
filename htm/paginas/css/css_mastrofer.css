@@ -1,0 +1,100 @@
+#tudo_mastro20 {
+    position: relative;
+    left: 9px;
+    top: 9px;
+    width: 1306px;
+    height: 2453px;
+    z-index: 1;
+    margin: auto;
+}
+#fundo_mast20 {
+	position: absolute;
+	width: 1100px;
+	height: 494px;
+	z-index: 2;
+}
+#mastropband {
+	position: absolute;
+	left: 1008px;
+	top: 290px;
+	width: 360px;
+	height: 149px;
+	z-index: 2;
+	text-align: right;
+}
+.tit_txt {
+	font-family: "Segoe UI", "Segoe UI Light", "Segoe UI Semibold";
+	font-size: 34px;
+	text-align: right;
+	line-height: 32px;
+	color: #003399;
+}
+.txt_desc {
+	font-family: "Segoe UI", "Segoe UI Light", "Segoe UI Semibold";
+	font-size: 16px;
+	text-align: right;
+	line-height: 23px;
+	color: #003399;
+}
+#txt_gir {
+	position: absolute;
+	right: 519px;
+	top: 1020px;
+	width: 321px;
+	height: 169px;
+	z-index: 3;
+	text-align: right;
+}
+#desc_flange {
+	position: absolute;
+	left: 525px;
+	top: 1036px;
+	width: 229px;
+	height: 139px;
+	z-index: 4;
+	text-align: right;
+}
+#desc_engast {
+	position: absolute;
+	left: 770px;
+	top: 1035px;
+	width: 217px;
+	height: 125px;
+	z-index: 5;
+	text-align: right;
+}
+#mast_banner {
+	position: absolute;
+	left: 620px;
+	top: 1470px;
+	width: 311px;
+	height: 186px;
+	z-index: 6;
+	text-align: right;
+}
+#desc_gira {
+	position: absolute;
+	right: 671px;
+	top: 1755px;
+	width: 353px;
+	height: 165px;
+	z-index: 7;
+	text-align: right;
+}
+#desc_pend {
+	position: absolute;
+	left: 447px;
+	top: 2111px;
+	width: 276px;
+	height: 122px;
+	z-index: 8;
+}
+#flan_ret {
+	position: absolute;
+	left: 625px;
+	top: 2352px;
+	width: 133px;
+	height: 147px;
+	z-index: 9;
+	text-align: right;
+}
