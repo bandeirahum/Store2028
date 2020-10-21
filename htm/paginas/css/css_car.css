@@ -1,0 +1,383 @@
+#tudocarro {
+	position: relative;
+	height: 1685px;
+	z-index: 1;
+	margin: auto;
+	width: 1306px;
+}
+#titcarro {
+	position: absolute;
+	left: 0;
+	top: 10px;
+	width: auto;
+	z-index: 2;
+}
+#brasilauto {
+	position: absolute;
+	left: 3px;
+	top: 132px;
+	width: 401px;
+	height: 280px;
+	z-index: 2;
+}
+#txtbrasilauto {
+	position: absolute;
+	left: 1px;
+	top: -7px;
+	width: 400px;
+	height: 62px;
+	z-index: 2;
+	text-align: right;
+}
+.titcarro {
+	font-family: "Segoe UI Light";
+	font-size: 40pt;
+	font-weight: normal;
+	color: #046DAE;
+	letter-spacing: -2px;
+	line-height: 45px;
+}
+#txtpqn {
+	position: absolute;
+	left: 126px;
+	top: 37px;
+	width: 263px;
+	height: 34px;
+	z-index: 2;
+	text-align: right;
+}
+.txtpeq {
+	font-family: "Segoe UI";
+	font-size: 25px;
+	color: #046DAE;
+	font-weight: normal;
+}
+#imgbrcar {
+	position: absolute;
+	left: 14px;
+	top: 95px;
+	width: 340px;
+	height: 128px;
+	z-index: 2;
+}
+#descbandbr {
+	position: absolute;
+	left: 105px;
+	top: 400px;
+	width: 281px;
+	height: 41px;
+	z-index: 2;
+	text-align: right;
+}
+.descprodcar {
+	font-family: "Segoe UI";
+	font-size: 14px;
+}
+#apartirbandbr {
+	position: absolute;
+	left: 242px;
+	top: 444px;
+	width: 69px;
+	height: 40px;
+	z-index: 2;
+	text-align: right;
+}
+#precobandbr {
+	position: absolute;
+	left: 317px;
+	top: 438px;
+	width: 66px;
+	height: 38px;
+	z-index: 2;
+}
+.preco {
+	font-family: "Segoe UI";
+	font-size: 34px;
+	font-weight: bold;
+	color: #025386;
+	letter-spacing: -2px;
+}
+#persoauto {
+	position: absolute;
+	left: 487px;
+	top: 83px;
+	width: 404px;
+	height: 484px;
+	z-index: 2;
+}
+#titpaisesauto {
+	position: absolute;
+	/* left: 15px; */
+	top: -5px;
+	width: 388px;
+	height: 75px;
+	z-index: 2;
+	text-align: right;
+}
+#txtpqnperso {
+	position: absolute;
+	left: 92px;
+	top: 85px;
+	width: 294px;
+	height: 26px;
+	z-index: 3;
+	text-align: right;
+}
+#imgpersocarro {
+	position: absolute;
+	/* left: 20px; */
+	top: 142px;
+	width: 286px;
+	height: 196px;
+	z-index: 3;
+}
+#descbandperso {
+	position: absolute;
+	left: 178px;
+	top: 437px;
+	width: 202px;
+	height: 36px;
+	z-index: 3;
+	text-align: right;
+	font-size: 25px;
+}
+#muniauto {
+	position: absolute;
+	left: 1px;
+	top: 639px;
+	width: 402px;
+	height: 536px;
+	z-index: 3;
+}
+#titestauto {
+	position: absolute;
+	left: -7px;
+	top: 11px;
+	width: 433px;
+	height: 59px;
+	z-index: 4;
+	text-align: right;
+}
+#titpqnest {
+	position: absolute;
+	left: 188px;
+	top: 57px;
+	width: 215px;
+	height: 37px;
+	z-index: 4;
+	text-align: right;
+}
+#imgestcarro {
+	position: absolute;
+	left: 17px;
+	top: 103px;
+	width: 195px;
+	height: 98px;
+	z-index: 4;
+}
+#descbandest {
+	position: absolute;
+	left: 24px;
+	top: 411px;
+	width: 357px;
+	height: 42px;
+	z-index: 4;
+	text-align: right;
+}
+#apartirbandest {
+	position: absolute;
+	left: 222px;
+	top: 456px;
+	width: 70px;
+	height: 38px;
+	z-index: 4;
+	text-align: right;
+}
+#precobandest {
+	position: absolute;
+	left: 300px;
+	top: 452px;
+	width: 74px;
+	height: 33px;
+	z-index: 4;
+}
+#paisauto {
+	position: absolute;
+	left: 487px;
+	top: 639px;
+	width: 411px;
+	height: 531px;
+	z-index: 4;
+}
+#titpaisauto {
+	position: absolute;
+	/* left: 27px; */
+	top: 10px;
+	width: 383px;
+	height: 49px;
+	z-index: 5;
+}
+#titpeqpaises {
+	position: absolute;
+	left: 140px;
+	top: 57px;
+	width: 239px;
+	height: 45px;
+	z-index: 5;
+	text-align: right;
+}
+#imgpaiscarro {
+	position: absolute;
+	/* left: 20px; */
+	top: 104px;
+	width: 279px;
+	height: 192px;
+	z-index: 5;
+}
+#detalhecar {
+	position: absolute;
+	left: 80px;
+	top: 1176px;
+	width: 512px;
+	height: 26px;
+	z-index: 5;
+}
+#titkitminib {
+	position: absolute;
+	left: 70px;
+	top: 1221px;
+	width: 318px;
+	height: 135px;
+	z-index: 6;
+	text-align: center;
+}
+#titpqminib {
+	position: absolute;
+	left: 65px;
+	top: 33px;
+	width: 173px;
+	height: 32px;
+	z-index: 7;
+}
+#titkitminiband {
+	position: absolute;
+	left: 473px;
+	top: 1223px;
+	width: 376px;
+	height: 135px;
+	z-index: 6;
+	text-align: center;
+}
+#titpqminiband {
+
+	position: absolute;
+	left: 93px;
+	top: 33px;
+	width: 173px;
+	height: 32px;
+	z-index: 7;
+}
+#fundobcar {
+	position: absolute;
+	/* left: 3px; */
+	top: 1295px;
+	width: 859px;
+	height: 228px;
+	z-index: 7;
+}
+#descbvent {
+	position: absolute;
+	left: 345px;
+	top: 1321px;
+	width: 174px;
+	height: 166px;
+	z-index: 8;
+}
+.descvent {
+	font-family: "Segoe UI";
+	font-size: 13px;
+	color: #FFF;
+	line-height: 13px;
+	font-weight: 400;
+}
+#descminiband {
+	position: absolute;
+	left: 452px;
+	top: 1585px;
+	width: 423px;
+	height: 47px;
+	z-index: 8;
+	text-align: center;
+	color: #046DAE;
+	font-size: 14px;
+}
+#descminibaner {
+	position: absolute;
+	left: 25px;
+	top: 1585px;
+	width: 392px;
+	height: 47px;
+	z-index: 8;
+	text-align: center;
+	color: #046DAE;
+	font-size: 14px;
+}
+.descpq {
+	font-family: "Segoe UI";
+	font-size: 12px;
+	font-weight: bold;
+	color: #039;
+}
+.descinza {
+	font-weight: normal;
+	color: #000000;
+	font-size: 11;
+}
+#linkminibandbr {
+	position: absolute;
+	left: 474px;
+	top: 1302px;
+	width: 166px;
+	height: 271px;
+	z-index: 9;
+}
+#linkminibannerbr {
+	position: absolute;
+	left: 20px;
+	top: 1310px;
+	width: 156px;
+	height: 244px;
+	z-index: 10;
+}
+#linkbannerpaises {
+	position: absolute;
+	left: 205px;
+	top: 1307px;
+	width: 104px;
+	height: 203px;
+	z-index: 11;
+}
+#paisesbandlink {
+	position: absolute;
+	left: 665px;
+	top: 1302px;
+	width: 88px;
+	height: 204px;
+	z-index: 12;
+}
+#linkbannerestado {
+	position: absolute;
+	left: 312px;
+	top: 1358px;
+	width: 104px;
+	height: 203px;
+	z-index: 11;
+}
+#estadobandlink {
+	position: absolute;
+	left: 754px;
+	top: 1378px;
+	width: 111px;
+	height: 196px;
+	z-index: 12;
+}
