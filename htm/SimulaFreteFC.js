@@ -10,7 +10,7 @@ function ShowCEP(IDProduto){
   sCEP+=".xZipSubmitButton{border:1px solid #0b2d5b;color:#0b2d5b;background-color:#edf5ff;font-weight:bold;height:20px;cursor:pointer;outline:none;filter:chroma(color=#000000);}";
   sCEP+=".ZipName{font-size:10px;color:#373737;font-family:tahoma,verdana,arial;font-weight:bold;margin-top:2px;}";
   sCEP+=".ZipObsVal{font-size:11px;color:#373737;font-family:tahoma,verdana,arial;}";
-  sCEP+=".ZipValue{font-size:11px;color:#014282;font-family:tahoma,verdana,arial;font-weight:bold;}";
+  sCEP+=".ZipValue{font-size:11px;color:#014282;font-family:tahoma,verdana,arial;font-weight:bold}";
   sCEP+="</style>";
   sCEP+="<table border='0' cellpadding='0' width='310' cellspacing='0' class='ZipBackground'>";
   sCEP+="  <tr class='ZipTitCalc'>";
@@ -28,12 +28,12 @@ function ShowCEP(IDProduto){
   sCEP+="    </td>";
   sCEP+="  </tr>";
   sCEP+="  <tr>";
-  sCEP+="    <td align=center><img src='images/loadingcep.gif' vspace=3 style='display:none;' id=ImgLoadingCEP><div id='idShippingValues"+ IDProduto +"'></div></td>";
+  sCEP+="    <td align=center><img src='images/loadingCEP.gif' vspace=3 style='display:none;' id=ImgLoadingCEP><div id='idShippingValues"+ IDProduto +"'></div></td>";
   sCEP+="  </tr>";
   sCEP+="</table>";
   document.getElementById('ShowCEP'+IDProduto).innerHTML=sCEP;
 }
-style.backgroundColor="#dedede";
+
 function GetShippingValues(IDZip,IDProd){
   sCEP=document.getElementById("idZip"+ IDZip).value;
   SetCookie('CEP'+IDLojaNum,sCEP);
