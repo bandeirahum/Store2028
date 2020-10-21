@@ -32,9 +32,10 @@ span.colorT {
     font-size: 40px;
     background-image: url('../../../images/barras/kitbmrevest.gif');
     padding-bottom: 20px;
-    height: 20px;
+    height: 40px;
     margin: 0 0 0 -9;
     background-repeat: no-repeat;
+    display: none;
 }
 		.titPag h2 {
 	color: #0D6589;
@@ -116,10 +117,7 @@ span.colorT {
 	float: left;
 		}
 		
-#boxKits02 {
-width: 744px;
-height:958px;
-}
+#boxKits02 {width: 744px;height: 1758px;margin: auto;top: 50px;}
 
 	#subtitMonte {
 	position:relative;
@@ -148,13 +146,13 @@ height:958px;
 	position: relative;
 	width: 890px;
 	height: 300px;
-	padding-top: 60px;
+	padding-top: 70px;
 	/* PADDING-LEFT: 22; */
 }
 	
 		.boxPassos h3 {
 	position: absolute;
-	top: 20px;
+	top: 10px;
 	left: 84px;
 	font-size: 14px;
 	color: #aaa;
@@ -164,10 +162,10 @@ height:958px;
 		
 		.botProximo {
 	position: absolute;
-	bottom: -69px;
-	right: -17px;
-	z-index: 10;
-		}
+	bottom: -139px;
+	right: 10px;
+	z-index: 30;
+	}
 	
 		.grayBox {
 	position: absolute;
@@ -209,14 +207,16 @@ height:958px;
 			}
 			
 			#grayBox02{
-	width: 369px;
+	width: 359px;
 	height: 220px;
+	top: 50px;
+	left: 65px;
 }
 			
 				img.corBase {
 	position: relative;
 	/* float: left; */
-	margin: 25px 18px 0 11px;
+	margin: 33px 18px 0 11px;
 	}
 		
 		#passo03 {
@@ -246,38 +246,40 @@ height:958px;
 				img#lanca {
 	position: absolute;
 	left: 216px;
-	bottom: 0px;
+	bottom: -25px;
 	width: 149px;
-				}
+	}
 				
 				img#bola {
 	position: absolute;
 	right: 223px;
-	bottom: 0px;
-	width: 135px;
-				}
+	bottom: -25px;
+	width: 145px;
+	}
 				
 	#boxPreview {
 	width:746px;
 	height:400px;
 	margin-left: -19;
+	margin-top: 30px;
 	}
 	
 		.titPrev {
 	position: relative;
-	width: 895px;
-	height: 65px;
-		}
+	/* width: 895px; */
+	/* height: 65px; */
+	margin-right: 50px;
+	}
 		
 			.titPrev h3 {
 	position: absolute;
-	bottom: -5px;
-	left: 83px;
+	bottom: 0px;
+	/* left: 83px; */
 	font-size: 14px;
 	color: #aaa;
 	z-index: 10;
 	width: 815px;
-			}
+	}
 		
 		#fotosPrev {
 		position:relative;
@@ -378,7 +380,7 @@ height:958px;
 #p1 {
 	position: absolute;
 	left: -11px;
-	top: 0px;
+	top: 20px;
 	width: 65px;
 	height: 71px;
 	z-index: 21;
@@ -386,7 +388,7 @@ height:958px;
 #p2 {
 	position: absolute;
 	left: -10px;
-	top: 2px;
+	top: 22px;
 	width: 65px;
 	height: 71px;
 	z-index: 21;
@@ -394,7 +396,7 @@ height:958px;
 #p3 {
 	position: absolute;
 	left: -23px;
-	top: 4px;
+	top: 23px;
 	width: 65px;
 	height: 71px;
 	z-index: 21;
@@ -419,7 +421,7 @@ height:958px;
 #txtbola {
 	position: absolute;
 	left: 56px;
-	top: 119px;
+	top: 139px;
 	width: 58px;
 	height: 19px;
 	z-index: 1;
@@ -431,7 +433,7 @@ height:958px;
 #txtlanca {
 	position: absolute;
 	left: 235px;
-	top: 119px;
+	top: 139px;
 	width: 58px;
 	height: 19px;
 	z-index: 1;
@@ -467,9 +469,10 @@ height:958px;
 }
 #botcomprar {
 	position: absolute;
-	left: 850px;
+	right: 500px;
 	z-index: 30;
 	/* top: 1750; */
+	margin-top: 20px;
 }
 	
  
@@ -484,7 +487,7 @@ height:958px;
 #cerejeiratxt {
 	position: absolute;
 	left: 6px;
-	top: 85px;
+	top: 95px;
 	width: 61px;
 	height: 11px;
 	z-index: 51;
@@ -492,7 +495,7 @@ height:958px;
 #imbuiatxt {
 	position: absolute;
 	left: 110px;
-	top: 85px;
+	top: 95px;
 	width: 52px;
 	height: 11px;
 	z-index: 51;
@@ -500,7 +503,7 @@ height:958px;
 #jacarandatxt {
 	position: absolute;
 	left: 193px;
-	top: 85px;
+	top: 95px;
 	width: 52px;
 	height: 11px;
 	z-index: 51;
@@ -508,7 +511,7 @@ height:958px;
 #mognotxt {
 	position: absolute;
 	left: 13px;
-	top: 175px;
+	top: 185px;
 	width: 52px;
 	height: 11px;
 	z-index: 51;
@@ -529,7 +532,7 @@ height:958px;
 #cinzatxt {
 	position: absolute;
 	left: 115px;
-	top: 175px;
+	top: 185px;
 	width: 52px;
 	height: 11px;
 	z-index: 51;
@@ -537,7 +540,7 @@ height:958px;
 #pretotxt {
 	position: absolute;
 	left: 208px;
-	top: 175px;
+	top: 185px;
 	width: 52px;
 	height: 11px;
 	z-index: 51;
