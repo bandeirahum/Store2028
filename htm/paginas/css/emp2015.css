@@ -1,0 +1,123 @@
+#tudoemp {
+	position: relative;
+	left: 7px;
+	/* top: 12px; */
+	width: 878px;
+	height: 2600px;
+	z-index: 1;
+	background-color: #FFFFFF;
+	margin: auto;
+}
+#descdestak {
+	position: absolute;
+	left: 620px;
+	top: 56px;
+	width: 210px;
+	height: 193px;
+	z-index: 2;
+	font-size: 13px;
+}
+.desctudo {
+	font-family: Tahoma;
+	font-size: 12.5px;
+	color: #006666;
+	line-height: 15px;
+}
+#Titband {
+	position: absolute;
+	left: 19px;
+	top: 687px;
+	width: 289px;
+	height: 31px;
+	z-index: 3;
+	font-size: 30px;
+	color: #025386;
+}
+.titulos {
+	font-family: "Segoe UI";
+	font-size: 28px;
+	color: #025386;
+	letter-spacing: -1px;	
+	font-weight: 500;
+}
+#banners {
+	position: absolute;
+	left: 694px;
+	top: 1250px;
+	width: 183px;
+	height: 27px;
+	z-index: 4;
+}
+#paracarro {
+	position: absolute;
+	left: 513px;
+	top: 1905px;
+	width: 293px;
+	height: 20px;
+	z-index: 5;
+}
+#bordadas {
+	position: absolute;
+	left: 8px;
+	top: 1955px;
+	width: 263px;
+	height: 21px;
+	z-index: 6;
+}
+#bandmesa {
+	position: absolute;
+	left: 536px;
+	top: 2091px;
+	width: 262px;
+	height: 22px;
+	z-index: 7;
+}
+#flamula {
+	position: absolute;
+	left: 7px;
+	top: 2427px;
+	width: 130px;
+	height: 25px;
+	z-index: 8;
+}
+#descbanner {
+	position: absolute;
+	left: 683px;
+	top: 1308px;
+	width: 192px;
+	height: 332px;
+	z-index: 2;
+	color: #0F3C89;
+}
+#desccarro {
+	position: absolute;
+	left: 530px;
+	top: 1959px;
+	width: 282px;
+	height: 64px;
+	z-index: 3;
+}
+#descflam {
+	position: absolute;
+	left: 20px;
+	top: 2485px;
+	width: 265px;
+	height: 157px;
+	z-index: 4;
+}
+#descbord {
+	position: absolute;
+	left: 26px;
+	top: 2013px;
+	width: 287px;
+	height: 118px;
+	z-index: 5;
+}
+#cabemp {
+	position: absolute;
+	left: -15px;
+	top: 18px;
+	width: 868px;
+	height: 26px;
+	z-index: 6;
+}
