@@ -108,7 +108,7 @@ div.modelo5 {
 	}
 	
 	div.tipo {
-	width: 870px;
+	width: 100%;
 	height: 25;
 	position: relative;
 	float: left;
@@ -118,7 +118,7 @@ div.modelo5 {
 		position: relative;
 		float: left;
 		clear: both;
-		top: 10px;
+		top: -8px;
 	}
 	
 	p.subtitulobases {
@@ -148,6 +148,7 @@ div.modelo5 {
 	background-repeat: repeat-x;
 	margin: 0 0 10px 0;
 	z-index: 5;
+	top: 30px;
 	}
 	
 	div.fotos3 {
@@ -551,7 +552,7 @@ modulares {
 #lat_04 {
 	position: absolute;
 	left: 689px;
-	top: -11px;
+	top: 25px;
 	width: 101px;
 	height: 17px;
 	z-index: 4;
@@ -583,7 +584,7 @@ modulares {
 #dour_04 {
 	position: absolute;
 	left: 671px;
-	top: 182px;
+	top: 192px;
 	width: 140px;
 	height: 17px;
 	z-index: 4;
@@ -593,7 +594,7 @@ modulares {
 	font-size: 14px;
 	color: #676767;
 	text-align: center;
-	padding-top: 138px;
+	/* padding-top: 138px; */
 	font-weight: 500;
 	line-height: 1;
 }
