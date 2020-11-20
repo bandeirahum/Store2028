@@ -1,3 +1,5 @@
+;(function($){
+  
 $(document).ready(function() {
 	
 	//Variáveis
@@ -95,42 +97,42 @@ $(document).ready(function() {
 	});
 	//Escolher Cor
 	$("#cor01").click(function() {
-		$("#checkCor").css("display", "block").css("top", "65px").css("left", "120px");
+		$("#checkCor").css("display", "block").css("top", "45px").css("left", "120px");
 		cor = "cerejeira";
 		if(redT2 == true){
 			$("#tit2").removeAttr("style");
 		}
 	});
 	$("#cor02").click(function() {
-		$("#checkCor").css("display", "block").css("top", "65px").css("left", "215px");
+		$("#checkCor").css("display", "block").css("top", "45px").css("left", "215px");
 		cor = "imbuia";
 		if(redT2 == true){
 			$("#tit2").removeAttr("style");
 		}
 	});
 	$("#cor03").click(function() {
-		$("#checkCor").css("display", "block").css("top", "65px").css("left", "305px");
+		$("#checkCor").css("display", "block").css("top", "45px").css("left", "305px");
 		cor = "jacaranda";
 		if(redT2 == true){
 			$("#tit2").removeAttr("style");
 		}
 	});
 	$("#cor04").click(function() {
-		$("#checkCor").css("display", "block").css("top", "160px").css("left", "116px");
+		$("#checkCor").css("display", "block").css("top", "140px").css("left", "116px");
 		cor = "mogno";
 		if(redT2 == true){
 			$("#tit2").removeAttr("style");
 		}
 	});
 	$("#cor05").click(function() {
-		$("#checkCor").css("display", "block").css("top", "160px").css("left", "210px");
+		$("#checkCor").css("display", "block").css("top", "140px").css("left", "210px");
 		cor = "cinza";
 		if(redT2 == true){
 			$("#tit2").removeAttr("style");
 		}
 	});
 	$("#cor06").click(function() {
-		$("#checkCor").css("display", "block").css("top", "160px").css("left", "302px");
+		$("#checkCor").css("display", "block").css("top", "140px").css("left", "302px");
 		cor = "preto";
 		if(redT2 == true){
 			$("#tit2").removeAttr("style");
@@ -139,14 +141,14 @@ $(document).ready(function() {
 	
 	//Escolhe Ponteira
 	$("#lanca").click(function() {
-		$("#checkPont").css("display", "block").css("top", "115px").css("left", "255px");
+		$("#checkPont").css("display", "block").css("top", "90px").css("left", "255px");
 		ponteira = "lanca";
 		if(redT3 == true){
 			$("#tit3").removeAttr("style");
 		}
 	});
 	$("#bola").click(function() {
-		$("#checkPont").css("display", "block").css("top", "115px").css("left", "85px");
+		$("#checkPont").css("display", "block").css("top", "90px").css("left", "85px");
 		ponteira = "bola";
 		if(redT3 == true){
 			$("#tit3").removeAttr("style");
@@ -1315,3 +1317,4 @@ $(document).ready(function() {
 		}
 	});
 });
+})(jQuery);
