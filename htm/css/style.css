@@ -65,6 +65,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #2B2D42;
   font-weight: 700;
   margin: 0 0 10px 0px;
+  font-family: 'Nunito';
 }
 
 a {
@@ -644,6 +645,7 @@ textarea.input {
   position: relative;
   overflow: hidden;
   margin: 15px 0px;
+  z-index: 1;
 }
 
 
@@ -849,6 +851,7 @@ textarea.input {
 .product .product-body .product-price {
   color: #D10024;
   font-size: 18px;
+  font-weight: bold;
 }
 
 .product .product-body .product-price .product-old-price {
@@ -2160,6 +2163,11 @@ imagem_desktop {
 	/* width: 33.3% !important; */
 }
 
+.destaquesmob2 {
+	display: none;
+	/* width: 33.3% !important; */
+}
+
 .bannerfixo {
   position: relative;
   width: 100%;
@@ -2168,6 +2176,23 @@ imagem_desktop {
   height: 250px;
   margin: 30px 0;
 }
+.bannerfixo2 {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  /* border: 1px solid #000; */
+  /* height: 400px; */
+  margin: -50px 0 0px;
+}
+.bannerfixo2 img {
+    position: relative;
+    left: 50%;
+    /* height: auto; */
+    -webkit-transform: translate(-50%);
+    -ms-transform: translate(-50%,-50%);
+    /* transform: translate(-50%); */
+}
+
 .bannerfixo img {
   position: relative;
   left: 50%;
@@ -2199,12 +2224,6 @@ imagem_desktop {
   margin-left: -15px;
 }
 
-.logo_menu {
-  width: 60%;
-  position: relative;
-  margin-left: 35px;
-  top: -30px;
-}
 
 .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
     right: 20px;
@@ -2367,6 +2386,10 @@ imagem_desktop {
     height: 130px;
     margin: 10px 0;
 }
+
+.destaquesmob2 {
+    display: block;
+}
 }
 
 @media only screen and (max-width: 575px){
@@ -2387,7 +2410,7 @@ imagem_desktop {
 }
   
   .products-slick .slick-list {
-    padding-bottom: 0px;
+    padding-bottom: 15px;
     
 }
 }
@@ -2463,6 +2486,9 @@ imagem_desktop {
 	  display:none;
 }
 
+.destaquesmob2 {
+    display: none;
+}
 }
 
   
@@ -2482,6 +2508,15 @@ imagem_desktop {
   .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
     bottom: 0px; !important
     
+}
+  
+  .product .product-body .product-name {
+   min-height: 60px;
+}
+  
+  .product .product-body .product-category {
+    
+    min-height: 40px;
 }
    
 }
@@ -2541,6 +2576,10 @@ imagem_desktop {
 .bannerfixo {
     height: 220px;
    
+}
+  
+    .product .product-body .product-name {
+   min-height: 90px;
 }
 }
 
