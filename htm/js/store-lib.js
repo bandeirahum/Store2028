@@ -2990,3 +2990,17 @@ var pt$=(function(){
     fnExecProdList:fnExecProdList
   };
 })();
+
+
+/* Product init custom fields */
+function fnShowCustomFields(id,oCustom){
+var oCustomFields=document.getElementById("idCustomFieldsFC"+id);
+if(oCustomFields){
+var sCustom="";
+if(oCustom.a1=="custom")sCustom+="<div class='product-details-custom-fields'><input placeholder='"+aDescNames[0]+"' type=text data-name='"+ aDescNames[0] +"' name=CustomField1 id=CustomField_1_"+ id +"></div>";
+if(oCustom.a2=="custom")sCustom+="<div class='product-details-custom-fields'><input placeholder='"+aDescNames[1]+"' type=text data-name='"+ aDescNames[1] +"' name=CustomField2 id=CustomField_2_"+ id +"></div>";
+if(oCustom.a3=="custom")sCustom+="<div class='product-details-custom-fields'><input placeholder='"+aDescNames[2]+"' type=text data-name='"+ aDescNames[2] +"' name=CustomField3 id=CustomField_3_"+ id +"></div>";
+if(sCustom!="")oCustomFields.innerHTML="<div class='product-details-custom-container'><div class='product-details-custom-fields-title'>Preencha abaixo o nome da bandeira desejada:<br><b>* Para mais de uma bandeira, separe os nomes por vírgula e altere a quantidade do produto no carrinho.</b></div>"+sCustom+"</div>";
+}
+}
+/* Product end custom fields */
