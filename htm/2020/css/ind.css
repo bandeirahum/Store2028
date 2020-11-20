@@ -1,0 +1,134 @@
+
+#tudoind16 {
+	position: inherit;
+	width: 885px;
+	height: 2050px;
+	z-index: 1;
+}
+#imagensind {
+	position: absolute;
+	width: 885px;
+	height: 192px;
+	z-index: 2;
+}
+#linkhist {
+	position: absolute;
+	left: 51px;
+	top: 260px;
+	width: 238px;
+	height: 313px;
+	z-index: 2;
+}
+#linkfachada {
+	position: absolute;
+	left: 361px;
+	top: 227px;
+	width: 223px;
+	height: 332px;
+	z-index: 3;
+}
+#linkestados {
+	position: absolute;
+	left: 645px;
+	top: 263px;
+	width: 231px;
+	height: 308px;
+	z-index: 4;
+}
+#linkbasemastro {
+	position: absolute;
+	left: 130px;
+	top: 635px;
+	width: 218px;
+	height: 320px;
+	z-index: 5;
+}
+#linkbaselat {
+	position: absolute;
+	left: 387px;
+	top: 667px;
+	width: 232px;
+	height: 237px;
+	z-index: 6;
+}
+#linkmastro {
+	position: absolute;
+	left: 657px;
+	top: 643px;
+	width: 220px;
+	height: 285px;
+	z-index: 7;
+}
+#linkbrasilbord {
+	position: absolute;
+	left: 41px;
+	top: 1034px;
+	width: 242px;
+	height: 291px;
+	z-index: 8;
+}
+#linkmesa {
+	position: absolute;
+	left: 371px;
+	top: 1028px;
+	width: 201px;
+	height: 303px;
+	z-index: 9;
+}
+#linkflam {
+	position: absolute;
+	left: 629px;
+	top: 1046px;
+	width: 249px;
+	height: 281px;
+	z-index: 10;
+}
+#linktalabarte {
+	position: absolute;
+	left: 116px;
+	top: 1518px;
+	width: 272px;
+	height: 177px;
+	z-index: 11;
+}
+#linkroseta {
+	position: absolute;
+	left: 99px;
+	top: 1727px;
+	width: 283px;
+	height: 128px;
+	z-index: 12;
+}
+#linkcd {
+	position: absolute;
+	left: 120px;
+	top: 1894px;
+	width: 177px;
+	height: 140px;
+	z-index: 13;
+}
+#linkluvas {
+	position: absolute;
+	left: 394px;
+	top: 1815px;
+	width: 210px;
+	height: 224px;
+	z-index: 15;
+}
+#linkkit {
+	position: absolute;
+	left: 451px;
+	top: 1375px;
+	width: 341px;
+	height: 662px;
+	z-index: 14;
+}
+
+#divlinks {
+	position: absolute;
+	/* left: 6px; */
+	/* top: 128px; */
+	width: 891px;
+	height: 2038px;
+	z-index: 16;
+}
