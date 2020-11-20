@@ -10,8 +10,10 @@
 
 
 	#tudoproduto {
-		width: 746px
-		font-family: Tahoma, Geneva, sans-serif;
+		width: 746px;
+		position: relative;
+		margin: auto;
+		display: flow-root;
 	}
 	
 	div.modelo {
@@ -62,7 +64,7 @@
 		width: 880px;
 		height:247px;
 		margin-bottom: 30px;
-		background-image:url(../../images/band_mesa/bgbarra_ped.jpg);
+		background-image:url(../../../images/band_mesa/bgbarra_ped.jpg);
 		background-repeat:repeat-x;
 		background-position:bottom;
 	}
@@ -72,7 +74,7 @@
 	float:left;
 	width:40px;
 	height:247px;
-	background-image:url(../../images/band_mesa/pontabarra_ped.jpg);
+	background-image:url(../../../images/band_mesa/pontabarra_ped.jpg);
 	background-repeat:no-repeat;
 	background-position:bottom;
 	}
