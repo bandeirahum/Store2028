@@ -26,6 +26,7 @@ FCLib$.onReady(function(){
 });
 OffsetAutoPagFC=290;
 var bTemSub=false;
+  var aDescNames=["<NomeAdicional1>","<NomeAdicional2>","<NomeAdicional3>"];
 </script>
 
 <!--<div id="filter-offcanvas-overlay" onclick="filterCloseNav();"></div>
@@ -68,9 +69,6 @@ var bTemSub=false;
   if(!bFromSpy)FCLib$.AddEvent(window.top,"popstate",function(){
        setTimeout(function(){ window.top.fcSpy$.removeLastSmartModal(); }, 1);
   });
-  //native share mobile
-  window.top.document.title='<prodName>';
-  window.top.document.querySelector("link[rel='canonical']").setAttribute('href', location.protocol + '//' + location.host + '<URLPROD>');
 </script>
 
 <style>
@@ -80,6 +78,7 @@ var bTemSub=false;
 .FCBtnComprarGrid div {margin: -20px 0px 0px 5px;}
 #idListProdCrossFC li{cursor:pointer;}
 .ProductDet #idEstNoCommentsClickProdOpFC a {background: #FF625F;}
+.dark-mode-checkbox-container{display:none}
 @media only screen and (max-width: 1024px){
   #idButtonBuyFC_1 {padding: 6px 0px;}
   .det-product-reviews{margin-bottom:80px;}
@@ -153,6 +152,7 @@ var bTemSub=false;
         <p class="prod-price" id="idPriceGridFC<prodId>">
           <prodPriceSimple>
         </p>
+          <p class="prod-custom-fields" id="idCustomFieldsFC<prodId>"></p>
         <script>
           FCLib$.onReady(function(){
             var e=document.getElementById("idPriceGridFC<prodId>");
@@ -342,6 +342,7 @@ FCLib$.onReady(function(){
   sF$.fnCustomizeIconsSocialNetworks(true);
   fnShowCEP(<prodId>);
   fnShowCEPGrid(<prodId>); /*FC simulação de frete */
+  fnShowCustomFields(<prodId>,{"a1":"<desc1Val>","a2":"<desc2Val>","a3":"<desc3Val>"});
   changeTargetLinksOnFCSpy('.det-product-recommend');
   changeTargetLinksOnFCSpy('#BotComprarCJ');
 });
@@ -349,16 +350,18 @@ FCGrid$.showVideoGrid("<CodVideoProd>");
 </script>
 
 <script>
+  var IDProdutoPai=<prodId>;
 var GridLib_<prodId>$=(function(){
   var oProdTags={
-    ImagemProdDet:"<prodImgDet>",
-    ImagemProdAmp:"<prodImgAmp>",
-    CorVal:"<colorVal>",
-    CorRGB:"<colorRGB>",
-    IDProduto:<prodId>,
-    CodProd:"<prodRef>",
-    Estoque:<prodStock>,
-    PesoNum:"<weightNum>",
+ImagemProdDet:"<prodImgDet>",
+ImagemProdAmp:"<prodImgAmp>",
+CorVal:"<colorVal>",
+CorRGB:"<colorRGB>",
+IDProduto:<prodId>,
+IDProdutoPai:IDProdutoPai,
+CodProd:"<prodRef>",
+Estoque:<prodStock>,
+PesoNum:"<weightNum>",
     PrecoOri:"<prodPriceOri>",
     PrecoNum:"<prodPriceNum>",
     MaxParcelasProdNum:<prodMaxInstallmentNum>,
@@ -377,16 +380,17 @@ var GridLib_<prodId>$=(function(){
   };
 
   var aSubProdTags=[];
-  <sub>
-    aSubProdTags.push({
-      ImagemProdDet:"<prodImgDet>",
-      ImagemProdAmp:"<prodImgAmp>",
-      CorVal:"<colorVal>",
-      CorRGB:"<colorRGB>",
-      IDProduto:<prodId>,
-      CodProd:"<prodRef>",
-      Estoque:<prodStock>,
-      PesoNum:"<weightNum>",
+<sub>
+aSubProdTags.push({
+ImagemProdDet:"<prodImgDet>",
+ImagemProdAmp:"<prodImgAmp>",
+CorVal:"<colorVal>",
+CorRGB:"<colorRGB>",
+IDProduto:<prodId>,
+IDProdutoPai:IDProdutoPai,
+CodProd:"<prodRef>",
+Estoque:<prodStock>,
+PesoNum:"<weightNum>",
       PrecoOri:"<prodPriceOri>",
       PrecoNum:"<prodPriceNum>",
       MaxParcelasProdNum:<prodMaxInstallmentNum>,
@@ -412,16 +416,16 @@ var getShowImg,getWhatsAppBt,getCloseSpyBt,getShowImgCloseBt,getShowImgBG,getMov
       var checkZoomStage=document.querySelector('.mz-image-stage');
       getMovedButton=window.top.document.querySelector('.movedButton');
       if(checkZoomStage){
-        if(getWhatsAppBt)getWhatsAppBt.style="display:none;"
-        if(getCloseSpyBt)getCloseSpyBt.style="display:none;"
-        if(getMovedButton)getMovedButton.style="display:none;"
+        if(getWhatsAppBt)getWhatsAppBt.style="display:none;";
+        if(getCloseSpyBt)getCloseSpyBt.style="display:none;";
+        if(getMovedButton)getMovedButton.style="display:none;";
         setTimeout(function(){
           getShowImgCloseBt=document.querySelector('.mz-button-close');
-          if(getShowImgCloseBt)getShowImgCloseBt.setAttribute('ontouchend','showButtonShowImgClose(500);')
-          if(getShowImgCloseBt)getShowImgCloseBt.setAttribute('onclick','showButtonShowImgClose(500);')
+          if(getShowImgCloseBt)getShowImgCloseBt.setAttribute('ontouchend','showButtonShowImgClose(500);');
+          if(getShowImgCloseBt)getShowImgCloseBt.setAttribute('onclick','showButtonShowImgClose(500);');
           getShowImgBG=document.querySelector('.mz-expand');
-          if(getShowImgBG)getShowImgBG.setAttribute('ontouchend','showButtonShowImgClose(800);')
-          if(getShowImgBG)getShowImgBG.setAttribute('onclick','showButtonShowImgClose(800);')
+          if(getShowImgBG)getShowImgBG.setAttribute('ontouchend','showButtonShowImgClose(800);');
+          if(getShowImgBG)getShowImgBG.setAttribute('onclick','showButtonShowImgClose(800);');
         }, 500);
       }
     }, 500);
@@ -431,9 +435,9 @@ var getShowImg,getWhatsAppBt,getCloseSpyBt,getShowImgCloseBt,getShowImgBG,getMov
     setTimeout(function(){
       checkZoomStage=document.querySelector('.mz-image-stage');
       if(!checkZoomStage){
-      if(getWhatsAppBt)getWhatsAppBt.style="display:block;"
-      if(getCloseSpyBt)getCloseSpyBt.style="display:block;"
-      if(getMovedButton)getMovedButton.removeAttribute('style')
+      if(getWhatsAppBt)getWhatsAppBt.style="display:block;";
+      if(getCloseSpyBt)getCloseSpyBt.style="display:block;";
+      if(getMovedButton)getMovedButton.removeAttribute('style');
       }
     }, timer);
   }
@@ -441,18 +445,23 @@ FCLib$.onReady(function(){
   getShowImg=document.getElementById('zoom2');
   getWhatsAppBt=window.top.document.querySelector('.whatsapp_plug_icon');
   getCloseSpyBt=window.top.document.querySelector('.FCCloseBack');
-  if(getShowImg)getShowImg.setAttribute('ontouchstart','hideButtonShowImg();')
-  if(getShowImg)getShowImg.setAttribute('onmouseup','hideButtonShowImg();')
+  if(getShowImg)getShowImg.setAttribute('ontouchstart','hideButtonShowImg();');
+  if(getShowImg)getShowImg.setAttribute('onmouseup','hideButtonShowImg();');
 });
 /* FIM - esconder botões fechar spy e whatsapp no zoom da imagem*/
+
+/*native share mobile*/
+  window.top.document.title=document.getElementById("idNameProductGridFC").innerText;
+  window.top.document.querySelector("link[rel='canonical']").setAttribute('href', location.protocol + '//' + location.host + '<URLPROD>');
 </script>
 
+<div class="dark-mode-checkbox-container"><input id="dark-mode" class="btn-toggle" type="checkbox"><label class="dark-mode-label" for="dark-mode"></label></div>
 </ProdDet>
 
 <ProdAmp><!-- Prod Amp --></ProdAmp>
 <ProdBottom>
 <script>
-  FCLib$.onReady(function(){FCLib$.useLangResource(oResources);});
+  FCLib$.onReady(function(){FCLib$.useLangResource(oResources);sF$.fnSwitchDarkMode();});
 </script>
 </ProdBottom>
 <!-- estiloproduto.htm : Grid v2 2019  (Store 2) -->
