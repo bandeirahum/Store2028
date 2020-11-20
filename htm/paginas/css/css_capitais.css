@@ -10,7 +10,8 @@
 	width: 1100px;
 	z-index: 1;
 	text-align: right;
-	/* margin-top: 20px; */
+	margin: auto;
+	display: flow-root;
 }
 #img_lateral {
     position: absolute;
