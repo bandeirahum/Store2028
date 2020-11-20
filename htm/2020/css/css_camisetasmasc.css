@@ -1,0 +1,261 @@
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	img {
+		border: none;
+	}
+
+
+	#tudoproduto {
+		width: 870px;
+		font-family: Tahoma, Geneva, sans-serif;
+                
+	}
+	
+	div.modelo {
+position: relative;
+float: left;
+height: 27px;
+/* margin: 10px 0px 0px; */
+background-image: url('../../images/barras/cammasculina.gif');
+background-repeat: no-repeat;
+width: 877px;
+
+padding-bottom: 20;
+}
+	
+	h1.modeloproduto {
+		position: relative;
+		float: left;
+		color: #8a9e8d;
+		font-size: 230%;
+		letter-spacing: -1.7px;
+		font-weight: normal;
+		line-height: 100%;
+	}
+	
+	div.tipo {
+		width: 870px;
+		height: 55px;
+		position: relative;
+		float: left;		
+	}
+	
+	img.square {
+		position: relative;
+		float: left;
+		clear: both;
+		margin: 26px 0 0 1px;
+	}
+	
+	p.subtituloproduto {
+		position: relative;
+		float: left;
+		font-size: 16px;
+		color: #777;
+		margin: 20px 0 0 5px;
+	}
+	
+	div.fotos1 {
+		position: relative;
+		float: left;
+		width: 34px;
+		height: 146px;
+		margin: 0 0 22px 0;
+		background-image: url(../../images/camisetasmasc/bg_fotos01.gif);
+	}
+	
+	div.fotos2 {
+		position: relative;
+		float: left;
+		width: 835px;
+		height: 146px;
+		background-image: url(../../images/camisetasmasc/bg_fotos02.gif);
+		background-repeat: repeat-x;
+		margin: 0 0 22px 0;
+	}
+	
+	div.fotos3 {
+		position: relative;
+		float: left;
+		width: 34px;
+		height: 143px;
+		margin: 0 0 22px 0;
+		background-image: url(../../images/camisetasmasc/bg_fotos03.gif);
+	}
+	
+	div.fotos4 {
+		position: relative;
+		float: left;
+		width: 835px;
+		height: 143px;
+		background-image: url(../../images/camisetasmasc/bg_fotos04.gif);
+		background-repeat: repeat-x;
+		margin: 0 0 22px 0;
+	}
+	
+	div.fotos5 {
+		position: relative;
+		float: left;
+		width: 34px;
+		height: 145px;
+		margin: 0 0 22px 0;
+		background-image: url(../../images/camisetasmasc/bg_fotos05.gif);
+	}
+	
+	div.fotos6 {
+		position: relative;
+		float: left;
+		width: 835px;
+		height: 145px;
+		background-image: url(../../images/camisetasmasc/bg_fotos06.gif);
+		background-repeat: repeat-x;
+		margin: 0 0 22px 0;
+	}
+	
+	div.fotos7 {
+		position: relative;
+		float: left;
+		width: 34px;
+		height: 149px;
+		margin: 0 0 22px 0;
+		background-image: url(../../images/camisetasmasc/bg_fotos07.gif);
+	}
+	
+	div.fotos8 {
+		position: relative;
+		float: left;
+		width: 835px;
+		height: 149px;
+		background-image: url(../../images/camisetasmasc/bg_fotos08.gif);
+		background-repeat: repeat-x;
+		margin: 0 0 22px 0;
+	}
+	
+	div.ab1 {
+		display: inline;
+		width: 118px;
+		height: 146px;
+		position: relative;
+		float: left;
+		margin: 0 0 0 21px;
+	}
+	
+	div.am1 {
+		display: inline;
+		width: 117px;
+		height: 146px;
+		position: relative;
+		float: left;
+		margin: 0 0 0 19px;
+	}
+	
+	div.bv1 {
+		display: inline;
+		width: 124px;
+		height: 146px;
+		position: relative;
+		float: left;
+		margin: 0 0 0 15px;
+	}
+	
+	div.ma1 {
+		display: inline;
+		width: 113px;
+		height: 146px;
+		position: relative;
+		float: left;
+		margin: 0 0 0 17px;
+	}
+	
+	div.ol1 {
+		display: inline;
+		width: 120px;
+		height: 146px;
+		position: relative;
+		float: left;
+		margin: 0 0 0 20px;
+	}
+	
+	div.vb1 {
+		display: inline;
+		width: 121px;
+		height: 143px;
+		position: relative;
+		float: left;
+		margin: 0 0 0 20px;
+	}
+	
+	div.ab2 {
+		display: inline;
+		width: 123px;
+		height: 145px;
+		position: relative;
+		float: left;
+		margin: 0 0 0 16px;
+	}
+	
+	div.am2 {
+		display: inline;
+		width: 123px;
+		height: 145px;
+		position: relative;
+		float: left;
+		margin: 0 0 0 14px;
+	}
+	
+	div.ba2 {
+		display: inline;
+		width: 123px;
+		height: 145px;
+		position: relative;
+		float: left;
+		margin: 0 0 0 13px;
+	}
+	
+	div.bv2 {
+		display: inline;
+		width: 123px;
+		height: 145px;
+		position: relative;
+		float: left;
+		margin: 0 0 0 14px;
+	}
+	
+	div.bz2 {
+		display: inline;
+		width: 122px;
+		height: 145px;
+		position: relative;
+		float: left;
+		margin: 0 0 0 13px;
+	}
+	
+	div.ma2 {
+		display: inline;
+		width: 124px;
+		height: 149px;
+		position: relative;
+		float: left;
+		margin: 0 0 0 14px;
+	}
+	
+	div.ol2 {
+		display: inline;
+		width: 120px;
+		height: 149px;
+		position: relative;
+		float: left;
+		margin: 0 0 0 15px;
+	}
+	
+	div.vb2 {
+		display: inline;
+		width: 125px;
+		height: 149px;
+		position: relative;
+		float: left;
+		margin: 0 0 0 14px;
+	}
