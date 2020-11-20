@@ -1,3 +1,5 @@
+;(function($){
+
 $(document).ready(function() {
 	
 	//Variáveis
@@ -962,3 +964,4 @@ $(document).ready(function() {
 		}
 	});
 });
+})(jQuery);
