@@ -16,6 +16,7 @@ FCLib$.onReady(function(){
 });
 OffsetAutoPagFC=290;
 var bTemSub=false;
+var aDescNames=["<NomeAdicional1>","<NomeAdicional2>","<NomeAdicional3>"];
 </script>
 
 <div id="idDivPath">
@@ -139,6 +140,7 @@ var bTemSub=false;
         <p class="prod-price" id="idPriceGridFC<prodId>">
           <prodPriceSimple>
         </p>
+          <p class="prod-custom-fields" id="idCustomFieldsFC<prodId>"></p>
         <script>
           FCLib$.onReady(function(){
             var e=document.getElementById("idPriceGridFC<prodId>");
@@ -151,7 +153,7 @@ var bTemSub=false;
       </p>
       <div class="FCGridMain" id="idMainGridFC_<prodId>"></div>
       <div class="det-product-recommend">
-        <a href="javascript:MostraIndique(<IDLoja>,<IDProduto>)"><img src="<storePath>images/iconprodemail.svg?cccfc=1" loading="lazy" width="25" height="25" alt="Recommend product" style="margin-left: 29px;"><span><var key="details-recommend-product"></var><span></a>
+        <a href="javascript:MostraIndique(<IDLoja>,<IDProduto>)"><img src="<storePath>images/iconprodemail.svg?cccfc=1" loading="lazy" width="25" height="25" alt="Recommend product"><span><var key="details-recommend-product"></var><span></a>
       </div>
       <div class="FreightContainerFC" id="det-zipcode-container">
         <div id="ShowCEP<prodId>"></div>
@@ -181,18 +183,18 @@ var bTemSub=false;
                 getBoxShare.style='-webkit-transform: translateY(0);';
                 getBGBoxShare.style='-webkit-transform: translateY(0);opacity: 0.5;';       
                 document.getElementsByTagName("BODY")[0].style.overflow = "hidden";
-                //window.top.document.querySelector('.FCCloseBack').style.display='none'
+                /*window.top.document.querySelector('.FCCloseBack').style.display='none';*/
               } else{
                 getBoxShare.style='-webkit-transform: translateY(100%);';
                 getBGBoxShare.style='-webkit-transform: translateY(100%);opacity: 0;';
                 document.getElementsByTagName("BODY")[0].removeAttribute("style");
-                //window.top.document.querySelector('.FCCloseBack').removeAttribute('style')
+                /*window.top.document.querySelector('.FCCloseBack').removeAttribute('style');*/
               }
             }
           }
           var sRodapeContent=document.getElementById("IconesRedesSociais_Rodape");
           if(sRodapeContent)var aImgsShare=sRodapeContent.getElementsByTagName('img');
-          if(aImgsShare)
+          if(aImgsShare){
             for(var i=0;i<aImgsShare.length;i++){
               if(aImgsShare[i].className=='EstImgShareFacebook'){
                aImgsShare[i].setAttribute('data-src',FC$.PathPrd +'share_icons/ic_facebook.svg');
@@ -210,6 +212,7 @@ var bTemSub=false;
                aImgsShare[i].parentNode.innerHTML+='Pinterest';
              }
             }
+          }
         </script>
       </div>
 
@@ -263,11 +266,13 @@ FCLib$.onReady(function(){
   sF$.fnCustomizeIconsSocialNetworks(true);
   fnShowCEP(<prodId>);
   fnShowCEPGrid(<prodId>); /*FC simulação de frete */
+  fnShowCustomFields(<prodId>,{"a1":"<desc1Val>","a2":"<desc2Val>","a3":"<desc3Val>"});
 });
 FCGrid$.showVideoGrid("<CodVideoProd>");
 </script>
 
 <script>
+  var IDProdutoPai=<prodId>;
 var GridLib_<prodId>$=(function(){
   var oProdTags={
     ImagemProdDet:"<prodImgDet>",
@@ -275,6 +280,7 @@ var GridLib_<prodId>$=(function(){
     CorVal:"<colorVal>",
     CorRGB:"<colorRGB>",
     IDProduto:<prodId>,
+    IDProdutoPai:IDProdutoPai,
     CodProd:"<prodRef>",
     Estoque:<prodStock>,
     PesoNum:"<weightNum>",
@@ -303,6 +309,7 @@ var GridLib_<prodId>$=(function(){
       CorVal:"<colorVal>",
       CorRGB:"<colorRGB>",
       IDProduto:<prodId>,
+      IDProdutoPai:IDProdutoPai,
       CodProd:"<prodRef>",
       Estoque:<prodStock>,
       PesoNum:"<weightNum>",
