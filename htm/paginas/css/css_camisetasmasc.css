@@ -11,7 +11,9 @@
 	#tudoproduto {
 		width: 870px;
 		font-family: Tahoma, Geneva, sans-serif;
-                
+		position: relative;
+		margin: auto;
+		display: flow-root;
 	}
 	
 	div.modelo {
@@ -72,7 +74,7 @@ padding-bottom: 20;
 		float: left;
 		width: 835px;
 		height: 146px;
-		background-image: url(../../images/camisetasmasc/bg_fotos02.gif);
+		background-image: url(../../../images/camisetasmasc/bg_fotos02.gif);
 		background-repeat: repeat-x;
 		margin: 0 0 22px 0;
 	}
@@ -91,7 +93,7 @@ padding-bottom: 20;
 		float: left;
 		width: 835px;
 		height: 143px;
-		background-image: url(../../images/camisetasmasc/bg_fotos04.gif);
+		background-image: url(../../../images/camisetasmasc/bg_fotos04.gif);
 		background-repeat: repeat-x;
 		margin: 0 0 22px 0;
 	}
@@ -110,7 +112,7 @@ padding-bottom: 20;
 		float: left;
 		width: 835px;
 		height: 145px;
-		background-image: url(../../images/camisetasmasc/bg_fotos06.gif);
+		background-image: url(../../../images/camisetasmasc/bg_fotos06.gif);
 		background-repeat: repeat-x;
 		margin: 0 0 22px 0;
 	}
@@ -129,7 +131,7 @@ padding-bottom: 20;
 		float: left;
 		width: 835px;
 		height: 149px;
-		background-image: url(../../images/camisetasmasc/bg_fotos08.gif);
+		background-image: url(../../../images/camisetasmasc/bg_fotos08.gif);
 		background-repeat: repeat-x;
 		margin: 0 0 22px 0;
 	}
