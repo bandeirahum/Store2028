@@ -1,58 +1,59 @@
-@charset "utf-8";
-/* CSS Document */
-
-* {
-	margin: 0;
-	padding: 0;
+<style type="text/css">
+*{
+	margin:0;
+	padding:0;
+	
 }
 #tudo_paises {
 	position: relative;
-	width: 1306px;
+	width: 1100px;
 	z-index: 1;
 	text-align: right;
-	margin-top: 20px;
+	height: 1000px;
 	margin: auto;
-	height: 1100px;
 }
 #img_lateral {
-    position: absolute;
-    width: 236px;
-    /* height: 653px; */
-    z-index: 2;
-    margin-left: 15px;
+	position: relative;
+	width: 237px;
+	/* height: 653px; */
+	z-index: 2;
+	margin-left: 15px;
+	text-align: left;
+	float: left;
+	/* height: 180px; */
 }
 .txt_lateral {
-    font-family: "Segoe UI", "Segoe UI Light";
-    color: #666;
-    font-size: 14px;
+	font-family: "segoe ui";
+	color: #666;
+	font-size: 14px;
+	font-weight: inherit;
 }
 .txt_lat_negrito {
-    font-family: "Segoe UI", "Segoe UI Light";
-    color: #666;
-    font-size: 21px;
-    font-weight: 500;
+	font-family: "Segoe UI", "Segoe UI Light";
+	color: #666;
+	font-size: 21px;
+	font-weight: 500;
 }
 #descricao {
 	position: relative;
-	/* top: 11px; */
-	width: 796px;
-	height: 70px;
+	width: 69%;
+	height: 140px;
 	z-index: 3;
-	margin-left: 290px;
+	float: right;
+	margin-right: 45px;
 }
 #nome_pag {
 	position: absolute;
 	left: 8px;
-	top: 7px;
-	width: 241px;
+	width: 97px;
 	height: 60px;
 	z-index: 4;
 	font-size: 20px;
+	text-align: left;
 }
 .nome_pag {
 	font-family: "Segoe UI", "Segoe UI Light";
 	color: #05533a;
-	text-align: left;
 }
 .nome_pag_bold {
     font-size: 26px;
@@ -66,7 +67,7 @@
 	/* [disabled]height: 59px; */
 	float: right;
 	z-index: 4;
-	margin-right: 80px;
+	margin-right: 40px;
 }
 .escolha {
 	font-family: "Segoe UI", "Segoe UI Light";
@@ -78,15 +79,15 @@
 .escolha_txt_menor {
 	font-family: "Segoe UI", "Segoe UI Light";
 	font-size: 12px;
-	margin-top: -4px;
+	margin-top: -10px;
 }
 #bottons {
 	position: relative;
-	left: 291px;
-	/* top: 90px; */
-	width: 723px;
+	margin-left: 38px;
+	width: 810px;
 	z-index: 5;
-	5: 10px
+	float: right;
+	height: 100%;
 }
 
 	
@@ -130,24 +131,12 @@
 	width: 100%;
 	height: 38px;
 	position: relative;
-	float: right;
-	margin: 0 0 20px 0;
+	float: left;
+	/* margin: 0 0 20px 0; */
 	display: inline;
 	}
 	
 	p.linksletras {
-	position: relative;
-	float: right;
-	color: #ffffff;
-	font-size: 170%;
-	font-weight: normal;
-	/* line-height: 100%; */
-	margin: 11px 0 0 0px;
-	display: inline;
-	background-color: #518f6c;
-	font-family: segoe ui;
-	width: 94%;
-	height: 100%;
 	}
 	
 	a.letras:link, a.letras:visited {
@@ -175,26 +164,26 @@
 	}
 	
 	span.nomenaut {
-    width: 108px;
-    height: 18px;
-    position: relative;
-    float: left;
-    text-align: center;
-    font-size: 96%;
-    color: #05533a;
-    font-family: segoe ui;
+	width: 108px;
+	height: 18px;
+	position: relative;
+	float: left;
+	text-align: center;
+	font-size: 96%;
+	color: #05533a;
+	font-family: segoe ui;
 }
 	
 	span.nomenautg {
-		width: 111px;
-		height: 18px;
-		position: relative;
-		float: left;
-		text-align: center;
-		font-size: 75%;
-		line-height: 100%;
-		color: #05533a;
-    font-family: segoe ui;
+	width: 111px;
+	height: 18px;
+	position: relative;
+	float: left;
+	text-align: center;
+	font-size: 94%;
+	line-height: 100%;
+	color: #05533a;
+	font-family: segoe ui;
 	}
 	
 	div.bandeiras {
@@ -202,7 +191,7 @@
 	height: 93px;
 	position: relative;
 	float: left;
-	margin: 0 0 26px 45px;
+	margin: 0 0 26px 50px;
 	}
 	
 	div.bandeirasu {
@@ -218,9 +207,8 @@
 
 #prod_relacionado {
     position: relative;
-    /* top: 844px; */
     width: 1094px;
-    height: 353px;
+    height: 303px;
     z-index: 6;
 }
 #faixa_relacionado {
@@ -229,7 +217,7 @@
 	width: 546px;
 	height: 25px;
 	z-index: 7;
-	background-color: #008e48;
+	background-color: #0D6E5F;
 	font-family: "segoe ui";
 	color: #FFF;
 	font-weight: 600;
@@ -245,18 +233,18 @@
 	z-index: 8;
 }
 #lista_relac {
-	position: absolute;
-	top: 155px;
+	position: relative;
+	top: 140px;
 	width: 1025px;
 	height: 49px;
 	z-index: 7;
 	background-color: #E6E6E6;
+	float: left;
 }
 #relac_01 {
     top: -98px;
     width: 155px;
     z-index: 8;
-	
 }
 #relac_02 {
 	top: -99px;
@@ -271,10 +259,11 @@
 }#relac_04 {
 	top: -99px;
 	width: 155px;
+
 	z-index: 8;
 }
 #relac_05 {
-	top: -99px;
+	top: -113px;
 	width: 155px;
 	z-index: 8;
 }
@@ -301,81 +290,23 @@
 	font-weight: 500;
 	color: #626365;
 }
+p.linksletras {
+	position: relative;
+	color: #8d8d8d;
+	font-size: 190%;
+	font-weight: normal;
+	background-color: #0D6E5F;
+	width: 97%;
+	font-family: segoe ui;
+	height: 40px;
+	text-align: center;
+	margin: 11px 0 0 0px;
+	}
 #tudo_relac {
 	position: relative;
-	top: 140px;
+	/* top: 633px; */
 	width: 100%;
 	z-index: 2;
 	float: left;
 }
-@-webkit-keyframes cf4FadeInOut {
-0% {
-   opacity:1;
- }
- 17% {
-   opacity:1;
- }
- 25% {
-   opacity:0;
- }
- 62% {
-   opacity:0;
- }
- 82% {
-   opacity:0;
- }
- 100% {
-   opacity:1;
- }
-}
 
-#cf4a {
-  position:relative;
-  height: 200px;
-  width: 100%;
-  margin:0 auto;
-}
-#cf4a img {
-  position:absolute;
-  left:0;
-}
-
-#cf4a img {
-  -webkit-animation-name: cf4FadeInOut;
-  -webkit-animation-timing-function: ease-in-out;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-duration: 12s;
-
-  -moz-animation-name: cf4FadeInOut;
-  -moz-animation-timing-function: ease-in-out;
-  -moz-animation-iteration-count: infinite;
-  -moz-animation-duration: 12s;
-
-  -o-animation-name: cf4FadeInOut;
-  -o-animation-timing-function: ease-in-out;
-  -o-animation-iteration-count: infinite;
-  -o-animation-duration: 12s;
-
-  animation-name: cf4FadeInOut;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-duration: 12s;
-}
-#cf4a img:nth-of-type(1) {
-  -webkit-animation-delay: 12s;
-  -moz-animation-delay: 12s;
-  -o-animation-delay: 12s;
-  animation-delay: 12s;
-}
-#cf4a img:nth-of-type(2) {
-  -webkit-animation-delay: 8s;
-  -moz-animation-delay: 8s;
-  -o-animation-delay: 8s;
-  animation-delay: 8s;
-}
-#cf4a img:nth-of-type(3) {
-  -webkit-animation-delay: 4s;
-  -moz-animation-delay: 4s;
-  -o-animation-delay: 4s;
-  animation-delay: 4s;
-}
