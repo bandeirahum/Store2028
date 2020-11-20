@@ -8,7 +8,7 @@ span.colorT {
 #tudokits {
 	width:100%;
 	margin-top: 10;
-	height: 1920;
+	height: 1720;
 }
 #boxKits01 {
 	width: 888px;
@@ -32,10 +32,9 @@ span.colorT {
     font-size: 40px;
     background-image: url('../../../images/barras/kitbmrevest.gif');
     padding-bottom: 20px;
-    height: 40px;
+    height: 20px;
     margin: 0 0 0 -9;
     background-repeat: no-repeat;
-    display: none;
 }
 		.titPag h2 {
 	color: #0D6589;
@@ -117,7 +116,7 @@ span.colorT {
 	float: left;
 		}
 		
-#boxKits02 {width: 744px;height: 1758px;margin: auto;top: 50px;}
+#boxKits02 {width: 744px;height: 1800px;margin: auto;}
 
 	#subtitMonte {
 	position:relative;
@@ -146,25 +145,25 @@ span.colorT {
 	position: relative;
 	width: 890px;
 	height: 300px;
-	padding-top: 70px;
+	padding-top: 75px;
 	/* PADDING-LEFT: 22; */
 }
 	
 		.boxPassos h3 {
 	position: absolute;
-	top: 10px;
+	top: 20px;
 	left: 84px;
 	font-size: 14px;
 	color: #aaa;
-	z-index: 10;
+	z-index: 1;
 	width: 310px;
 	}
 		
 		.botProximo {
 	position: absolute;
-	bottom: -139px;
-	right: 10px;
-	z-index: 30;
+	bottom: -119px;
+	right: 0;
+	z-index: 10;
 	}
 	
 		.grayBox {
@@ -196,7 +195,8 @@ span.colorT {
 	position: relative;
 	float: left;
 	width: 365px;
-	height: 300px;
+	height: 200px;
+	top: 50p;
 	}
 		
 			.botProximo1 {
@@ -207,16 +207,15 @@ span.colorT {
 			}
 			
 			#grayBox02{
-	width: 359px;
-	height: 220px;
-	top: 50px;
-	left: 65px;
+	width: 369px;
+	/* height: 220px; */
+	margin: 30px 0 0 60px;
 }
 			
 				img.corBase {
 	position: relative;
 	/* float: left; */
-	margin: 33px 18px 0 11px;
+	margin: 5px 15px 25px 15px;
 	}
 		
 		#passo03 {
@@ -246,29 +245,27 @@ span.colorT {
 				img#lanca {
 	position: absolute;
 	left: 216px;
-	bottom: -25px;
+	bottom: 0px;
 	width: 149px;
-	}
+				}
 				
 				img#bola {
 	position: absolute;
 	right: 223px;
-	bottom: -25px;
-	width: 145px;
-	}
+	bottom: 0px;
+	width: 135px;
+				}
 				
 	#boxPreview {
-	width:746px;
+	width: 845px;
 	height:400px;
 	margin-left: -19;
-	margin-top: 30px;
 	}
 	
 		.titPrev {
 	position: relative;
-	/* width: 895px; */
-	/* height: 65px; */
-	margin-right: 50px;
+	width: 100%;
+	height: 65px;
 	}
 		
 			.titPrev h3 {
@@ -278,7 +275,7 @@ span.colorT {
 	font-size: 14px;
 	color: #aaa;
 	z-index: 10;
-	width: 815px;
+	width: 100%;
 	}
 		
 		#fotosPrev {
@@ -291,8 +288,7 @@ span.colorT {
 	position: absolute;
 	width: 315px;
 	height: 241px;
-	z-index: 29;
-        left: 220;
+	z-index: 2;
 }
 			
 			.boxMastro {
@@ -380,15 +376,15 @@ span.colorT {
 #p1 {
 	position: absolute;
 	left: -11px;
-	top: 20px;
+	top: 0px;
 	width: 65px;
 	height: 71px;
-	z-index: 21;
+	z-index: 1;
 }
 #p2 {
 	position: absolute;
 	left: -10px;
-	top: 22px;
+	top: 4px;
 	width: 65px;
 	height: 71px;
 	z-index: 21;
@@ -396,7 +392,7 @@ span.colorT {
 #p3 {
 	position: absolute;
 	left: -23px;
-	top: 23px;
+	top: 4px;
 	width: 65px;
 	height: 71px;
 	z-index: 21;
@@ -408,6 +404,7 @@ span.colorT {
     color: #096;
     padding-top: 15;
     margin-left: 19;
+    width: 100%;
 }
 
 #apDiv2 {
@@ -421,7 +418,7 @@ span.colorT {
 #txtbola {
 	position: absolute;
 	left: 56px;
-	top: 139px;
+	top: 119px;
 	width: 58px;
 	height: 19px;
 	z-index: 1;
@@ -433,7 +430,7 @@ span.colorT {
 #txtlanca {
 	position: absolute;
 	left: 235px;
-	top: 139px;
+	top: 119px;
 	width: 58px;
 	height: 19px;
 	z-index: 1;
@@ -468,11 +465,10 @@ span.colorT {
 	top: 39px;
 }
 #botcomprar {
-	position: absolute;
-	right: 500px;
+	position: relative;
+	float: right;
 	z-index: 30;
-	/* top: 1750; */
-	margin-top: 20px;
+	top: 20px;
 }
 	
  
@@ -486,32 +482,32 @@ span.colorT {
 }
 #cerejeiratxt {
 	position: absolute;
-	left: 6px;
-	top: 95px;
+	left: 10px;
+	top: 65px;
 	width: 61px;
 	height: 11px;
 	z-index: 51;
 }
 #imbuiatxt {
 	position: absolute;
-	left: 110px;
-	top: 95px;
+	left: 112px;
+	top: 65px;
 	width: 52px;
 	height: 11px;
 	z-index: 51;
 }
 #jacarandatxt {
 	position: absolute;
-	left: 193px;
-	top: 95px;
+	left: 198px;
+	top: 65px;
 	width: 52px;
 	height: 11px;
 	z-index: 51;
 }
 #mognotxt {
 	position: absolute;
-	left: 13px;
-	top: 185px;
+	left: 17px;
+	top: 156px;
 	width: 52px;
 	height: 11px;
 	z-index: 51;
@@ -527,20 +523,20 @@ span.colorT {
     top: 20;
     width: 348px;
     height: 204px;
-    z-index: 51;
+    z-index: 1;
 }
 #cinzatxt {
 	position: absolute;
-	left: 115px;
-	top: 185px;
+	left: 118px;
+	top: 156px;
 	width: 52px;
 	height: 11px;
 	z-index: 51;
 }
 #pretotxt {
 	position: absolute;
-	left: 208px;
-	top: 185px;
+	left: 213px;
+	top: 156px;
 	width: 52px;
 	height: 11px;
 	z-index: 51;
