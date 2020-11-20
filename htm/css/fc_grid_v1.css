@@ -28,14 +28,14 @@
 .FCContentGrid{height:auto;position:relative;float:left;text-align:left !important}
 .FCGridMain .FCDescritorGrid{height:30px;min-width:30px;min-height:30px;display:block;text-align:center;border:1px solid #dddddd;padding:5px;line-height:17px;white-space: nowrap;border-radius:2px}
 
-.ProductDet .FCGridMain .FCDescritorGrid{/* height:25px; */display:block;text-align:center;border:1px solid #dddddd;padding:5px;line-height:28px;border-radius:2px;}
+.ProductDet .FCGridMain .FCDescritorGrid{height: 25px;display:block;text-align:center;border:1px solid #dddddd;padding:5px;line-height: 12px;border-radius:2px;}
 
 .FCBoxGrid{position:relative;height:auto !important;min-height:40px;display:table;text-align:left;border:0px solid #cccccc;font-size:13px;margin-bottom:5px;margin-top:0px}
 .FCDescritorGridDisabled .FCDescritorGrid{background:#dddddd;color:#686868;cursor:not-allowed}
-.FCSelectedGrid{border-color:#5c60b4;background:#3e98e4;}
+.FCSelectedGrid{border-color:#5c60b4;background:#3e98e4}
 .FCSelectedGrid span{background:#dddddd}
 .FCStepGrid{min-height:40px;display:block;text-align:left;border:0;padding:0}
-.FCStepGridNumber{width:25px;height:25px;line-height:27px;display:inline-block;float:left;padding:5px;border-radius:50%;background:#4494f9;color:#ffffff;text-align:center;font-weight:700}
+.FCStepGridNumber{width:25px;height:25px;line-height:27px;display:inline-block;float:left;/* padding:5px; */border-radius:50%;background:#4494f9;color:#ffffff;text-align:center;font-weight:700;}
 .FCOptionSelected{display:inline-block;font-weight:bold;padding:8px 0}
 .FCStepGridTitle{display:inline-block;padding:8px 0;float:left;margin:0 5px;font-weight:700}
 .FCStepGridTitle.FCTitQtyInc{margin-left:5px}
@@ -69,7 +69,7 @@
 /*.ProductDet .FCDescritorContent{height:60px;list-style:none;overflow:auto;display:flex;flex-wrap:nowrap}*/
 .ProductDet .FCDescritorContent{height:auto;list-style:none;overflow:initial;display:-webkit-box;display:-ms-flexbox;display:flex;flex-wrap:wrap;margin:0 0 20px 0;}
 ul.FCDescritorContent{margin:0;padding:0}
-.FCDescritorContent li{height:37px;position:relative;float:left;border:2px solid transparent;margin:2px;border-radius:2px;}
+.FCDescritorContent li{/* height:37px; */position:relative;float:left;border:2px solid transparent;margin:2px;border-radius:2px;}
 .FCDescritorContent li:hover{}
 
 /* Steps */
