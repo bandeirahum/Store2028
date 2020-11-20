@@ -224,9 +224,10 @@
 #prod_relacionado {
     position: relative;
     /* top: 844px; */
-    width: 1094px;
+    /* width: 1094px; */
     height: 353px;
     z-index: 6;
+    margin-left: 17%;
 }
 #faixa_relacionado {
 	position: absolute;
@@ -255,16 +256,16 @@
 	width: 1025px;
 	height: 49px;
 	z-index: 7;
-	background-color: #E6E6E6;
+	/* background-color: #E6E6E6; */
 }
 #relac_01 {
     top: -83px;
-    width: 155px;
+    width: 220px;
     z-index: 8;
 }
 #relac_02 {
 	top: -83px;
-	width: 155px;
+	width: 210px;
 	z-index: 8;
 }
 #relac_03 {
@@ -310,6 +311,7 @@
 	width: 100%;
 	z-index: 2;
 	float: left;
+	margin: auto;
 }
 @-webkit-keyframes cf4FadeInOut {
 0% {
