@@ -15,3 +15,6 @@ function VerTexto(oNome){
    return false;}
  else{return true;}
 }
+
+
+
