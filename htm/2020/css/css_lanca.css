@@ -1,0 +1,283 @@
+#tudolanca {
+	position: absolute;
+	left: 215px;
+	top: 280px;
+	width: 885px;
+	height: 869px;
+	z-index: 1;
+}
+#fundoL {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 887px;
+	height: 402px;
+	z-index: 2;
+}
+#lanca1 {
+	position: absolute;
+	left: 0px;
+	top: 79px;
+	width: 121px;
+	height: 281px;
+	z-index: 2;
+}
+#lanca2 {
+	position: absolute;
+	left: 228px;
+	top: 50px;
+	width: 118px;
+	height: 351px;
+	z-index: 3;
+}
+#lanca3 {
+	position: absolute;
+	left: 458px;
+	top: 108px;
+	width: 107px;
+	height: 329px;
+	z-index: 4;
+}
+#lanca4 {
+	position: absolute;
+	left: 674px;
+	top: 79px;
+	width: 157px;
+	height: 344px;
+	z-index: 5;
+}
+#titL1 {
+	position: absolute;
+	left: 93px;
+	top: 297px;
+	width: 103px;
+	height: 55px;
+	z-index: 6;
+}
+#titL2 {
+	position: absolute;
+	left: 84px;
+	top: 326px;
+	width: 103px;
+	height: 55px;
+	z-index: 6;
+}
+#titL3 {
+	position: absolute;
+	left: 87px;
+	top: 268px;
+	width: 103px;
+	height: 55px;
+	z-index: 6;
+}
+#titL4 {
+	position: absolute;
+	left: 93px;
+	top: 297px;
+	width: 103px;
+	height: 55px;
+	z-index: 6;
+}
+#titL5 {
+	position: absolute;
+	left: 86px;
+	top: 123px;
+	width: 153px;
+	height: 55px;
+	z-index: 6;
+}
+#titL6 {
+	position: absolute;
+	left: 86px;
+	top: 98px;
+	width: 103px;
+	height: 55px;
+	z-index: 6;
+}
+#titL7 {
+	position: absolute;
+	left: 71px;
+	top: 168px;
+	width: 103px;
+	height: 55px;
+	z-index: 6;
+}
+#titL8 {
+	position: absolute;
+	left: 56px;
+	top: 42px;
+	width: 129px;
+	height: 55px;
+	z-index: 6;
+}
+#titL9 {
+	position: absolute;
+	left: 60px;
+	top: 132px;
+	width: 103px;
+	height: 55px;
+	z-index: 6;
+}
+#titL10 {
+	position: absolute;
+	left: 60px;
+	top: 52px;
+	width: 223px;
+	height: 55px;
+	z-index: 6;
+}
+.titL {
+	font-family: "Segoe UI";
+	font-size: 26px;
+	color: #0d4174;
+	line-height: 24px;
+}
+#descL1 {
+	position: absolute;
+	left: 39px;
+	top: 349px;
+	width: 170px;
+	height: 67px;
+	z-index: 6;
+}
+#descL2 {
+	position: absolute;
+	left: 35px;
+	top: 378px;
+	width: 169px;
+	height: 67px;
+	z-index: 6;
+}
+#descL3 {
+	position: absolute;
+	left: 39px;
+	top: 320px;
+	width: 159px;
+	height: 67px;
+	z-index: 6;
+}
+#descL4 {
+	position: absolute;
+	left: 42px;
+	top: 349px;
+	width: 163px;
+	height: 67px;
+	z-index: 6;
+}
+#descL5 {
+	position: absolute;
+	left: 34px;
+	top: 175px;
+	width: 170px;
+	height: 67px;
+	z-index: 6;
+}
+#descL6 {
+	position: absolute;
+	left: 36px;
+	top: 150px;
+	width: 161px;
+	height: 67px;
+	z-index: 6;
+}
+#descL7 {
+	position: absolute;
+	left: 31px;
+	top: 220px;
+	width: 154px;
+	height: 67px;
+	z-index: 6;
+}
+#descL8 {
+	position: absolute;
+	left: 23px;
+	top: 94px;
+	width: 169px;
+	height: 67px;
+	z-index: 6;
+}
+#descL9 {
+	position: absolute;
+	left: 22px;
+	top: 184px;
+	width: 169px;
+	height: 67px;
+	z-index: 6;
+}
+#descL10 {
+	position: absolute;
+	left: 22px;
+	top: 104px;
+	width: 179px;
+	height: 67px;
+	z-index: 6;
+}
+.descL {
+	font-family: "Segoe UI";
+	font-size: 12px;
+	color: #666666;
+}
+#lanca5 {
+	position: absolute;
+	left: 4px;
+	top: 549px;
+	width: 103px;
+	height: 218px;
+	z-index: 2;
+}
+#lanca6 {
+	position: absolute;
+	left: 226px;
+	top: 574px;
+	width: 115px;
+	height: 208px;
+	z-index: 3;
+}
+#lanca7 {
+	position: absolute;
+	left: 465px;
+	top: 503px;
+	width: 112px;
+	height: 216px;
+	z-index: 4;
+}
+#lanca8 {
+	position: absolute;
+	left: 26px;
+	top: 895px;
+	width: 63px;
+	height: 88px;
+	z-index: 5;
+}
+#lanca {
+	position: absolute;
+	left: 26px;
+	top: 845px;
+	width: 63px;
+	height: 88px;
+	z-index: 5;
+}
+#lanca9 {
+	position: absolute;
+	left: 250px;
+	top: 805px;
+	width: 94px;
+	height: 152px;
+	z-index: 2;
+}
+#titlanca {
+	position: absolute;
+	left: 0px;
+	top: -25px;
+	width: 885px;
+	height: 25px;
+	z-index: 5;
+}
+#lanca10 {
+	position: absolute;
+	left: 480px;
+	top: 887px;
+	width: 94px;
+	height: 152px;
+	z-index: 2;
+}
