@@ -214,7 +214,7 @@ var FCGrid$ = function () {
             imgDetMini=novoArray[i];
             imgAmpMini=novoArrayAmp[i];
               sHtmlZoom+="<div data-slide-id='zoom' class='zoom-gallery-slide active'><a href="+imgAmpMini+" class='MagicZoom' id='zoom2' data-mobile-options='textClickZoomHint: ' data-options='hint:off;selectorTrigger:hover;transitionEffect:false;'><img width='512' height='543' src="+ imgDetMini +" alt=\""+ fn.getNameProduct() +"\" "+ sLazy +"></a></div>"
-                        +"<div data-slide-id='video-1' class='zoom-gallery-slide video-slide' id='get-video-display'><iframe width='560' height='315' id='gridYoutubeVideo' src='https://www.youtube.com/embed/"+ saveCodVideoGrid +"?version=3&enablejsapi=1' frameborder='0' allowfullscreen></iframe></div>"
+                        +"<div data-slide-id='video-1' class='zoom-gallery-slide video-slide' id='get-video-display'><iframe width='560' height='315' id='gridYoutubeVideo' src='https://www.youtube.com/embed/"+ saveCodVideoGrid +"?version=3&enablejsapi=1'  frameborder='0' allowfullscreen loading='lazy'></iframe></div>"
                         +"<div class='selectors position-selectors'><div class='position-thumbnails2'><a href=\""+imgAmpMini+"\" data-slide-id='zoom' data-zoom-id='zoom2' class='active' data-image=\""+ imgDetMini +"\"><img width='66' height='70' src=\""+ imgDetMini +"\" class=ZoomIMG2 alt=\""+ fn.getNameProduct() +"\" "+ sLazy +"></a></div>"
                         +"<div id='position-thumbnails'></div><a data-slide-id='video-1' href='#' id='videoGridLink'><img src=\""+ FC$.PathImg + options.btnVideo +"\" width='65' height='65' alt='Video Player' class='grid-video-player'"+ sLazy +"></a></div>" ;
           }
@@ -231,7 +231,9 @@ var FCGrid$ = function () {
         }
       }            
       document.getElementById(id).innerHTML=sHtmlZoom;
-
+      sF$.fnGridVideoPosition();
+      sF$.fnInsertVideoGridThumb();
+      
       setTimeout(function(){      
         var mgZoomId = document.querySelector('#zoom2');
         mgZoomId.setAttribute('title',sNameProd);
@@ -672,6 +674,27 @@ var FCGrid$ = function () {
       }
     }
 
+    
+    /* Product init custom fields */
+console.log("IDProdutoPai",product.IDProdutoPai);
+var oCustomField_1=document.getElementById('CustomField_1_'+product.IDProdutoPai);
+var oCustomField_2=document.getElementById('CustomField_2_'+product.IDProdutoPai);
+var oCustomField_3=document.getElementById('CustomField_3_'+product.IDProdutoPai);
+if(oCustomField_1){
+if(oCustomField_1.value==""){alert("Preencha o "+ oCustomField_1.getAttribute("data-name"));return oCustomField_1.focus();}
+else{product.adicional1=oCustomField_1.value;}
+}
+if(oCustomField_2){
+if(oCustomField_2.value==""){alert("Preencha o "+ oCustomField_2.getAttribute("data-name"));return oCustomField_2.focus();}
+else{product.adicional2=oCustomField_2.value;}
+}
+if(oCustomField_3){
+if(oCustomField_3.value==""){alert("Preencha o "+ oCustomField_3.getAttribute("data-name"));return oCustomField_3.focus();}
+else{product.adicional3=oCustomField_3.value;}
+}
+/* Product end custom fields */
+    
+    
     //todos os parâmetros do produto
     var aNameRGB=product.cor.split(options.separadorRGBCor), sNameColor=aNameRGB[0];
     if(options.cartOnPage){
