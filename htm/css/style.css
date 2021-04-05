@@ -364,6 +364,10 @@ textarea.input {
   right: 0px;
 }
 
+#bmesa {
+  display:block;
+}
+
 /*----------------------------*\
 	Breadcrumb
 \*----------------------------*/
@@ -679,7 +683,7 @@ textarea.input {
 .shop .shop-body {
   position: absolute;
   top: 0;
-  width: 45%;
+  width: 55%;
   margin: 15px 0 15px 25px;
   z-index: 1;
   text-align: left;
