@@ -256,9 +256,9 @@ select{min-height:27px}
 
 /* Botao Finalizar Pedido */
 #idChkOrderConfirmationFloat {border-radius:3px;-webkit-border-radius:3px;border:0}
-#idDivLinkContinueFC{width:250px;border-radius:3px;-webkit-border-radius:3px;border:0} /* Nao pode colocar tamanho fixo pois atrapalha a tela de Login */
+#idDivLinkContinueFC{width:200px;border-radius:3px;-webkit-border-radius:3px;border:0} /* Nao pode colocar tamanho fixo pois atrapalha a tela de Login */
 #idCheckoutFC .EstChkOrderConfirmationFC {height:55px;}
-#idCheckoutFC a #idTxtLinkContinueFC{background-color:#44ac55;padding:15px 0;cursor:pointer;border-radius:2px;-webkit-border-radius:2px;color:#fff;font-weight:700;text-align:center;text-transform:uppercase;font-size:22px;}
+#idCheckoutFC a #idTxtLinkContinueFC{background-color: #006b3d;padding: 10px 0;cursor:pointer;border-radius:2px;-webkit-border-radius:2px;color:#fff;font-weight:700;text-align:center;text-transform:uppercase;font-size:16px;}
 #idCheckoutFC a:hover #idTxtLinkContinueFC{background-color:#44ac55;padding:15px 0;cursor:pointer;border-radius:2px;-webkit-border-radius:2px;color:#fff;font-weight:700;text-align:center;text-transform:uppercase;font-size:22px;-webkit-box-shadow:0 0 10px 0 rgba(0,0,0,.3);-moz-box-shadow:0 0 10px 0 rgba(0,0,0,.3);box-shadow:0 0 10px 0 rgba(0,0,0,.3);-webkit-transition:all 120ms ease-in;-moz-transition:all 120ms ease-in;-o-transition:all 120ms ease-in;transition:all 120ms ease-in} */
 
 /* Register */
