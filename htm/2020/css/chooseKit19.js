@@ -1,6 +1,8 @@
+;(function($){
+  
 $(document).ready(function() {
 	
-	//Vari√°veis
+	//Vari·veis
 	var slidePrev = false;
 	var base = "nada";
 	var cor = "nada";
@@ -10,84 +12,84 @@ $(document).ready(function() {
 	var redT3 = false;
 	
 	//Checkbox
-	$("#checkBase, #checkCor, #checkIndisponivel, #checkPont").css("display", "none");
+	$("#checkBase, #checkCor, #checkPont").css("display", "none");
 	
 	//Boxes ocultos
 	$("#proxBase, #proxCor, .fotosPrev").css("display", "none");
 	
 	//Escolher Base
 	$("#base01").click(function() {
-		$("#checkBase").css("display", "block").css("top", "158px").css("left", "235px");
+		$("#checkBase").css("display", "block").css("top", "160px").css("left", "210px");
 		base = "b01";
 		if(redT1 == true){
 			$("#tit1").removeAttr("style");
 		}
 	});	
 	$("#base02").click(function() {
-		$("#checkBase").css("display", "block").css("top", "158px").css("left", "355px");
+		$("#checkBase").css("display", "block").css("top", "160px").css("left", "340px");
 		base = "b02";
 		if(redT1 == true){
 			$("#tit1").removeAttr("style");
 		}
 	});	
 	$("#base03").click(function() {
-		$("#checkBase").css("display", "block").css("top", "158px").css("left", "495px");
+		$("#checkBase").css("display", "block").css("top", "160px").css("left", "470px");
 		base = "b03";
 		if(redT1 == true){
 			$("#tit1").removeAttr("style");
 		}
 	});	
 	$("#base04").click(function() {
-		$("#checkBase").css("display", "block").css("top", "158px").css("left", "625px");
+		$("#checkBase").css("display", "block").css("top", "160px").css("left", "620px");
 		base = "b04";
 		if(redT1 == true){
 			$("#tit1").removeAttr("style");
 		}
 	});
 	$("#base05").click(function() {
-		$("#checkBase").css("display", "block").css("top", "158px").css("left", "805px");
+		$("#checkBase").css("display", "block").css("top", "160px").css("left", "800px");
 		base = "b05";
 		if(redT1 == true){
 			$("#tit1").removeAttr("style");
 		}
 	});	
 	$("#base06").click(function() {
-		$("#checkIndisponivel").css("display", "block").css("top", "158px").css("left", "975px");
+		$("#checkBase").css("display", "block").css("top", "160px").css("left", "960px");
 		base = "b06";
 		if(redT1 == true){
 			$("#tit1").removeAttr("style");
 		}
 	});	
 	$("#base07").click(function() {
-		$("#checkBase").css("display", "block").css("top", "320px").css("left", "280px");
+		$("#checkBase").css("display", "block").css("top", "315px").css("left", "235px");
 		base = "b07";
 		if(redT1 == true){
 			$("#tit1").removeAttr("style");
 		}
 	});
 	$("#base08").click(function() {
-		$("#checkBase").css("display", "block").css("top", "320px").css("left", "440px");
+		$("#checkBase").css("display", "block").css("top", "315px").css("left", "405px");
 		base = "b08";
 		if(redT1 == true){
 			$("#tit1").removeAttr("style");
 		}
 	});
 	$("#base09").click(function() {
-		$("#checkBase").css("display", "block").css("top", "320px").css("left", "620px");
+		$("#checkBase").css("display", "block").css("top", "315px").css("left", "580px");
 		base = "b09";
 		if(redT1 == true){
 			$("#tit1").removeAttr("style");
 		}
 	});
 	$("#base10").click(function() {
-		$("#checkBase").css("display", "block").css("top", "320px").css("left", "795px");
+		$("#checkBase").css("display", "block").css("top", "315px").css("left", "760px");
 		base = "b10";
 		if(redT1 == true){
 			$("#tit1").removeAttr("style");
 		}
 	});
 	$("#base11").click(function() {
-		$("#checkBase").css("display", "block").css("top", "320px").css("left", "990px");
+		$("#checkBase").css("display", "block").css("top", "315px").css("left", "955px");
 		base = "b11";
 		if(redT1 == true){
 			$("#tit1").removeAttr("style");
@@ -95,29 +97,43 @@ $(document).ready(function() {
 	});
 	//Escolher Cor
 	$("#cor01").click(function() {
-		$("#checkCor").css("display", "block").css("top", "60px").css("left", "260px");
+		$("#checkCor").css("display", "block").css("top", "50px").css("left", "210px");
 		cor = "cerejeira";
 		if(redT2 == true){
 			$("#tit2").removeAttr("style");
 		}
 	});
 	$("#cor02").click(function() {
-		$("#checkCor").css("display", "block").css("top", "60px").css("left", "420px");
+		$("#checkCor").css("display", "block").css("top", "50px").css("left", "345px");
 		cor = "imbuia";
 		if(redT2 == true){
 			$("#tit2").removeAttr("style");
 		}
 	});
 	$("#cor03").click(function() {
-		$("#checkCor").css("display", "block").css("top", "210px").css("left", "255px");
+		$("#checkCor").css("display", "block").css("top", "50px").css("left", "470px");
 		cor = "jacaranda";
 		if(redT2 == true){
 			$("#tit2").removeAttr("style");
 		}
 	});
 	$("#cor04").click(function() {
-		$("#checkCor").css("display", "block").css("top", "210px").css("left", "417px");
+		$("#checkCor").css("display", "block").css("top", "185px").css("left", "206px");
 		cor = "mogno";
+		if(redT2 == true){
+			$("#tit2").removeAttr("style");
+		}
+	});
+	$("#cor05").click(function() {
+		$("#checkCor").css("display", "block").css("top", "185px").css("left", "345px");
+		cor = "cinza";
+		if(redT2 == true){
+			$("#tit2").removeAttr("style");
+		}
+	});
+	$("#cor06").click(function() {
+		$("#checkCor").css("display", "block").css("top", "185px").css("left", "470px");
+		cor = "preto";
 		if(redT2 == true){
 			$("#tit2").removeAttr("style");
 		}
@@ -125,14 +141,14 @@ $(document).ready(function() {
 	
 	//Escolhe Ponteira
 	$("#lanca").click(function() {
-		$("#checkPont").css("display", "block").css("top", "30px").css("left", "265px");
+		$("#checkPont").css("display", "block").css("top", "37px").css("left", "275px");
 		ponteira = "lanca";
 		if(redT3 == true){
 			$("#tit3").removeAttr("style");
 		}
 	});
 	$("#bola").click(function() {
-		$("#checkPont").css("display", "block").css("top", "30px").css("left", "100px");
+		$("#checkPont").css("display", "block").css("top", "37px").css("left", "85px");
 		ponteira = "bola";
 		if(redT3 == true){
 			$("#tit3").removeAttr("style");
@@ -178,356 +194,584 @@ $(document).ready(function() {
 		
 		//IMagens das bases
 		if(base == "b01" && cor == "cerejeira" && ponteira == "lanca"){
-			$("#boxBase").load("<baseloja>htm/2018/kitbm19/desckit19/preview_kit.html");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-cerejeira-para-um-mastro-de-aluminio-lanca.jpg");
 		}
 		else if(base == "b01" && cor == "imbuia" && ponteira == "lanca"){
-			$(".imgBase").attr("href", "https://www.rumo.com.br/lojas/00002028/htm/2018/kitbm19/desckit19/preview_kit.html");	
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-imbuia-para-um-mastro-de-aluminio-lanca.jpg");	
 		}
 		else if(base == "b01" && cor == "mogno" && ponteira == "lanca"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/mog1L.jpg");
-					
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-mogno-para-um-mastro-de-aluminio-lanca.jpg");
 		}
 		else if(base == "b01" && cor == "jacaranda" && ponteira == "lanca"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/jac1L.jpg");
-			
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-jacaranda-para-um-mastro-de-aluminio-lanca.jpg");
 		}
-		
+      else if(base == "b01" && cor == "preto" && ponteira == "lanca"){
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-preta-para-um-mastro-de-aluminio-lanca.jpg");	
+		}
+      else if(base == "b01" && cor == "cinza" && ponteira == "lanca"){
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-cinza-para-um-mastro-de-aluminio-lanca.jpg");	
+		}
+      
+      
 		else if(base == "b02" && cor == "cerejeira" && ponteira == "lanca"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/cer2L.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-cerejeira-para-dois-mastros-de-aluminio-lanca.jpg");
 		
 		}
 		else if(base == "b02" && cor == "mogno"&& ponteira == "lanca"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/mog2L.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-mogno-para-dois-mastros-de-aluminio-lanca.jpg");
 			
 		}
 		else if(base == "b02" && cor == "imbuia" && ponteira == "lanca"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/imb2L.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-imbuia-para-dois-mastros-de-aluminio-lanca.jpg");
 			
 		}
 		else if(base == "b02" && cor == "jacaranda" && ponteira == "lanca"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/jac2L.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-jacaranda-para-dois-mastros-de-aluminio-lanca.jpg");
 			
 		}
+      else if(base == "b02" && cor == "preto" && ponteira == "lanca"){
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-preta-para-dois-mastros-de-aluminio-lanca.jpg");
+			
+		}
+      else if(base == "b02" && cor == "cinza" && ponteira == "lanca"){
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-cinza-para-dois-mastros-de-aluminio-lanca.jpg");
+			
+		}
+      
+      
+      
 		else if(base == "b03" && cor == "cerejeira" && ponteira == "lanca"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/cer3L.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-cerejeira-para-tres-mastros-de-aluminio-lanca.jpg");
 			
 		}
 		else if(base == "b03" && cor == "mogno" && ponteira == "lanca"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/mog3L.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-mogno-para-tres-mastros-de-aluminio-lanca.jpg");
 			
 		}
 		else if(base == "b03" && cor == "imbuia" && ponteira == "lanca"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/imb3L.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-imbuia-para-tres-mastros-de-aluminio-lanca.jpg");
 			
 		}
 		else if(base == "b03" && cor == "jacaranda" && ponteira == "lanca"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/jac3L.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-jacaranda-para-tres-mastros-de-aluminio-lanca.jpg");
 			
 		}
+      else if(base == "b03" && cor == "preto" && ponteira == "lanca"){
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-preta-para-tres-mastros-de-aluminio-lanca.jpg");
+			
+		}
+      else if(base == "b03" && cor == "cinza" && ponteira == "lanca"){
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-cinza-para-tres-mastros-de-aluminio-lanca.jpg");
+			
+		}
+      
+      
+      
+     
 		else if(base == "b04" && cor == "cerejeira" && ponteira == "lanca"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/cer4L.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-cerejeira-para-quatro-mastros-de-aluminio-lanca.jpg");
 			
 		}
 		else if(base == "b04" && cor == "mogno" && ponteira == "lanca"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/mog4L.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-mogno-para-quatro-mastros-de-aluminio-lanca.jpg");
 			
 		}
 		else if(base == "b04" && cor == "imbuia" && ponteira == "lanca"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/imb4L.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-imbuia-para-quatro-mastros-de-aluminio-lanca.jpg");
 		
 		}
 		else if(base == "b04" && cor == "jacaranda" && ponteira == "lanca"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/jac4L.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-jacaranda-para-quatro-mastros-de-aluminio-lanca.jpg");
 			
 		}
-			else if(base == "b05" && cor == "cerejeira" && ponteira == "lanca"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/cer5L.jpg");
+      else if(base == "b04" && cor == "preto" && ponteira == "lanca"){
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-preta-para-quatro-mastros-de-aluminio-lanca.jpg");
 			
 		}
+		else if(base == "b04" && cor == "cinza" && ponteira == "lanca"){
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-cinza-para-quatro-mastros-de-aluminio-lanca.jpg");
+			
+		}
+      
+      
+      
 		else if(base == "b05" && cor == "mogno" && ponteira == "lanca"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/mog5L.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-mogno-para-cinco-mastros-de-aluminio-lanca.jpg");
 			
 		}
 		else if(base == "b05" && cor == "imbuia" && ponteira == "lanca"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/imb5L.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-imbuia-para-cinco-mastros-de-aluminio-lanca.jpg");
 			
 		}
 		else if(base == "b05" && cor == "jacaranda" && ponteira == "lanca"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/jac5L.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-jacaranda-para-cinco-mastros-de-aluminio-lanca.jpg");
 			
 		}
+      else if(base == "b05" && cor == "cerejeira" && ponteira == "lanca"){
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-cerejeira-para-cinco-mastros-de-aluminio-lanca.jpg");
+			
+		}
+      else if(base == "b05" && cor == "preto" && ponteira == "lanca"){
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-preta-para-cinco-mastros-de-aluminio-lanca.jpg");
+			
+		}
+      else if(base == "b05" && cor == "cinza" && ponteira == "lanca"){
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-cinza-para-cinco-mastros-de-aluminio-lanca.jpg");
+			
+		}
+      
+      
+      
 		else if(base == "b06" && cor == "jacaranda" && ponteira == "lanca"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/images/kitbm2014/imgfundoind.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/indisponivel.jpg");
 			
 		}
 		else if(base == "b06" && cor == "imbuia" && ponteira == "lanca"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/images/kitbm2014/imgfundoind.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/indisponivel.jpg");
 			
 		}
 		else if(base == "b06" && cor == "cerejeira" && ponteira == "lanca"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/images/kitbm/imgfundoind.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/indisponivel.jpg");
 			
 		}
 		else if(base == "b06" && cor == "mogno" && ponteira == "lanca"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/images/kitbm/imgfundoind.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/indisponivel.jpg");
 			
 		}
+      else if(base == "b06" && cor == "preto" && ponteira == "lanca"){
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/indisponivel.jpg");
+			
+		}
+      else if(base == "b06" && cor == "cinza" && ponteira == "lanca"){
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/indisponivel.jpg");
+			
+		}
+      
+      
+      
 		else if(base == "b07" && cor == "cerejeira" && ponteira == "lanca"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/cer2modL.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-cerejeira-para-dois-mastros-de-aluminio-lanca.jpg");
 			
 		}
 		else if(base == "b07" && cor == "jacaranda" && ponteira == "lanca"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/jac2modL.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-jacaranda-para-dois-mastros-de-aluminio-lanca.jpg");
 			
 		}
 		else if(base == "b07" && cor == "mogno" && ponteira == "lanca"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/mog2modL.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-mogno-para-dois-mastros-de-aluminio-lanca.jpg");
 			
 		}
 		else if(base == "b07" && cor == "imbuia" && ponteira == "lanca"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/imb2modL.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-imbuia-para-dois-mastros-de-aluminio-lanca.jpg");
 			
 		}
+      else if(base == "b07" && cor == "preto" && ponteira == "lanca"){
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-preta-para-dois-mastros-de-aluminio-lanca.jpg");
+			
+		}
+      else if(base == "b07" && cor == "cinza" && ponteira == "lanca"){
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-cinza-para-dois-mastros-de-aluminio-lanca.jpg");
+			
+		}
+      
+      
+      
 		else if(base == "b08" && cor == "cerejeira" && ponteira == "lanca"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/cer3modL.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-cerejeira-para-tres-mastros-de-aluminio-lanca.jpg");
 			
 		}
 		else if(base == "b08" && cor == "jacaranda" && ponteira == "lanca"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/jac3modL.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-jacaranda-para-tres-mastros-de-aluminio-lanca.jpg");
 			
 		}
 		else if(base == "b08" && cor == "imbuia" && ponteira == "lanca"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/imb3modL.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-imbuia-para-tres-mastros-de-aluminio-lanca.jpg");
 			
 		}
 		else if(base == "b08" && cor == "mogno" && ponteira == "lanca"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/mog3modL.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-mogno-para-tres-mastros-de-aluminio-lanca.jpg");
 			
 		}
+      else if(base == "b08" && cor == "preto" && ponteira == "lanca"){
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-preta-para-tres-mastros-de-aluminio-lanca.jpg");
+			
+		}
+      else if(base == "b08" && cor == "cinza" && ponteira == "lanca"){
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-cinza-para-tres-mastros-de-aluminio-lanca.jpg");
+			
+		}
+      
+      
+      
 		else if(base == "b09" && cor == "cerejeira" && ponteira == "lanca"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/cer4modL.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-cerejeira-para-quatro-mastros-de-aluminio-lanca.jpg");
 			
 		}
 		else if(base == "b09" && cor == "imbuia" && ponteira == "lanca"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/imb4modL.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-imbuia-para-tres-mastros-de-aluminio-lanca.jpg");
 			
 		}
 		else if(base == "b09" && cor == "jacaranda" && ponteira == "lanca"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/jac4modL.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-jacaranda-para-quatro-mastros-de-aluminio-lanca.jpg");
 			
 		}
 		else if(base == "b09" && cor == "mogno" && ponteira == "lanca"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/mog4modL.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-mogno-para-quatro-mastros-de-aluminio-lanca.jpg");
 			
 		}
+      else if(base == "b09" && cor == "preto" && ponteira == "lanca"){
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-preta-para-quatro-mastros-de-aluminio-lanca.jpg");
+			
+		}
+      else if(base == "b09" && cor == "cinza" && ponteira == "lanca"){
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-cinza-para-quatro-mastros-de-aluminio-lanca.jpg");
+			
+		}
+      
+      
+      
 		else if(base == "b10" && cor == "mogno" && ponteira == "lanca"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/mog5modL.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-mogno-para-cinco-mastros-de-aluminio-lanca.jpg");
 			
 		}
 		else if(base == "b10" && cor == "imbuia" && ponteira == "lanca"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/imb5modL.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-imbuia-para-cinco-mastros-de-aluminio-lanca.jpg");
 			
 		}
 		else if(base == "b10" && cor == "cerejeira" && ponteira == "lanca"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/cer5modL.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-cerejeira-para-cinco-mastros-de-aluminio-lanca.jpg");
 			
 		}
 		else if(base == "b10" && cor == "jacaranda" && ponteira == "lanca"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/jac5modL.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-jacaranda-para-cinco-mastros-de-aluminio-lanca.jpg");
 			
 		}
+      else if(base == "b10" && cor == "preto" && ponteira == "lanca"){
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-preta-para-cinco-mastros-de-aluminio-lanca.jpg");
+			
+		}
+       else if(base == "b10" && cor == "cinza" && ponteira == "lanca"){
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-cinza-para-cinco-mastros-de-aluminio-lanca.jpg");
+			
+		}
+      
+      
+      
 		else if(base == "b11" && cor == "jacaranda" && ponteira == "lanca"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/jac6modL.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-jacaranda-para-seis-mastros-de-aluminio-lanca.jpg");
 			
 		}
 		else if(base == "b11" && cor == "imbuia" && ponteira == "lanca"){
-			$(".imgBase").attr( "src","https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/imb6modL.jpg") ("href", "");
+			$(".imgBase").attr( "src","https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-imbuia-para-seis-mastros-de-aluminio-lanca.jpg");
 		}
 		else if(base == "b11" && cor == "mogno" && ponteira == "lanca"){
-			$(".imgBase").attr( "src","https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/mog6modL.jpg") ("href", "");
+			$(".imgBase").attr( "src","https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-mogno-para-seis-mastros-de-aluminio-lanca.jpg");
 		}
 		else if(base == "b11" && cor == "cerejeira" && ponteira == "lanca"){
-			$(".imgBase").attr( "src","https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/cer6modL.jpg") ("href", "");
+			$(".imgBase").attr( "src","https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-cerejeira-para-seis-mastros-de-aluminio-lanca.jpg");
+		}
+      else if(base == "b11" && cor == "preto" && ponteira == "lanca"){
+			$(".imgBase").attr( "src","https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-preta-para-seis-mastros-de-aluminio-lanca.jpg");
+		}
+      else if(base == "b11" && cor == "cinza" && ponteira == "lanca"){
+			$(".imgBase").attr( "src","https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-cinza-para-seis-mastros-de-aluminio-lanca.jpg");
 		}
 		
 		//Ponteira Bola
 		
 		else if(base == "b01" && cor == "mogno" && ponteira == "bola"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/mog1B.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-mogno-para-um-mastro-de-aluminio-bola.jpg");
 		}
 		else if(base == "b01" && cor == "imbuia" && ponteira == "bola"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/imb1B.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-imbuia-para-um-mastro-de-aluminio-bola.jpg");
 			
 		}		
 		else if(base == "b01" && cor == "cerejeira" && ponteira == "bola"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/cer1B.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-cerejeira-para-um-mastro-de-aluminio-bola.jpg");
 					
 		}
 		else if(base == "b01" && cor == "jacaranda" && ponteira == "bola"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/jac1B.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-jacaranda-para-um-mastro-de-aluminio-bola.jpg");
 			
 		}
+        else if(base == "b01" && cor == "cinza" && ponteira == "bola"){
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-cinza-para-um-mastro-de-aluminio-bola.jpg");
+			
+		}
+		else if(base == "b01" && cor == "preto" && ponteira == "bola"){
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-preta-para-um-mastro-de-aluminio-bola.jpg");
+        }
+      
+      
+      
 		else if(base == "b02" && cor == "cerejeira" && ponteira == "bola"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/images/2018/kitbm18/cer2B.jpg");
+       		$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-cerejeira-para-dois-mastros-de-aluminio-bola.jpg");
 		
 		}
 		else if(base == "b02" && cor == "mogno"&& ponteira == "bola"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/mog2B.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-mogno-para-dois-mastros-de-aluminio-bola.jpg");
 			
 		}
 		else if(base == "b02" && cor == "imbuia" && ponteira == "bola"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/imb2B.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-imbuia-para-dois-mastros-de-aluminio-bola.jpg");
 			
 		}
 		else if(base == "b02" && cor == "jacaranda" && ponteira == "bola"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/jac2B.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-jacaranda-para-dois-mastros-de-aluminio-bola.jpg");
 			
 		}
+      else if(base == "b02" && cor == "cinza" && ponteira == "bola"){
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-cinza-para-dois-mastros-de-aluminio-bola.jpg");
+			
+		}
+		else if(base == "b02" && cor == "preto" && ponteira == "bola"){
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-preta-para-dois-mastros-de-aluminio-bola.jpg");
+			
+		}
+      
+      
+      
 		else if(base == "b03" && cor == "cerejeira" && ponteira == "bola"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/cer3B.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-cerejeira-para-tres-mastros-de-aluminio-bola.jpg");
 			
 		}
 		else if(base == "b03" && cor == "mogno" && ponteira == "bola"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/mog3B.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-mogno-para-tres-mastros-de-aluminio-bola.jpg");
 			
 		}
 		else if(base == "b03" && cor == "imbuia" && ponteira == "bola"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/imb3B.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-imbuia-para-tres-mastros-de-aluminio-bola.jpg");
 			
 		}
 		else if(base == "b03" && cor == "jacaranda" && ponteira == "bola"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/jac3B.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-jacaranda-para-tres-mastros-de-aluminio-bola.jpg");
 			
 		}
+      else if(base == "b03" && cor == "cinza" && ponteira == "bola"){
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-cinza-para-tres-mastros-de-aluminio-bola.jpg");
+			
+		}
+		else if(base == "b03" && cor == "preto" && ponteira == "bola"){
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-preta-para-tres-mastros-de-aluminio-bola.jpg");
+			
+		}
+      
+      
+      
 		else if(base == "b04" && cor == "cerejeira" && ponteira == "bola"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/cer4B.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-cerejeira-para-quatro-mastros-de-aluminio-bola.jpg");
 			
 		}
 		else if(base == "b04" && cor == "mogno" && ponteira == "bola"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/mog4B.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-mogno-para-quatro-mastros-de-aluminio-bola.jpg");
 			
 		}
 		else if(base == "b04" && cor == "imbuia" && ponteira == "bola"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/imb4B.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-imbuia-para-quatro-mastros-de-aluminio-bola.jpg");
 		
 		}
 		else if(base == "b04" && cor == "jacaranda" && ponteira == "bola"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/jac4B.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-jacaranda-para-quatro-mastros-de-aluminio-bola.jpg");
 			
 		}
+      else if(base == "b04" && cor == "cinza" && ponteira == "bola"){
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-cinza-para-quatro-mastros-de-aluminio-bola.jpg");
+			
+		}
+		else if(base == "b04" && cor == "preto" && ponteira == "bola"){
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-preta-para-quatro-mastros-de-aluminio-bola.jpg");
+			
+		}
+      
+      
+      
 			else if(base == "b05" && cor == "cerejeira" && ponteira == "bola"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/cer5B.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-cerejeira-para-cinco-mastros-de-aluminio-bola.jpg");
 			
 		}
 		else if(base == "b05" && cor == "mogno" && ponteira == "bola"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/mog5B.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-mogno-para-cinco-mastros-de-aluminio-bola.jpg");
 			
 		}
 		else if(base == "b05" && cor == "imbuia" && ponteira == "bola"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/imb5B.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-imbuia-para-cinco-mastros-de-aluminio-bola.jpg");
 			
 		}
 		else if(base == "b05" && cor == "jacaranda" && ponteira == "bola"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/jac5B.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-jacaranda-para-cinco-mastros-de-aluminio-bola.jpg");
 			
 		}
+      else if(base == "b05" && cor == "cinza" && ponteira == "bola"){
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-cinza-para-cinco-mastros-de-aluminio-bola.jpg");
+			
+		}
+		else if(base == "b05" && cor == "preto" && ponteira == "bola"){
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/reta/kit-base-de-madeira-cor-preta-para-cinco-mastros-de-aluminio-bola.jpg");
+			
+		}
+      
+      
+      
 		else if(base == "b06" && cor == "jacaranda" && ponteira == "bola"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/images/kitbm2014/imgfundoind.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/indisponivel.jpg");
 			
 		}
 		else if(base == "b06" && cor == "imbuia" && ponteira == "bola"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/images/kitbm2014/imgfundoind.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/indisponivel.jpg");
 			
 		}
 		else if(base == "b06" && cor == "cerejeira" && ponteira == "bola"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/images/kitbm/imgfundoind.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/indisponivel.jpg");
 			
 		}
 		else if(base == "b06" && cor == "mogno" && ponteira == "bola"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/images/kitbm/imgfundoind.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/indisponivel.jpg");
 			
 		}
+      else if(base == "b06" && cor == "cinza" && ponteira == "bola"){
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/indisponivel.jpg");
+			
+		}
+		else if(base == "b06" && cor == "preto" && ponteira == "bola"){
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/indisponivel.jpg");
+			
+		}
+      
+      
+      
 		else if(base == "b07" && cor == "cerejeira" && ponteira == "bola"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/cer2modB.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-cerejeira-para-dois-mastros-de-aluminio-bola.jpg");
 			
 		}
 		else if(base == "b07" && cor == "jacaranda" && ponteira == "bola"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/jac2modB.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-jacaranda-para-dois-mastros-de-aluminio-bola.jpg");
 			
 		}
 		else if(base == "b07" && cor == "mogno" && ponteira == "bola"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/mog2modB");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-mogno-para-dois-mastros-de-aluminio-bola.jpg");
 			
 		}
 		else if(base == "b07" && cor == "imbuia" && ponteira == "bola"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/imb2modB.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-imbuia-para-dois-mastros-de-aluminio-bola.jpg");
 			
 		}
+      else if(base == "b07" && cor == "cinza" && ponteira == "bola"){
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-cinza-para-dois-mastros-de-aluminio-bola.jpg");
+			
+		}
+		else if(base == "b07" && cor == "preto" && ponteira == "bola"){
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-preta-para-dois-mastros-aluminio-bola.jpg");
+			
+		}
+      
+      
+      
 		else if(base == "b08" && cor == "cerejeira" && ponteira == "bola"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/cer3modB.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-cerejeira-para-tres-mastros-de-aluminio-bola.jpg");
 			
 		}
 		else if(base == "b08" && cor == "jacaranda" && ponteira == "bola"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/jac3modB.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-jacaranda-para-tres-mastros-de-aluminio-bola.jpg");
 			
 		}
 		else if(base == "b08" && cor == "imbuia" && ponteira == "bola"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/imb3modB.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-imbuia-para-tres-mastros-de-aluminio-bola.jpg");
 			
 		}
 		else if(base == "b08" && cor == "mogno" && ponteira == "bola"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/mog3modB.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-mogno-para-tres-mastros-de-aluminio-bola.jpg");
 			
 		}
+      else if(base == "b08" && cor == "cinza" && ponteira == "bola"){
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-cinza-para-tres-mastros-de-aluminio-bola.jpg");
+			
+		}
+		else if(base == "b08" && cor == "preto" && ponteira == "bola"){
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-preto-para-tres-mastros-de-aluminio-bola.jpg");
+			
+		}
+      
+      
+      
 		else if(base == "b09" && cor == "cerejeira" && ponteira == "bola"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/cer4modB.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-cerejeira-para-quatro-mastros-de-aluminio-bola.jpg");
 			
 		}
 		else if(base == "b09" && cor == "imbuia" && ponteira == "bola"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/imb4modB.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-imbuia-para-quatro-mastros-de-aluminio-bola.jpg");
 			
 		}
 		else if(base == "b09" && cor == "jacaranda" && ponteira == "bola"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/jac4modB.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-jacaranda-para-quatro-mastros-de-aluminio-bola.jpg");
 			
 		}
 		else if(base == "b09" && cor == "mogno" && ponteira == "bola"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/mog4modB.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-mogno-para-quatro-mastros-de-aluminio-bola.jpg");
 			
 		}
+      else if(base == "b09" && cor == "cinza" && ponteira == "bola"){
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-cinza-para-quatro-mastros-de-aluminio-bola.jpg");
+			
+		}
+		else if(base == "b09" && cor == "preto" && ponteira == "bola"){
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-preta-para-quatro-mastros-de-aluminio-bola.jpg");
+			
+		}
+      
+      
+      
 		else if(base == "b10" && cor == "mogno" && ponteira == "bola"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/mog5modB.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-mogno-para-cinco-mastros-de-aluminio-bola.jpg");
 			
 		}
 		else if(base == "b10" && cor == "imbuia" && ponteira == "bola"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/imb5modB.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-imbuia-para-cinco-mastros-de-aluminio-bola.jpg");
 			
 		}
 		else if(base == "b10" && cor == "cerejeira" && ponteira == "bola"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/cer5modB.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-cerejeira-para-cinco-mastros-de-aluminio-bola.jpg");
 			
 		}
 		else if(base == "b10" && cor == "jacaranda" && ponteira == "bola"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/jac5modB.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-jacaranda-para-cinco-mastros-de-aluminio-bola.jpg");
 			
 		}
+      else if(base == "b10" && cor == "cinza" && ponteira == "bola"){
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-cinza-para-cinco-mastros-de-aluminio-bola.jpg");
+			
+		}
+		else if(base == "b10" && cor == "preto" && ponteira == "bola"){
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-preta-para-cinco-mastros-de-aluminio-bola.jpg");
+			
+		}
+      
+      
+      
 		else if(base == "b11" && cor == "jacaranda" && ponteira == "bola"){
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/jac6modB.jpg");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-jacaranda-para-seis-mastros-de-aluminio-bola.jpg");
 			
 		}
 		else if(base == "b11" && cor == "imbuia" && ponteira == "bola"){
-			$(".imgBase").attr( "src","https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/imb6modB.jpg");
+			$(".imgBase").attr( "src","https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-imbuia-para-seis-mastros-de-aluminio-bola.jpg");
 		}
 		else if(base == "b11" && cor == "mogno" && ponteira == "bola"){
-			$(".imgBase").attr( "src","https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/mog6modB.jpg");
+			$(".imgBase").attr( "src","https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-mogno-para-seis-mastros-de-aluminio-bola.jpg");
 		}
 		else if(base == "b11" && cor == "cerejeira" && ponteira == "bola"){
-			$(".imgBase").attr( "src","https://www.rumo.com.br/lojas/00002028/prod/2018/imgkitbase/cer6modB.jpg");
+			$(".imgBase").attr( "src","https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-cerejeira-para-seis-mastros-de-aluminio-bola.jpg");
+		}
+      else if(base == "b11" && cor == "cinza" && ponteira == "bola"){
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-cinza-para-seis-mastros-de-aluminio-bola.jpg");
+			
+		}
+		else if(base == "b11" && cor == "preto" && ponteira == "bola"){
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mod/kit-base-de-madeira-modular-cor-preta-para-seis-mastros-de-aluminio-bola.jpg");
+			
 		}
 		
 		else {
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/images/kitbm/prevElse.png");
-			$(".imgMastro").attr("src", "https://www.rumo.com.br/lojas/00002028/images/kitbm/prevBuy.png");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/prevElse.png");
+			$(".imgMastro").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/prevBuy.png");
 		}
 		
 		
@@ -537,16 +781,16 @@ $(document).ready(function() {
 		
 		//Imagens dos Mastros
 		if(ponteira == "lanca"){
-			$(".imgMastro").attr("src", "https://www.rumo.com.br/lojas/00002028/images/kitbm/mastroLanca.png");
-			$("#ponteira").text("Lan√ßa");
+			$(".imgMastro").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mastroLanca.png");
+			$("#ponteira").text("LanÁa");
 		}
 		else if(ponteira == "bola"){
-			$(".imgMastro").attr("src", "https://www.rumo.com.br/lojas/00002028/images/kitbm/mastroBola.png");
+			$(".imgMastro").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/mastroBola.png");
 			$("#ponteira").text("Bola");
 		}
 		else {
-			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/images/kitbm/prevElse.png");
-			$(".imgMastro").attr("src", "https://www.rumo.com.br/lojas/00002028/images/kitbm/prevBuy.png");
+			$(".imgBase").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/prevElse.png");
+			$(".imgMastro").attr("src", "https://www.rumo.com.br/lojas/00002028/prod/kit_bm/prevBuy.png");
 		}
 	}
 	
@@ -587,6 +831,20 @@ $(document).ready(function() {
 			$(".linkProd").attr("href", "ListaProdutos.asp?IDLoja=2028&IDProduto=3632911");
 		}
 		
+		else if(base == "b01" && cor == "cinza" && ponteira == "lanca"){
+			$(".linkProd").attr("href", "ListaProdutos.asp?IDLoja=2028&IDProduto=6172068");
+		}
+		else if(base == "b01" && cor == "cinza" && ponteira == "bola"){
+			$(".linkProd").attr("href", "ListaProdutos.asp?IDLoja=2028&IDProduto=6172094");
+		}
+		
+		else if(base == "b01" && cor == "preto" && ponteira == "lanca"){
+			$(".linkProd").attr("href", "ListaProdutos.asp?IDLoja=2028&IDProduto=6172078");
+		}
+		else if(base == "b01" && cor == "preto" && ponteira == "bola"){
+			$(".linkProd").attr("href", "ListaProdutos.asp?IDLoja=2028&IDProduto=6172101");
+		}
+		
 		
 		else if(base == "b02" && cor == "mogno" && ponteira == "lanca"){
 			$(".linkProd").attr("href", "ListaProdutos.asp?IDLoja=2028&IDProduto=3632859");
@@ -624,6 +882,28 @@ $(document).ready(function() {
 			$(".linkProd").attr("href", "ListaProdutos.asp?IDLoja=2028&IDProduto=3632902");
 		}
 		
+		else if(base == "b02" && cor == "jacaranda" && ponteira == "lanca"){
+			$(".linkProd").attr("href", "ListaProdutos.asp?IDLoja=2028&IDProduto=3632898");
+		}
+		else if(base == "b02" && cor == "jacaranda" && ponteira == "bola"){
+			$(".linkProd").attr("href", "ListaProdutos.asp?IDLoja=2028&IDProduto=3632902");
+		}
+		
+		else if(base == "b02" && cor == "cinza" && ponteira == "lanca"){
+			$(".linkProd").attr("href", "ListaProdutos.asp?IDLoja=2028&IDProduto=6172110");
+		}
+		else if(base == "b02" && cor == "cinza" && ponteira == "bola"){
+			$(".linkProd").attr("href", "ListaProdutos.asp?IDLoja=2028&IDProduto=6172106");
+		}
+		
+		else if(base == "b02" && cor == "preto" && ponteira == "lanca"){
+			$(".linkProd").attr("href", "ListaProdutos.asp?IDLoja=2028&IDProduto=6172130");
+		}
+		else if(base == "b02" && cor == "preto" && ponteira == "bola"){
+			$(".linkProd").attr("href", "ListaProdutos.asp?IDLoja=2028&IDProduto=6172248");
+		}
+		
+		
 		
 		else if(base == "b03" && cor == "mogno" && ponteira == "lanca"){
 			$(".linkProd").attr("href", "ListaProdutos.asp?IDLoja=2028&IDProduto=3412548");
@@ -660,6 +940,21 @@ $(document).ready(function() {
 			$(".linkProd").attr("href", "ListaProdutos.asp?IDLoja=2028&IDProduto=3412577");
 		}
 		
+		else if(base == "b03" && cor == "cinza" && ponteira == "lanca"){
+			$(".linkProd").attr("href", "ListaProdutos.asp?IDLoja=2028&IDProduto=6185036");
+		}
+		else if(base == "b03" && cor == "cinza" && ponteira == "bola"){
+			$(".linkProd").attr("href", "ListaProdutos.asp?IDLoja=2028&IDProduto=6185033");
+		}
+		
+		else if(base == "b03" && cor == "preto" && ponteira == "lanca"){
+			$(".linkProd").attr("href", "ListaProdutos.asp?IDLoja=2028&IDProduto=6172274");
+		}
+		else if(base == "b03" && cor == "preto" && ponteira == "bola"){
+			$(".linkProd").attr("href", "ListaProdutos.asp?IDLoja=2028&IDProduto=6172254");
+		}
+		
+		
 		
 		else if(base == "b04" && cor == "mogno" && ponteira == "lanca"){
 			$(".linkProd").attr("href", "ListaProdutos.asp?IDLoja=2028&IDProduto=3412550");
@@ -695,6 +990,21 @@ $(document).ready(function() {
 			$(".linkProd").attr("href", "ListaProdutos.asp?IDLoja=2028&IDProduto=3412580");
 		}
 		
+		else if(base == "b04" && cor == "cinza" && ponteira == "lanca"){
+			$(".linkProd").attr("href", "ListaProdutos.asp?IDLoja=2028&IDProduto=6185037");
+		}
+		else if(base == "b04" && cor == "cinza" && ponteira == "bola"){
+			$(".linkProd").attr("href", "ListaProdutos.asp?IDLoja=2028&IDProduto=6185034");
+		}
+		
+		else if(base == "b04" && cor == "preto" && ponteira == "lanca"){
+			$(".linkProd").attr("href", "ListaProdutos.asp?IDLoja=2028&IDProduto=6185066");
+		}
+		else if(base == "b04" && cor == "preto" && ponteira == "bola"){
+			$(".linkProd").attr("href", "ListaProdutos.asp?IDLoja=2028&IDProduto=6185063");
+		}
+		
+		
 		
 		else if(base == "b05" && cor == "mogno" && ponteira == "lanca"){
 			$(".linkProd").attr("href", "ListaProdutos.asp?IDLoja=2028&IDProduto=3412552");
@@ -727,168 +1037,261 @@ $(document).ready(function() {
 			$(".linkProd").attr("href", "ListaProdutos.asp?IDLoja=2028&IDProduto=3412574");
 		}
 		else if(base == "b05" && cor == "jacaranda" && ponteira == "bola"){
-			$(".linkProd").attr("href", "ListaProdutos.asp?IDLoja=2028&IDProduto=4697819");
+			$(".linkProd").attr("href", "ListaProdutos.asp?IDLoja=2028&IDProduto=3412582");
 		}
+		
+		else if(base == "b05" && cor == "cinza" && ponteira == "lanca"){
+			$(".linkProd").attr("href", "ListaProdutos.asp?IDLoja=2028&IDProduto=6185038");
+		}
+		else if(base == "b05" && cor == "cinza" && ponteira == "bola"){
+			$(".linkProd").attr("href", "ListaProdutos.asp?IDLoja=2028&IDProduto=6185035");
+		}
+		
+		else if(base == "b05" && cor == "preto" && ponteira == "lanca"){
+			$(".linkProd").attr("href", "ListaProdutos.asp?IDLoja=2028&IDProduto=6185067");
+		}
+		else if(base == "b05" && cor == "preto" && ponteira == "bola"){
+			$(".linkProd").attr("href", "ListaProdutos.asp?IDLoja=2028&IDProduto=6185065");
+		}
+		
+		
 		
 		//Bases Modular
 		
 		else if(base == "b07" && cor == "cerejeira" && ponteira == "bola"){
-			$(".linkProd").attr("href", "http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4720699");
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4720699");
 		}
 		
 		else if(base == "b07" && cor == "cerejeira" && ponteira == "lanca"){
-			$(".linkProd").attr("href", "http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4720701");
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4720701");
 		}
 		
 		else if(base == "b07" && cor == "imbuia" && ponteira == "bola"){
-			$(".linkProd").attr("href", "http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4720672");
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4720672");
 		}
 		
 		else if(base == "b07" && cor == "imbuia" && ponteira == "lanca"){
-			$(".linkProd").attr("href", "http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4720674");
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4720674");
 		}
 		
 		else if(base == "b07" && cor == "mogno" && ponteira == "bola"){
-			$(".linkProd").attr("href", "http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4720682");
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4720682");
 		}
 		
 		else if(base == "b07" && cor == "mogno" && ponteira == "lanca"){
-			$(".linkProd").attr("href", "http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4720695");
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4720695");
 		}
 		else if(base == "b07" && cor == "jacaranda" && ponteira == "bola"){
-			$(".linkProd").attr("href", "http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4720742");
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4720742");
 		}
 		
 		else if(base == "b07" && cor == "jacaranda" && ponteira == "lanca"){
-			$(".linkProd").attr("href", "http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4720745");
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4720745");
 		}
+      else if(base == "b07" && cor == "cinza" && ponteira == "lanca"){
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=7304931");
+		}
+       else if(base == "b07" && cor == "cinza" && ponteira == "bola"){
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=7304941");
+		}
+      else if(base == "b07" && cor == "preto" && ponteira == "lanca"){
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=7305038");
+		}
+       else if(base == "b07" && cor == "preto" && ponteira == "bola"){
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=7305167");
+		}
+      
 		
 		else if(base == "b08" && cor == "cerejeira" && ponteira == "bola"){
-			$(".linkProd").attr("href", "http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4720701");
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4720640");
 		}
 		
 		else if(base == "b08" && cor == "cerejeira" && ponteira == "lanca"){
-			$(".linkProd").attr("href", "http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4720650");
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4720650");
 		}
 		
 		else if(base == "b08" && cor == "imbuia" && ponteira == "bola"){
-			$(".linkProd").attr("href", "http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4720606");
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4720606");
 		}
 		
 		else if(base == "b08" && cor == "imbuia" && ponteira == "lanca"){
-			$(".linkProd").attr("href", "http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4720609");
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4720609");
 		}
 		
 		else if(base == "b08" && cor == "mogno" && ponteira == "bola"){
-			$(".linkProd").attr("href", "http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4720613");
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4720613");
 		}
 		
 		else if(base == "b08" && cor == "mogno" && ponteira == "lanca"){
-			$(".linkProd").attr("href", "http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4720629");
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4720629");
 		}
 		
 		else if(base == "b08" && cor == "jacaranda" && ponteira == "bola"){
-			$(".linkProd").attr("href", "http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4720599");
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4720599");
 		}
 		
 		else if(base == "b08" && cor == "jacaranda" && ponteira == "lanca"){
-			$(".linkProd").attr("href", "http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4720604");
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4720604");
+		}
+      
+      else if(base == "b08" && cor == "preto" && ponteira == "bola"){
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=6254845");
+		}
+		
+		else if(base == "b08" && cor == "preto" && ponteira == "lanca"){
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=6254846");
+		}
+      
+      else if(base == "b08" && cor == "cinza" && ponteira == "bola"){
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=6254841");
+		}
+		
+		else if(base == "b08" && cor == "cinza" && ponteira == "lanca"){
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=6254843");
 		}
 		
 		else if(base == "b09" && cor == "cerejeira" && ponteira == "bola"){
-			$(".linkProd").attr("href", "http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4720581");
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4720581");
 		}
 		
 		else if(base == "b09" && cor == "cerejeira" && ponteira == "lanca"){
-			$(".linkProd").attr("href", "http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4720586");
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4720586");
 		}
 		
 		else if(base == "b09" && cor == "imbuia" && ponteira == "bola"){
-			$(".linkProd").attr("href", "http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4719923");
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4719923");
 		}
 		
 		else if(base == "b09" && cor == "imbuia" && ponteira == "lanca"){
-			$(".linkProd").attr("href", "http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4720690");
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4720690");
 		}
 		
 		else if(base == "b09" && cor == "mogno" && ponteira == "bola"){
-			$(".linkProd").attr("href", "http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4720577");
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4720577");
 		}
 		
 		else if(base == "b09" && cor == "mogno" && ponteira == "lanca"){
-			$(".linkProd").attr("href", "http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4720579");
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4720579");
 		}
 		
 		else if(base == "b09" && cor == "jacaranda" && ponteira == "bola"){
-			$(".linkProd").attr("href", "http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4719909");
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4719909");
 		}
 		
 		else if(base == "b09" && cor == "jacaranda" && ponteira == "lanca"){
-			$(".linkProd").attr("href", "http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4719915");
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4719915");
+		}
+      
+      else if(base == "b09" && cor == "preto" && ponteira == "bola"){
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=6260130");
+		}
+		
+		else if(base == "b09" && cor == "preto" && ponteira == "lanca"){
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=6265604");
+		}
+      
+      else if(base == "b09" && cor == "cinza" && ponteira == "bola"){
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=6254912");
+		}
+		
+		else if(base == "b09" && cor == "cinza" && ponteira == "lanca"){
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=6259861");
 		}
 		
 		else if(base == "b10" && cor == "cerejeira" && ponteira == "bola"){
-			$(".linkProd").attr("href", "http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4719872");
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4719872");
 		}
 		
 		else if(base == "b10" && cor == "cerejeira" && ponteira == "lanca"){
-			$(".linkProd").attr("href", "http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4719863");
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4719863");
 		}
 		
 		else if(base == "b10" && cor == "imbuia" && ponteira == "bola"){
-			$(".linkProd").attr("href", "http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4719844");
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4719844");
 		}
 		
 		else if(base == "b10" && cor == "imbuia" && ponteira == "lanca"){
-			$(".linkProd").attr("href", "http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4719856");
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4719856");
 		}
 		
 		else if(base == "b10" && cor == "mogno" && ponteira == "bola"){
-			$(".linkProd").attr("href", "http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4719883");
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4719883");
 		}
 		
 		else if(base == "b10" && cor == "mogno" && ponteira == "lanca"){
-			$(".linkProd").attr("href", "http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4719896");
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4719896");
 		}
 		
 		else if(base == "b10" && cor == "jacaranda" && ponteira == "bola"){
-			$(".linkProd").attr("href", "http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4719834");
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4719834");
 		}
 		
 		else if(base == "b10" && cor == "jacaranda" && ponteira == "lanca"){
-			$(".linkProd").attr("href", "http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4719838");
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4719838");
+		}
+      
+      else if(base == "b10" && cor == "preto" && ponteira == "bola"){
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=6260138");
+		}
+		
+		else if(base == "b10" && cor == "preto" && ponteira == "lanca"){
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=6260139");
+		}
+      
+      else if(base == "b10" && cor == "cinza" && ponteira == "bola"){
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=6259863");
+		}
+		
+		else if(base == "b10" && cor == "cinza" && ponteira == "lanca"){
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=6259868");
 		}
 		
 		else if(base == "b11" && cor == "cerejeira" && ponteira == "bola"){
-			$(".linkProd").attr("href", "http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4719798");
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4719798");
 		}
 		
 		else if(base == "b11" && cor == "cerejeira" && ponteira == "lanca"){
-			$(".linkProd").attr("href", "http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4719264");
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4719264");
 		}
 		
 		else if(base == "b11" && cor == "imbuia" && ponteira == "bola"){
-			$(".linkProd").attr("href", "http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4719808");
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4719808");
 		}
 		
 		else if(base == "b11" && cor == "imbuia" && ponteira == "lanca"){
-			$(".linkProd").attr("href", "http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4719815");
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4719815");
 		}
 		
 		else if(base == "b11" && cor == "mogno" && ponteira == "bola"){
-			$(".linkProd").attr("href", "http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4719826");
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4719826");
 		}
 		
 		else if(base == "b11" && cor == "mogno" && ponteira == "lanca"){
-			$(".linkProd").attr("href", "http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4719823");
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4719823");
 		}
 		
 		else if(base == "b11" && cor == "jacaranda" && ponteira == "bola"){
-			$(".linkProd").attr("href", "http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto= 4719274");
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto= 4719274");
 		}
 		
 		else if(base == "b11" && cor == "jacaranda" && ponteira == "lanca"){
-			$(".linkProd").attr("href", "http://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4697819");
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=4697819");
+		}
+		
+		else if(base == "b11" && cor == "cinza" && ponteira == "lanca"){
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=6259937");
+		}
+		
+		else if(base == "b11" && cor == "cinza" && ponteira == "bola"){
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=6259936");
+		}
+      
+      else if(base == "b11" && cor == "preto" && ponteira == "lanca"){
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=6260144");
+		}
+		
+		else if(base == "b11" && cor == "preto" && ponteira == "bola"){
+			$(".linkProd").attr("href", "https://www.bandeira1.com.br/ListaProdutos.asp?IDLoja=2028&IDProduto=6260147");
 		}
 	}
 	
@@ -962,3 +1365,4 @@ $(document).ready(function() {
 		}
 	});
 });
+})(jQuery);
