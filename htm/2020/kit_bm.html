@@ -1,11 +1,11 @@
 <script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script>
 
-	<script type="text/javascript" src="<baseloja>htm/paginas/css/chooseKit19.js"></script>
+	<script type="text/javascript" src="<baseloja>htm/2020/css/chooseKit19.js"></script>
 <style type="text/css">
 #txt_pgbm {
     position: absolute;
     left: 6px;
-    top: 46px;
+    top: 25px;
     width: 276px;
     height: 59px;
     z-index: 1;
@@ -36,29 +36,29 @@
 
 #tudo_kitbm18 {
     position: relative;
-    width: 1080px;
-    height: 1600px;
+    width: 1024px;
+    height: 1500px;
     z-index: 2;
     top: -15px;
- 
+    margin: auto;
+    padding: 5px;
 }
 #monte_kit {
-	position: absolute;
-	left: 835px;
-	top: 20px;
-	width: 230px;
-	height: 92px;
-	z-index: 3;
-	text-align: right;
+    position: absolute;
+    right: 10px;
+    top: 25px;
+    width: 230px;
+    height: 92px;
+    z-index: 3;
+    text-align: right;
 }
 #passo01 {
-	position: absolute;
-	left: 9px;
-	top: 100px;
-	width: 1055px;
-	height: 285px;
-	z-index: 1;
-	background-image: url(<baseloja>images/kitbm/fundo01.jpg);
+    position: relative;
+    margin-top: 100px;
+    width: 100%;
+    height: 345px;
+    z-index: 1;
+    background-image: url(../lojas/00002028/prod/kit_bm/fundo01.jpg);
 }
 .tit_box {
 	font-family: "Segoe UI";
@@ -69,32 +69,48 @@
 
 #txt_cerej {
     position: absolute;
-    left: 205px;
-    top: 634px;
+    left: 170px;
+    top: 630px;
     width: 62px;
     height: 18px;
     z-index: 22;
 }
 #txt_mogno {
     position: absolute;
-    left: 373px;
-    top: 634px;
+    left: 173px;
+    top: 770px;
     width: 62px;
     height: 18px;
     z-index: 22;
 }
 #txt_jacar {
 	position: absolute;
-	left: 370px;
-	top: 782px;
+	left: 430px;
+	top: 630px;
 	width: 62px;
 	height: 18px;
 	z-index: 22;
 }
 #txt_imbuia {
 	position: absolute;
-	left: 202px;
-	top: 782px;
+	left: 307px;
+	top: 630px;
+	width: 62px;
+	height: 18px;
+	z-index: 22;
+}
+  #txt_cinza {
+	position: absolute;
+	left: 311px;
+	top: 770px;
+	width: 62px;
+	height: 18px;
+	z-index: 22;
+}
+  #txt_preto {
+	position: absolute;
+	left: 443px;
+	top: 770px;
 	width: 62px;
 	height: 18px;
 	z-index: 22;
@@ -125,6 +141,7 @@
     width: 420px;
     height: 40px;
     z-index: 52;
+    display: none;
 }
 .caracteristica {
 	font-family: "Segoe UI";
@@ -201,7 +218,7 @@
 	width: 850px;
 	height: 150px;
 	padding-left: 35px;
-	background: url(../../images/kitbm/faixaProds.jpg) no-repeat;
+	background: url(../../prod/kit_bm/faixaProds.jpg) no-repeat;
 	background-position: 0 42px;
 	/* [disabled]padding-top: 5px; */
 		}	
@@ -222,6 +239,8 @@ width:746px;
 height:958px;
 }
 
+  
+  
 	#subtitMonte {
 	position: absolute;
 	width: 746px;
@@ -262,31 +281,31 @@ height:958px;
 	color: #aaa;
 	z-index: 10;
 	width: 360px;
-	background-image: url(images/bmmadeira2_24.jpg);
+	background-image: url(prod/kit_bm/bmmadeira2_24.jpg);
 	height: 69px;
 		}
 		
 		.botProximo {
-	position: absolute;
-	bottom: -71px;
-	right: -27px;
-	z-index: 10;
-	}
+    position: absolute;
+    bottom: -75px;
+    right: 0;
+    z-index: 10;
+}
 	
 		.grayBox {
-	position: absolute;
-	top: 132px;
-	z-index: 2;
-	left: 165px;
-	}
+    position: absolute;
+    top: 132px;
+    z-index: 2;
+    left: 125px;
+}
 	.grayBox2 {
 	position: absolute;
 	top: 21px;
 	border-radius: 20px;
 	z-index: 2;
 	/* background-color: #FFFFFF; */
-	background-image: url(images/bmmadeira2_27.jpg);
-	left: 135px;
+	background-image: url(prod/kit_bm/bmmadeira2_27.jpg);
+	left: 115px;
 	}
 	
 	.grayBox3 {
@@ -295,10 +314,10 @@ height:958px;
 	z-index: 2;
 	/* left: 165px; */
 	}
-		#grayBox01{
-	width: 898px;
-	height: 280px;
-	border-radius: 20px;
+		#grayBox01 {
+    /* width: 100%; */
+    height: 280px;
+    border-radius: 20px;
 }
 		
 			img.baseM {
@@ -314,13 +333,12 @@ height:958px;
 	}
 			
 		#passo02 {
-	position: absolute;
-	width: 1055px;
-	height: 285px;
-	left: 10px;
-	top: 463px;
-	background-image: url(<baseloja>images/kitbm/fundo02.jpg);
-	}
+    position: relative;
+    width: 100%;
+    height: 325px;
+    background-image: url(../lojas/00002028/prod/kit_bm/fundo02.jpg);
+    margin-top: 25px;
+}
 		
 			.botProximo1 {
 	position: absolute;
@@ -334,12 +352,12 @@ height:958px;
 	height: 220px;
 }
 			
-				img.corBase {
-	position: relative;
-	float: left;
-	margin: 43px 18px 0 11px;
-	text-align: center;
-	}
+img.corBase {
+    position: relative;
+    float: left;
+    margin: 35px 5px 0 11px;
+    text-align: center;
+}
 		
 		#passo03 {
 	position: relative;
@@ -359,25 +377,23 @@ height:958px;
 	height: 41px;
 			}
 			
-			#grayBox03{
-	width: 392px;
-	height: 220px;
-	
+			#grayBox03 {
+    width: 350px;
+    height: 220px;
+    /* left: 15px; */
 }
 			
 					img#lanca {
-	position: absolute;
-	left: 211px;
-	bottom: 76px;
-	width: 135;
-	}
+    position: absolute;
+    bottom: 50px;
+    right: -20px;
+}
 				
 				img#bola {
-	position: absolute;
-	right: 203px;
-	bottom: 76px;
-	width: 135px;
-	}
+    position: absolute;
+    left: 25px;
+    bottom: 50px;
+}
 				
 	#boxPreview {
 	width:746px;
@@ -405,19 +421,20 @@ height:958px;
 		width:880px;
 		height:950px;
 		top:0px;
-		background-image:url(../images/imgfundo_03.jpg);
+		background-image:url(../prod/kit_bm/imgfundo_03.jpg);
 		z-index:28;
 		
 		}
 		
 			#boxBase {
-	position: absolute;
-	left: 10px;
-	width: 315px;
-	height: 241px;
-	z-index: 0;
-	top: 890px;
-			}
+    position: absolute;
+    /* left: 10px; */
+    width: 100%;
+    height: 641px;
+    z-index: 0;
+    top: 890px;
+    /* padding: 10px; */
+}
 			
 			.boxMastro {
 	position: absolute;
@@ -502,19 +519,19 @@ height:958px;
 }
 
 #p1 {
-	position: absolute;
-	left: 165px;
-	top: 130px;
-	width: 172px;
-	height: 45px;
-	z-index: 21;
-	font-family: "Segoe UI Semibold";
-	font-size: 20px;
-	color: #05533A;
+    position: absolute;
+    left: 147px;
+    top: 139px;
+    width: 172px;
+    height: 45px;
+    z-index: 21;
+    font-family: "Segoe UI Semibold";
+    font-size: 20px;
+    color: #05533A;
 }
 #p2 {
 	position: absolute;
-	left: 129px;
+	left: 143px;
 	top: 32px;
 	width: 132px;
 	height: 39px;
@@ -524,15 +541,15 @@ height:958px;
 	color: #05533A;
 }
 #p3 {
-	position: absolute;
-	left: 20px;
-	top: -27px;
-	width: 308px;
-	height: 34px;
-	z-index: 21;
-	font-family: "Segoe UI Semibold";
-	font-size: 20px;
-	color: #05533A;
+    position: absolute;
+    left: 32px;
+    top: -26px;
+    width: 308px;
+    height: 34px;
+    z-index: 21;
+    font-family: "Segoe UI Semibold";
+    font-size: 20px;
+    color: #05533A;
 }
 
 #kit {
@@ -549,21 +566,21 @@ height:958px;
 	z-index: 1;
 }
 #txtbola {
-	position: absolute;
-	left: 60px;
-	top: 48px;
-	width: 58px;
-	height: 19px;
-	z-index: 3;
-	font-family: "Segoe UI";
-	font-size: 16px;
-	color: #666;
-	text-align: center;
+    position: absolute;
+    left: 60px;
+    top: 70px;
+    width: 58px;
+    height: 19px;
+    z-index: 3;
+    font-family: "Segoe UI";
+    font-size: 16px;
+    color: #666;
+    text-align: center;
 }
 #txtlanca {
 	position: absolute;
-	left: 221px;
-	top: 48px;
+	left: 251px;
+	top: 70px;
 	width: 58px;
 	height: 19px;
 	z-index: 3;
@@ -598,10 +615,10 @@ height:958px;
 	top: 39px;
 }
 #botcomprar {
-	position: absolute;
-	left: 905px;
-	top: 1520px;
-	z-index: 30;
+    position: absolute;
+    left: 850px;
+    top: 1500px;
+    z-index: 30;
 }
 	
  
@@ -618,6 +635,9 @@ height:958px;
 	font-size: 14px;
 	color: #666;
 }
+  .imgBase{
+    width: 99%;
+  }
 </style>
 <script type="text/javascript">
 	// Lista do caminho e nome dos arquivos de imagesm. Pode ter quantas vocÍ quiser :)
@@ -640,8 +660,8 @@ height:958px;
 <div id="monte_kit">
   <span class="tit_monte">Monte seu Kit</span><br>
   <span class="txt_montkit"> Escolha o modelos e acabamentos<br>
-    desejados, ao final clique em "Montar Kit"ù,<br>
-visualize o resumo e clique em "Comprar"ù</span> </div>
+    desejados, ao final clique em "Montar Kit",<br>
+visualize o resumo e clique em "Comprar"</span> </div>
 
 <div class="tit_box" id="p1">Escolha a Base</div>
       <img src="<baseloja>images/kitbm/check.png" name="checkBase" class="checkBox" id="checkBase" />
@@ -649,25 +669,28 @@ visualize o resumo e clique em "Comprar"ù</span> </div>
 
 <div id="grayBox01" class="grayBox">
 		  <p><img src="<baseloja>images/kitbm/baseM1.png" alt="Para 01 mastro" name="base01" class="baseM mouseO" id="base01" />
-			  <img src="<baseloja>images/kitbm/baseM2.png" alt="Para 02 mastros" name="base02" class="baseM mouseO" id="base02" />
-			  <img src="<baseloja>images/kitbm/baseM3.png" alt="Para 03 mastros" id="base03" class="baseM mouseO" />
-			  <img src="<baseloja>images/kitbm/baseM4.png" alt="Para 04 mastros" id="base04" class="baseM mouseO" />
-			  <img src="<baseloja>images/kitbm/baseM5.png" alt="Para 05 mastros" id="base05" class="baseM mouseO" />
-			  <img src="<baseloja>images/kitbm/baseM6.png" alt="Para 06 mastros" id="base06" class="baseM mouseO" />
-              <img src="<baseloja>images/kitbm/bmod2.png" alt="Mod 02 mastros" id="base07" class="baseMod mouseO" />
-              <img src="<baseloja>images/kitbm/bmod3.png" alt="Mod 03 mastros" id="base08" class="baseMod mouseO"  /> 
+			  <img src="<baseloja>prod/kit_bm/baseM2.png" alt="Para 02 mastros" name="base02" class="baseM mouseO" id="base02" />
+			  <img src="<baseloja>prod/kit_bm/baseM3.png" alt="Para 03 mastros" id="base03" class="baseM mouseO" />
+			  <img src="<baseloja>prod/kit_bm/baseM4.png" alt="Para 04 mastros" id="base04" class="baseM mouseO" />
+			  <img src="<baseloja>prod/kit_bm/baseM5.png" alt="Para 05 mastros" id="base05" class="baseM mouseO" />
+			  <img src="<baseloja>prod/kit_bm/baseM6.png" alt="Para 06 mastros" id="base06" class="baseM mouseO" />
+              <img src="<baseloja>prod/kit_bm/bmod2.png" alt="Mod 02 mastros" id="base07" class="baseMod mouseO" />
+              <img src="<baseloja>prod/kit_bm/bmod3.png" alt="Mod 03 mastros" id="base08" class="baseMod mouseO"  /> 
               
-              <img src="<baseloja>images/kitbm/bmod4.png" alt="Mod 04 mastros" id="base09" class="baseMod mouseO"  /> 
+              <img src="<baseloja>prod/kit_bm/bmod4.png" alt="Mod 04 mastros" id="base09" class="baseMod mouseO"  /> 
               
-              <img src="<baseloja>images/kitbm/bmod5.png" alt="Mod 05 mastros" id="base10" class="baseMod mouseO" /> 
+              <img src="<baseloja>prod/kit_bm/bmod5.png" alt="Mod 05 mastros" id="base10" class="baseMod mouseO" /> 
               
-        <img src="<baseloja>images/kitbm/bmod6.png" alt="Mod 06 mastros" id="base11" class="baseMod mouseO" /></p>
+        <img src="<baseloja>prod/kit_bm/bmod6.png" alt="Mod 06 mastros" id="base11" class="baseMod mouseO" /></p>
 	  </div>
 	
 	<div class="txt_bot" id="txt_cerej">Cerejeira</div>
-<div class="txt_bot" id="txt_mogno">Imbuia</div>
-<div class="txt_bot" id="txt_jacar">Mogno</div>
-    <div class="txt_bot" id="txt_imbuia">Jacarand·</div>
+<div class="txt_bot" id="txt_mogno">Mogno</div>
+<div class="txt_bot" id="txt_jacar">Jacarand·</div>
+    <div class="txt_bot" id="txt_imbuia">Imbuia</div>
+  <div class="txt_bot" id="txt_cinza">Cinza</div>
+    <div class="txt_bot" id="txt_preto">Preta</div>
+	
 	
 	
 	
@@ -676,13 +699,15 @@ visualize o resumo e clique em "Comprar"ù</span> </div>
 <div id="passo02" class="boxPassos">
 
   <div id="p2">Escolha a Cor</div>
-			<img src="<baseloja>images/kitbm/check.png" name="checkCor" class="checkBox" id="checkCor" />
+			<img src="<baseloja>prod/kit_bm/check.png" name="checkCor" class="checkBox" id="checkCor" />
 			
 			<div id="grayBox02" class="grayBox2">
-				<img src="<baseloja>images/kitbm/bot_cerej.png" alt="Cerejeira" width="132" height="109" class="corBase mouseO" id="cor01" />
-			  <img src="<baseloja>images/kitbm/bot_imbuia.png" alt="Imbuia" width="132" height="109" class="corBase mouseO" id="cor02" />
-			  <img src="<baseloja>images/kitbm/bot_jacar.png" alt="Jacarand·" width="131" height="104" class="corBase mouseO" id="cor03" />
-                <img src="<baseloja>images/kitbm/bot_mogno.png" alt="Mogno" width="131" height="104" class="corBase mouseO" id="cor04" />
+				<img src="<baseloja>prod/kit_bm/bot_cerej.png" alt="Cerejeira" width="115" class="corBase mouseO" id="cor01" />
+			  <img src="<baseloja>prod/kit_bm/bot_imbuia.png" alt="Imbuia" width="115" class="corBase mouseO" id="cor02" />
+			  <img src="<baseloja>prod/kit_bm/bot_jacar.png" alt="Jacarand·" width="115" class="corBase mouseO" id="cor03" />
+                <img src="<baseloja>prod/kit_bm/bot_mogno.png" alt="Mogno" width="115" class="corBase mouseO" id="cor04" />
+              <img src="<baseloja>prod/kit_bm/bot_cinza.png" alt="Cinza" width="115" class="corBase mouseO" id="cor05" />
+                <img src="<baseloja>prod/kit_bm/bot_preto.png" alt="Preto" width="115" class="corBase mouseO" id="cor06" />
              
 </div>
 
@@ -690,9 +715,9 @@ visualize o resumo e clique em "Comprar"ù</span> </div>
     <div id="p3">Escolha a ponteira do mastro</div>
           <div id="txtbola">Bola</div>
     <div id="txtlanca">LanÁa</div>
-    <img src="<baseloja>images/kitbm/check.png" id="checkPont" class="checkBox" /><img src="<baseloja>images/kitbm/botProximo2.png" alt="Montar Kit" id="proxMontar" class="botProximo mouseO"/>
+    <img src="<baseloja>prod/kit_bm/check.png" id="checkPont" class="checkBox" /><img src="<baseloja>prod/kit_bm/botProximo2.png" alt="Montar Kit" id="proxMontar" class="botProximo mouseO"/>
 			<div id="grayBox03" class="grayBox3">
-			<img src="<baseloja>images/kitbm/bola.png" alt="Bola" class="ponteiras mouseO" id="bola" /><img src="<baseloja>images/kitbm/lanca.png" alt="LanÁa" name="lanca"  class="ponteiras mouseO" id="lanca" /></div>
+			<img src="<baseloja>prod/kit_bm/bola.png" alt="Bola" class="ponteiras mouseO" id="bola" /><img src="<baseloja>prod/kit_bm/lanca.png" alt="LanÁa" name="lanca"  class="ponteiras mouseO" id="lanca" /></div>
   </div>
 </div>
 
@@ -701,14 +726,14 @@ visualize o resumo e clique em "Comprar"ù</span> </div>
   <div class="fotosPrev">
           <p class="TitDescPrev">&nbsp;</p>
     <p id="quant" name="quant"></p>
-        <div id="botcomprar"><a class="linkProd mouseO"><img src="<baseloja>images/kitbm/bot_comprarkit.png" width="163" height="37" /></a>
+        <div id="botcomprar"><a class="linkProd mouseO"><img src="<baseloja>prod/kit_bm/bot_comprarkit.png" width="163" height="37" /></a>
         </div>
         <div class="txt_visualize" id="visualize">Visualize seu <b class="visualizebold">Kit</b></div>
         
         <div class="caracteristica" id="carac_kit"><b>CaracterÌsticas</b> do Kit escolhido:</div>
           </div>
 		  <div id="boxBase">
-				<img class="imgBase" src="<baseloja>images/kitbm/marcad.jpg" alt="Base" />
+				<img class="imgBase"/>
 			
              
       </div>
