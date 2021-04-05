@@ -1,0 +1,96 @@
+<script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script>
+<link href="<baseloja>htm/2020/css/kit_bm_Mob.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="<baseloja>htm/2020/css/chooseKitMob.js"></script>
+
+<script type="text/javascript">
+	// Lista do caminho e nome dos arquivos de imagesm. Pode ter quantas você quiser :)
+	imagesm_lista = Array('../../HTML/bases+mastros/img/check.png', '../../HTML/bases+mastros/img/01mogno.png', '../../HTML/bases+mastros/img/02mogno.png', '../../HTML/bases+mastros/img/03mogno.png', '../../HTML/bases+mastros/img/04mogno.png', '../../HTML/bases+mastros/img/05mogno.png', '../../HTML/bases+mastros/img/01imbuia.png', '../../HTML/bases+mastros/img/02imbuia.png', '../../HTML/bases+mastros/img/03imbuia.png', '../../HTML/bases+mastros/img/04imbuia.png', '../../HTML/bases+mastros/img/05imbuia.png', '../../HTML/bases+mastros/img/01jacaranda.png', '../../HTML/bases+mastros/img/02jacaranda.png', '../../HTML/bases+mastros/img/03jacaranda.png', '../../HTML/bases+mastros/img/04jacaranda.png', '../../HTML/bases+mastros/img/05jacaranda.png', '../../HTML/bases+mastros/img/mastroBola.png', '../../HTML/bases+mastros/img/mastroLanca.png');
+	imagesm_qtd = imagesm_lista.length;
+	for (i = 0; i < imagesm_qtd; i++) {
+		var preload = new Image();
+		preload.src = imagesm_lista[i];
+	}
+	</script>
+
+<div id="tudo_kitbm18">
+  
+<div id="monte_kit">
+  <span class="tit_monte">Monte seu Kit</span><br>
+  <span class="txt_montkit"> Escolha o modelos e acabamentos
+    desejados, ao final clique em "Montar Kit",
+visualize o resumo e clique em "Comprar"</span> </div>
+<div id="passo01" class="boxPassos">
+
+      <img src="<baseloja>images/kitbm/check.png" name="checkBase" class="checkBox" id="checkBase" />
+      <img src="<baseloja>images/kitbm/indisponivel.png" id="checkBase" class="checkBox" />
+
+<div id="grayBox01" class="grayBox">
+		  <p>
+            <div class="tit_box" id="p1">Escolha a Base</div>
+            <div class="caixa_base"></div>
+            <img src="<baseloja>prod/kit_bm/mob/mob_1r.svg" alt="Para 01 mastro" name="base01" class="baseM mouseO" id="base01" />
+			  <img src="<baseloja>prod/kit_bm/mob/mob_2r.svg" alt="Para 02 mastros" name="base02" class="baseM mouseO" id="base02" />
+			  <img src="<baseloja>prod/kit_bm/mob/mob_3r.svg" alt="Para 03 mastros" id="base03" class="baseM mouseO" />
+			  <img src="<baseloja>prod/kit_bm/mob/mob_4r.svg" alt="Para 04 mastros" id="base04" class="baseM mouseO" />
+			  <img src="<baseloja>prod/kit_bm/mob/mob_5r.svg" alt="Para 05 mastros" id="base05" class="baseM mouseO" />
+			  <img src="<baseloja>prod/kit_bm/mob/mob_6r.svg" alt="Para 06 mastros" id="base06" class="baseM mouseO" />
+            <span class="espaco"><br /></span>
+              <img src="<baseloja>prod/kit_bm/mob/mob_2m.svg" alt="Mod 02 mastros" id="base07" class="baseMod mouseO" />
+              <img src="<baseloja>prod/kit_bm/mob/mob_3m.svg" alt="Mod 03 mastros" id="base08" class="baseMod mouseO"  /> 
+              
+              <img src="<baseloja>prod/kit_bm/mob/mob_4m.svg" alt="Mod 04 mastros" id="base09" class="baseMod mouseO"  /> 
+              
+              <img src="<baseloja>prod/kit_bm/mob/mob_5m.svg" alt="Mod 05 mastros" id="base10" class="baseMod mouseO" /> 
+              
+        <img src="<baseloja>prod/kit_bm/mob/mob_6m.svg" alt="Mod 06 mastros" id="base11" class="baseMod mouseO" /></p>
+	  </div>
+
+</div>
+<div id="passo02" class="boxPassos">
+
+  <div id="p2">Escolha a Cor</div>
+  <div class="caixa_cor"></div>
+			<img src="<baseloja>prod/kit_bm/check.png" name="checkCor" class="checkBox" id="checkCor" />
+			
+			<div id="grayBox02" class="grayBox2">
+				<img src="<baseloja>prod/kit_bm/mob/bot_cer_mob.png" alt="Cerejeira" width="115" class="corBase mouseO" id="cor01" />
+			  <img src="<baseloja>prod/kit_bm/mob/bot_imb_mob.png" alt="Imbuia" width="115" class="corBase mouseO" id="cor02" />
+			  <img src="<baseloja>prod/kit_bm/mob/bot_jacar_mob.png" alt="Jacarandá" width="115" class="corBase mouseO" id="cor03" />
+                <img src="<baseloja>prod/kit_bm/mob/bot_mog_mob.png" alt="Mogno" width="115" class="corBase mouseO" id="cor04" />
+              <img src="<baseloja>prod/kit_bm/mob/bot_cnz_mob.png" alt="Cinza" width="115" class="corBase mouseO" id="cor05" />
+                <img src="<baseloja>prod/kit_bm/mob/bot_ptr_mob.png" alt="Preto" width="115" class="corBase mouseO" id="cor06" />
+              
+              
+             
+</div>
+</div>
+<div id="passo03">
+    <div id="p3">Escolha a ponteira do mastro</div>
+  <div class="caixa_pont"></div>
+          <div id="txtbola">Bola</div>
+    <div id="txtlanca">Lança</div>
+    <img src="<baseloja>prod/kit_bm/check.png" id="checkPont" class="checkBox" /><img src="<baseloja>prod/kit_bm/botProximo2.png" alt="Montar Kit" id="proxMontar" class="botProximo mouseO"/>
+			<div id="grayBox03" class="grayBox3">
+			<img src="<baseloja>prod/kit_bm/bola.png" alt="Bola" class="ponteiras mouseO" id="bola" /><img src="<baseloja>prod/kit_bm/lanca.png" alt="Lança" name="lanca"  class="ponteiras mouseO" id="lanca" /></div>
+  </div>
+
+
+<div id="boxPreview">
+        	
+  <div class="fotosPrev">
+          <p class="TitDescPrev">&nbsp;</p>
+    <p id="quant" name="quant"></p>
+        
+        <div class="txt_visualize" id="visualize">Visualize seu <b class="visualizebold">Kit</b></div>
+        <div id="botcomprar"><a class="linkProd mouseO"><img src="<baseloja>prod/kit_bm/bot_comprarkit.png" width="143"/></a>
+        </div>
+        <div class="caracteristica" id="carac_kit"><b>Características</b> do Kit escolhido:</div>
+          </div>
+		  <div id="boxBase">
+				<img class="imgBase"/>
+			
+             
+      </div>
+  
+ </div>
+</div>
