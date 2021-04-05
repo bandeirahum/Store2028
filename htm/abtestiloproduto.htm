@@ -1,4 +1,3 @@
-
 <!-- Fastcommerce - EstiloProduto.htm : Grid v1 08.07.2015  (Store 3) -->
 <ProdTop>
 <link href="<PathTo file="htm/css/fc_grid_v1.css">" rel="stylesheet" type="text/css">
@@ -217,7 +216,8 @@ jQuery(".EstNameProdCross").addClass('text-overflow');
 <script>
 var GridLib_<IDProduto>$=(function(){
   var oProdTags={
-    ImagemProdDet:"<ImagemProdDet>",
+    ImagemProdDet:"<a class="Magic360" href="<ImagemProdAmp>" data-magic360-options="filename: <CodProd>{col}.jpg;
+ large-filename: <CodVideoProd>{col}.jpg;"><img src="<ImagemProdDet>"/></a>",
     ImagemProdAmp:"<ImagemProdAmp>",
     CorVal:"<CorVal>",
     CorRGB:"<CorRGB>",
